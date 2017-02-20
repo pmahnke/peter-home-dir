@@ -1,0 +1,23 @@
+
+
+<script type=Javascript>
+
+  function regionalhometab() 
+  {
+
+    // this function is normally in stylesheet.incl for all pages EXCEPT
+    // home.jsp and rec_home.jsp
+
+    var regQuery = GetCookie("regQuery");
+    var homeTab = "http://europe.gartner.com/emea/home.jsp";
+
+    if (regQuery) 
+    {
+        hometab = ""http://europe.gartner.com/emea/rec_home.jsp?" + regQuery;
+    }
+
+    var newWin = window.open(homeTab, "_self");
+    newWin.focus();
+  }
+
+</script>

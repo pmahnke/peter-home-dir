@@ -1,0 +1,80 @@
+°	&deg;	"degree"
+Ã	&Atilde;	"uppercase A, tilde"
+Ä	&Auml;	"uppercase A, umlaut"
+Å	&Aring;	"uppercase A, ring"
+Æ	&AElig;	uppercase AE
+Ç	&Ccedil;	"uppercase C, cedilla"
+È	&Egrave;	"uppercase E, grave accent"
+É	&Eacute;	"uppercase E, acute accent"
+Ê	&Ecirc;	"uppercase E, circumflex accent"
+Ë	&Euml;	"uppercase E, umlaut"
+Ì	&Igrave;	"uppercase I, grave accent"
+Í	&Iacute;	"uppercase I, acute accent"
+Î	&Icirc;	"uppercase I, circumflex accent"
+Ï	&Iuml;	"uppercase I, umlaut"
+Ð	&ETH;	"uppercase Eth, Icelandic"
+Ñ	&Ntilde;	"uppercase N, tilde"
+Ò	&Ograve;	"uppercase O, grave accent"
+Ó	&Oacute;	"uppercase O, acute accent"
+Ô	&Ocirc;	"uppercase O, circumflex accent"
+Õ	&Otilde;	"uppercase O, tilde"
+Ö	&Ouml;	"uppercase O, umlaut"
+×	&times;	multiplication sign
+Ø	&Oslash;	"uppercase O, slash"
+Ù	&Ugrave;	"uppercase U, grave accent"
+Ú	&Uacute;	"uppercase U, acute accent"
+Û	&Ucirc;	"uppercase U, circumflex accent"
+Ü	&Uuml;	"uppercase U, umlaut"
+Ý	&Yacute;	"uppercase Y, acute accent"
+Þ	&THORN;	"uppercase THORN, Icelandic"
+ß	&szlig;	"lowercase sharps, German"
+à	&agrave;	"lowercase a, grave accent"
+á	&aacute;	"lowercase a, acute accent"
+â	&acirc;	"lowercase a, circumflex accent"
+ã	&atilde;	"lowercase a, tilde"
+ä	&auml;	"lowercase a, umlaut"
+å	&aring;	"lowercase a, ring"
+æ	&aelig;	lowercase ae
+ç	&ccedil;	"lowercase c, cedilla"
+è	&egrave;	"lowercase e, grave accent"
+é	&eacute;	"lowercase e, acute accent"
+ê	&ecirc;	"lowercase e, circumflex accent"
+ë	&euml;	"lowercase e, umlaut"
+ì	&igrave;	"lowercase i, grave accent"
+í	&iacute;	"lowercase i, acute accent"
+î	&icirc;	"lowercase i, circumflex accent"
+ï	&iuml;	"lowercase i, umlaut"
+ð	&eth;	"lowercase eth, Icelandic"
+ñ	&ntilde;	"lowercase n, tilde"
+ò	&ograve;	"lowercase o, grave accent"
+ó	&oacute;	"lowercase o, acute accent"
+ô	&ocirc;	"lowercase o, circumflex accent"
+õ	&otilde;	"lowercase o, tilde"
+ö	&ouml;	"lowercase o, umlaut"
+÷	&divide;	division sign
+ø	&oslash;	"lowercase o, slash"
+ù	&ugrave;	"lowercase u, grave accent"
+ú	&uacute;	"lowercase u, acute accent"
+û	&ucirc;	"lowercase u, circumflex accent"
+ü	&uuml;	"lowercase u, umlaut"
+ý	&yacute;	"lowercase y, acute accent"
+þ	&thorn;	"lowercase thorn, Icelandic"
+ÿ	&yuml;	"lowercase y, umlaut"
+‘	&lsquo;	left single quote
+’	&rsquo;	right single quote
+‚	&sbquo;	single low-9 quote
+“	&ldquo;	left double quote
+”	&rdquo;	right double quote
+„	&bdquo;	double low-9 quote
+†	&dagger;	dagger
+‡	&Dagger;	double dagger
+‰	&permil;	per mill sign
+‹	&lsaquo;	single left-pointing angle quote
+›	&rsaquo;	single right-pointing angle quote
+™	&trade;	trademark sign
+–	&ndash;	en dash
+—	&mdash;	em dash
+¢	&cent;	cent sign
+£	&pound;	pound sterling
+©	&copy;	copyright
+®	&reg;	registered trademark

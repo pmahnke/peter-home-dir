@@ -1,0 +1,10 @@
+#!/usr/local/bin/perl
+
+
+$cum = $ARGV[0] % 30;
+
+print "$cum
+
+Done.
+
+";

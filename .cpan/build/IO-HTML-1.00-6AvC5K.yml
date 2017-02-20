@@ -1,0 +1,57 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: IO::HTML
+  CHECKSUM_STATUS: OK
+  ID: C/CJ/CJM/IO-HTML-1.00.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: CJM
+  archived: tar
+  build_dir: /home/peter/.cpan/build/IO-HTML-1.00-6AvC5K
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370145
+  localfile: /home/peter/.cpan/sources/authors/id/C/CJ/CJM/IO-HTML-1.00.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370144
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370144
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      File::Temp: 0
+      Scalar::Util: 0
+      Test::More: 0.88
+    requires:
+      Carp: 0
+      Encode: 2.10
+      Exporter: 5.57
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370143
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370144
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370145

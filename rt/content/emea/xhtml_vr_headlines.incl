@@ -1,0 +1,8 @@
+       <div class="mq_hc_vrLatest">
+           <p>Latest Ratings</p>
+             <ul class="mq_hc_vrLatestList">
+               <li><a href="/1_researchanalysis/vendor_rating/124404">Capgemini</a></li>
+               <li><a href="/1_researchanalysis/vendor_rating/123823">Deutsche Telekom</a></li>
+               <li><a href="/1_researchanalysis/vendor_rating/123430">Information Builders</a></li>
+             </ul>
+       </div>

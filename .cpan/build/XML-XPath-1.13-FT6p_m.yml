@@ -1,0 +1,49 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: MSERGEANT
+  archived: tar
+  badtestcnt: 1
+  build_dir: /home/peter/.cpan/build/XML-XPath-1.13-FT6p_m
+  incommandcolor: 1
+  localfile: /home/peter/.cpan/sources/authors/id/M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370198
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 8
+    FAILED: 1
+    TEXT: NO one dependency not OK (XML::Parser); additionally test harness failed
+    TIME: 1386370266
+  negative_prefs_cache: 8
+  prefs: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires:
+      XML::Parser: 2.23
+  reqtype: r
+  sponsored_mods:
+    XML::Parser: 2
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370194
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370194
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370266

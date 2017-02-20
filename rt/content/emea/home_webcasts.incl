@@ -1,0 +1,38 @@
+<!-- created by homepage_parser.pl -->
+
+
+
+<script>function fnCenteredWin(newURL,scrWidth,scrHeight,winFeatures,windowname) {var scrLeft = (window.screen.width/2) - ((scrWidth/2) + 10); var scrTop = (window.screen.height/2) - ((scrHeight/2) + 27);windowparams = "width=" + scrWidth + ",height=" + scrHeight + ",top=" + scrTop + ",left=" + scrLeft + "," + winFeatures ;newWin = window.open(newURL, windowname, windowparams);newWin.focus();return }</script>
+<table width="202" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td rowspan="5" bgcolor="#FFFFFF" width="2"><img src="/images/trans_pixel.gif" width="2" height="1" alt="" border="0"></td>
+    <td bgcolor="#FFFFFF" width="198" height="2"><img src="/images/trans_pixel.gif" width="198" height="2" alt="" border="0"></td>
+    <td rowspan="5" bgcolor="#FFFFFF" width="2"><img src="/images/trans_pixel.gif" width="2" height="1" alt="" border="0"></td>
+  </tr>
+
+  <tr>
+    <td valign="top">
+
+      <table width="198" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+        <td width="188" height="40" bgcolor="#ADB5C6" colspan="3" valign="center">
+          <div><img src="/images/trans_pixel.gif" border="0" width="1" height="2"></div>
+          &nbsp;<a href="/research/focus_areas/fa_webcasts/asset_111627_2175.jsp" class="mainNavLink"><b>Sponsored Webcasts<br>&nbsp;Featuring Gartner Analysts</b></a>
+          <div><img src="/images/trans_pixel.gif" border="0" width="1" height="2"></div>
+          &nbsp;<a href="/research/focus_areas/fa_webcasts/webcast_fa_popup.jsp" onClick="javascript:fnCenteredWin('/research/focus_areas/fa_webcasts/webcast_fa_popup.jsp',402,480,'statusbar','LearnMoreWC'); return false;" class="mainRightNavLink">Learn More</a>
+          <div><img src="/images/trans_pixel.gif" border="0" width="1" height="2"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+
+	<table border=0" cellpadding="0" cellspacing="0">	<tr>	<td width="10"><img src="/images/trans_pixel.gif" border="0" width="10" height="1"></td>	<td  width="178"><img src="/images/trans_pixel.gif" border="0" width="178" height="10"><br><span class="smallGrayText"><b>Spotlight Webcast</b></span><div><img src="/images/trans_pixel.gif" border="0" width="1" height="3"></div>	<a href="/research/focus_areas/fa_webcasts/fa_inter.jsp?gartner_homepage/20/10003926/" class="smallThinBlueLink">Keys to Making Web Services Work</a><div><img src="/images/trans_pixel.gif" border="0" width="1" height="3"></div>	<span class="smallGrayText">Gartner and Reactivity discuss the how XML infrastructure enables companies to realize the full benefit of XML web services and service-oriented architecture.</span><br><img src="/images/trans_pixel.gif" border="0" width="178" height="2"></td>	<td width="10"><img src="/images/trans_pixel.gif" border="0" width="10" height="1"></td>	</tr>   </table>          <table border=0" cellpadding="0" cellspacing="0">	<tr>	<td width="10"><img src="/images/trans_pixel.gif" border="0" width="10" height="1"></td>	<td width="10" valign="top" align="left"><img src="/images/focus_area/gray_arrow_rt.gif" height="6" width="4" vspace="8"></td>	<td width="168" valign="top"><span class="smallGrayText"><b>Other Webcasts</b></span>   <div><img src="/images/trans_pixel.gif" border="0" width="1" height="4"></div>   <a href="/research/focus_areas/fa_webcasts/fa_inter.jsp?gartner_homepage/20/10003995/" class="smallThinBlueLink">Trends in Application Acceleration</a><div><img src="/images/trans_pixel.gif" border="0" width="1" height="6"></div>   </td>   </tr>   </table>         <table border=0" cellpadding="0" cellspacing="0">	<tr>	<td width="10"><img src="/images/trans_pixel.gif" border="0" width="10" height="1"></td>	<td width="10" valign="top" align="left"><img src="/images/trans_pixel.gif" border="0" height="1" width="4"></td>	<td width="168" valign="top">   	<a href="/research/focus_areas/fa_webcasts/fa_inter.jsp?gartner_homepage/20/10004040/" class="smallThinBlueLink">The Paradox of High Availability</a><div><img src="/images/trans_pixel.gif" border="0" width="1" height="6"></div>   </td>   </tr>   </table>        <table border=0" cellpadding="0" cellspacing="0">   <tr>   <td width="10"><img src="/images/trans_pixel.gif" border="0" width="10" height="1"></td>   <td width="10" valign="top" align="left"><img src="/images/focus_area/gray_arrow_rt.gif" height="6" width="4" vspace="8"></td>   <td width="168" valign="top"><div><img src="/images/trans_pixel.gif" border="0" width="1" height="2"></div><a href="/research/focus_areas/fa_webcasts/asset_111627_2175.jsp" class="smallThinBlueLink">More Webcasts</a><div><img src="/images/trans_pixel.gif" border="0" width="1" height="12"></div></td>   </tr>		   </table>
+
+        </td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+

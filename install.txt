@@ -1,0 +1,31 @@
+Installation:
+-------------
+
+Below is an outline of how to install the software on to your Unix machine.
+
+1. Remove the old installation(s) of Adaptive Server Anywhere using
+	rm -rf <old_installation_dir>
+   where <old_installation_dir> is the directory where Adaptive Server Anywhere
+   was previously installed.
+
+2. To install Adaptive Server Anywhere, run "setup" located in the directory
+   SYBSasa6 in the directory where you un-tarred the file asa6002linux.tar.gz.
+   For example, if you have asa6002linux.tar.gz in /tmp, then run /tmp/SYBSasa6/setup.
+
+   Note:
+       During the installation, you will be prompted for the directory
+       in which Adaptive Server Anywhere should be installed.
+       The default is /opt/SYBSasa6.
+
+3. Add /opt/SYBSasa6/bin to your search path.
+   If you installed Sybase Central (Java), then add $SYBASE/sybcentral32/java
+   to your search path. Also, make sure that the JRE (Java Runtime Executable)
+   is in your search path.
+   The README.1ST file that was installed in the /opt/SYBSasa6
+   directory has some information on where you can obtain the JRE for Linux.
+
+4. Add /opt/SYBSasa6/lib to your LD_LIBRARY_PATH path.
+
+5. You should now refer to the README.1ST that was installed in the
+   /opt/SYBSasa6 directory. This file contains release notes and
+   a quick introduction to using Adaptive Server Anywhere.

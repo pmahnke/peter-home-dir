@@ -1,0 +1,50 @@
+<html>
+<div id="google_translate_element"></div><script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script><head>
+  <link REL="STYLESHEET" TYPE="text/css" HREF="/default.css"> 
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+  <META HTTP-EQUIV="Content-Language" CONTENT="en-us">
+</head>
+<BODY>
+
+  <h1>Integration With Your ERP System</h1>
+<hr size=1 width=90%>
+<TABLE CELLSPACING=0 BORDER=0 CELLPADDING=10 WIDTH=624>
+<TR><TD>
+  
+<p>You can now use the information in your Enterprise Resource Planning system to update the prices, inventory levels and even the chemistries of the materials, Melt Stocks, you use to charge your furnaces. The integration requires a simple, flat file that your software people produce that has the melt stock information. Our program will read this file when it is started and / or when the user requests. Now your least cost charge calculations will use the actual prices, inventory levels and chemistries that you maintain in your enterprise resource planning system.</p>
+
+<p>You specify, subject to very broad requirements, the layout of the records in the integration file. We will then write the integration that will read the file and update or even replace the melt stock file used by our Least Cost Charge Calculation Program. You can extend the integration to include the other three data files used by our program, Furnace Ranges, the specifications for the alloys you make, Groups of Melt Stocks and Additional Constraints.</p>
+
+<p>A report is displayed on the screen that summarizes the data read by the integration. After you have reviewed the report, you may print it or save it to disk and continue using our Least Cost Charge Calculation Program.</p>
+
+<p>Integrating our program with your Enterprise Resource Planning software means you no longer need to update price, inventory or chemistry information in our program and in your ERP software. Maintaining this information in your ERP system and pushing it to our Least Cost Charge Calculation Program means higher quality least cost charge calculations that will further reduce your furnace charging costs.</p>
+<p>An Example: </p>
+
+<p>Suppose you want to use the prices and inventory amounts in your ERP system to update the prices and inventory amounts in the Melt Stocks file used by the program. Your software people need to extract that information from your ERP system and put it in a simple file, one line per melt stock, ASCII character, fixed format file or a CSV, Comma Separated Values, formatted file.</p>
+
+<p>The integration will read this file, from your ERP system, sequentially and compare the melt stock names, and optionally the lot numbers, in the file to the melt stock file used by the program, meltstocks.dat. If there is a match on a melt stock name then the price and inventory amount will be updated in the meltstocks.dat file. Your file does not need to be sorted in any particular order and the melt stock name matching is not case sensitive. A report will be generated that will appear on the screen and the report will show the names of melt stocks that were updated and the names of any melt stock in your file that did not match a melt stock name in meltstocks.dat. </p>
+
+<p>Because you are only updating prices and inventory amounts, melt stock names in your file that do no exist in meltstocks.dat will be ignored. You will need to manually create the missing melt stock in meltstocks.dat, by using the Least Cost Charge Calculation program, before you can update them.</p>
+
+<p>You could expand your integration to include all of the information that is contained about melt stocks in meltstocks.dat. This includes element chemistries, usage constraints and recoveries. In this case your integration could be set up to take the information from your ERP system and create a new meltstocks.dat. You would also need to have the ability to manage all of this information in your ERP system.</p>
+
+<p>Conclusion:</p>
+
+</p><p>The integration is very flexible. You specify what you want to accomplish and the integration will be implemented to accomplish what you want. You may also have integrations from your ERP system to the furnace ranges, additional constraints and groups of melt stocks files.
+</td></tr></table>  
+
+  </BODY></html>
+
+
+
+
+
+
+

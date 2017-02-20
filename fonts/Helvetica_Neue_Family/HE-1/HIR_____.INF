@@ -1,0 +1,27 @@
+FontName (HelveticaInserat-Roman)
+FullName (Helvetica Inserat Roman)
+AppleName (HelveticaInserat Roman)
+AppleFONDID 14628
+FamilyName (Helvetica Inserat)
+version (001.003)
+isFixedPitch false
+CharacterSet (isoadobe)
+Encoding (StandardEncoding)
+ItalicAngle 0
+CapHeight 799
+UnderlinePosition -100
+UnderlineThickness 50
+StemWidth 172
+Serif false
+Pi false
+SuperiorBaseline 320
+MSMenuName (Helvetica Ins)
+VPMenuName (Helvetica Ins)
+WORDMenuName (HelveticaIns)
+VPTypefaceID 76
+VPStyle (N)
+PCFileNamePrefix (HIR__)
+PCLTypefaceID 20484
+PCLStrokeWeight 7
+PCLStyle 4
+

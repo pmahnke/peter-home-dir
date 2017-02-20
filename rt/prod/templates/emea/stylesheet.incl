@@ -1,0 +1,195 @@
+<!-- start of stylesheet.incl -->
+
+    <script language="JavaScript">
+        // write all the common stylesheet link tags
+        var osDir = "win/";
+        if (((navigator.appVersion.toLowerCase().indexOf('msie') !=-1) 
+            && (navigator.appVersion.toLowerCase().indexOf('mac') ==-1)) 
+            || (navigator.appVersion.toLowerCase().indexOf('windows') !=-1)) {
+            osDir = "win/";
+        } else {
+            if (navigator.appVersion.toLowerCase().indexOf('hp-ux') !=-1) {
+                osDir = "hp/";
+            } else {
+                if (navigator.appVersion.toLowerCase().indexOf('sunos') !=-1) {
+                    osDir = "sun/";
+                } else {
+                    if ((navigator.appVersion.toLowerCase().indexOf('mac') !=-1)
+                        || (navigator.appVersion.toLowerCase().indexOf('x11') !=-1)) {
+                        osDir = "mac/";
+                    } else {    
+                        if (navigator.appVersion.toLowerCase().indexOf('linux') !=-1) {
+                            osDir = "linux/";
+                        } else {
+                            if (navigator.appVersion.toLowerCase().indexOf('win') !=-1) {
+                                osDir = "netscape/";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        document.open();
+        document.write('<link rel=stylesheet href="http://www.gartner.com/css/' + osDir + 'main.css" type="text/css">\n');
+        document.write('<link rel=stylesheet href="http://www.gartner.com/css/' + osDir + 'navigation.css" type="text/css">\n');
+        document.write('<link rel=stylesheet href="http://www.gartner.com/css/' + osDir + 'homepage.css" type="text/css">\n');
+        document.close();
+    
+    </script>
+
+    <script src="/js/menu.js"></script>
+    <script src="/js/utility.js"></script>
+    <script src="/js/mouseevents.js"></script>
+    <script src="/js/drag.js"></script>
+    <script src="/js/cookie.js"></script>
+    <script src="/js/layerapi.js"></script>
+    <script>
+        var readyState = null
+        var content = self
+        var footer = parent.footer
+        var UNREC=0, REC=1
+        var EVENTS=0, GARTNER_SUGGESTS=1, FOCUS_AREAS=2, NEWS_INFO=3, YOUR_RESEARCH=4
+        var sessionID = null
+        var textFocus = 0;
+
+        function keydown(e){
+            if (bw.ns4 || bw.ns6) {
+                intKey=e.which;
+            } else {
+                intKey=event.keyCode;
+            }
+            if (intKey==13){
+                switch (textFocus){
+                    case 0: submitSearch(); break;
+                    case 1: submitSignin(); break;
+                    case 2: submitEmail(); break;
+                    case 3: break;
+                }
+            }
+        }
+
+        var objSearchForm = document.frmSearch
+        var mystrng ;
+        function validSearch(){
+            var objSearchForm = document.frmSearch
+            if (objSearchForm.txtSearch.value.length==0) {alert("Please enter a search phrase.");return false}
+            else
+            if(isBlank(objSearchForm.txtSearch.value)){
+                alert("Please enter a search phrase");
+                return false
+            }
+            return true
+        }
+
+        function submitSearch(){
+            var objSearchForm = document.frmSearch
+            if (validSearch()) {
+                mystrng = objSearchForm.txtSearch.value ;
+                mystrng = mystrng.replace(/\%/g,"%25");
+                mystrng = mystrng.replace(/\&/g,"%26");
+                mystrng = mystrng.replace(/\+/g,"%2B");
+                mystrng = mystrng.replace(/ /g,"+");
+                for (x = 0; x < mystrng.length; x++) {
+                    d = mystrng.charCodeAt(x);
+                    if (d == 8216 || d == 8217 || d == 8220 || d == 8221) {
+                        if (x == 0) {
+                            if (d == 8216 || d == 8217) {
+                                mystrng = "%27"
+                                    + mystrng.substring(1, mystrng.length);
+                            } else {
+                                mystrng = "%22"
+                                    + mystrng.substring(1, mystrng.length);
+                            }
+                        } else if (x == mystrng.length) {
+                            if (d == 8216 || d == 8217) {
+                                mystrng = mystrng.substring(0, x) + "%27";
+                            } else {
+                                mystrng = mystrng.substring(0, x) + "%22";
+                            }
+                        } else {
+                            if (d == 8216 || d == 8217) {
+                                mystrng = mystrng.substring(0, x)
+                                    + "%27"
+                                    + mystrng.substring(x + 1, mystrng.length);
+                            } else {
+                                mystrng = mystrng.substring(0, x)
+                                    + "%22"
+                                    + mystrng.substring(x + 1, mystrng.length);
+                            }
+                        }
+                    }
+                }
+                openSearch('/7_search/Search2Frame.jsp?&keywords='+ mystrng)
+            }
+
+        }
+
+    function advancedSearch(){
+        // for opening advanced search
+        openSearch('/7_search/Search2Frame.jsp?op=2')
+  
+     }
+
+    function advPopup(href) {
+         // for opening Gartner Advantage
+         window.open(href,"","width=568,height=600,scrollbars=yes")
+         return false;
+     }
+
+    function browse() {
+        openSearch('/7_search/Search3Frame.jsp?bop=6');
+    }
+
+     if (bw.ns4) {
+              origWidth = innerWidth;
+              origHeight = innerHeight;;
+       }
+
+    function reDo() {
+           if (innerWidth != origWidth || innerHeight != origHeight) {
+                  location.reload();
+           }
+    }
+
+    if (bw.ns4) onresize = reDo;
+
+    </script>
+
+
+    <script language=javascript>
+        // makes search not throw js error - prm
+        var winCTR=0;
+        var childWindow = new Array(20);
+
+        // cookie reading function
+        function GetCooky(name) {
+            var arg = name + "=";
+            var alen = arg.length;
+            var clen = document.cookie.length;
+            var i = 0;
+            
+            while (i <  clen) {
+                var j = i + alen;
+                
+                if (document.cookie.substring(i, j) == arg)
+                    return getCookyVal (j);
+                
+                i = document.cookie.indexOf(" ", i) + 1;
+                
+                if (i == 0) break;
+                }
+                    return null;
+                }
+
+        function getCookyVal (offset) {
+            var endstr = document.cookie.indexOf (";", offset);
+            
+            if (endstr == -1)
+                endstr = document.cookie.length;
+            
+            return (document.cookie.substring(offset, endstr));
+        }
+
+    </script>
+
+<!-- end of stylesheet.incl -->

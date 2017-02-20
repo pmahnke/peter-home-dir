@@ -1,0 +1,58 @@
+<table width="100%" border="0" cellpadding="0" cellspacing="0" >  
+ <tr valign=top><td width=26><img src="//img/trans_pixel.gif" width="26"></td>
+  <td valign=top  class="darkShading">
+
+<!-- locale_selector.i___-->
+<table width="100%" border="0">
+	<tr>
+	<td>
+	 <a class="linkTextSmall" href="/5_about/company_information/41a.html">About Gartner</a>  
+	 <a class="linkTextSmall" href="javascript:void(null)" onclick="openNewAdminFooter('/6_help/site_index/SiteIndexPopUp.jsp')">Site Index</a>  
+<a class="linkTextSmall" href="javascript:void(null)" onclick="openNewAdmin('/ContactUs?param=no')">Contact Us</a> 
+	<a class="linkTextSmall" href="/6_help/help_overview.html">Help</a>
+	<div><img src="//img/trans_pixel.gif" alt="" border="0" height="2" width="1"></div>
+	</td>
+	<td width="300" align="right">
+	<a class="linkTextSmall" href="javascript:void(null)" onclick="openNewAdmin('/6_help/18a.html')">Privacy Policy</a>  
+	<a class="linkTextSmall" href="javascript:void(null)" onclick="openNewAdmin('/6_help/16.html')">Terms of Use</a>
+	</td>
+	</tr>
+	<tr>
+	<td class="darkShading" bgcolor="#E7E7EF">
+	 <span class="textBlackReg2">Sites: </span>
+	 <a class="linkTextSmall" href="/5_about/news/notices/i508.jsp">Accessibility</a> 
+	 <a class="linkTextSmall" href="http://www.gartnerG2.com" target="_blank">GartnerG2</a>  
+	<a class="linkTextSmall" href="http://www.people3.com" target="_blank">people3</a>  
+	<a class="linkTextSmall" href="http://www.gartner-alumni.com" target="_blank">Gartner Alumni</a>  
+	<a class="linkTextSmall" href="http://www.techrepublic.com" target="_blank">TechRepublic</a>
+	<div><img src="//img/trans_pixel.gif" alt="" border="0" height="2" width="1"></div>
+	</td>
+	<td align="right">
+	<span class="linkTextSmall2">© Gartner, Inc., 2002.  All Rights Reserved.</span>
+	</td>
+	</tr>
+</table>
+
+
+<table width="100%" border="0" cellpadding="0">	
+<tr>
+	<td  colspan="2">
+		<span class="textBlackReg2">Locale: </span>    
+		<a class="linkTextSmall" href="#">EMEA</a> | 
+		<a class="linkTextSmall" href="#">Germany</a> | 
+		<a class="linkTextSmall" href="#">Italy</a> | 
+		<a class="linkTextSmall" href="#">France</a> | 
+		<a class="linkTextSmall" href="#">United Kingdom</a> 
+		<br> 
+
+	</td>
+</tr>
+</table>
+
+  </td>
+ </tr>
+</table>
+ 
+ 
+
+

@@ -1,0 +1,54 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: HTTP::Date
+  CHECKSUM_STATUS: OK
+  ID: G/GA/GAAS/HTTP-Date-6.02.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: GAAS
+  archived: tar
+  build_dir: /home/peter/.cpan/build/HTTP-Date-6.02-Qize4v
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370146
+  localfile: /home/peter/.cpan/sources/authors/id/G/GA/GAAS/HTTP-Date-6.02.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370145
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370146
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires:
+      Time::Local: 0
+      perl: 5.006002
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370145
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370145
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370146

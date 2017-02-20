@@ -1,0 +1,89 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: G/GA/GAAS/libwww-perl-6.05.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: G/GA/GAAS/libwww-perl-6.05.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: GAAS
+  archived: tar
+  build_dir: /home/peter/.cpan/build/libwww-perl-6.05-kqO8kj
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370185
+  localfile: /home/peter/.cpan/sources/authors/id/G/GA/GAAS/libwww-perl-6.05.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370171
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370185
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires:
+      Digest::MD5: 0
+      Encode: 2.12
+      Encode::Locale: 0
+      File::Listing: 6
+      HTML::Entities: 0
+      HTML::HeadParser: 0
+      HTTP::Cookies: 6
+      HTTP::Daemon: 6
+      HTTP::Date: 6
+      HTTP::Negotiate: 6
+      HTTP::Request: 6
+      HTTP::Request::Common: 6
+      HTTP::Response: 6
+      HTTP::Status: 6
+      IO::Select: 0
+      IO::Socket: 0
+      LWP::MediaTypes: 6
+      MIME::Base64: 2.1
+      Net::FTP: 2.58
+      Net::HTTP: 6.04
+      URI: 1.10
+      URI::Escape: 0
+      WWW::RobotRules: 6
+      perl: 5.008001
+  reqtype: r
+  sponsored_mods:
+    Encode::Locale: 1
+    File::Listing: 1
+    HTTP::Cookies: 1
+    HTTP::Daemon: 1
+    HTTP::Date: 1
+    HTTP::Negotiate: 1
+    HTTP::Request: 1
+    HTTP::Request::Common: 1
+    HTTP::Response: 1
+    HTTP::Status: 1
+    LWP::MediaTypes: 1
+    Net::HTTP: 1
+    WWW::RobotRules: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370139
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370139
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370185

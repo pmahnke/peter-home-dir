@@ -1,0 +1,15 @@
+1..4
+
+1:   Data string: undef
+1: ok 1
+
+2:   Data array 1: undef
+2: ok 2
+
+3:   Data array 2: undef
+3: ok 3
+
+4:   Data file: undef
+4: ok 4
+
+# END

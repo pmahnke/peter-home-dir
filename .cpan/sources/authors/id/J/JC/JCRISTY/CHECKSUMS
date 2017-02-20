@@ -1,0 +1,23 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Wed Dec  4 14:48:43 2013 GMT by CPAN::Checksums (v2.08)
+$cksum = {
+  'PerlMagick-6.87.tar.gz' => {
+    'md5' => 'c95e602c02b3586acf2441f24c55494b',
+    'md5-ungz' => '92634e8b3f207fc45b4886c7a2527f83',
+    'mtime' => '2013-11-30',
+    'sha256' => '26401f77c379e797421acdb670f1e8d4fd9e313bf3b99ab36bc2dbc6017ac2ad',
+    'sha256-ungz' => 'dd1e38a1ba161b3c80a3ec181c99d9a6a99f050f672d980787227d17cd27e0d2',
+    'size' => 5847636
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iEYEARECAAYFAlKfQMsACgkQMo2oZ0UPiezanACgnaIdO13wU/yIOpY6xHPr2eIk
+u4MAoISdFtUpiDne5MBWQ2cBnx4fvHwb
+=YYwz
+-----END PGP SIGNATURE-----

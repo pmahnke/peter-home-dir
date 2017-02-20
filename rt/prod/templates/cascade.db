@@ -1,0 +1,9 @@
+# Locale cascade rules
+# key,      parent,       location
+# =================================
+  wcw,      wcw,          /wcw
+  emea,     wcw,          /emea
+  uk,       emea,         /emea/uk
+  de,       emea,         /emea/de
+  it,       emea,         /emea/it
+  fr,       emea,         /emea/fr

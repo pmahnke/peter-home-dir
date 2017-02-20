@@ -1,0 +1,291 @@
+<!-- home_init_02.incl start -->
+
+<%--
+	Copyright (c) 2001 Gartner Inc.  All rights reserved.
+
+	Filename:	home_init.jsp
+
+	Location:	public_html/include
+
+	07-20-2001 - Added additional textFocus handle for keydown javascript
+				 function.  This is to handle trapping of the enter key
+				 on the Search button and ignore it.  If the keydown event
+				 is not ignored on the search button, two search result
+				 windows are opened. --Keith Devlin
+	09-27-2001 - Modified the submit search javascript function to include
+				 additional character replacement logic for converting
+				 MS word smart quote characeters to standard ascii single
+				 and double quote characters.  This fixes PCR 4219.
+				 --Keith Devlin
+	10-04-2001 - Changed the browse op code on the browse javascript function
+				 to pass BrowseOperation.HELP so that by default the results
+				 frame should show browse help when the browse link is clicked
+				 from the homepage.  Changed the advanced search function
+				 to use the search operation class and no longer hardcode the
+				 search operation code.  Added imports for the search and
+				 browse operation classes.  --Keith Devlin
+	10-04-2001 - Add "alert_popup.html"	popup window + cookie code
+				 - commented it out.  -- Sean O'Neill
+	10-15-2001 - Removed the user class retriction on advanced search.
+				 --Keith Devlin
+--%>
+<%@ page import="com.gartner.wcw.browse.servlet.BrowseOperation"%>
+<%@ page import="com.gartner.wcw.search.servlet.SearchOperation"%>
+<%@ page import="com.gartner.wcw.typecode.UserClassTypeCode"%>
+
+<link rel=stylesheet href="/css/menu.css" type="text/css">
+
+<%	// using Java, determine browser and O/S platform
+	String userAgent = request.getHeader("User-Agent");
+
+	if (((userAgent.toLowerCase().indexOf("msie") !=-1) && (userAgent.toLowerCase().indexOf("mac") ==-1)) || (userAgent.toLowerCase().indexOf("windows") !=-1))
+	{%>
+    		<link rel=stylesheet href="/css/win/main.css" type="text/css">
+		<link rel=stylesheet href="/css/win/navigation.css" type="text/css">
+		<link rel=stylesheet href="/css/win/homepage.css" type="text/css">
+	<%}
+	else
+	{	if (userAgent.toLowerCase().indexOf("hp-ux") !=-1)
+		{%>
+    			<link rel=stylesheet href="/css/hp/main.css" type="text/css">
+			<link rel=stylesheet href="/css/hp/navigation.css" type="text/css">
+			<link rel=stylesheet href="/css/hp/homepage.css" type="text/css">
+		<%}
+		else
+		{	if (userAgent.toLowerCase().indexOf("sunos") !=-1)
+			{%>
+    				<link rel=stylesheet href="/css/sun/main.css" type="text/css">
+				<link rel=stylesheet href="/css/sun/navigation.css" type="text/css">
+				<link rel=stylesheet href="/css/sun/homepage.css" type="text/css">
+			<%}
+			else
+			{	if ((userAgent.toLowerCase().indexOf("mac") !=-1)  || (userAgent.toLowerCase().indexOf("x11") !=-1))
+				{%>
+    					<link rel=stylesheet href="/css/mac/main.css" type="text/css">
+					<link rel=stylesheet href="/css/mac/navigation.css" type="text/css">
+					<link rel=stylesheet href="/css/mac/homepage.css" type="text/css">
+				<%}
+				else
+				{	if (userAgent.toLowerCase().indexOf("linux") !=-1)
+					{%>
+	    					<link rel=stylesheet href="/css/linux/main.css" type="text/css">
+						<link rel=stylesheet href="/css/linux/navigation.css" type="text/css">
+						<link rel=stylesheet href="/css/linux/homepage.css" type="text/css">
+					<%}
+					else
+					{	if (userAgent.toLowerCase().indexOf("win") !=-1)
+						{%>
+	    						<link rel=stylesheet href="/css/netscape/main.css" type="text/css">
+							<link rel=stylesheet href="/css/netscape/navigation.css" type="text/css">
+							<link rel=stylesheet href="/css/netscape/homepage.css" type="text/css">
+						<%}
+					}
+
+				}
+			}
+		}
+	}
+
+	%>
+
+	<script src="/js/menu.js"></script>
+	<script src="/js/utility.js"></script>
+	<script src="/js/mouseevents.js"></script>
+	<script src="/js/drag.js"></script>
+	<script src="/js/cookie.js"></script>
+	<script src="/js/layerapi.js"></script>
+	<script>
+		var readyState = null
+		var content = self
+		var footer = parent.footer
+		var UNREC=0, REC=1
+		var EVENTS=0, GARTNER_SUGGESTS=1, FOCUS_AREAS=2, NEWS_INFO=3, YOUR_RESEARCH=4
+		var sessionID = null
+		var textFocus = 0;
+
+		function pageInit(){
+
+			for (i=0;i<Menus.length;i++){
+				Menus[i].init()
+			}
+
+			readyState = "complete"
+
+		//start test for popup
+	    	incomingUrl = top.location.href
+		param = incomingUrl.substring(incomingUrl.indexOf("?")+1,incomingUrl.length)
+		pageVar = param.split("=")
+
+		switch(pageVar[1]) {
+			case "dq":
+			window.open("/landingPage_Dq.jsp","dq","width=620,height=490,location=0,menubar=0,resizable=0,scrollbars,status=0,titlebar=0,toolbar=0,screenY=60,screenX=100,top=30,left=100")
+			break;
+
+			case "itj":
+			window.open("/landingPage_Itj.jsp","itj","width=620,height=490,location=0,menubar=0,resizable=0,scrollbars,status=0,titlebar=0,toolbar=0,screenY=60,screenX=100,top=30,left=100")
+			break;
+
+			case "press":
+			window.open("/landingPage_Pr.jsp","pressroom","width=620,height=380,location=0,menubar=0,resizable=0,scrollbars,status=0,titlebar=0,toolbar=0,screenY=60,screenX=100,top=60,left=100")
+			break;
+
+			case "store":
+			window.open("/landingPage_Str.jsp","gartnerstore","width=620,height=380,location=0,menubar=0,resizable=0,scrollbars,status=0,titlebar=0,toolbar=0,screenY=60,screenX=100,top=60,left=100")
+			break;
+
+			case "dp":
+			window.open("landingPage_Dp.jsp","dp","width=620,height=490,location=0,menubar=0,resizable=0,scrollbars,status=0,titlebar=0,toolbar=0,screenY=60,screenX=100,top=30,left=100")
+			break;
+
+			case "expclub":
+			window.open("/1_researchanalysis/executive/exp_club1.jsp","expClub","width=620,height=490,location=0,menubar=0,resizable=0,scrollbars,status=0,titlebar=0,toolbar=0,screenY=60,screenX=100,top=30,left=100")
+			break;
+
+			case "exppremier":
+			window.open("/1_researchanalysis/executive/exp_premier1.jsp","expPremier","width=620,height=490,location=0,menubar=0,resizable=0,scrollbars,status=0,titlebar=0,toolbar=0,screenY=60,screenX=100,top=30,left=100")
+			break;
+		}
+		//end test here
+
+
+
+
+		//document.onkeydown = keydown
+		//if (bw.ns4) document.captureEvents(Event.KEYDOWN)
+
+		//Michael LaMassa - 7/20/01
+		//Don't set focus to search if the SigninPopup window is open
+		//due to failed login or alert mail
+		//if (incomingUrl.indexOf("UnrecognizedUserHomePage.jsp?") == -1) {
+		//	document.frmSearch.txtSearch.focus();
+		//}
+		}
+
+
+		function keydown(e){
+			if (bw.ns4 || bw.ns6) {
+				intKey=e.which;
+			} else {
+				intKey=event.keyCode;
+			}
+			if (intKey==13){
+				switch (textFocus){
+					case 0: submitSearch(); break;
+					case 1: submitSignin(); break;
+					case 2: submitEmail(); break;
+					case 3: break;
+				}
+			}
+		}
+
+		var objSearchForm = document.frmSearch
+		var mystrng ;
+		function validSearch(){
+			var objSearchForm = document.frmSearch
+			if (objSearchForm.txtSearch.value.length==0) {alert("Please enter a search phrase.");return false}
+			else
+			if(isBlank(objSearchForm.txtSearch.value)){
+				alert("Please enter a search phrase");
+				return false
+			}
+			return true
+		}
+
+		function submitSearch(){
+			var objSearchForm = document.frmSearch
+			if (validSearch()) {
+				mystrng = objSearchForm.txtSearch.value ;
+				mystrng = mystrng.replace(/\%/g,"%25");
+				mystrng = mystrng.replace(/\&/g,"%26");
+				mystrng = mystrng.replace(/\+/g,"%2B");
+				mystrng = mystrng.replace(/ /g,"+");
+				for (x = 0; x < mystrng.length; x++) {
+					d = mystrng.charCodeAt(x);
+					if (d == 8216 || d == 8217 || d == 8220 || d == 8221) {
+						if (x == 0) {
+							if (d == 8216 || d == 8217) {
+								mystrng = "%27"
+									+ mystrng.substring(1, mystrng.length);
+							} else {
+								mystrng = "%22"
+									+ mystrng.substring(1, mystrng.length);
+							}
+						} else if (x == mystrng.length) {
+							if (d == 8216 || d == 8217) {
+								mystrng = mystrng.substring(0, x) + "%27";
+							} else {
+								mystrng = mystrng.substring(0, x) + "%22";
+							}
+						} else {
+							if (d == 8216 || d == 8217) {
+								mystrng = mystrng.substring(0, x)
+									+ "%27"
+									+ mystrng.substring(x + 1, mystrng.length);
+							} else {
+								mystrng = mystrng.substring(0, x)
+									+ "%22"
+									+ mystrng.substring(x + 1, mystrng.length);
+							}
+						}
+					}
+				}
+				openSearch('/7_search/Search2Frame.jsp?&keywords='+ mystrng)
+			}
+
+		}
+
+		<%
+			String userClass  = UserClassTypeCode.VISITOR_DESC;
+			String userName = null;
+			String section508Flg = null;
+			if(session != null){
+				userClass = (String) session.getAttribute("userClass");
+				if(userClass == null){
+					userClass = UserClassTypeCode.VISITOR_DESC;
+				}
+				userName = (String)session.getAttribute("userName");
+				section508Flg = (String)session.getAttribute("section508Flg");
+			}
+		%>
+
+		function advancedSearch() {
+			openSearch('/7_search/Search2Frame.jsp?op=<%=
+				SearchOperation.ADVANCED %>');
+		}
+
+		function browse() {
+			openSearch('/7_search/Search3Frame.jsp?bop=<%=
+				BrowseOperation.HELP %>');
+		}
+
+		 if (bw.ns4) {
+      			origWidth = innerWidth;
+      			origHeight = innerHeight;;
+   		}
+
+		function reDo() {
+   			if (innerWidth != origWidth || innerHeight != origHeight) {
+      				location.reload();
+   			}
+		}
+
+		if (bw.ns4) onresize = reDo;
+
+	</script>
+
+<!-- </head>
+<body onload="pageInit()" onUnload="closeLogin()"  topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" bgcolor="#ffffff">
+
+	<div id="cover1"><a href="/1_researchanalysis/research_overview.html" onmouseover="showMenu(1,MENU_ON)" onmouseout="showMenu(1,MENU_OFF)"><img src="/images/trans_pixel.gif" height="20" width="70" alt="" border="0"></a></div>
+	<div id="cover2"><a href="/3_consulting_services/consulting_overview.html" onmouseover="showMenu(2,MENU_ON)" onmouseout="showMenu(2,MENU_OFF)"><img src="/images/trans_pixel.gif" height="20" width="80" alt="" border="0"></a></div>
+	<div id="cover3"><a href="/4_decision_tools/measurement/measurement_overview.html" onmouseover="showMenu(3,MENU_ON)" onmouseout="showMenu(3,MENU_OFF)"><img src="/images/trans_pixel.gif" height="20" width="100" alt="" border="0"></a></div>
+	<div id="cover4"><a href="/2_events/community/community_overview.html" onmouseover="showMenu(4,MENU_ON)" onmouseout="showMenu(4,MENU_OFF)"><img src="/images/trans_pixel.gif" height="20" width="77" alt="" border="0"></a></div>
+	<div id="cover5"><a href="/5_about/news/news_overview.html"><img src="/images/trans_pixel.gif" height="20" width="53" alt="" border="0"></a></div> -->
+
+
+
+
+<!-- end home_init_02.incl -->
+
+
+

@@ -1,0 +1,8 @@
+       <div class="mq_hc_vrLatest">
+           <p>Latest Ratings</p>
+             <ul class="mq_hc_vrLatestList">
+               <li><a href="/1_researchanalysis/vendor_rating/vr_na.jsp">Network Appliance</a></li>
+               <li><a href="/1_researchanalysis/vendor_rating/vr_ericsson.jsp">Ericsson</a></li>
+               <li><a href="/1_researchanalysis/vendor_rating/vr_alcatel.jsp">Alcatel</a></li>
+             </ul>
+       </div>

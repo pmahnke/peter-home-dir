@@ -1,0 +1,64 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: MIYAGAWA
+  archived: tar
+  badtestcnt: 1
+  build_dir: /home/peter/.cpan/build/XML-Atom-0.41-p7UTZt
+  incommandcolor: 1
+  localfile: /home/peter/.cpan/sources/authors/id/M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370199
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: 1
+    TEXT: 'NO 2 dependencies missing (XML::LibXML,XML::XPath); additionally test harness failed'
+    TIME: 1386370200
+  negative_prefs_cache: 5
+  prefs: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 6.42
+    requires:
+      Class::Data::Inheritable: 0
+      DateTime: 0
+      DateTime::TimeZone: 0
+      Digest::SHA1: 0
+      LWP::UserAgent: 0
+      MIME::Base64: 0
+      URI: 0
+      XML::LibXML: 1.69
+      XML::XPath: 0
+      perl: 5.008001
+  reqtype: c
+  sponsored_mods:
+    Class::Data::Inheritable: 1
+    DateTime: 1
+    DateTime::TimeZone: 1
+    LWP::UserAgent: 1
+    URI: 1
+    XML::LibXML: 2
+    XML::XPath: 2
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369996
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369997
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370200

@@ -1,0 +1,54 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: HTTP::Negotiate
+  CHECKSUM_STATUS: OK
+  ID: G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: GAAS
+  archived: tar
+  build_dir: /home/peter/.cpan/build/HTTP-Negotiate-6.01-Vw9vAN
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370155
+  localfile: /home/peter/.cpan/sources/authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370155
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370155
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires:
+      HTTP::Headers: 6
+      perl: 5.008001
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370154
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370154
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370155

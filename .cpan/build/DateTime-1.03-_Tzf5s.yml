@@ -1,0 +1,79 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: D/DR/DROLSKY/DateTime-1.03.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: D/DR/DROLSKY/DateTime-1.03.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: DROLSKY
+  archived: tar
+  build_dir: /home/peter/.cpan/build/DateTime-1.03-_Tzf5s
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370135
+  localfile: /home/peter/.cpan/sources/authors/id/D/DR/DROLSKY/DateTime-1.03.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370112
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370134
+  modulebuild: 1
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::CBuilder: 0
+      Module::Build: 0.3601
+      Storable: 0
+      Test::Fatal: 0
+      Test::More: 0.88
+      utf8: 0
+    requires:
+      Carp: 0
+      DateTime::Locale: 0.41
+      DateTime::TimeZone: 1.09
+      POSIX: 0
+      Params::Validate: 0.76
+      Scalar::Util: 0
+      Try::Tiny: 0
+      XSLoader: 0
+      base: 0
+      constant: 0
+      integer: 0
+      overload: 0
+      perl: 5.008001
+      strict: 0
+      vars: 0
+      warnings: 0
+  reqtype: r
+  sponsored_mods:
+    DateTime::Locale: 1
+    DateTime::TimeZone: 1
+    Params::Validate: 1
+    Test::Fatal: 1
+    Try::Tiny: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369998
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370000
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370135

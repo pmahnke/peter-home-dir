@@ -1,0 +1,376 @@
+/* master css sheet */
+p, td, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, td, tr
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:    10pt;
+	}
+
+/* gartner preference is to put everthing at the top*/
+body {  margin-top: 0; padding-top: 0;  }
+
+/* basic browser hacks */
+img	{  border: 0; 	display: block;  }
+.inline	{  display: inline;  /* for images that you want to display inline, add this class */  }
+div.clearer {  clear: left; line-height: 0; height: 0;  }
+
+/* line classes */
+.dottedline     {  height: 1px; margin: 0; padding: 0; background-image: url(http://www.gartner.com/images/homepage/dotted_line.gif); background-repeat: repeat-x; font-size: 0.33em;  clear: both;  }
+.greyline       {  height: 2px; margin: 0; padding: 0; background-color: #bbb; font-size: 0;  }
+.greyfiveline   {  height: 5px; margin: 0; padding: 0; background-color: #bbb; font-size: 0;  }
+.whitetwntyline {  height: 20px; margin: 0; padding: 0; background-color: #fff; font-size: 0;  }
+.activetabline  {  height: 4px; margin: 0; padding: 0; border-left: 2px solid #fff;  border-right: 2px solid #fff; background-color: #fff; font-size: 0;  }
+.whiteline      {  height: 2px; margin: 0; padding: 0; background-color: #fff; font-size: 0;  }
+
+
+/* pr0m0 class */
+.prm {
+	border: 2px solid #fff;
+	background-color: #fff;
+	margin:  0;
+	padding: 0;
+}
+/* Header */
+#search	{  }
+
+/* Footer */
+#footer	            {  margin: 0; padding: 0; padding-top: 5px; padding-bottom: 5px; }
+.footerlist         {  margin: 0; padding: 3px 0 3px 5px;  }
+.footerlist ul      {  margin: 0; padding: 0; }
+.footerlist li      {  display: inline; list-style-type: none; }
+.footerlist a       {  font-size: 10px; font-weight: bold; color: #666666; text-decoration: none;  }
+.footerlist a:hover {  color: #3088CC;  }
+.copyright          {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.7em; color: #666666; vertical-align: bottom; text-align: right;  }
+
+/* Navigation Bar*/
+td#home, td#research, td#consulting, td#measurement, td#community, td#news
+	{  background-color: #656565;  }
+td#home         a {  background-color: #656565; display: block; width: 100%; text-align: center; font-size: 12px; color: #fff; text-decoration: none; }
+td#research     a {  background-color: #656565; display: block; width: 100%; text-align: center; font-size: 12px; color: #fff; text-decoration: none; }
+td#consulting   a {  background-color: #656565; display: block; width: 100%; text-align: center; font-size: 12px; color: #fff; text-decoration: none; }
+td#measurement  a {  background-color: #656565; display: block; width: 100%; text-align: center; font-size: 12px; color: #fff; text-decoration: none; }
+td#community    a {  background-color: #656565; display: block; width: 100%; text-align: center; font-size: 12px; color: #fff; text-decoration: none; }
+td#news         a {  background-color: #656565; display: block; width: 100%; text-align: center; font-size: 12px; color: #fff; text-decoration: none; }
+td#home        a:hover {  background-color: #333333;  }
+td#research    a:hover {  background-color: #0173EF;  }
+td#consulting  a:hover {  background-color: #84A5F7;  }
+td#measurement a:hover {  background-color: #527BC6;  }
+td#community   a:hover {  background-color: #000099;  }
+td#news        a:hover {  background-color: #01426B;  }
+td#help       {  background-color: #9C9C9C; text-align: right; }
+td#help     a {  font-size: 11px; text-decoration: none;  color: #fff;   }
+
+/* FOCUS AREAS */
+.focusareaslist               {  padding: 0; margin: 0; }
+.focusareaslist ul            {  marker-offset: 0; padding: 0; margin: 5px; }
+.focusareaslist li            {  padding: 3px 0 3px 0; margin: 0; list-style-type: circle; list-style-image: url(http://regionals4.gartner.com/images/homepage/arrow_trans_k.gif);  }
+.focusareaslist a             {  font-size: 11px; font-weight: bold; color: #666666; text-decoration: none;  }
+.focusareaslist a:hover       {  color: #3088CC;  }
+
+/* Membership Programs */
+.membershipprogram                {  margin: 0; padding: 0; background-color: #ADB2BD; border: 2px solid #fff;  }
+.membershipprogram h1             {  background-color: #63717B; border-bottom: 2px solid #ffffff; color: #fff; font-size: 12px; font-weight: bold; padding-top: 5px; padding-left: 5px; margin: 0; height: 25px; line-height: 150%;  }
+.membershipprogram p              {  padding-top: 5px; margin: 5px; color: #ffffff; font-size: 11px; line-height: 120%; font-weight: normal;  }
+.membershipprogram p select       {  width:184px; height:22px; font-size: 9px; background:#EFEFEF;  }
+.membershipprogramlist            {  margin: 0; padding: 0;  }
+.membershipprogramlist ul         {  list-style: none; margin: 0; padding: 0;  }
+.membershipprogramlist li         {  color: #fff; font-size: 10px; list-style-type: disc;  }
+.membershipprogramlist a          {  font-weight: normal; color: #fff; text-decoration: none; font-size: 11px  }
+.membershipprogramlist a:hover    {  text-decoration: underline; }
+
+
+
+
+
+/* HOMEPAGE */
+
+/* Homepage Welcome Navigation */
+#unrecwelcome
+	{
+	margin:0; padding: 2px; border: 2px solid #fff; background-color: #eee;
+	width: 762px;
+	}
+.unrecwelcomeredtext    {  color: #CF5D5D; font-size: 0.8em; font-weight: bold; text-align: center; }
+
+
+
+/* top banner styles */
+.localeselector         {  font-size: 11px; font-weight: normal; color: #4d4d4d; text-align: right;  }
+.localeselector a       {  cursor: default; text-decoration: none; color: #3088CC;  }
+.localeselector a:hover {  text-decoration: underline;  }
+.welcomedate            {  font-size: 11px; color: #4d4d4d;  }
+
+/* HOMEPAGE CENTER COLUMN */
+
+/* in the news  and featured research */
+
+.inthenewslist ul, .featuredresearchlist ul            {  margin: 7px 25px; padding: 0;  }
+
+.inthenewslist a, .featuredresearchlist a               {   font-weight: bold; font-size: 0.85em; color: #3088CC;  line-height: 110%;   text-decoration: none;   }
+
+.inthenewslist a:hover, .featuredresearchlist a:hover    {  text-decoration: underline;  }
+
+
+/* in the news  */
+
+.inthenewslist li             
+  {  list-style-type: circle; list-style-image: url(http://www.gartner.com/images/homepage/reversed_green_arrow.gif);   padding-bottom: 5px;}
+
+
+/* featured research */
+
+.featuredresearchlist li      
+  {  list-style-type: circle; list-style-image: url(http://regionals4.gartner.com/images/homepage/reversed_blue_arrow.gif);  padding-bottom: 5px; }
+
+
+/* focal points */
+
+   .focalpoint       {  float: left; margin: 10px 15px 0 0; padding: 0; background: #fff; font-family: Verdana, Arial, Helvetica, sans-serif; }
+
+    .focalpoint img   {  display: block; width: 100px; height: 68px; float: left; margin: 0; padding: 0 10px; }
+
+    .focalpoint   p   {  display: block; margin-left: 120px; padding: 0; margin: 0; vertical-align: top;  font-size: 0.85em; color: #4a4a4a;  }
+
+    .focalpoint a   {  display: block; margin-left: 120px; font-weight: bold; color: #3088CC; text-decoration: none; line-height: 120%;  margin: 0; padding: 0; font-size: 1.1em; vertical-align: top; }
+
+ .focalpoint a:hover
+            {  text-decoration: underline;  }
+
+
+/* MAGIC QUADRANTSS HYPE CYCLES VENDOR RATINGS */
+.mq_hc_vr                      {  padding: 3px 0; margin: 0; background-color: #F5F5F5; color: #4d4d4d; border-top: 2px solid #fff; border-right: 2px solid #fff; border-left: 2px solid #fff;  }
+.mq_hc_vr p                    {  margin: 0; padding: 0; padding-left: 10px; font-size: 11px; }
+.mq_hc_vr a                    {  color: #3088CC; text-decoration: none; font-size: 11px;  }
+.mq_hc_vr a:hover              {  text-decoration: underline;  }
+
+.mq_hc_vrList                  {  padding: 3px 0; margin: 0;  }
+.mq_hc_vrList ul               {  padding: 0; margin: 0;  }
+.mq_hc_vrList li               {  padding: 0; margin: 0; margin-left: 25px; list-style-image: url(http://regionals4.gartner.com/images/homepage/arrow_trans_k.gif); font-size: 11px; color: #3088CC; line-height: 110%;   }
+
+.mq_hc_vrLatest                {  padding: 5px 0; margin: 0; background-color: #E3E9EC; font-weight: bold;  }
+.mq_hc_vrLatest p              {  padding: 0; margin: 0; padding-left: 14px; font-size: 11px; color: #4d4d4d; }
+.mq_hc_vrLatest a              {  color: #3088CC; font-weight: bold; text-decoration: none;  }
+.mq_hc_vrLatest a:hover        {  text-decoration: underline;  }
+
+.mq_hc_vrLatestList            {  padding: 5px 0; margin: 0;  }
+.mq_hc_vrLatestList ul         {  padding: 0; margin: 0;  }
+.mq_hc_vrLatestList li         {  padding: 0; margin: 0; margin-left: 29px; list-style-image: url(http://regionals4.gartner.com/images/homepage/arrow_trans_k.gif);  }
+.mq_hc_vrLatestList li a       {  color: #3088CC; font-size: 11px; font-weight: bold;  }
+.mq_hc_vrLatestList li a:hover {  text-decoration: underline;  }
+
+
+/* WEBLOGS RESEARCH COLLECTION */
+.blog_rcs                {  background-color: #fff; border-bottom: 2px solid #fff; margin:  0; padding: 0; padding-left: 5px; padding-right: 5px; }
+.blog_rcs p              {  margin: 0; padding: 3px; color: #4d4d4d;  font-weight: normal; font-size: 11px;  }
+.blog_rcs a              {  font-size: 11px; font-weight: bold; color: #3088CC; text-decoration: none;  }
+.blog_rcs a:hover        {  text-decoration: underline;  }
+
+.blog_rcslist            {  margin: 0; padding: 5px;  }
+.blog_rcslist ul         {  margin: 0; padding: 0;  }
+.blog_rcslist li         {  list-style-image: url(http://regionals4.gartner.com/images/arrowBlue.gif); margin: 0; margin-left: 20px;   }
+.blog_rcslist li a       {  text-decoration: none; font-size: 11px; font-weight: normal; }
+.blog_rcslist li a:hover {  text-decoration: underline;  }
+
+
+
+/* HOMEPAGE LEFTRAIL */
+.leftraillinks           {  padding: 0; margin: 7px; }
+.leftraillinks p         {  padding: 0; padding-top: 3px; padding-bottom: 5px; margin: 0; margin-top: 3px; margin-bottom: 3px; font-size: 11px; line-height: 120%; color: #4d4d4d;  }
+.leftraillinks p a       {  font-weight: bold; color: #3088CC; margin: 0; padding: 0; text-decoration: none;  }
+.leftraillinks p a:hover {  text-decoration: underline;  }
+.leftraillinks h2        {  color: #666; font-weight: bold; font-size: 11px; margin: 0; margin-top: 3px; margin-bottom: 3px; padding: 0;  }
+.leftraillinks h2 a      {  color: #767776; text-decoration: none;  }
+.leftraillinks a:hover   {  text-decoration: underline;  }
+
+.simpleheadlines            {  margin: 0; padding: 0;  }
+.simpleheadlines ul         {  list-style: none; margin: 0; padding: 0;  }
+.simpleheadlines li         {  margin: 0; margin-left: 5px; padding: 0; padding-bottom: 3px; font-size: 11px; list-style-type: none;  }
+.simpleheadlines a       {  font-weight: normal; color: #3088CC; text-decoration: none; font-size: 11px  }
+.simpleheadlines a:hover {  text-decoration: underline; }
+
+/* HOMEPAGE RIGHT RAIL */
+/* right rail homepage Local Briefings */
+.localbriefings {  padding: 0 5px 0 5px; margin: 0; margin-bottom: 5px; border-bottom: 1px solid #cecece;  }
+.lbTitle        {  font-size: 11px; color: #4d4d4d; padding-bottom: 5px; }
+.lbCityDate     {  font-size: 11px; color: #4d4d4d; background-color: #f5f5f5; line-height: 110%; padding: 2px 5px 2px 5px; }
+.lbCityDate a   {  color: #3088CC; text-decoration: none;  }
+
+/* right rail homepage teleconferences block */
+.yellowbox     {  background-color: #F7F7E7; margin: 0; padding: 5px; border: 2px solid #fff;  }
+.purplelist    {  margin: 0; padding: 0; margin-left: 20px; }
+.purplelist ul {  margin: 0; padding: 0; margin-top: 7px; margin-left: 3px;  }
+.purplelist li {  padding: 1px; list-style-image: url(http://regionals4.gartner.com/regionalization/img/homepage/reversed_purple_arrow.gif);  }
+.purplelist a  {  font-weight: bold; font-size: 11px; line-height: 14px; color: #3088CC; text-decoration: none;   }
+.purplelist p  {  line-height: 11px; font-size: 11px; color: #666666; margin: 1px; padding: 1px;  }
+
+/* right rail more list */
+.rightrailmoreList    {  margin-left: 0; padding-left: 0; margin-top: 5px; margin-bottom: 10px;  }
+.rightrailmoreList li, .rightrailmorelist ul {  list-style-image: url(http://regionals4.gartner.com/images/homepage/gray_arrow.gif); margin-left: 15px; padding-left: 3px;  }
+.rightrailmoreList li a, .rightrailmoreList a  {  color: #87A318; font-weight: bold; font-size: 11px; line-height: 105%; text-decoration: none;  }
+
+
+
+
+
+/* OVERVIEW PAGES */
+
+/* Overview Banner*/
+.overviewcontainer
+	{  border: 2px solid #fff;  }
+.overviewimg
+	{  display: block; border: 0; padding: 0; margin: 0; padding-right: 20px;  }
+
+.overviewcontainer h1
+	{  color: #fff; font-size: 36px; font-weight: bold;
+	   margin: 0; padding-top: 20px; padding-right: 50px; padding-bottom: 10px; padding-left: 20px;  }
+.overviewcontainer p
+	{  color: #848284; font-size: 11px; font-weight: bold;
+	   margin: 0; padding: 0; padding-left: 20px;  }
+
+/* 02_consulting, in banner, the read what our clients have to say link */
+.bannerwords                     {  display: block; margin-left: 45%;  }
+.consultingbannerlist            {  padding: 0;
+                                    margin: 0; margin-left: 5%; }
+.consultingbannerlist ul         {  padding: 0; margin: 0;  }
+.consultingbannerlist li         {  margin: 0; padding: 0; list-style-image: url(http://regionals4.gartner.com/regionalization/img/gray_arrow.gif); }
+.consultingbannerlist a          {  color: #fff; text-decoration: none; font-size: 11px;
+                                    font-weight: bold; line-height: 2em; }
+.consultingbannerlist li a:hover {  color: #666;  }
+
+
+.contentthreecol
+	{
+	padding: 5px 10px 0 10px;
+	border-left: 2px solid #bbbbbb;
+	border-right: 2px solid #bbbbbb;
+	}
+.contentthreecol h2   {  padding: 10px 0 5px 0; margin: 0;  }
+.contentthreecol h2 a {  font-weight: bold; font-size: 14px; color: #3088CC; text-decoration: none; }
+.contentthreecol p    {  font-size: 11px; color: #4d4d4d; padding: 3px 0 8px 0; margin: 0;  }
+
+/* Research Overview pages blue arrow, read more lists */
+.readmorelist    {  margin: 5px 15px 10px 15px;  }
+.readmorelist li {  list-style-image: url(http://regionals4.gartner.com/regionalization/img/reversed_blue_arrow.gif);  }
+.readmorelist a  {  color: #3088CC; font-size: 11px; text-decoration: none;  }
+
+/* Consulting Overview Styles*/
+/* right rail consulting contact us box */
+.consultingcontactus   {  border: 2px solid #fff; background-color: #EFE3EF; margin: 0; padding-bottom: 20px;  }
+.consultingcontactus p {  font-size: 0.80em; color: #4A4D4A; padding: 3px; margin: 3px 5px 0 5px;  }
+.consultingcontactus a {  text-decoration: none; color: #3088CC; font-weight: bold; }
+
+/* for "Contact Gartner's European Measurement Team" link */
+.contactteam  { display: block; margin-left: 20px;  }
+.contactteam a {  color: #3088CC; font-weight: bold; font-size: 12px; text-decoration: none;  }
+.contactteam a:hover {  text-decoration: underline;  }
+
+/* changing current style for this */
+.readmorelinklist         {  margin: 5px 15px 10px 15px;  }
+.readmorelinklist li      {  padding-bottom: 3px; list-style-image: url(http://regionals4.gartner.com/regionalization/img/reversed_blue_arrow.gif);  }
+.readmorelinklist a       {  color: #3088CC; font-weight: bold; text-decoration: none; font-size: 11px; }
+.readmorelinklist a:hover {  text-decoration: underline;  }
+.readmorelinklist p       {  color: #4d4d4d; font-size: 10px; margin: 0; padding: 0; }
+.iso { text-align: center; padding: 5px; }
+.iso p {  color: #666; font-size: 0.8em; }
+
+
+/* marketing pages sub menu */
+.subnavcontainer    {  padding: 0; margin: 0; border: 2px solid #fff; background-color: #BDBABD;  }
+.subnavcontainer p  {  border-bottom: 2px solid white; padding: 0; margin: 0;  }
+.subnavcontainer ul {  margin: 0; padding: 0; list-style-type: none; color: #FFFFFF; text-decoration: none; border-top: 1px solid #9C9A9C; border-bottom: 2px solid #ffffff;  }
+.subnavcontainer a  {  display: block; padding: 3px 3px 3px 10px; background-color: #BDBABD; border-bottom: 1px solid #9C9A9C; color: #ffffff; text-decoration: none; height: 1.5em; font-size: 11px;  }
+.subnavactive a:link, .subnavactive a:visited, .subnavactive a:hover {  background-color: #ffffff; color: #656565;  }
+
+/* newsletter list (used on research overview, measurement overview) */
+.newsletters        {  margin: 0;  padding: 0; padding-right: 5px; padding-left: 3px; border: 2px solid #fff; color: #4d4d4d; font-size: 10px;  }
+.newsletterslist    {  padding: 0; border: 0; margin: 0; margin-left: 20px; margin-right: 5px;	  }
+.newsletterslist li {  list-style-image: url(http://regionals4.gartner.com/images/homepage/blue_arrow_sm.gif); padding-bottom: 10px;  }
+.newsletterslist a  {  font-size: 11px; font-weight: bold; line-height: 115%; color: #3088CC; text-decoration: none;  }
+.newsletterslist p  {  font-size: 11px; font-weight: normal; margin: 0; padding: 0;  }
+
+/* Overview pages "Learn more" lists */
+.learnmorelist
+	{  margin-left: 0; padding-left: 0; margin-top: 5px; margin-bottom: 20px;  }
+.learnmorelist li
+	{  list-style-type: disc; list-style-image: url(http://regionals4.gartner.com/images/homepage/gray_arrow.gif);
+	   margin-left: 15px; padding-left: 3px;  }
+.learnmorelist a
+	{  color: #87A318; font-weight: bold;
+	   font-size: 11px; line-height: 105%; text-decoration: none;  }
+
+/* on 2 column overview pages, this is the main content listing box */
+.contenttwocol
+	{  padding: 0; padding: 5px 10px 0 10px;
+	   margin:  0;
+	   border: 0; border-left: 2px solid #fff; border-right: 2px solid #bbb;
+	}
+.contenttwocolsect      {  padding-left: 15px;  }
+.contenttwocolsect h2   {  padding: 20px 0 3px 0; margin: 0;  }
+.contenttwocolsect h2 a {  font-weight: bold; font-size: 14px; color: #3088CC; text-decoration: none; }
+.contenttwocolsect p    {  font-size: 11px; padding: 3px 0 8px 0; margin: 0; color: #4A4D4A; }
+
+/* on a 2 column overview page, this is the bullet list on the right in the main content area */
+.contenttwocollistcont li {
+	color: #4A4D4A;
+	font-size: 11px;
+}
+.contenttwocollistcont p {
+	color: #4A4D4A;
+	font-size: 11px;
+	margin: 0; padding: 0;
+}
+
+/* on a 2 column overview page, this is the main content listing with no bulleted list on the right */
+.contenttwocolsectfull      {  padding-left: 15px;  }
+.contenttwocolsectfull h2   {  padding: 20px 0 3px 0; margin: 0;  }
+.contenttwocolsectfull h2 a {  font-weight: bold; font-size: 14px; color: #3088CC; text-decoration: none; }
+.contenttwocolsectfull p    {  font-size: 11px; padding: 3px 0 8px 0; margin: 0; color: #4A4D4A; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* More List */
+.moreList li, .moreList ul   {  list-style-image: url(http://regionals4.gartner.com/images/homepage/gray_arrow.gif); margin-left: 25px; padding-left: 3px;  }
+.moreList li a, .moreList a  {  color: #87A318; font-weight: bold; font-size: 11px; line-height: 105%; text-decoration: none;  }
+
+/* classes */
+.greyHead  {
+	font-weight: bold;
+	font-size: 12px;
+	color: #767776;
+	text-decoration: none;
+	margin: 3px;
+}
+.smallGreyText {
+	font-size: 11px;
+	color: #666666;
+	line-height: 14px;
+	margin: 1px;
+	padding: 1px;
+}
+.greyTitle
+	{
+	background-color: #ADB5C6;
+	color: #fff;
+	height: 15px;
+	border: 2px solid #fff;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 120%;
+	padding: 5px;
+	margin: 0;
+	}
+

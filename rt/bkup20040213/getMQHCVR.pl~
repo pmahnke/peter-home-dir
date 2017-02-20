@@ -1,0 +1,137 @@
+#!/usr/local/bin/perl
+
+use CGI_Lite;
+
+# variables
+$rootDir = "/home/gartner/html/rt/content/";
+$fileMQ = "$rootDir"."MQ.csv";
+$fileHC = "$rootDir"."HC.csv";
+$fileVR = "$rootDir"."VR.csv";
+
+$locale = "de";
+
+
+
+&openFile ($fileMQ);
+print $line;
+exit;
+
+
+##############################################################
+# Get the input from the HTML Form
+if ($ENV{'CONTENT_LENGTH'}) {
+
+    $cgi = new CGI_Lite;
+    %FORM = $cgi->parse_form_data;
+
+} else {
+
+    &printForm;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+sub openFile {
+
+    # 113833	20 March 2003	Noninvasive Legacy Web Enablement Is Still Viable
+
+    open (FILE, "$_[0]") || die "can't open file: $_[0]\n";
+    while (<FILE>) {
+	chop();
+	local ($code, $date, $title) = split (/\t/);
+	local $formdate = &processDate($date);
+	
+	$line .= "$title \- $date \($formdate\) \- $code\n";
+
+    }
+    close(FILE);
+
+}
+
+
+sub processDate {
+
+    local ($d, $m, $y) = split(/ /, $_[0]);
+
+
+    $m{'January'} = "01";
+    $m{'February'} = "02";
+    $m{'March'} = "03";
+    $m{'April'} = "04";
+    $m{'May'} = "05";
+    $m{'June'} = "06";
+    $m{'July'} = "07";
+    $m{'August'} = "08";
+    $m{'September'} = "09";
+    $m{'October'} = "10";
+    $m{'November'} = "11";
+    $m{'December'} = "12";
+
+    if ($locale eq "it") {
+        $mn{'January'} = "gennaio";
+        $mn{'February'} = "febbraio";
+        $mn{'March'} = "marzo";
+        $mn{'April'} = "aprile";
+        $mn{'May'} = "maggio";
+        $mn{'June'} = "giugno";
+        $mn{'July'} = "luglio";
+        $mn{'August'} = "agosto";
+        $mn{'September'} = "settembre";
+        $mn{'October'} = "ottobre";
+        $mn{'November'} = "novembre";
+        $mn{'December'} = "dicembre";
+    } elsif ($locale eq "de") {
+        $mn{'January'} = "Januar";
+        $mn{'February'} = "Februar";
+        $mn{'March'} = "M&amp;auml;rz";
+        $mn{'April'} = "April";
+        $mn{'May'} = "Mai";
+        $mn{'June'} = "Juni";
+        $mn{'July'} = "Juli";
+        $mn{'August'} = "August";
+        $mn{'September'} = "September";
+        $mn{'October'} = "Oktober";
+        $mn{'November'} = "November";
+        $mn{'December'} = "Dezember";
+    } else {
+	$mn{'January'} = "January";
+	$mn{'February'} = "February";
+	$mn{'March'} = "March";
+	$mn{'April'} = "April";
+	$mn{'May'} = "May";
+	$mn{'June'} = "June";
+	$mn{'July'} = "July";
+	$mn{'August'} = "August";
+	$mn{'September'} = "September";
+	$mn{'October'} = "October";
+	$mn{'November'} = "November";
+	$mn{'December'} = "December";
+
+    }
+    if ($d < 10) {
+	$dO = "0"."$d";
+    } else {
+	$dO = $d;
+    }
+    local $key = "$y"."$m{$m}"."$dO";
+
+    local $newdate;
+
+    if ($locale eq "de") {
+	$newdate = "$d\. $mn{$m} $y";
+    } else {
+	$newdate = "$d $mn{$m} $y";
+    }
+
+    return($newdate);
+
+}

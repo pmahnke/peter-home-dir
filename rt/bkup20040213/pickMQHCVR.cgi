@@ -1,0 +1,636 @@
+#!/usr/local/bin/perl
+
+########################################################################
+#
+# pickMQHCVR.cgi
+#
+#   written: 09 Dec 2003 by Peter Mahnke
+#   modified:
+#
+#
+#   run from a web browser
+#   currently only called through update_menu.cgi
+#
+#   DESCRIPTION
+#     allows regional site editors to pick different Magic Quadrants,
+#     Hype Cycles and Vendor Ratings than are on gartner.com and reset them
+# 
+#     it reads the CSV lists produced by the getMQlist.pl and getVRlist.pl
+#     and offers them as options to the regional site editors to overwrite
+#     the default gartner.com selection
+# 
+#     if an alternate selection is picked, it writes a new include (.incl)
+#     file and puts a lock on that file that homepage_parser.pl respects
+# 
+#     if homepage_parser.pl sees the lock, it saves the translated default
+#     gartner.com include as <filename>.incl.latest
+#
+#     if an editor picks to go back to the gartner.com default, it moves
+#     this <filename>.incl.latest file back and removed the lock file via
+#     the script commonLock.pl
+#
+########################################################################
+
+use CGI_Lite;
+require('/home/gartner/html/rt/commonLock.pl');
+
+########################################################################
+# variables
+$rootDir = "/home/gartner/html/rt/content/";
+$fileMQ = "$rootDir"."MQ.csv";
+$stringMQ{'emea'} = "Latest Magic Quadrant:\&nbsp\;<\/b\><\/span\><br \/>";
+$stringMQ{'it'}   = "Ultimo Magic Quadrant:\&nbsp\;<\/b\><\/span\><br \/>";
+$stringMQ{'de'}   = "Aktuellster Magic Quadrant:<\/b\><\/span\><br \/\>";
+
+$currentHC = "/home/gartner/html/rt/content/emea/home_hc_headlines.incl";
+$fileHC = "$rootDir"."HC.csv";
+$stringHC{'emea'} = "Latest Hype Cycle:\&nbsp\;<\/b\><br \/>";
+$stringHC{'it'}   = "Ultimo Hype Cycle:\&nbsp\;<\/b\><br \/>";
+$stringHC{'de'}   = "Aktuellster Hype Cycle:\&nbsp\;<\/b\><br \/\>";
+
+$currentVR = "/home/gartner/html/rt/content/emea/home_vr_headlines.incl";
+$fileVR = "$rootDir"."VR.csv";
+$stringVR{'emea'} = "Latest Ratings";
+$stringVR{'it'}   = "Ultime valutazioni";
+$stringVR{'de'}   = "Aktuellste Vendor Ratings";
+
+
+
+
+##############################################################
+# Get the input from the HTML Form
+if ($ENV{'CONTENT_LENGTH'} || $ENV{'QUERY_STRING'}) {
+
+    $cgi = new CGI_Lite;
+    %FORM = $cgi->parse_form_data;
+
+    $FORM{'locale'} = "emea" if (!$FORM{'locale'});
+
+    # what to do
+
+    # deal with going back to the latest
+    $FORM{'code'} = "latest" if ($FORM{'code1'} eq "latest");
+    if ($FORM{'override'} && $FORM{'code'} eq "latest") {
+
+	# set flag
+	$flagLatest = 1;
+
+    	# this will delete/unlink the lock file
+    	$FORM{'code'}  = 0;
+    	$VRcodes       = 0;
+
+    }
+
+
+    if ($FORM{'pickMQ'}) {
+
+        &openFile($fileMQ);
+        if ($FORM{'locale'} eq "emea") {
+            $currentMQ = "/home/gartner/html/rt/content/emea/home_mq_headlines.incl";
+        } else {
+            $currentMQ = "/home/gartner/html/rt/content/emea/"."$FORM{'locale'}"."/home_mq_headlines.incl";
+        }
+        &openCurrent($currentMQ);
+        $FORM{'type'} = "MQ";
+        &printForm;
+        exit;
+
+    } elsif ($FORM{'override'} && $FORM{'type'} eq "MQ") {
+
+    	&openFile($fileMQ);
+    	&formatMQ;
+        if ($FORM{'locale'} eq "emea") {
+            $currentMQ = "/home/gartner/html/rt/content/emea/home_mq_headlines.incl";
+        } else {
+            $currentMQ = "/home/gartner/html/rt/content/emea/"."$FORM{'locale'}"."/home_mq_headlines.incl";
+        }
+    	&writeInclude($currentMQ);
+    	$msg = "lock failed<p\>" if (!&writeLock('MQ', $FORM{'locale'}, $FORM{'code'}));
+    	&printResults;
+    	exit;
+
+    } elsif ($FORM{'xhtml'} && $FORM{'type'} eq "MQ") {
+
+    	&openFile($fileMQ);
+    	&formatMQ;
+        if ($FORM{'locale'} eq "emea") {
+            $currentMQ = "/home/gartner/html/rt/content/emea/xhtml_mq_headlines.incl";
+        } else {
+            $currentMQ = "/home/gartner/html/rt/content/emea/"."$FORM{'locale'}"."/xhtml_mq_headlines.incl";
+        }
+	$line = $xhtml;
+    	&writeInclude($currentMQ);
+	&printResults;
+    	exit;
+
+   } elsif ($FORM{'pickHC'}) {
+
+        &openFile($fileHC);
+        if ($FORM{'locale'} eq "emea") {
+            $currentHC = "/home/gartner/html/rt/content/emea/home_hc_headlines.incl";
+        } else {
+            $currentHC = "/home/gartner/html/rt/content/emea/"."$FORM{'locale'}"."/home_hc_headlines.incl";
+        }
+        &openCurrent($currentHC);
+        $FORM{'type'} = "HC";
+        &printForm;
+        exit;
+
+    } elsif ($FORM{'override'} && $FORM{'type'} eq "HC") {
+
+    	&openFile($fileHC);
+    	&formatHC;
+    	if ($FORM{'locale'} eq "emea") {
+            $currentHC = "/home/gartner/html/rt/content/emea/home_hc_headlines.incl";
+        } else {
+            $currentHC = "/home/gartner/html/rt/content/emea/"."$FORM{'locale'}"."/home_hc_headlines.incl";
+        }
+    	&writeInclude($currentHC);
+    	&writeLock('HC', $FORM{'locale'}, $FORM{'code'});
+    	&printResults;
+    	exit;
+
+    } elsif ($FORM{'xhtml'} && $FORM{'type'} eq "HC") {
+
+    	&openFile($fileHC);
+    	&formatHC;
+    	if ($FORM{'locale'} eq "emea") {
+            $currentHC = "/home/gartner/html/rt/content/emea/xhtml_hc_headlines.incl";
+        } else {
+            $currentHC = "/home/gartner/html/rt/content/emea/"."$FORM{'locale'}"."/xhtml_hc_headlines.incl";
+        }
+	$line = $xhtml;
+    	&writeInclude($currentHC);
+    	&printResults;
+    	exit;
+	
+    } elsif ($FORM{'pickVR'}) {
+	
+        &openFile($fileVR);
+        if ($FORM{'locale'} eq "emea") {
+            $currentVR = "/home/gartner/html/rt/content/emea/home_vr_headlines.incl";
+        } else {
+            $currentVR = "/home/gartner/html/rt/content/emea/"."$FORM{'locale'}"."/home_vr_headlines.incl";
+        }
+	&openCurrent($currentVR);
+        $FORM{'type'} = "VR";
+        &printForm;
+        exit;
+
+    } elsif ($FORM{'override'} && $FORM{'type'} eq "VR") {
+
+    	&openFile($fileVR);
+    	&formatVR;
+        if ($FORM{'locale'} eq "emea") {
+            $currentVR = "/home/gartner/html/rt/content/emea/home_vr_headlines.incl";
+        } else {
+            $currentVR = "/home/gartner/html/rt/content/emea/"."$FORM{'locale'}"."/home_vr_headlines.incl";
+        }
+        &writeInclude($currentVR);
+        $VRcodes = "$FORM{'code1'}\t$FORM{'code2'}\t$FORM{'code3'}" if (!$flagLatest);
+    	&writeLock('VR', $FORM{'locale'}, $VRcodes);
+    	&printResults;
+    	exit;
+
+    } elsif ($FORM{'xhtml'} && $FORM{'type'} eq "VR") {
+
+    	&openFile($fileVR);
+    	&formatVR;
+        if ($FORM{'locale'} eq "emea") {
+            $currentVR = "/home/gartner/html/rt/content/emea/xhtml_vr_headlines.incl";
+        } else {
+            $currentVR = "/home/gartner/html/rt/content/emea/"."$FORM{'locale'}"."/xhtml_vr_headlines.incl";
+        }
+	$line = $xhtml;
+        &writeInclude($currentVR);
+    	&printResults;
+    	exit;
+
+  }
+
+
+
+} else {
+
+    $FORM{'pickVR'} = 1;
+    $FORM{'type'} = "VR";
+    $FORM{'locale'} = "emea";
+    &openFile($fileVR);
+        if ($FORM{'locale'} eq "emea") {
+            $currentVR = "/home/gartner/html/rt/content/emea/home_vr_headlines.incl";
+        } else {
+            $currentVR = "/home/gartner/html/rt/content/emea/"."$FORM{'locale'}"."/home_vr_headlines.incl";
+        }
+    &openCurrent($currentVR);
+
+    &printForm;
+
+}
+exit;
+
+
+
+
+########################################################################
+sub printResults {
+
+	if ($flagLatest) {
+		$line = "<tr\><td\>using default<\/td\><\/tr\>";
+	}
+print <<ENDofHTML;
+Content-type:  text/html
+
+<html>
+<head>
+<script src="/pages/docs/gartner/hc/scripts/utils.js"></script>
+<script src="/pages/docs/gartner/mq/scripts/utils.js"></script>
+<style type="text/css">
+h1,h2,h3,ol,li,body {	font-family: Verdana, Arial, Sans;	}
+h1	{		font-size: 14pt;	}
+h2	{		font-size: 12pt;	}
+h3	{		font-size: 10pt;	}
+li	{		font-size: 9pt;	        }
+</style>
+</head>
+<body>
+<h2>now</h2>
+<table cellpadding="0" cellspacing="0">
+$line
+</table>
+
+</body>
+</html>
+ENDofHTML
+
+
+}
+
+########################################################################
+sub printForm {
+
+if (&testLock($FORM{'type'}, $FORM{'locale'})) {
+	$lock = "file override ON";
+} else {
+	$lock = "file override OFF";
+}
+
+print <<ENDofHTML;
+Content-type:  text/html
+
+<html>
+<head>
+<script src="/pages/docs/gartner/hc/scripts/utils.js"></script>
+<script src="/pages/docs/gartner/mq/scripts/utils.js"></script>
+<style type="text/css">
+h1,h2,h3,ol,li,body {	font-family: Verdana, Arial, Sans;	}
+h1	{		font-size: 14pt;	}
+h2	{		font-size: 12pt;	}
+h3	{		font-size: 10pt;	}
+li	{		font-size: 9pt;	        }
+</style>
+
+</head>
+<body>
+<form action="/rt/pickMQHCVR.cgi" method="POST">
+
+<input type="hidden" name="locale" value="$FORM{'locale'}" />
+<input type="hidden" name="type" value="$FORM{'type'}" />
+
+<h1>$FORM{'type'}</h1>
+<h2>local - $FORM{'locale'}</h2>
+
+<h3>currently - $lock</h3>
+<table cellpadding="0" cellspacing="0">
+$current
+</table>
+
+<h3>override</h3>
+<ol>
+$startline
+$line
+</ol>
+<input type="submit" name="override" value="override">
+<input type="submit" name="xhtml" value="xhtml">
+
+</form>
+</body>
+</html>
+ENDofHTML
+}
+
+
+########################################################################
+sub openFile {
+
+    # 113833	20030320	Noninvasive Legacy Web Enablement Is Still Viable
+
+    open (FILE, "$_[0]") || die "can't open file: $_[0]\n";
+    while (<FILE>) {
+	chop();
+	local ($code, $date, $title) = split (/\t/);
+
+        # remove MQ from title
+        $title =~ s/MQ for//;
+        $title =~ s/Magic Quadrant for//;
+        $title =~ s/ Magic Quadrant//;
+
+        # remove Dates from title
+        $title =~ s/, 200\d://;
+        $title =~ s/, 200\d//;
+        $title =~ s/, \d\w\d\d//;
+        $title =~ s/\d\w\d\d//;
+
+        # remove HC from title
+        $title =~ s/Hype Cycle for//;
+
+        # remove VR from title
+        $title =~ s/Vendor Rating//;
+
+
+	local $nicedate = &processDate($date);
+	$title{$code} = $title;
+
+        if ($FORM{'pickVR'}) {
+
+        	$line .= <<ENDofLINE;
+<li> <input type="radio" name="code1" value="$code"/> <input type="radio" name="code2" value="$code"/><input type="radio" name="code3" value="$code"/><a href="http://regionals4.gartner.com/1_researchanalysis/vendor_rating/$code" target="_blank">$title</a> [$nicedate]</li>
+ENDofLINE
+       } elsif ($FORM{'pickHC'}) {
+        	$line .= <<ENDofLINE;
+<li> <input type="radio" name="code" value="$code"/><a href="javascript:void(null)" onclick="popUpHypeCycle($code)">$title</a> [$nicedate]</li>
+ENDofLINE
+       } else {
+		$line .= <<ENDofLINE;
+<li> <input type="radio" name="code" value="$code"/><a href="javascript:void(null)" onclick="popUpQuadrant($code)">$title</a> [$nicedate]</li>
+ENDofLINE
+}
+
+
+
+    }
+    close(FILE);
+
+    if ($FORM{'pickVR'}) {
+
+        	$startline .= <<ENDofLINE;
+<li> <input type="radio" name="code1" value="latest"/> <strong>use latest instead</strong></li>
+ENDofLINE
+       } else {
+        	$startline = <<ENDofLINE;
+<li> <input type="radio" name="code" value="latest"/> <strong>use latest instead</strong></li>
+ENDofLINE
+       }
+
+}
+
+########################################################################
+sub openCurrent {
+
+	open (CUR, "$_[0]") || die "can't open current file: $_[0]\n";
+	while (<CUR>) {
+	    $current .= $_;
+	}
+	close (CUR);
+	
+	# check to see if there is a latest file....
+	local $latest = "$_[0]"."\.latest";
+	if (-e "$latest") {
+	    # a latest file exists
+	    $cur .= "<h3\>Latest<\/h3\>\n";
+	    open (CUR, "$_[0]") || die "can't open latest file: $_[0]\n";
+	    while (<CUR>) {
+		$current .= $_;
+	    }
+	    close (CUR);
+	}
+	
+    }
+
+########################################################################
+sub writeInclude {
+
+    # write includes to locale directory
+    # inputs are filename
+
+    if ($flagLatest) {
+
+    	# need to copy latest to current
+    	`cp $_[0].latest $_[0]`;
+
+    } else {
+
+	# copy current to latest if it doesn't exitst
+	local $lfn = "$_[0]"."\.latest";
+
+	`cp $_[0] $_[0].latest` if (!-e "$lfn");
+
+    	# write new file
+
+    	open (OUT, ">$_[0]") || die "Can't write file: $_[0]\n";
+    	print OUT $line;
+    	close (OUT);
+
+    }
+
+    return;
+}
+
+########################################################################
+sub processDate {
+
+    local ($d, $m, $y);
+    $y = substr ($_[0], 0, 4);
+    $m = substr ($_[0], 4, 2);
+    $d = substr ($_[0], 6, 2);
+
+
+    $m{'01'} = "January"; # = "01";
+    $m{'02'} = "February"; # = "02";
+    $m{'03'} = "March"; # = "03";
+    $m{'04'} = "April"; # = "04";
+    $m{'05'} = "May"; # = "05";
+    $m{'06'} = "June"; # = "06";
+    $m{'07'} = "July"; # = "07";
+    $m{'08'} = "August"; # = "08";
+    $m{'09'} = "September"; # = "09";
+    $m{'10'} = "October"; # = "10";
+    $m{'11'} = "November"; # = "11";
+    $m{'12'} = "December"; # = "12";
+
+    local $newdate = "$d $m{$m} $y";
+    return($newdate);
+
+}
+
+########################################################################
+sub formatMQ {
+
+	$line = <<ENDofHTML;
+<tr>
+  <td width="10" height="2" bgcolor="#E3E9EC"><img src="/images/trans_pixel.gif" width="10" height="2" alt="" border="0"></td>
+  <td width="336" height="2" bgcolor="#E3E9EC"><div><img src="/images/trans_pixel.gif" width="1" height="2" alt="" border="0"></div><span class="focusAreaLink"><b>$stringMQ{$FORM{'locale'}}<a href="javascript:void(null)" onclick="popUpQuadrant($FORM{'code'})" class="smallThinBlueLink"><b><br>$title{$FORM{'code'}}</b></a><br>
+ <div><img src="/images/trans_pixel.gif" width="1" height="6" alt="" border="0"></div></td>
+  <td width="10" height="2" bgcolor="#E3E9EC"><img src="/images/trans_pixel.gif" width="10" height="2" alt="" border="0"></td>
+</tr>
+ENDofHTML
+
+	$xhtml = <<ENDofHTML;
+<div class="mq_hc_vrLatest">
+            <p>$stringMQ{$FORM{'locale'}}</p>
+            <p><a href="javascript:void(null)" onclick="popUpQuadrant($FORM{'code'})">$title{$FORM{'code'}}</a></p>
+</div>
+ENDofHTML
+
+
+}
+
+########################################################################
+sub formatHC {
+
+	$line = <<ENDofHTML;
+<tr>
+  <td width="10" height="2" bgcolor="#E3E9EC"><img src="/images/trans_pixel.gif" width="10" height="2" alt="" border="0"></td>
+  <td width="336" height="2" bgcolor="#E3E9EC"><div><img src="/images/trans_pixel.gif" width="1" height="2" alt="" border="0"></div><span class="focusAreaLink"><b>$stringHC{$FORM{'locale'}}<a href="javascript:void(null)" onclick="popUpHypeCycle($FORM{'code'})" class="smallThinBlueLink"><b>$title{$FORM{'code'}}</b></a><br><div><img src="/images/trans_pixel.gif" width="1" height="6" alt="" border="0"></div></td>
+   <td width="10" height="2" bgcolor="#E3E9EC"><img src="/images/trans_pixel.gif" width="10" height="2" alt="" border="0"></td>
+</tr>
+
+ENDofHTML
+
+
+	$xhtml = <<ENDofHTML;
+<div class="mq_hc_vrLatest">
+            <p>$stringHC{$FORM{'locale'}}</p>
+            <p><a href="javascript:void(null)" onclick="popUpHypeCycle($FORM{'code'})">$title{$FORM{'code'}}</a></p>
+</div>
+ENDofHTML
+
+
+}
+
+
+########################################################################
+sub formatVR {
+
+	if ($FORM{'locale'} eq "it") {
+		$left = 130;
+		$right = 206;
+	} elsif ($FORM{'locale'} eq "de") {
+		$left = 190;
+		$right = 146;
+	} else {
+		$left = 100;
+		$right = 236;
+	}
+
+
+
+
+
+	$line = <<ENDofHTML;
+	  <span class="focusAreaLink"><b>$stringVR{$FORM{'locale'}}</b></span><br />
+
+          <img src="/images/homepage/arrow_trans_k.gif" width="10" height="10" alt="" border="0"><a href="/1_researchanalysis/vendor_rating/$FORM{'code1'}" class="smallThinBlueLink"><b>$title{$FORM{'code1'}}</b></a><br />
+          <img src="/images/homepage/arrow_trans_k.gif" width="10" height="10" alt="" border="0"><a href="/1_researchanalysis/vendor_rating/$FORM{'code2'}" class="smallThinBlueLink"><b>$title{$FORM{'code2'}}</b></a><br />
+
+          <img src="/images/homepage/arrow_trans_k.gif" width="10" height="10" alt="" border="0"><a href="/1_researchanalysis/vendor_rating/$FORM{'code3'}" class="smallThinBlueLink"><b>$title{$FORM{'code3'}}</b></a><br />
+
+
+   </td>
+   <td width="10" height="2" bgcolor="#E3E9EC"><img src="/images/trans_pixel.gif" width="10" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td bgcolor="#E3E9EC" colspan="3"><div><img src="/images/trans_pixel.gif" width="1" height="8" alt="" border="0"></div></td>
+</tr>
+<tr>
+   <td width="356" height="2" colspan="3" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="356" height="2" alt="" border="0"></td>
+</tr>
+<!-- END VENDOR RATING BLOCK -->
+</table>
+
+<table width="360" border="0" cellspacing="0" cellpadding="0">
+<tr>
+   <td width="360" height="2" bgcolor="#BBBBBB"><img src="/images/trans_pixel.gif" width="360" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+<table width="360" border="0" cellspacing="0" cellpadding="0">
+<tr>
+   <td bgcolor="#ffffff"><img src="/images/trans_pixel.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+
+ENDofHTML
+
+
+
+
+
+
+
+
+
+	$oldline = <<ENDofHTML;
+	  <tr>
+          <td width="$left" valign="top"><span class="focusAreaLink"><b>$stringVR{$FORM{'locale'}}</b></span></td>
+          <td width="$right" valign="top"></td>
+          </tr>
+
+          <tr>
+          <td width="$left" valign="top"></td>
+          <td width="$right" valign="top"><img src="/images/homepage/arrow_trans_k.gif" width="10" height="10" alt="" border="0"><a href="/1_researchanalysis/vendor_rating/$FORM{'code1'}" class="smallThinBlueLink"><b>$title{$FORM{'code1'}}</b></a></td>
+          </tr>
+
+          <tr>
+          <td width="$left" valign="top"></td>
+          <td width="$right" valign="top"><img src="/images/homepage/arrow_trans_k.gif" width="10" height="10" alt="" border="0"><a href="/1_researchanalysis/vendor_rating/$FORM{'code2'}" class="smallThinBlueLink"><b>$title{$FORM{'code2'}}</b></a></td>
+          </tr>
+
+          <tr>
+          <td width="$left" valign="top"></td>
+          <td width="$right" valign="top"><img src="/images/homepage/arrow_trans_k.gif" width="10" height="10" alt="" border="0"><a href="/1_researchanalysis/vendor_rating/$FORM{'code3'}" class="smallThinBlueLink"><b>$title{$FORM{'code3'}}</b></a></td>
+          </tr>
+
+          <tr>
+	  <td><div><img src="/images/trans_pixel.gif" width="1" height="8" alt="" border="0"></div></td>
+	  </tr>
+      </table>
+   </td>
+   <td width="10" height="2" bgcolor="#E3E9EC"><img src="/images/trans_pixel.gif" width="10" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+   <td width="356" height="2" colspan="3" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="356" height="2" alt="" border="0"></td>
+</tr>
+<!-- END VENDOR RATING BLOCK -->
+</table>
+
+<table width="360" border="0" cellspacing="0" cellpadding="0">
+<tr>
+   <td width="360" height="2" bgcolor="#BBBBBB"><img src="/images/trans_pixel.gif" width="360" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+<table width="360" border="0" cellspacing="0" cellpadding="0">
+<tr>
+   <td bgcolor="#ffffff"><img src="/images/trans_pixel.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+
+ENDofHTML
+
+
+    $xhtml = <<ENDofHTML;
+       <div class="mq_hc_vrLatest">
+           <p>$stringVR{$FORM{'locale'}}</p>
+             <ul class="mq_hc_vrLatestList">
+               <li><a href="/1_researchanalysis/vendor_rating/$FORM{'code1'}">$title{$FORM{'code1'}}</a></li>
+               <li><a href="/1_researchanalysis/vendor_rating/$FORM{'code2'}">$title{$FORM{'code2'}}</a></li>
+               <li><a href="/1_researchanalysis/vendor_rating/$FORM{'code3'}">$title{$FORM{'code3'}}</a></li>
+             </ul>
+       </div>
+ENDofHTML
+
+}
+
+########################################################################

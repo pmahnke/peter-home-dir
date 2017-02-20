@@ -1,0 +1,26 @@
+FontName (Helvetica-Condensed-BlackObl)
+FullName (Helvetica Condensed Black Oblique)
+AppleName (Helvetica CondensedBlackObl)
+AppleFONDID 14969
+FamilyName (Helvetica)
+version (001.004)
+isFixedPitch false
+CharacterSet (isoadobe)
+Encoding (StandardEncoding)
+ItalicAngle -12
+CapHeight 750
+UnderlinePosition -100
+UnderlineThickness 50
+StemWidth 159
+Serif false
+Pi false
+MSMenuName (Helvetica CondensedBlack)
+VPMenuName (Helvetica CondensedBlack)
+WORDMenuName (HelveticaCondensedBlack)
+VPTypefaceID 60
+VPStyle (I)
+PCFileNamePrefix (HVCO_)
+PCLTypefaceID 20484
+PCLStrokeWeight 5
+PCLStyle 5
+

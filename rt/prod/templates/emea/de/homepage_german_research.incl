@@ -1,0 +1,64 @@
+<table>
+<tr>
+ <td class=headline>
+Deutsche Forschung
+ </td>
+</tr>
+
+<tr><td><img src=//img/grey_pixel.gif alt=line width=100% height=1></td></tr>
+
+<tr>
+ <td>
+<table cellspacing=1 bgcolor=white>
+
+<tr>
+ <td nowrap class=service align=center><a href="01_locale_cio-focus.html" class=service>
+CIO-Focus
+</a>
+ </td>
+
+ <td><font class=medium>
+Exklusivintorm ation en fur das Management
+ </td>
+</tr>
+
+<tr>
+ <td class=service align=center><a href="01_locale_itips.html" class=service>
+ITips
+</a>
+ </td>
+
+ <td><font class=medium>
+Information en fr den IT-Professional
+ </td>
+</tr>
+
+<tr>
+ <td class=service align=center><a href="01_locale_tec-news.html" class=service>
+TEC-News
+</a>
+ </td>
+
+ <td><font class=medium>
+Die wichigsten Nachrichen
+ </td>
+</tr>
+
+</table>
+
+ </td>
+</tr>
+
+<tr>
+ <td align=right>
+   <form method="get" target=search action="">
+    <input type="text" size="40" maxsize="256" name="keywords" value="">
+    <input type="button" size=40 value="Suche Deutsche Forschung">
+   </form>
+ 
+ </td>
+</tr>
+
+</table>
+
+

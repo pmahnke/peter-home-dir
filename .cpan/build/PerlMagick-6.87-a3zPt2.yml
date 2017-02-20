@@ -1,0 +1,40 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Image::Magick
+  CHECKSUM_STATUS: OK
+  ID: J/JC/JCRISTY/PerlMagick-6.87.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: JCRISTY
+  archived: tar
+  build_dir: /home/peter/.cpan/build/PerlMagick-6.87-a3zPt2
+  incommandcolor: 1
+  localfile: /home/peter/.cpan/sources/authors/id/J/JC/JCRISTY/PerlMagick-6.87.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 3
+    FAILED: 1
+    TEXT: NO
+    TIME: 1386370964
+  negative_prefs_cache: 3
+  prefs: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires: {}
+  reqtype: c
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 3
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370963
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 3
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370963
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370964

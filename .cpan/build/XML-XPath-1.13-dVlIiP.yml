@@ -1,0 +1,53 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: XML::XPath
+  CHECKSUM_STATUS: OK
+  ID: M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: MSERGEANT
+  archived: tar
+  build_dir: /home/peter/.cpan/build/XML-XPath-1.13-dVlIiP
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370833
+  localfile: /home/peter/.cpan/sources/authors/id/M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370830
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370833
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires:
+      XML::Parser: 2.23
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370829
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370829
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370833

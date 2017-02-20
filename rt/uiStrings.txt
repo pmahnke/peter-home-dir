@@ -1,0 +1,53 @@
+eu~Welcome	de~Willkommen	it~<script language="javascript" type="text/javascript">var nowT = new Date();  var hour = nowT.getHours();  if ( hour < 15 && hour > 2 ) {  greeting = "Buon giorno";  } else { greeting = "Buona sera"; } document.write (greeting);</script>
+eu~Administrator	de~Administration	it~Amministrazione
+eu~Ask an Analyst	de~Fragen Sie einen Analysten	it~Consulta un analista
+eu~Your Profile	de~Ihr Profil	it~Il mio profilo
+eu~Project Setup	de~Project Setup	it~Come impostare un progetto
+eu~Your Events	de~Ihre Sitzungen	it~I miei eventi
+eu~Accessibility	de~Behindertengerecht	it~Gartner Accessibility Website
+eu~EXP Website	de~EXP Website	it~EXP sito
+eu~sign off	de~Abmelden	it~Esci
+eu~Worldwide	de~Weltweit	it~Gartner nel mondo
+eu~Europe	de~Europa	it~Europa
+eu~Germany	de~Deutschland	it~Germania
+eu~Italy	de~Italien	it~Italia
+eu~Austria	de~Österreich	it~
+eu~January	de~Januar	it~gennaio
+eu~February	de~Februar	it~febbraio
+eu~March	de~März	it~marzo
+eu~April	de~April	it~aprile
+eu~May	de~Mai	it~maggio
+eu~June	de~Juni	it~giugno
+eu~July	de~Juli	it~luglio
+eu~August	de~August	it~agosto
+eu~September	de~September	it~settembre
+eu~October	de~Oktober	it~ottobre
+eu~November	de~November	it~novembre
+eu~December	de~Dezember	it~dicembre
+eu~Alerts	de~	it~Avvisi automatici
+eu~Other Gartner Websites	de~Andere Gartner Webseiten	it~Altri siti web
+eu~Websites	de~Webseiten	it~siti web
+eu~Israel	de~	it~Israele
+eu~Japan	de~	it~Giappone
+eu~Current Users	de~Kunden	it~Utente
+eu~New Users	de~Neu bei Gartner?	it~Nuovo utente
+eu~Sign In	de~Anmelden	it~Login
+eu~Register	de~Registrieren	it~Registrati
+eu~sign_in_02.gif	de~de_login.gif	it~it_login.gif
+eu~register_02.gif	de~de_register.gif	it~it_registrati.gif
+eu~Media Relations	de~Presse	it~Media
+eu~Help	de~Hilfe	it~Aiuto
+eu~About Gartner	de~&Uuml;ber Gartner	it~Chi siamo
+eu~Investor Relations	de~Investor Relations	it~Relazioni con gli investitori
+eu~Vendor Relations	de~Vendor Relations	it~Relazioni con i fornitori
+eu~Careers	de~Arbeiten bei Gartner	it~Opportunit&agrave; di lavoro
+eu~Site Index	de~Sitemap	it~Mappa del sito
+eu~Contact Us	de~Kontakt	it~Contattaci
+eu~/ContactUs?param=no	de~/regionalization/content/emea/de/06_contactpopup.html	it~/ContactUs?param=no	at~/regionalization/content/emea/de/at/06_contactpopup.html
+eu~Sign Off	de~Abmelden	it~Esci
+eu~Sign-In	de~Anmelden	it~Login
+eu~Privacy Policy	de~Datenschutz	it~Informativa sulla privacy
+eu~Terms of Use	de~Nutzungsbedingungen	it~Condizioni per l'utilizzo
+eu~and/or its Affiliates.	de~und/oder seine Tochtergesellschaften.	it~o le relative filiali.
+eu~All Rights Reserved.	de~Alle Rechte vorbehalten.	it~Tutti i diritti riservati.
+eu~View the Special Report	de~Special Report: Gartner Hype Cycles		it~View the Special Report

@@ -1,0 +1,62 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Dist::CheckConflicts
+  CHECKSUM_STATUS: OK
+  ID: D/DO/DOY/Dist-CheckConflicts-0.09.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: DOY
+  archived: tar
+  build_dir: /home/peter/.cpan/build/Dist-CheckConflicts-0.09-zU5Gtx
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370097
+  localfile: /home/peter/.cpan/sources/authors/id/D/DO/DOY/Dist-CheckConflicts-0.09.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370097
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370097
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      File::Find: 0
+      File::Temp: 0
+      Test::Fatal: 0
+      Test::More: 0.88
+    requires:
+      Carp: 0
+      Exporter: 0
+      List::MoreUtils: 0.12
+      Module::Runtime: 0
+      base: 0
+      strict: 0
+      warnings: 0
+  reqtype: b
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370096
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370096
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370097

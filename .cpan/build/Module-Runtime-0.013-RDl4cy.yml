@@ -1,0 +1,58 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Module::Runtime
+  CHECKSUM_STATUS: OK
+  ID: Z/ZE/ZEFRAM/Module-Runtime-0.013.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: ZEFRAM
+  archived: tar
+  build_dir: /home/peter/.cpan/build/Module-Runtime-0.013-RDl4cy
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370024
+  localfile: /home/peter/.cpan/sources/authors/id/Z/ZE/ZEFRAM/Module-Runtime-0.013.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370023
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370024
+  modulebuild: 1
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      Module::Build: 0
+      Test::More: 0
+      perl: 5.006
+      strict: 0
+      warnings: 0
+    requires:
+      perl: 5.006
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370023
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370023
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370024

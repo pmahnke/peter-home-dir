@@ -1,0 +1,71 @@
+1..14
+
+1: get: simple get of 'From'
+1:   A: "me@myhost.com"
+1:   B: "me@myhost.com"
+1: ok 1
+
+2: get: indexed get(0) of 'From' gets first
+2:   A: "me@myhost.com"
+2:   B: "me@myhost.com"
+2: ok 2
+
+3: get: indexed get(-1) of 'From' gets first
+3:   A: "me@myhost.com"
+3:   B: "me@myhost.com"
+3: ok 3
+
+4: get: indexed get(0) of 'FROM' gets From
+4:   A: "me@myhost.com"
+4:   B: "me@myhost.com"
+4: ok 4
+
+5: add: scalar context get of 'Received'
+5:   A: "sined"
+5:   B: "sined"
+5: ok 5
+
+6: add: scalar context get(0) of 'Received'
+6:   A: "sined"
+6:   B: "sined"
+6: ok 6
+
+7: add: scalar context get(1) of 'Received'
+7:   A: "seeled"
+7:   B: "seeled"
+7: ok 7
+
+8: add: scalar context get(2) of 'Received'
+8:   A: "delivered"
+8:   B: "delivered"
+8: ok 8
+
+9: add: scalar context get(-1) of 'Received'
+9:   A: "delivered"
+9:   B: "delivered"
+9: ok 9
+
+10: add: array context get of 'Received', indexed to 1'th elem
+10:   A: "seeled"
+10:   B: "seeled"
+10: ok 10
+
+11: delete: deletion of RECEIVED worked
+11: ok 11
+
+12: replace: replace of SUBJECT worked
+12:   A: "Hellooooo, nurse!"
+12:   B: "Hellooooo, nurse!"
+12: ok 12
+
+13: attr: replace of charset worked
+13:   A: "US-ASCII"
+13:   B: "US-ASCII"
+13: ok 13
+
+14: attr: replace of charset worked on whole line
+14:   A: "text/plain; charset=\22US-ASCII\22"
+14:   B: "text/plain; charset=\22US-ASCII\22"
+14: ok 14
+
+# END

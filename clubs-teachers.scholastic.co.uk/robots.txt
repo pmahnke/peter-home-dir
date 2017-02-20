@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /schoolbookclub/login
+Disallow: /schoolbookclub/join
+Disallow: /schoolbookclub/register
+Disallow: /schoolbookclub/forgotten-password
+Disallow: /schoolbookclub/order-add-to
+Disallow: /isbc/login
+Disallow: /isbc/join
+Disallow: /isbc/register
+Disallow: /isbc/forgotten-password
+Disallow: /isbc/order-add-to

@@ -1,0 +1,39 @@
+    p, td, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, td, tr
+     {  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: x-small; font-weight: normal; font-style: normal; color: #4a4a4a;  }
+    a            {  color:#308ACF; text-decoration: none;  }
+    a:hover      {  text-decoration: underline;  }
+    h1           {  font-size: 120%; font-weight: bold; line-height: 140%;  }
+    h2           {  font-size: 110%; font-weight: bold; line-height: 130%;  }
+    h3           {  font-size: 100%; font-weight: bold; line-height: 120%;  }
+    h4           {  font-size: 95%;  font-weight: bold; line-height: 110%;  }
+    table        {  width: 100%;  }
+    td           {  font-size: 1em; border: 1px solid #ccc; margin: 0;  }
+    #container   {  width: 95%; margin: 0 10px;  }
+    image        {  display: block;  }
+    #logo        {  width: 100%; margin: 0; padding: 0;  background: #555; height: 35px;  }
+    #notenumber  {  background: #95C0DD; height: 24px; margin: 0; padding: 0; border-bottom: 5px solid #ccc;  }
+    #notenumber p {  font-size: 0.75em; font-weight: bold; color: #FFF; 
+                      vertical-align: middle; text-align: right; margin: 0; padding: 3px 5px;  }
+    #content     {  font-size: .8em; padding: 10px; $sideBarStyle }
+    #content p   {  padding: 5px 0; } 
+    #content ul, #content li
+	{  font-size: 1em;  }
+    #content li {  line-height: 130%; padding: 5px; }
+
+    #footer      {  font-size: 80%; padding: 10px;  } 
+    #topics      {  padding: 10px;  }
+    #header      {  padding: 10px; line-height: 120%; border-bottom: 1px solid #bbb;  }
+    #header h1   {  font-size: 140%; color: #333333; font-weight: bold; line-height: 150%;  }
+    #sideBar     {  float: right; width: 200px; \width: 210px; w\idth: 200px; 
+                    margin: 0; margin-left: 2px; padding: 20px 5px; font-size: 80%; border-left: 1px solid #ccc; }
+    #sideBar p   {  line-height: 100%;  }
+    .date        {  font-size: 0.70em; color: #333333;  }
+    .author      {  font-size: 70%; color: #333333;  }
+    .summary     {  font-size: 80%; color: #333333;  }
+    #copyright   {  font-size: .7em; padding: 10px; font-style: italic; color: #999;  }
+  
+    .linewhitetwo {  height: 2px; margin: 0; padding: 0; background-color: #fff; font-size: 0;  }
+    .greyline       {  height: 2px; margin: 0; padding: 0; background-color: #bbb; font-size: 0;  }
+    .greyfiveline   {  height: 5px; margin: 0; padding: 0; background-color: #bbb; font-size: 0;  }  
+    .linegreyone    {  height: 1px; margin: 0; padding: 0; background-color: #bbb; font-size: 0;  }  
+    .resource       { color: #fff;  }

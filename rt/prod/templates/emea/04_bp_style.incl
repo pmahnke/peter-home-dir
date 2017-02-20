@@ -1,0 +1,18 @@
+<style>
+
+.04_bp_darkTitle {
+  font-family:       verdana, arial, helvetica;
+  font-size:         24px;
+  font-weight:       bold;
+  background-color:  #000000;
+  color:             #ffffff;
+}
+
+.04_bp_blueHead {
+
+  font-family:       verdana, arial, helvetica;
+  font-size:         18px;
+  font-weight:       bold;
+  color:             #3366cc;
+}
+</style>

@@ -1,0 +1,71 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: G/GA/GAAS/HTTP-Message-6.06.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: G/GA/GAAS/HTTP-Message-6.06.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: GAAS
+  archived: tar
+  build_dir: /home/peter/.cpan/build/HTTP-Message-6.06-zQQk9R
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370147
+  localfile: /home/peter/.cpan/sources/authors/id/G/GA/GAAS/HTTP-Message-6.06.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370146
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370147
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires:
+      Compress::Raw::Zlib: 0
+      Encode: 2.21
+      Encode::Locale: 1
+      HTTP::Date: 6
+      IO::Compress::Bzip2: 2.021
+      IO::Compress::Deflate: 0
+      IO::Compress::Gzip: 0
+      IO::HTML: 0
+      IO::Uncompress::Bunzip2: 2.021
+      IO::Uncompress::Gunzip: 0
+      IO::Uncompress::Inflate: 0
+      IO::Uncompress::RawInflate: 0
+      LWP::MediaTypes: 6
+      MIME::Base64: 2.1
+      MIME::QuotedPrint: 0
+      URI: 1.10
+      perl: 5.008001
+  reqtype: r
+  sponsored_mods:
+    HTTP::Date: 1
+    IO::HTML: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370142
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370142
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370147

@@ -1,0 +1,8 @@
+       <div class="mq_hc_vrLatest">
+           <p>Latest Ratings</p>
+             <ul class="mq_hc_vrLatestList">
+               <li><a href="/1_researchanalysis/vendor_rating/vr_deloitte.jsp">Deloitte</a></li>
+               <li><a href="/1_researchanalysis/vendor_rating/vr_ibm.jsp">IBM</a></li>
+               <li><a href="/1_researchanalysis/vendor_rating/vr_bearingpoint.jsp">BearingPoint</a></li>
+             </ul>
+       </div>

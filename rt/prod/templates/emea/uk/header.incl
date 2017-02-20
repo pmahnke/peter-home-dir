@@ -1,0 +1,83 @@
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<form method="post" name="frmSearch" onsubmit="submitSearch();return false;">
+<tr>
+    <td align="left" ><script>
+    var regQuery = null;
+    var regUC    = null;
+    regQuery     = GetCooky("regQuery");
+    regUC        = GetCooky("regUC");
+    if (regQuery!=null) {
+        if (regUC=="EXPPrem") {
+           document.write("<a href=\"EXPPremhomepage.jsp?" + regQuery + "\">");
+        } else if (regUC=="EXPClub") {
+           document.write("<a href=\"EXPClubhomepage.jsp?" + regQuery + "\">");
+        } else {
+           document.write("<a href=\"rec_home.jsp?" + regQuery + "\">");
+        }
+   } else {
+         document.write("<a href=\"home.jsp\">");
+   }
+</script><img border="0" src="//img/header/emea/uk/gartner_logo_uk.gif" width="170" height="43" vspace="6"></a></td>
+    
+    <td background="//img/header/fade.jpg" class="fade" height="45" width="39" align="right"><img src="//img/header/fade_spacer.gif" height="45" width="39"></td>
+    <td background="//img/header/stripes.jpg" class="combo" align="right" width="460" >
+     <table cellpadding="0" cellspacing="0" border="0" align="right"  width="460">
+     <tr>
+       <td height="10" align="right"  width="460"><img height="10" width="1" src="//img/trans_pixel.gif" /></td>
+       </tr>
+       <tr>
+       <td valign="middle" align="right" width="116"><img src="//img/header/emea/uk/search_research.gif" height="12" width="107" border="0" align="right"/> </td>
+       <td align="right" width="265" ><input type="text" size="40" maxlength="128" name="txtSearch" id="txtSearch" value=""></td>
+       <td align="right" width="68"><input type="button" value="Search" onFocus="textFocus=3" onBlur="textFocus=0" onclick="submitSearch();"></td>
+       <td width="10" align="right"><img height="10" width="10" src="//img/trans_pixel.gif" /></td>
+       </tr>
+       </table>
+       </td>
+    </tr>
+    </form>
+    </table>
+    
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr class="tabRow">
+       <td  width="436">
+       <table cellpadding="0" cellspacing="0" border="0" width="436">
+       <tr>
+          <td><script>
+    var regQuery = null;
+    var regUC    = null;
+    regQuery     = GetCooky("regQuery");
+    regUC        = GetCooky("regUC");
+    if (regQuery!=null) {
+        if (regUC=="EXPPrem") {
+           document.write("<a href=\"EXPPremhomepage.jsp?" + regQuery + "\">");
+        } else if (regUC=="EXPClub") {
+           document.write("<a href=\"EXPClubhomepage.jsp?" + regQuery + "\">");
+        } else {
+           document.write("<a href=\"rec_home.jsp?" + regQuery + "\">");
+        }
+   } else {
+         document.write("<a href=\"home.jsp\">");
+   }
+</script><img border="0" src="//img/header/emea/uk/tab_home.gif" width="99" height="19" alt="home" /></a></td>
+          <td><img width="5" height="1" src="//img/trans_pixel.gif" /></td>
+          <td><a href="01_research.html"><img border="0" src="//img/header/emea/uk/tab_research.gif" width="99" height="19" alt="research" /></a></td>
+          <td><img width="5" height="1" src="//img/trans_pixel.gif" /></td>
+          <td><a href="02_consulting.html"><img border="0" src="//img/header/emea/uk/tab_consulting.gif" width="99" height="19" alt="consulting" /></a></td>
+          <td><img width="5" height="1" src="//img/trans_pixel.gif" /></td>
+          <td><a href="03_measurement.html"><img border="0" src="//img/header/emea/uk/tab_measurement.gif" width="99" height="19" alt="measurement" /></a></td>
+          <td><img width="5" height="1" src="//img/trans_pixel.gif" /></td>
+          <td><a href="04_community.html"><img border="0" src="//img/header/emea/uk/tab_community.gif" width="99" height="19" alt="community" /></a></td>
+          <td><img width="5" height="1" src="//img/trans_pixel.gif" /></td>
+          <td><a href="05_news.html"><img border="0" src="//img/header/emea/uk/tab_news.gif" width="99" height="19" alt="news" /></a></td>
+       </tr>
+       </table>
+       </td>  
+       
+       <td height="3"><img height="3" src="//img/trans_pixel.gif" width="16"></td> 
+       
+       <td align="right" width="99%" height="1"><a class="linkTextSmallBold" href="javascript:browse()"><b>Browse</b></a>   <a class="linkTextSmallBold"  href="javascript:advancedSearch()"><b>Advanced Search</b></a> <a class="linkTextSmallBold" href="http://www4.gartner.com/6_help/help_overview.html"><b>Help</b></a>      </td>
+  </tr>   
+  <tr>
+    <td class="contentCell" height="3" width="100%" colspan="3"><img height="3" src="//img/trans_pixel.gif"></td>
+  </tr>
+</table>

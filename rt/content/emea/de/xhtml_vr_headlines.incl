@@ -1,0 +1,8 @@
+       <div class="mq_hc_vrLatest">
+           <p>Aktuellste Vendor Ratings</p>
+             <ul class="mq_hc_vrLatestList">
+               <li><a href="/1_researchanalysis/vendor_rating/vr_alcatel.jsp">Alcatel</a></li>
+               <li><a href="/1_researchanalysis/vendor_rating/vr_fujitsusiemens.jsp">Fujitsu Siemens Computers</a></li>
+               <li><a href="/1_researchanalysis/vendor_rating/vr_deloitte.jsp">Deloitte</a></li>
+             </ul>
+       </div>

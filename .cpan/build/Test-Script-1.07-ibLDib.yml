@@ -1,0 +1,62 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: A/AD/ADAMK/Test-Script-1.07.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: A/AD/ADAMK/Test-Script-1.07.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: ADAMK
+  archived: tar
+  build_dir: /home/peter/.cpan/build/Test-Script-1.07-ibLDib
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369979
+  localfile: /home/peter/.cpan/sources/authors/id/A/AD/ADAMK/Test-Script-1.07.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369978
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369979
+  negative_prefs_cache: 4
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires:
+      ExtUtils::MakeMaker: 6.42
+      File::Spec: 0.80
+      IPC::Run3: 0.034
+      Probe::Perl: 0.01
+      Test::Builder: 0.32
+      Test::Builder::Tester: 1.02
+      Test::More: 0.62
+      blib: 0
+  reqtype: r
+  sponsored_mods:
+    IPC::Run3: 1
+    Probe::Perl: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369973
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369974
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386369979

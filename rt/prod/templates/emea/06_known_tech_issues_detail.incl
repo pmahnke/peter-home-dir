@@ -1,0 +1,58 @@
+<!-- start Known Technical Issues -->
+<table border="0" cellspacing="0" cellpadding="4" width="640">
+    <tr>
+        <td colspan="1" class="head1">
+Gartner Europe: Known Technical Issues
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="1" class="contentText">
+This page provides a listing of all Known Technical Issues with the Gartner Europe site.
+<p />
+
+Gartner Europe has made every attempt to make this site function correctly and as intuitively as users expect.  
+However there are always challenges to make every bit of the functionality work as desired.  
+The purpose of this page is to openly share with our users all know issues that the Gartner Europe team is aware of and any status on a fix, if possible.
+<p /> 
+
+If you have additional comments or other queries, <a  class="linkText" href="javascript:void(null)" onclick="window.open('/ContactUs?param=no','_blank','height=520,width=632,scrollbars=yes')">please contact us</a>.
+<p />
+        </td>
+    </tr>
+
+    <tr class="contentCell">
+        <td class="crumbBold">
+Security Messages on Starting Administration or User Profile
+        </td>
+    </tr>
+    
+    <tr class="contentText">
+        <td>
+This is caused because the Administration and User Profile applications are hosted on a secure server (https) but the Gartner Europe header pulls graphics from a non-secure server (http).  There is no issue for user security as a result, please select "OK" and continue to use Administration and User Profile.
+<p />
+Last Update - <i>10 September 2002</i><br />
+Status - <i>in process</i><br />
+<p />
+        </td>
+    </tr>
+
+    <tr class="contentCell">
+        <td class="crumbBold">
+Certain Pop-Up Windows have a Gartner Logo, not Gartner Europe
+        </td>
+    </tr>
+    
+    <tr class="contentText">
+        <td>
+Gartner Europe is a part of Gartner and shares all resources with gartner.com.  So many applications and error messages might say "Gartner".  We are in the process of cleaning many of these up; however, it is merely a superficial change, any changes you make in gartner.com will appear in Gartner Europe and any changes in Gartner Europe are reflected in gartner.com.
+<p />
+Last Update - <i>10 September 2002</i><br />
+Status - <i>ongoing</i><br />
+<p />
+        </td>
+    </tr>
+
+</table>
+
+<!-- end Known Technical Issues -->

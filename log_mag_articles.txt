@@ -1,0 +1,320 @@
+looking at url: http://magazines.scholastic.co.uk/content/7227
+got page: http://magazines.scholastic.co.uk/content/7227
+saving page at: mags/7227.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/3864
+got page: http://magazines.scholastic.co.uk/content/3864
+saving page at: mags/3864.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7133
+got page: http://magazines.scholastic.co.uk/content/7133
+saving page at: mags/7133.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/1958
+got page: http://magazines.scholastic.co.uk/content/1958
+saving page at: mags/1958.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/8240
+got page: http://magazines.scholastic.co.uk/content/8240
+saving page at: mags/8240.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/4722
+got page: http://magazines.scholastic.co.uk/content/4722
+saving page at: mags/4722.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7130
+got page: http://magazines.scholastic.co.uk/content/7130
+saving page at: mags/7130.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7595
+got page: http://magazines.scholastic.co.uk/content/7595
+saving page at: mags/7595.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7092
+got page: http://magazines.scholastic.co.uk/content/7092
+saving page at: mags/7092.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6623
+got page: http://magazines.scholastic.co.uk/content/6623
+saving page at: mags/6623.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7768
+got page: http://magazines.scholastic.co.uk/content/7768
+saving page at: mags/7768.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/8079
+got page: http://magazines.scholastic.co.uk/content/8079
+saving page at: mags/8079.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/8083
+got page: http://magazines.scholastic.co.uk/content/8083
+saving page at: mags/8083.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6850
+got page: http://magazines.scholastic.co.uk/content/6850
+saving page at: mags/6850.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/5262
+got page: http://magazines.scholastic.co.uk/content/5262
+saving page at: mags/5262.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/1562
+got page: http://magazines.scholastic.co.uk/content/1562
+saving page at: mags/1562.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/51936
+got page: http://magazines.scholastic.co.uk/resources/51936
+saving page at: mags/51936.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6983
+got page: http://magazines.scholastic.co.uk/content/6983
+saving page at: mags/6983.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/15797
+got page: http://magazines.scholastic.co.uk/resources/15797
+saving page at: mags/15797.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/2081
+got page: http://magazines.scholastic.co.uk/content/2081
+saving page at: mags/2081.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6743
+got page: http://magazines.scholastic.co.uk/content/6743
+saving page at: mags/6743.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/47440
+got page: http://magazines.scholastic.co.uk/resources/47440
+saving page at: mags/47440.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/50792
+got page: http://magazines.scholastic.co.uk/resources/50792
+saving page at: mags/50792.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/45098
+got page: http://magazines.scholastic.co.uk/resources/45098
+saving page at: mags/45098.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/8041
+got page: http://magazines.scholastic.co.uk/content/8041
+saving page at: mags/8041.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/43078
+got page: http://magazines.scholastic.co.uk/resources/43078
+saving page at: mags/43078.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/3684
+got page: http://magazines.scholastic.co.uk/content/3684
+saving page at: mags/3684.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/30356
+got page: http://magazines.scholastic.co.uk/resources/30356
+saving page at: mags/30356.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/4596
+got page: http://magazines.scholastic.co.uk/content/4596
+saving page at: mags/4596.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/4641
+got page: http://magazines.scholastic.co.uk/content/4641
+saving page at: mags/4641.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/50391
+got page: http://magazines.scholastic.co.uk/resources/50391
+saving page at: mags/50391.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/45155
+got page: http://magazines.scholastic.co.uk/resources/45155
+saving page at: mags/45155.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7584
+got page: http://magazines.scholastic.co.uk/content/7584
+saving page at: mags/7584.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6946
+got page: http://magazines.scholastic.co.uk/content/6946
+saving page at: mags/6946.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6449
+got page: http://magazines.scholastic.co.uk/content/6449
+saving page at: mags/6449.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6966
+got page: http://magazines.scholastic.co.uk/content/6966
+saving page at: mags/6966.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/45782
+got page: http://magazines.scholastic.co.uk/resources/45782
+saving page at: mags/45782.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/13285
+got page: http://magazines.scholastic.co.uk/resources/13285
+saving page at: mags/13285.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/2911
+got page: http://magazines.scholastic.co.uk/content/2911
+saving page at: mags/2911.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/3770
+got page: http://magazines.scholastic.co.uk/content/3770
+saving page at: mags/3770.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/8154
+got page: http://magazines.scholastic.co.uk/content/8154
+saving page at: mags/8154.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/1899
+got page: http://magazines.scholastic.co.uk/content/1899
+saving page at: mags/1899.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7030
+got page: http://magazines.scholastic.co.uk/content/7030
+saving page at: mags/7030.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6863
+got page: http://magazines.scholastic.co.uk/content/6863
+saving page at: mags/6863.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/52920
+got page: http://magazines.scholastic.co.uk/resources/52920
+saving page at: mags/52920.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/52918
+got page: http://magazines.scholastic.co.uk/resources/52918
+saving page at: mags/52918.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/51831
+got page: http://magazines.scholastic.co.uk/resources/51831
+saving page at: mags/51831.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7606
+got page: http://magazines.scholastic.co.uk/content/7606
+saving page at: mags/7606.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/5793
+got page: http://magazines.scholastic.co.uk/content/5793
+saving page at: mags/5793.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/50221
+got page: http://magazines.scholastic.co.uk/resources/50221
+saving page at: mags/50221.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/2242
+got page: http://magazines.scholastic.co.uk/content/2242
+saving page at: mags/2242.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7217
+got page: http://magazines.scholastic.co.uk/content/7217
+saving page at: mags/7217.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7847
+got page: http://magazines.scholastic.co.uk/content/7847
+saving page at: mags/7847.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7746
+got page: http://magazines.scholastic.co.uk/content/7746
+saving page at: mags/7746.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/30478
+got page: http://magazines.scholastic.co.uk/resources/30478
+saving page at: mags/30478.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7286
+got page: http://magazines.scholastic.co.uk/content/7286
+saving page at: mags/7286.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/8163
+got page: http://magazines.scholastic.co.uk/content/8163
+saving page at: mags/8163.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6686
+got page: http://magazines.scholastic.co.uk/content/6686
+saving page at: mags/6686.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6966
+got page: http://magazines.scholastic.co.uk/content/6966
+saving page at: mags/6966.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6265
+got page: http://magazines.scholastic.co.uk/content/6265
+saving page at: mags/6265.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/5565
+got page: http://magazines.scholastic.co.uk/content/5565
+saving page at: mags/5565.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7943
+got page: http://magazines.scholastic.co.uk/content/7943
+saving page at: mags/7943.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6454
+got page: http://magazines.scholastic.co.uk/content/6454
+saving page at: mags/6454.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6892
+got page: http://magazines.scholastic.co.uk/content/6892
+saving page at: mags/6892.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/2125
+got page: http://magazines.scholastic.co.uk/content/2125
+saving page at: mags/2125.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7116
+got page: http://magazines.scholastic.co.uk/content/7116
+saving page at: mags/7116.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/4471
+got page: http://magazines.scholastic.co.uk/content/4471
+saving page at: mags/4471.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/2761
+got page: http://magazines.scholastic.co.uk/content/2761
+saving page at: mags/2761.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6949
+got page: http://magazines.scholastic.co.uk/content/6949
+saving page at: mags/6949.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/48853
+got page: http://magazines.scholastic.co.uk/resources/48853
+saving page at: mags/48853.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/1537
+got page: http://magazines.scholastic.co.uk/content/1537
+saving page at: mags/1537.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/5781
+got page: http://magazines.scholastic.co.uk/content/5781
+saving page at: mags/5781.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/52922
+got page: http://magazines.scholastic.co.uk/resources/52922
+saving page at: mags/52922.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/8354
+got page: http://magazines.scholastic.co.uk/content/8354
+saving page at: mags/8354.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/45861
+got page: http://magazines.scholastic.co.uk/resources/45861
+saving page at: mags/45861.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/5769
+got page: http://magazines.scholastic.co.uk/content/5769
+saving page at: mags/5769.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/3675
+got page: http://magazines.scholastic.co.uk/content/3675
+saving page at: mags/3675.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/5790
+got page: http://magazines.scholastic.co.uk/content/5790
+saving page at: mags/5790.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7091
+got page: http://magazines.scholastic.co.uk/content/7091
+saving page at: mags/7091.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/4085
+got page: http://magazines.scholastic.co.uk/content/4085
+saving page at: mags/4085.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7311
+got page: http://magazines.scholastic.co.uk/content/7311
+saving page at: mags/7311.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/626
+got page: http://magazines.scholastic.co.uk/content/626
+saving page at: mags/626.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/3554
+got page: http://magazines.scholastic.co.uk/content/3554
+saving page at: mags/3554.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/8167
+got page: http://magazines.scholastic.co.uk/content/8167
+saving page at: mags/8167.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/4541
+got page: http://magazines.scholastic.co.uk/content/4541
+saving page at: mags/4541.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7097
+got page: http://magazines.scholastic.co.uk/content/7097
+saving page at: mags/7097.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/1334
+got page: http://magazines.scholastic.co.uk/content/1334
+saving page at: mags/1334.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/52917
+got page: http://magazines.scholastic.co.uk/resources/52917
+saving page at: mags/52917.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/2751
+got page: http://magazines.scholastic.co.uk/content/2751
+saving page at: mags/2751.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/49727
+got page: http://magazines.scholastic.co.uk/resources/49727
+saving page at: mags/49727.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/4219
+got page: http://magazines.scholastic.co.uk/content/4219
+saving page at: mags/4219.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/2073
+got page: http://magazines.scholastic.co.uk/content/2073
+saving page at: mags/2073.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/853
+got page: http://magazines.scholastic.co.uk/content/853
+saving page at: mags/853.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/4254
+got page: http://magazines.scholastic.co.uk/content/4254
+saving page at: mags/4254.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7534
+got page: http://magazines.scholastic.co.uk/content/7534
+saving page at: mags/7534.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/8048
+got page: http://magazines.scholastic.co.uk/content/8048
+saving page at: mags/8048.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7983
+got page: http://magazines.scholastic.co.uk/content/7983
+saving page at: mags/7983.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/8258
+got page: http://magazines.scholastic.co.uk/content/8258
+saving page at: mags/8258.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/45159
+got page: http://magazines.scholastic.co.uk/resources/45159
+saving page at: mags/45159.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6398
+got page: http://magazines.scholastic.co.uk/content/6398
+saving page at: mags/6398.html.erb
+looking at url: http://magazines.scholastic.co.uk/resources/48282
+got page: http://magazines.scholastic.co.uk/resources/48282
+saving page at: mags/48282.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/2714
+got page: http://magazines.scholastic.co.uk/content/2714
+saving page at: mags/2714.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7486
+got page: http://magazines.scholastic.co.uk/content/7486
+saving page at: mags/7486.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/2619
+got page: http://magazines.scholastic.co.uk/content/2619
+saving page at: mags/2619.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/6984
+got page: http://magazines.scholastic.co.uk/content/6984
+saving page at: mags/6984.html.erb
+looking at url: http://magazines.scholastic.co.uk/content/7895
+got page: http://magazines.scholastic.co.uk/content/7895
+saving page at: mags/7895.html.erb
+Done.
+

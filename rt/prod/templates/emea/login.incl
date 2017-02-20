@@ -1,0 +1,70 @@
+
+<%
+  // Added as part of the hard launch push
+  
+  //on entry to the page, get the value for the lgnfail parameter
+  //if it is true then popup the SignInPopup with the invalid username/password
+  //error message displaying
+  String loginFailure = (String)request.getParameter("lgnfail");
+  if ((loginFailure != null) && (loginFailure.equals("Y")))
+  {
+%>
+  <script>
+     openSigninPopup('<%=response.encodeURL("http://regionals.gartner.com/emea/SigninPopup2.jsp?call=homepage&locale=emea&parentWindow=regionals_gartner_com_homepage&lgnfail=Y") %>')
+  </script>
+<%
+  }
+%>
+
+<style>
+
+.buttonDescribe
+	{ 
+	  font-family:verdana,arial,helvetica; 
+	  background:#ffffff;
+	  color:#000000; 
+	  font-size:9pt; 
+	 
+	  font-weight:bold; 
+	  TEXT-DECORATION: none;
+	}  
+	
+</style>
+
+<MAP name=4ways>
+<AREA shape=RECT alt="Latest Research" coords=94,21,219,30 href="javascript:openAllLatestResearch()">
+<AREA shape=RECT alt="Browse Research" coords=94,33,211,44 href="javascript:browse()">
+<AREA shape=RECT alt="Search Research" coords=94,47,212,58 href="javascript:advancedSearch()">
+<AREA shape=RECT alt="Focus Areas" coords=94,61,213,71
+href="http://www4.gartner.com/1_researchanalysis/focus/21a.html">
+</map>
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td bgcolor="black" height="1" colspan="6"><img height="1" src="//img/trans_pixel.gif"></td>
+</tr>
+
+<tr>
+<td valign="top" width="334" align="left" bgcolor="white" nowrap><img src="//img/header/header_homepage_emea_left.jpg" width="334" height="122" border="0"></td>
+<td bgcolor="white" height="1" width="100%" ><img height="1" width="14" src="//img/trans_pixel.gif"></td>
+<td valign="top" width="100%" align="right" bgcolor="white"><img src="//img/header/header_homepage_emea_right.jpg" width="192" height="122" border="0"></td>
+<td bgcolor="black" width="5" height="1"><img height="1" width="5" src="//img/trans_pixel.gif"></td>
+<td bgcolor="black">
+<table cellpadding="0" cellspacing="0" border="0" width="210" height="122">
+<tr><td bgcolor="black" height="1"><img height="1" width="122" src="//img/trans_pixel.gif"></td>
+<td bgcolor="black" height="1"><img height="1" width="88" src="//img/trans_pixel.gif"></td></tr>
+<tr><td bgcolor="white" valign="middle" colspan="2" height="1"><img height="1" width="1" src="//img/trans_pixel.gif" vspace="0" hspace="0"></td></tr>
+<tr><td valign="middle" width="122" bgcolor="white" height="19" valign="middle" class="buttonDescribe"><img height="1" width="15" src="//img/trans_pixel.gif" vspace="0" hspace="0">New Users</td><td class="whiteBack" bgcolor="white" valign="middle" width="88" height="19" valign="middle"><A href="https://<%= httpsDomainName %>/0_admin/RegUserInfo.jsp?RegionalsReg=y&locale=emea"><img src="//img/header/register_2b.gif" height="19" width="70" border="0" vspace="1" hspace="0"></a></td></tr>
+<tr><td class="whiteBack" bgcolor="white" valign="middle" colspan="2" height="2"><img height="2" width="1" src="//img/trans_pixel.gif" vspace="0" hspace="0"></td></tr><tr><td valign="middle" width="122" height="19" valign="middle" class="buttonDescribe" bgcolor="white"><img height="1" width="15" src="//img/trans_pixel.gif" vspace="0" hspace="0">Current Users</td><td class="whiteBack" bgcolor="white" valign="middle" width="88" height="19" valign="middle">
+<a href="javascript:void(null)" onclick="openSigninPopup('<%=response.encodeURL("http://regionals.gartner.com/regions/content/emea/SigninPopup2.jsp?call=homepage&locale=emea&doalerts=y") %>')">
+<img src="//img/header/signin_2b.gif" border="0" height="19" width="70" vspace="0" hspace="0"></a></td></tr><tr><td bgcolor="white" class="whiteBack" valign="middle" colspan="2" height="2"><img height="2" width="1" src="//img/trans_pixel.gif" vspace="0" hspace="0"></td></tr><tr><td class="blackBack" bgcolor="black" valign="middle" height="1" colspan="2"><img height="1" width="1" src="//img/trans_pixel.gif" vspace="0"></td></tr><tr>
+<td class="blackBack" bgcolor="black" align="center" valign="middle" colspan="2" width="210" height="73"><a href="*"><IMG 
+height=73 src="//img/header/4_ways.gif" width=210 useMap=#4ways border=0></a></td></tr></tr>
+</table></td>
+<td bgcolor="black"><img height="1" width="1" src="//img/trans_pixel.gif"></td>
+</tr>
+
+<tr>
+<td bgcolor="black" colspan="6"><img height="3" src="//img/trans_pixel.gif"></td>
+</tr>
+</table>

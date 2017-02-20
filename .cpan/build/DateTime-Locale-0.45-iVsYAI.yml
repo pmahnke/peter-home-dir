@@ -1,0 +1,58 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: D/DR/DROLSKY/DateTime-Locale-0.45.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: D/DR/DROLSKY/DateTime-Locale-0.45.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: DROLSKY
+  archived: tar
+  build_dir: /home/peter/.cpan/build/DateTime-Locale-0.45-iVsYAI
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370049
+  localfile: /home/peter/.cpan/sources/authors/id/D/DR/DROLSKY/DateTime-Locale-0.45.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370043
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370048
+  modulebuild: 1
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      Module::Build: 0
+    requires:
+      List::MoreUtils: 0
+      Params::Validate: 0.91
+      perl: 5.006
+  reqtype: r
+  sponsored_mods:
+    List::MoreUtils: 1
+    Params::Validate: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370008
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370009
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370049

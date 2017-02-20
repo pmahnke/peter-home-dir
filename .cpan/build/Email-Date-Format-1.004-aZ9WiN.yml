@@ -1,0 +1,58 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Email::Date::Format
+  CHECKSUM_STATUS: OK
+  ID: R/RJ/RJBS/Email-Date-Format-1.004.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: RJBS
+  archived: tar
+  build_dir: /home/peter/.cpan/build/Email-Date-Format-1.004-aZ9WiN
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 2
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386422782
+  localfile: /home/peter/.cpan/sources/authors/id/R/RJ/RJBS/Email-Date-Format-1.004.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 2
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386422782
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 2
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386422782
+  negative_prefs_cache: 2
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      Capture::Tiny: 0
+      Test::More: 0.96
+      blib: 0
+    requires:
+      Exporter: 5.57
+      Time::Local: 0
+      strict: 0
+      warnings: 0
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 2
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386422781
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 2
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386422781
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386422782

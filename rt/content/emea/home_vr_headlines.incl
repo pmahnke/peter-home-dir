@@ -1,0 +1,30 @@
+<!-- created by homepage_parser.pl -->
+
+<span class="focusAreaLink"><b>Latest Ratings: </b></span><br />
+          <img src="/images/homepage/arrow_trans_k.gif" width="10" height="10" alt="" border="0"><a href="/DisplayDocument?doc_cd=125968" onClick="openResult('/DisplayDocument?doc_cd=125968'); return false;" target="_new" class="smallThinBlueLink"><b>Vignette</b></a><br />
+          <img src="/images/homepage/arrow_trans_k.gif" width="10" height="10" alt="" border="0"><a href="/DisplayDocument?doc_cd=127106" onClick="openResult('/DisplayDocument?doc_cd=127106'); return false;" target="_new" class="smallThinBlueLink"><b>Deloitte</b></a><br />
+          <img src="/images/homepage/arrow_trans_k.gif" width="10" height="10" alt="" border="0"><a href="/DisplayDocument?doc_cd=128057" onClick="openResult('/DisplayDocument?doc_cd=128057'); return false;" target="_new" class="smallThinBlueLink"><b>DoubleClick</b></a><br />
+
+   </td>
+   <td width="10" height="2" bgcolor="#E3E9EC"><img src="/images/trans_pixel.gif" width="10" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+  <td bgcolor="#E3E9EC" colspan="3"><div><img src="/images/trans_pixel.gif" width="1" height="8" alt="" border="0"></div></td>
+</tr>
+<tr>
+   <td width="356" height="2" colspan="3" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="356" height="2" alt="" border="0"></td>
+</tr>
+<!-- END VENDOR RATING BLOCK -->
+</table>
+
+<table width="360" border="0" cellspacing="0" cellpadding="0">
+<tr>
+   <td width="360" height="2" bgcolor="#BBBBBB"><img src="/images/trans_pixel.gif" width="360" height="2" alt="" border="0"></td>
+</tr>
+</table>
+
+<table width="360" border="0" cellspacing="0" cellpadding="0">
+<tr>
+   <td bgcolor="#ffffff"><img src="/images/trans_pixel.gif" width="1" height="2" alt="" border="0"></td>
+</tr>
+</table>

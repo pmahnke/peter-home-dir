@@ -1,0 +1,61 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: B/BD/BDFOY/Test-Output-1.02.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: B/BD/BDFOY/Test-Output-1.02.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: BDFOY
+  archived: tar
+  build_dir: /home/peter/.cpan/build/Test-Output-1.02-IrQwu3
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370094
+  localfile: /home/peter/.cpan/sources/authors/id/B/BD/BDFOY/Test-Output-1.02.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370092
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370094
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires:
+      Capture::Tiny: 0.17
+      File::Temp: 0.17
+      Sub::Exporter: 0
+      Test::More: 0
+      Test::Tester: 0.107
+      perl: 5.006
+  reqtype: b
+  sponsored_mods:
+    Capture::Tiny: 1
+    Sub::Exporter: 1
+    Test::Tester: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370054
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370054
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370094

@@ -1,0 +1,3 @@
+$html = <<EndofHTML;
+$content
+EndofHTML

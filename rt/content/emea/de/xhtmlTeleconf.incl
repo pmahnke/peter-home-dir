@@ -1,0 +1,20 @@
+    <div id="regionalEventTeleconferences">
+
+        <h3><a href="/teleconferences/teleconferences_landing.jsp">Telekonferenzen</a></h3>
+
+        <p>Einw&auml;hlen, zuh&ouml;ren und mit Gartner-Analysten &uuml;ber Schl&uuml;sselthemen sprechen (englischsprachig).</p>
+
+        <ul class="regionalEventList">
+            <li><a href="/teleconferences/asset_128750_75.jsp">Selecting the Best Financials and Human Resources Application</a><br>19. Juli</li>
+            <li><a href="/teleconferences/asset_128747_75.jsp">The Business Value of IT: New Answers to an Old Problem</a><br>19. Juli</li>
+            <li><a href="/teleconferences/asset_129271_75.jsp">Evaluating CRM Applications, Both On Premise and Off</a><br>20. Juli</li>
+            <li><a href="/teleconferences/asset_128744_75.jsp">Identity and Access Management (IAM) Update</a><br>29. Juli</li>
+
+        </ul>
+
+        <ul class="regionalEventMore">
+            <li><a href="/teleconferences/teleconferences_landing.jsp">Weitere Telekonferenzen</a></li>
+        </ul>
+
+        <br clear="all">
+    </div><!-- end div regionalEventTeleconferences -->

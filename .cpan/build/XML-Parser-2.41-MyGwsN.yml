@@ -1,0 +1,54 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: XML::Parser
+  CHECKSUM_STATUS: OK
+  ID: T/TO/TODDR/XML-Parser-2.41.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: TODDR
+  archived: tar
+  build_dir: /home/peter/.cpan/build/XML-Parser-2.41-MyGwsN
+  incommandcolor: 1
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370819
+  localfile: /home/peter/.cpan/sources/authors/id/T/TO/TODDR/XML-Parser-2.41.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370818
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370819
+  negative_prefs_cache: 4
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires:
+      LWP: 0
+      perl: 5.00405
+  reqtype: c
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370814
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370814
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370819

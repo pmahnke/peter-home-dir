@@ -1,0 +1,296 @@
+<!-- home_prehtml.incl -->
+
+
+<%@ page import="com.gartner.wcw.dataobject.Login"%>
+<%@ page import="com.gartner.wcw.helper.WCWProperties"%>
+<%@ page import="com.gartner.wcw.helper.RegistrationConstants"%>
+<%@ page import="com.gartner.wcw.regionalization.UserLogin"%>
+<%@ page import="com.gartner.wcw.typecode.ResourceTypeCode"%>
+<%@ page import="java.lang.reflect.Array"%>
+
+
+<%
+    System.out.println("Entered home_prehtml.incl............");
+     /*
+     REDIRECTION
+     this code will determine if you need to be sent to another "home" page
+     based on three cookies
+     it exists because the gartner.com home tab just sends people back to the home.jsp
+     this isn't right if you are logged in already, but a further twist is that you
+     might be an EXP user and need to go to an EXP page
+     */
+
+     String  stayHere = request.getParameter("stayHere");
+     if (stayHere == null)
+     {
+
+       String  cookieVal        =  null;
+       String  cookieNam        =  null;
+       String  cookieRegUC      =  null;
+       String  cookieRegQuery   =  null;
+       String  cookieUserLocale = "emea";
+       String  localeDir        =  null;
+       boolean flagLoggedIn     =  false;
+  
+       // read three cookies
+       Cookie[] cookie = request.getCookies();
+       int k = 0;
+       if (cookie != null)
+       {
+         while (k < cookie.length)
+         {
+             Cookie thisCookie = cookie[k];
+             cookieNam = thisCookie.getName();
+  
+             if ((cookieNam != null) && (cookieNam.equals("userLocaleCookie")))
+             {
+                 cookieUserLocale = cookieVal = thisCookie.getValue();
+             }
+  
+             if ((cookieNam != null) && (cookieNam.equals("regQuery")))
+             {
+                 cookieRegQuery = cookieVal = thisCookie.getValue();
+             }
+             if ((cookieNam != null) &&  (cookieNam.equals("regUC")))
+             {
+                 cookieRegUC = cookieVal = thisCookie.getValue();
+                 flagLoggedIn = true;
+             }
+             k++;
+          }
+       }
+  
+       if (cookieRegUC != null)
+       {
+           // figure out which locale you need to redirect people to
+           if ((cookieUserLocale != null) && (cookieUserLocale.equals("de")))
+           {
+               localeDir = "de/";
+           }
+           else if ((cookieUserLocale != null) && (cookieUserLocale.equals("it")))
+           {
+               localeDir = "it/";
+           }
+           else if ((cookieUserLocale != null) && (cookieUserLocale.equals("fr")))
+           {
+               localeDir = "fr/";
+           }
+           else if ((cookieUserLocale != null) && (cookieUserLocale.equals("uk")))
+           {
+               localeDir = "uk/";
+           }
+           else 
+           {
+               localeDir = "";
+           }
+       }
+    
+       if (flagLoggedIn)
+       {
+    
+          // do the redirection
+         if (cookieRegUC.equals("EXPPrem"))
+         {
+             %><script>
+              window.location="//regions/content/emea/<%=localeDir%>EXPPremhomepage.jsp?<%=cookieRegQuery%>";
+             </script><%
+             // response.sendRedirect("//regions/content/emea/" + localeDir + "EXPPremhomepage.jsp?" + cookieRegQuery);
+         }
+         else if (cookieRegUC.equals("EXPClub"))
+         {
+             %><script>
+              window.location="//regions/content/emea/<%=localeDir%>EXPClubhomepage.jsp?<%=cookieRegQuery%>";
+             </script><%
+             // response.sendRedirect("//regions/content/emea/" + localeDir + "EXPClubhomepage.jsp?" + cookieRegQuery);
+         }
+         else if (cookieRegUC.equals("loggedin"))
+         {
+             %><script>
+              window.location="//regions/content/emea/<%=localeDir%>rec_home.jsp?<%=cookieRegQuery%>";
+             </script><%
+             // response.sendRedirect("//regions/content/emea/" + localeDir + "rec_home.jsp?" + cookieRegQuery);
+          }
+        }
+     }
+%>
+
+
+<%
+  // clear out session floaters if necessary
+  String refresh = (String)request.getParameter("refresh");
+  System.out.println("refresh parameter is = " + refresh);
+  if (refresh != null)
+  {
+    UserLogin ul = new UserLogin();
+    ul.clearEvilSessionFloaters(session);
+    session.setAttribute(RegistrationConstants.LOGINDATAOBJECT, null);
+    System.out.println("rec home [matrix] session.getAttribute(RegistrationConstants.LOGINDATAOBJECT) = " + session.getAttribute(RegistrationConstants.LOGINDATAOBJECT));
+  }
+%>
+
+
+<%
+  response.setHeader("Pragma", "no-cache");
+  response.setHeader("Expires", "0");
+  response.setHeader("Cache-control", "no-cache, must-revalidate");
+
+// WCW 1.3 Revision 1.6
+
+  String strError = null;
+  String userNameError = null;
+  String call = request.getParameter("call");
+  String inProgressFlg = "N";
+  if (session != null){
+  strError = (String)session.getAttribute("error");
+  session.removeAttribute("error");
+  userNameError = (String) session.getAttribute("userNameError");
+    if(strError != null){
+  session.removeAttribute("userNameError");
+    }
+  inProgressFlg = (String) session.getAttribute("inProgressFlg");
+  }
+
+//session.removeAttribute("inProgressFlg");
+  Login login = null;
+  String  ResId = (String) request.getParameter("resId");
+  String domainName = WCWProperties.getProperty(RegistrationConstants.GARTNER_WCW, "DOMAINNAME");
+  String httpsDomainName = WCWProperties.getProperty(RegistrationConstants.GARTNER_WCW, "HTTPSDOMAINNAME");
+  String  LoginRequired = (String) request.getParameter(RegistrationConstants.LOGINREQUIRED);
+    if (null!=session && (null==LoginRequired || LoginRequired.equals(""))) LoginRequired =
+        (String) session.getAttribute(RegistrationConstants.LOGINREQUIRED);
+    if (null!=session &&
+        (null==LoginRequired || LoginRequired.equals("") || !LoginRequired.equalsIgnoreCase("true")) &&
+        null!=(login =(Login) session.getAttribute(RegistrationConstants.LOGINDATAOBJECT)) &&
+        0L!=login.getUserId() && login.getInprogressFlg().equalsIgnoreCase("N"))
+                        response.sendRedirect(response.encodeRedirectURL("//regions/content/emea/rec_home.jsp"));
+%>
+
+
+
+
+<script language="JavaScript">
+
+  scheme = "https";
+ if (scheme=="<%= request.getScheme() %>")
+ {
+     window.location.replace("http://<%= domainName %>/UnrecognizedUserHomePage.jsp");
+
+  }
+</script>
+
+
+<tm urlInclude=http://imgdvweb02.gartner.com/include/home_init_02.inc>
+
+
+<script>
+  var objSigninForm = null
+  var objInsightForm = null
+  var signinPopup;
+
+  var winCTR = 0 ;
+  var childWindow = new Array(20);
+
+  function GetCookie(name) {
+  var arg = name + "=";
+  var alen = arg.length;
+  var clen = document.cookie.length;
+  var i = 0;
+
+  while (i <  clen) {
+  var j = i + alen;
+
+  if (document.cookie.substring(i, j) == arg)
+  return getCookieVal (j);
+
+  i = document.cookie.indexOf(" ", i) + 1;
+
+  if (i == 0) break;
+  }
+  return null;
+  }
+
+  function getCookieVal (offset) {
+  var endstr = document.cookie.indexOf (";", offset);
+
+  if (endstr == -1)
+  endstr = document.cookie.length;
+  return unescape(document.cookie.substring(offset, endstr));
+  }
+
+  function goToURL() {
+  window.location="https://<%= httpsDomainName %>/0_admin/RegUserInfo.jsp";
+  }
+
+  function setCookie(name,value,expires,path,domain,secure) {
+  document.cookie = name + "=" +escape(value) +
+  ( (expires) ? ";expires=" + expires.toGMTString() : "") +
+  ( (path) ? ";path=" + path : "") +
+  ( (domain) ? ";domain=" + domain : "") +
+  ( (secure) ? ";secure" : "");
+  }
+
+  var usercookie=GetCookie("UserType");
+
+  if (usercookie!=null)
+  {
+  setCookie("UserType","0000");
+  }
+
+// insure footer refresh
+  if (footer&& footer.readyState && footer.readyState=="complete") footer.location.reload()
+  else if (top && top.footer&& top.footer.readyState && top.footer.readyState=="complete") footer.location.reload();
+
+  function validSignin(){
+  if (objSigninForm.txtUsername.value.length==0) {alert("Please enter a valid Username.");return false}
+  if (isBlank(objSigninForm.txtUsername.value)) {alert("Please enter a valid Username.");return false}
+  if (objSigninForm.txtPassword.value.length==0) {alert("Please enter a valid Password.");return false}
+  if (isBlank(objSigninForm.txtPassword.value)) {alert("Please enter a valid Password.");return false}
+  return true
+  }
+
+
+  function validEmail(){
+  strEmail = objInsightForm.txtEmail.value
+  if (strEmail.length==0 || strEmail=="Your e-mail address"||!isValidEMail(strEmail)) {alert("Please enter a valid Email Address.");return false}
+  return true
+  }
+
+  function popUp(URL) {
+  day = new Date();
+  id = day.getTime();
+  eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=275,height=250,left=150,top=135');");
+  }
+
+  function submitSignin(){
+  if (validSignin()) objSigninForm.submit();
+  }
+
+  function initForms(){
+  }
+
+
+  var VER = 0
+
+  <%
+  if(inProgressFlg != null){
+  if(inProgressFlg.equalsIgnoreCase("y")){
+  %>
+    window.location="/UserProfile?Prof=ProfUserInfo";
+    <% 	} } %>
+
+  function CallResearch(){
+  alert("Login or Register Now to access your research.");
+  }
+
+  function openAllLatestResearch(){
+       openSearch('<%= response.encodeURL("/7_search/Search2Frame.jsp?op=" + SearchOperation.ALL_LATEST)%>');
+     }
+        function advPopup(href) {
+         // for opening Gartner Advantage
+         window.open(href,"","width=568,height=600,scrollbars=yes")
+         return false;
+     }
+
+</script>
+
+

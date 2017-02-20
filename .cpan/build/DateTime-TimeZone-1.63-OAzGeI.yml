@@ -1,0 +1,76 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: D/DR/DROLSKY/DateTime-TimeZone-1.63.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: D/DR/DROLSKY/DateTime-TimeZone-1.63.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: DROLSKY
+  archived: tar
+  build_dir: /home/peter/.cpan/build/DateTime-TimeZone-1.63-OAzGeI
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370111
+  localfile: /home/peter/.cpan/sources/authors/id/D/DR/DROLSKY/DateTime-TimeZone-1.63.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370109
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370111
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      File::Copy: 0
+      Storable: 0
+      Sys::Hostname: 0
+      Test::More: 0.88
+      Test::Output: 0
+      base: 0
+      lib: 0
+      overload: 0
+    requires:
+      Class::Load: 0
+      Class::Singleton: 1.03
+      Cwd: 3
+      File::Basename: 0
+      File::Compare: 0
+      File::Find: 0
+      File::Spec: 0
+      List::Util: 0
+      Params::Validate: 0.72
+      constant: 0
+      parent: 0
+      strict: 0
+      vars: 0
+      warnings: 0
+  reqtype: r
+  sponsored_mods:
+    Class::Load: 1
+    Class::Singleton: 1
+    Test::Output: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370053
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370053
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370111

@@ -1,0 +1,29 @@
+Installing Fonts in ATM Light 4.0 in Windows 95/98 or NT 4
+
+In order to use your PostScript Type 1 fonts in Windows 95, 
+Windows 98, or Windows NT 4, you must first install 
+Adobe Type Manager® (ATM®), and then install the fonts through ATM. 
+ATM version 4.0 or higher is required for Windows 98 and NT 4, 
+and 3.02 or higher for Windows 95.
+
+To install Type 1 fonts in Windows 95/98 or Windows NT 4.0 using 
+ATM Light 4.0:
+
+1. Choose Start > Programs > Adobe > Adobe Type Manager.
+
+2. In ATM, click the Fonts tab.
+
+3. Choose Browse For Fonts from the Source pop-up menu.
+
+4. Navigate to the folder that contains the fonts you want to install 
+   (C:\temp\Adobe unless you told the installer to put them elsewhere). 
+   The fonts located in that folder will appear below the folder's name.
+
+5. Select the fonts you want to install. You can click to select one font, 
+   Ctrl-click to select several fonts, or Shift-click to select a contiguous 
+   group of fonts.
+
+6. Exit ATM.
+
+The fonts are now installed and will appear in the font menus of your 
+applications.

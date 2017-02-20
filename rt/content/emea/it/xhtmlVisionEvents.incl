@@ -1,0 +1,18 @@
+    <div  id="regionalEventsVision">
+
+        <a href="/EventsCal?opCode=1&amp;template=3&amp;eventType=7&amp;locationId=4|"><img src="/images/homepage/hdr_vision.gif" width="198" height="60" border="0" alt="Gartner Vision Events"></a>
+
+        <ul class="regionalEventList">
+	    <li><a href="http://www.midsizeenterprise.com/europe/main_menu.htm">Midsize Enterprise Summit UK &amp; Ireland</a><br />7-9 giugno<br />Dublino</li>
+	    <li><a href="http://www.retailvision.com/europe/">RetailVision Europe Fall</a><br />18-20 ottobre<br />Dublino</li>
+	    <li><a href="http://www.ppmsummit.com/europe/main.htm">Project Portfolio Management Europe</a><br />30&nbsp;novembre - 2&nbsp;dicembre<br />Lisbona</li>
+
+        </ul>
+
+        <ul class="regionalEventMore">
+            <li><a href="/EventsCal?opCode=1&amp;template=3&amp;eventType=7&amp;locationId=4|">Visualizza tutti i<br>Vision Events</a></li>
+            <li><a href="http://www.visionevents.com/" target="_blank">Altri Vision Events</a></li>
+        </ul>
+
+        <br clear="all">
+    </div><!-- end div regionalEventsVision -->

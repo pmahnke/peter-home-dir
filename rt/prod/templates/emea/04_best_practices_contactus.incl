@@ -1,0 +1,34 @@
+<table cellpadding="0" cellspacing="0" border="0" width="500" height="50">
+    <tr>
+       <td colspan="5" bgcolor="black" height="1" width="500"><img src="//img/trans_pixel.gif" height="1" width="500" /></td>
+    </tr>
+
+    <tr>
+       <td width="1" bgcolor="black" rowspan="4"><img src="//img/trans_pixel.gif" height="1" width="1" /></td>
+
+       <td width="100%" align="left" bgcolor="black" class="crumbBold" colspan="3"><b>Contact Us</b></td>
+    
+       <td width="1" bgcolor="black" rowspan="4"><img src="//img/trans_pixel.gif" height="1" width="1" /></td>
+
+    </tr>
+
+    <tr>
+       <td width="10" rowspan="3"><img src="//img/trans_pixel.gif" height="1" width="10" /></td>
+       <td height="10" width="1"><img src="//img/trans_pixel.gif" height="10" width="1" /></td>
+       <td width="10" rowspan="3"><img src="//img/trans_pixel.gif" height="1" width="10" /></td>
+    </tr>
+
+    <tr>
+      <td class="contentText" valign="top" align="left">
+For more information about our range of group and membership fees, please contact your local Gartner account executive, or a member of the Best Practices team on : +44 (0)1784 26-7450, or e-mail <a href="mailto:bpg.europe@gartner.com">bpg.europe@gartner.com
+      </td>
+    </tr>
+
+    <tr>
+       <td height="10" width="1"><img src="//img/trans_pixel.gif" height="10" width="1" /></td>
+    </tr>
+
+    <tr>
+       <td colspan="5" bgcolor="black" height="1" width="500"><img src="//img/trans_pixel.gif" height="1" width="500" /></td>
+    </tr>
+</table>

@@ -1,0 +1,121 @@
+
+wrote /home/gartner/html/rt/content/emea/home_blurb_consulting.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_blurb_consulting.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_blurb_consulting.incl
+
+wrote /home/gartner/html/rt/content/emea/home_blurb_exp.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_blurb_exp.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_blurb_exp.incl
+
+wrote /home/gartner/html/rt/content/emea/home_main_promo.incl
+
+wrote /home/gartner/html/rt/content/emea/home_blog_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_blog_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_blog_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/home_prm_left.incl
+
+wrote /home/gartner/html/rt/content/emea/home_prm_right.incl
+
+wrote /home/gartner/html/rt/content/emea/home_ff_col_markets_text.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_ff_col_markets_text.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_ff_col_markets_text.incl
+
+wrote /home/gartner/html/rt/content/emea/home_ff_col_markets.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_ff_col_markets.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_ff_col_markets.incl
+
+wrote /home/gartner/html/rt/content/emea/home_ff_col_topics_text.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_ff_col_topics_text.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_ff_col_topics_text.incl
+
+wrote /home/gartner/html/rt/content/emea/home_ff_col_topics.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_ff_col_topics.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_ff_col_topics.incl
+
+wrote /home/gartner/html/rt/content/emea/home_ff_col_industries_text.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_ff_col_industries_text.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_ff_col_industries_text.incl
+
+wrote /home/gartner/html/rt/content/emea/home_ff_col_industries.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_ff_col_industries.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_ff_col_industries.incl
+
+wrote /home/gartner/html/rt/content/emea/home_sixpack_magicquadrants_text.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_sixpack_magicquadrants_text.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_sixpack_magicquadrants_text.incl
+
+wrote /home/gartner/html/rt/content/emea/home_sixpack_magicquadrants_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_sixpack_magicquadrants_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_sixpack_magicquadrants_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/home_sixpack_hypecycles_text.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_sixpack_hypecycles_text.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_sixpack_hypecycles_text.incl
+
+wrote /home/gartner/html/rt/content/emea/home_sixpack_hypecycles_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_sixpack_hypecycles_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_sixpack_hypecycles_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/home_sixpack_vendorratings_text.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_sixpack_vendorratings_text.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_sixpack_vendorratings_text.incl
+
+wrote /home/gartner/html/rt/content/emea/home_sixpack_vendorratings_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_sixpack_vendorratings_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_sixpack_vendorratings_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/home_sixpack_coolvendors_text.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_sixpack_coolvendors_text.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_sixpack_coolvendors_text.incl
+
+wrote /home/gartner/html/rt/content/emea/home_sixpack_coolvendors_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_sixpack_coolvendors_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_sixpack_coolvendors_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/home_sixpack_fellows_text.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_sixpack_fellows_text.incl
+FELLOWS: <div class="caption10px">The Gartner Fellows Interviews pair the best and the brightest Gartner analysts with the bright lights of the industry.</div>
+
+wrote /home/gartner/html/rt/content/emea/de/home_sixpack_fellows_text.incl
+
+wrote /home/gartner/html/rt/content/emea/it/home_sixpack_fellows_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/de/home_sixpack_fellows_headlines.incl
+
+wrote /home/gartner/html/rt/content/emea/home_sixpack_fellows_headlines.incl

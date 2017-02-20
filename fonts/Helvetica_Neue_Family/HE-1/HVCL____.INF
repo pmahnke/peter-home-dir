@@ -1,0 +1,26 @@
+FontName (Helvetica-Condensed-Light)
+FullName (Helvetica Condensed Light)
+AppleName (Helvetica CondensedLight)
+AppleFONDID 14972
+FamilyName (Helvetica)
+version (001.003)
+isFixedPitch false
+CharacterSet (isoadobe)
+Encoding (StandardEncoding)
+ItalicAngle 0
+CapHeight 750
+UnderlinePosition -100
+UnderlineThickness 50
+StemWidth 58
+Serif false
+Pi false
+MSMenuName (Helvetica CondensedLight)
+VPMenuName (Helvetica CondensedLight)
+WORDMenuName (HelveticaCondensedLight)
+VPTypefaceID 58
+VPStyle (N)
+PCFileNamePrefix (HVCL_)
+PCLTypefaceID 20484
+PCLStrokeWeight -3
+PCLStyle 4
+

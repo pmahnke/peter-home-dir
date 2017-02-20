@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+  <rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
+  <channel>
+  <title>Gartner emea</title>
+  <link>http://emea.gartner.com/</link>
+  <description>Daily update of the featured news and research from Gartner emea, the world's leading IT research and advisory firm.</description>
+  <language>en-us</language>
+  <copyright>Copyright 2004 Gartner, Inc. and/or its Affiliates. All Rights Reserved. </copyright>
+  <lastBuildDate>Mon, 11 Jul 2005 09:38:04 GMT</lastBuildDate>
+  <docs>http://backend.userland.com/rss</docs>
+  <managingEditor>stephanie.gordon@gartner.com</managingEditor>
+  <webMaster>peter.mahnke@gartner.com</webMaster>
+  <image>
+    <url><![CDATA[http://intl.transitionelement.com/img/ge_logo_small.gif]]></url>
+    <width>110</width>
+    <height>45</height>
+    <link><![CDATA[http://europe.gartner.com]]></link>
+    <title>Gartner Europe</title>
+  </image>
+  <ttl>120</ttl>
+  <skipDays><day>Saturday</day><day>Sunday</day></skipDays>
+  <skipHours><hour>1</hour><hour>2</hour><hour>3</hour><hour>4</hour><hour>5</hour><hour>6</hour><hour>19</hour><hour>20</hour><hour>21</hour><hour>22</hour><hour>23</hour><hour>24</hour></skipHours>
+<item>
+  <title>U.K. Mobile Services: A Saturated But Changing Market - Feature</title>
+  <description>Operators hopes of generating additional revenue from third-generation (3G) services have not been helped by the regulator’s proposal to deregulate spectrum allocation. </description>
+  <pubDate>Mon, 07 Feb 2005 11:07:44 GMT</pubDate>
+  <link><![CDATA[z_20050204_01_fp.html]]></link>
+</item>
+<item>
+  <title>Fresh Strategies for Customer Relationship Management - Feature</title>
+  <description>In 2005, many companies will expect their CRM applications to drive up revenue. We show you how to prepare to meet this need.</description>
+  <pubDate>Mon, 24 Jan 2005 11:42:08 GMT</pubDate>
+  <link><![CDATA[z_20050121_01_fp.html]]></link>
+</item>
+<item>
+  <title>London Bombings Confirm Need for People-Based Continuity Plans - news</title>
+  <description>The London transit bombings show why organizations must set up business continuity plans around employees' ability or willingness to get to work. Backup communications and mobile work capabilities are essential.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=483261&amp;all=email&amp;ref=g_emalert]]></link>
+</item>
+<item>
+  <title>Siebel Expands SOA-Based Capabilities With IBM - news</title>
+  <description>Siebel Systems will advance its platform with service-oriented architecture (SOA) composite applications in the IBM technology environment, and with more complete SOA-oriented business process management capabilities.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=482548&amp;all=email&amp;ef=g_emalert]]></link>
+</item>
+<item>
+  <title>JDeveloper, Eclipse Moves Should Boost Oracle Middleware Stack - news</title>
+  <description>Oracle plans to make JDeveloper free and provide greater support for Eclipse. These moves should help Oracle's Fusion Middleware technology stack gain broader acceptance.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=482966&amp;all=email&amp;ef=g_emalert]]></link>
+</item>
+<item>
+  <title>France Telecom Aims to Offer Converged Services - news</title>
+  <description>France Telecom aims to transform its services with a focus on converged services, new branding, better interaction and upgraded infrastructures. Businesses should consider the investment implications of convergence.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=482875&amp;all=email&amp;ef=g_emalert]]></link>
+</item>
+<item>
+  <title>Combine Three Building Blocks to Develop a Sourcing Governance Framework - research</title>
+  <description>Sourcing governance frameworks define how sourcing decisions should be made. Key to success is balancing effectiveness, which requires you to bring the perspectives that should influence it to each decision, and efficiency, which requires you to pick the most-efficient decision method to support it.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=483262&amp;all=email&amp;ref=g_emalert]]></link>
+</item>
+<item>
+  <title>Local Governments in France Move to Open-Source Applications - research</title>
+  <description>France's Association of Developers and Users of Open Source Software in Administrations and Local Communities, the largest and most-active open-source community for local authorities, has promising plans, but must do more to prove its case and achieve long-term viability.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=483234&amp;all=email&amp;ef=g_emalert]]></link>
+</item>
+<item>
+  <title>Why Local-Loop Unbundling Matters for European Businesses - research</title>
+  <description>European countries vary in their approach to opening up local telecom loops to competition, and in the progress they have made. This has big implications for the availability of low-cost, innovative broadband services.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=482854&amp;all=email&amp;ef=g_emalert]]></link>
+</item>
+<item>
+  <title>What Metadata Is and Why You Should Care, 2H05 Through 1H06 - research</title>
+  <description>Metadata management is critical for enabling and supporting many key enterprise initiatives, including service-oriented development of applications. You can't track all possible metadata, so you'll need policies, procedures and standards.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=482519&amp;all=email&amp;ef=g_emalert]]></link>
+</item>
+
+ </channel>
+</rss>

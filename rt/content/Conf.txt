@@ -1,0 +1,11 @@
+	Title Nm	event type	date	url	City
+"466,119"	RetailVision Europe Spring	Channel Events	13/04/05 00:00	http://www.retailvision.com/europe/	Barcelona
+"463,918"	Gartner Wireless and Mobile Summit 2005	Conferences	18/04/05 00:00	/2_events/conferences/emob4i.jsp	London
+"467,122"	Gartner Outsourcing and IT Services Summit 2005	Conferences	25/04/05 00:00	/2_events/conferences/asm6i.jsp	London
+"466,121"	System Builder Summit Europe Spring 2005	Channel Events	10/05/05 00:00	http://www.sbse2005.com	"Monte Carlo, Monaco"
+"463,018"	Symposium/ITxpo 2005 in Barcelona	Symposium/ITxpo	22/05/05 00:00	/2_events/symposium/2005/spr6.jsp	Barcelona
+"465,150"	Midsize Enterprise Summit UK & Ireland	Channel Events	07/06/05 00:00	http://www.midsizeenterprise.com/europe/main_menu.htm	Dublin
+"472,227"	Gartner Application Integration & Web Services Summit	Conferences	13/06/05 00:00	/2_events/conferences/apps8i.jsp	Barcelona
+"464,332"	Gartner CIO Academy Oct 05 UK	Conferences	04/10/05 00:00	/2_events/conferences/cio_academy/041205_london.html	London
+"466,120"	RetailVision Europe Fall	Channel Events	18/10/05 00:00	http://www.retailvision.com/europe/	Dublin
+"466,118"	Project Portfolio Management Europe	Channel Events	30/11/05 00:00	http://www.ppmsummit.com/europe/main.htm	"Lisbon, Portugal"

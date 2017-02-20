@@ -1,0 +1,22 @@
+<script language="JavaScript"><!--
+
+        // added 2 Aug 2002 by PeterMahnke
+        // if the user doesn't have a locale cookie, set it once
+
+function regionalsignout(region) {
+    var region = region;
+    document.cookie="regUC=false;expires=0;domain=.gartner.com;path=/;";
+    document.cookie="regQuery=false;expires=0;domain=.gartner.com;path=/;";
+    if (region == "emea")
+    {
+        window.location=("http://www4.gartner.com/regionalization/terminate.jsp?locale=emea&refresh=true");
+
+    } else {
+        window.location=("http://www4.gartner.com/regionalization/terminate.jsp?locale=wcw&refresh=true");
+    }
+    return false;
+}
+
+
+
+--></script>

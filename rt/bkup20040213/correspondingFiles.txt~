@@ -1,0 +1,41 @@
+HOMEPAGES			Unrecognised	http://regionals.gartner.com/regions/content/emea/home.jsp	http://www4.gartner.com/UnrecognizedUserHomePage.jsp
+HOMEPAGES			Recognised User	http://regionals.gartner.com/regions/content/emea/rec_home.jsp	http://www4.gartner.com/RecognizedUserHomePage.jsp
+HOMEPAGES			EXP Premier	http://regionals.gartner.com/regions/content/emea/EXPPremhomepage.jsp	http://www4.gartner.com/1_researchanalysis/excutiveprograms/EXPPremhomepage.jsp
+HOMEPAGES			EXP Club	http://regionals.gartner.com/regions/content/emea/EXPClubhomepage.jsp	http://www4.gartner.com/1_researchanalysis/excutiveprograms/EXPClubhomepage.jsp
+01 research			overview	http://regionals.gartner.com/regions/content/emea/01_research.html	http://www4.gartner.com/1_researchanalysis/research_overview.html
+01 research	CORE	COUNTRY	Country Offerings	http://regionals.gartner.com/regions/content/emea/01_offerings_country.html	NA
+01 research	CORE	COUNTRY	Germany Offerings	http://regionals.gartner.com/regions/content/emea/01_offerings_germany.html	NA
+01 research	CORE	COUNTRY	Italy Offerings	http://regionals.gartner.com/regions/content/emea/01_offerings_italy.html	NA
+01 research	CORE	RAS	core overview	http://regionals.gartner.com/emea/01_core_overview.html	http://www4.gartner.com/1_researchanalysis/core_overview.html
+01 research	CORE	RAS	methodolgy	http://regionals.gartner.com/regions/content/emea/01_z_core_methodology.html	http://www4.gartner.com/1_researchanalysis/users/221a.html
+01 research	DQ		dq overview	http://regionals.gartner.com/emea/01_dq_overview.html	http://www4.gartner.com/1_researchanalysis/dataquest_overview.html
+01 research	DQ		areas of coverage	http://regionals.gartner.com/emea/01_dq_coverage.html	http://www4.gartner.com/1_researchanalysis/itmarkets/232a.html
+01 research	DQ	AREAS	hardware	http://regionals.gartner.com/emea/01_dq_coverage_hardware.html	http://www4.gartner.com/1_researchanalysis/itmarkets/2328a.html
+01 research	DQ	AREAS	e worldwide	http://regionals.gartner.com/emea/01_dq_coverage_e-worldwide.html	http://www4.gartner.com/1_researchanalysis/itmarkets/2323a.html
+01 research	DQ	AREAS	software	http://regionals.gartner.com/emea/01_dq_coverage_software.html	http://www4.gartner.com/1_researchanalysis/itmarkets/2324a.html
+01 research	DQ	AREAS	it services	http://regionals.gartner.com/emea/01_dq_coverage_it-services.html	http://www4.gartner.com/1_researchanalysis/itmarkets/2325a.html
+01 research	DQ	AREAS	semiconductors	http://regionals.gartner.com/emea/01_dq_coverage_semiconductors.html	http://www4.gartner.com/1_researchanalysis/itmarkets/2326a.html
+01 research	DQ	AREAS	telecommunicaitons & networking	http://regionals.gartner.com/emea/01_dq_coverage_telcomm.html	http://www4.gartner.com/1_researchanalysis/itmarkets/2327a.html
+01 research	DQ	AREAS	optical network equipment and components worldwide	http://regionals.gartner.com/emea/01_dq_coverage_optical.html	NA
+01 research	GRIGGS		Custom Research	NA	http://www4.gartner.com/1_researchanalysis/gpr/gpr_home1.jsp
+02 consulting			Overview	http://regionals.gartner.com/regions/content/emea/02_consulting.html	http://www4.gartner.com/3_consulting_services/consulting_overview.html
+03 measurement			Overview	http://regionals.gartner.com/regions/content/emea/03_measurement.html	http://www4.gartner.com/4_decision_tools/measurement/measurement_overview.html
+03 measurement	ASSESSMENTS		Assessments	http://regionals.gartner.com/regions/content/emea/03_assessments.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/assessments.html
+03 measurement	ASSESSMENTS		Contact Center	http://regionals.gartner.com/regions/content/emea/03_z_contact_center.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_contact_center.html
+03 measurement	ASSESSMENTS		Customer Satisfaction	http://regionals.gartner.com/regions/content/emea/03_z_customer_satisfaction.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_customer_satisfaction.html
+03 measurement	ASSESSMENTS		Data Networks	http://regionals.gartner.com/regions/content/emea/03_z_data_networks.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_data_networks.html
+03 measurement	ASSESSMENTS		Distributed Computing	http://regionals.gartner.com/regions/content/emea/03_z_distributed_computing.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_distributed_computing.html
+03 measurement	ASSESSMENTS		Enterprise Operations Center	http://regionals.gartner.com/regions/content/emea/03_z_enterprise_operations.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_eoc.html
+03 measurement	ASSESSMENTS		Help Desk	http://regionals.gartner.com/regions/content/emea/03_z_help_desk.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_help_desk.html
+03 measurement	ASSESSMENTS		Total AD Performance	http://regionals.gartner.com/regions/content/emea/03_z_total_ad_performance.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_total_ad.html
+03 measurement	ASSESSMENTS		Network Capacity Planning	NA	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_ncp.html
+03 measurement	ASSESSMENTS		Total IT Expenditure	http://regionals.gartner.com/regions/content/emea/03_z_total_it_expenditure.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_total_it.html
+03 measurement	ASSESSMENTS		Voice Telcom	http://regionals.gartner.com/regions/content/emea/03_z_voice_telecom.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_voice_networks.html
+03 measurement	DECISION TOOLS		Decision Tools	http://regionals.gartner.com/regions/content/emea/03_decision_tools.html	http://www4.gartner.com/4_decision_tools/measurement/decision_tools/decision_tools.html
+03 measurement	PERFORMANCE MGMT		Performance Management	http://regionals.gartner.com/regions/content/emea/03_performance.html	http://www4.gartner.com/4_decision_tools/measurement/performance_management/performance_management.html
+04 community			Overview	http://regionals.gartner.com/regions/content/emea/04_community.html	http://www4.gartner.com/2_events/community/community_overview.html
+05 news			Overview	http://regionals.gartner.com/regions/content/emea/05_news.html	http://www4.gartner.com/5_about/news/news_overview.html
+05 news	CONNECTS		GartnerConnects	http://regionals.gartner.com/regions/content/emea/05_connects.html	http://www4.gartner.com/1_researchanalysis/itmarkets/2332a.html
+06 about	SITE INDEX		Site Index	http://regionals.gartner.com/regions/content/emea/06_SiteIndexPopUp.html	http://www4.gartner.com/6_help/site_index/SiteIndexPopUp.jsp
+06 about	ABOUT		About	http://regionals.gartner.com/regions/content/emea/05_z_about.html	http://www4.gartner.com/5_about/company_information/41a.html
+06 about	ABOUT	EMEA MGMT	EMEA Management	http://regionals.gartner.com/regions/content/emea/05_emea_mgmt_bios.html	NA

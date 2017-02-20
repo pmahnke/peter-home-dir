@@ -1,0 +1,64 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: A/AD/ADAMK/Crypt-DSA-1.17.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: A/AD/ADAMK/Crypt-DSA-1.17.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: ADAMK
+  archived: tar
+  build_dir: /home/peter/.cpan/build/Crypt-DSA-1.17-QAhv73
+  incommandcolor: 1
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369982
+  localfile: /home/peter/.cpan/sources/authors/id/A/AD/ADAMK/Crypt-DSA-1.17.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369982
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369982
+  negative_prefs_cache: 4
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 6.42
+      Test::More: 0.42
+    requires:
+      Data::Buffer: 0.01
+      Digest::SHA1: 0
+      File::Spec: 0
+      File::Which: 0.05
+      IPC::Open3: 0
+      MIME::Base64: 0
+      Math::BigInt: 1.78
+      perl: 5.006
+  reqtype: c
+  sponsored_mods:
+    Data::Buffer: 1
+    Digest::SHA1: 1
+    File::Which: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369970
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369970
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386369982

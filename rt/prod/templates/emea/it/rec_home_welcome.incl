@@ -1,0 +1,41 @@
+ <table summary="Welcome User Table" height="100%" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+	<td>
+	<span class="textBlackReg">Benvenuti</span> <span class="textBlackBold"><%= dispUserName %> <% if (userName != null) {  %>[<%= userName %>]<% } %></span> <br>
+
+    <%-- Edited by Duane Steward, 9/14/2001 for Symposium User issues  --%>
+    <%
+    if (!userClass.equals(UserClassTypeCode.SYMPOSIUM_DESC)) {
+    %>
+	    <a class="linkTextSmall" href="http://www4.gartner.com/UserProfile?Prof=ProfUserInfo">Il mio profilo</a>  
+		<a class="linkTextSmall" href="javascript:void(null)" onclick="openAlertFromHomePage('http://www4.gartner.com/Alert?alertop=1'); return false">Avvisi elettronici</a>
+
+	    <%
+		    if (homePageaccessToInquiry.booleanValue() ) { %>
+			      <a class="linkTextSmall" href="javascript:void(null)" onclick="openNewAdminFooter('<%=response.encodeURL("http://www4.gartner.com/Inquiry?pagenm=homepage")%>')">Consulta un analista</a>
+		    <% } %>
+
+		    <%
+		    if (userClass.equals(UserClassTypeCode.CLIENT_ADMIN_DESC) ||
+		        userClass.equals(UserClassTypeCode.GARTNER_ADMIN_DESC) ||
+                        userClass.equals("Gartner Admin")) 
+		    { %>
+			       <a class="linkTextSmall" href="javascript:void(null)" onclick="openAdminWindow('http://www4.gartner.com/0_admin/AdmSignin.jsp')">Amministrazione</a>
+                 <% } %>
+				 
+				<% if (hasEvents) { %>
+				       <a class="linkTextSmall" href="http://www4.gartner.com/EvReg/displayListOfEvents">I vostri eventi</a>
+				<% } %>
+
+    <% } // end if (!userClass.equals(UserClassTypeCode.SYMPOSIUM_DESC)) %>
+
+	  <a class="linkTextSmall" href="Javascript:regionalsignout('emea')">Esci</a><br>
+
+	<%if ((section508Flg != null) && (section508Flg.equals("true"))) { %><a class="linkTextSmall" href="http://access.gartner.com/I508">Gartner Accessibilità Website</a><% } %>
+
+	</td>
+    </tr>
+
+
+
+</table>

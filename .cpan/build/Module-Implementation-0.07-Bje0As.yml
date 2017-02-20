@@ -1,0 +1,64 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: D/DR/DROLSKY/Module-Implementation-0.07.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: D/DR/DROLSKY/Module-Implementation-0.07.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: DROLSKY
+  archived: tar
+  build_dir: /home/peter/.cpan/build/Module-Implementation-0.07-Bje0As
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370025
+  localfile: /home/peter/.cpan/sources/authors/id/D/DR/DROLSKY/Module-Implementation-0.07.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370024
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370025
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      File::Find: 0
+      File::Temp: 0
+      Test::Fatal: 0.006
+      Test::More: 0.88
+      Test::Requires: 0
+      lib: 0
+    requires:
+      Carp: 0
+      Module::Runtime: 0.012
+      Try::Tiny: 0
+      strict: 0
+      warnings: 0
+  reqtype: r
+  sponsored_mods:
+    Module::Runtime: 1
+    Test::Requires: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370016
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370016
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370025

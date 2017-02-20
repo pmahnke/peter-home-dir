@@ -1,0 +1,65 @@
+From root@secondborn.mahnke.net Mon Nov 24 04:02:01 2003
+Return-Path: <root@secondborn.mahnke.net>
+Delivered-To: pmahnke@secondborn.mahnke.net
+Received: (qmail 22325 invoked by alias); 24 Nov 2003 10:02:01 -0000
+Delivered-To: root@secondborn.mahnke.net
+Received: (qmail 22317 invoked by uid 0); 24 Nov 2003 10:02:01 -0000
+Date: 24 Nov 2003 10:02:01 -0000
+Message-ID: <20031124100201.22316.qmail@secondborn.mahnke.net>
+From: root@secondborn.mahnke.net
+To: root@secondborn.mahnke.net
+Subject: LogWatch for secondborn.mahnke.net
+Status: O
+Content-Length: 3774
+
+
+
+ ################## LogWatch 2.6 Begin ##################### 
+
+ --------------------- ftpd-messages Begin ------------------------ 
+
+User FTP Logins:
+   newbaby.mahnke.net (66.216.96.180): pmahnke - 2 Time(s)
+
+Failed FTP Logins:
+   pD9520BAF.dip.t-dialin.net (217.82.11.175): anonymous - 1 Time(s)
+   178-64.240.81.adsl.skynet.be (81.240.64.178): anonymous - 4 Time(s)
+   178-64.240.81.adsl.skynet.be (81.240.64.178) - 4 Time(s)
+
+**Unmatched Entries**
+178-64.240.81.adsl.skynet.be: connected: IDLE                                                                                                                                                                                                                                                                                                                                                                                                                                                                               [24225]: lost connection to 178-64.240.81.adsl.skynet.be [81.240.64.178]
+178-64.240.81.adsl.skynet.be: connected: IDLE                                                                                                                                                                                                                                                                                                                                                                                                                                                                               [24226]: lost connection to 178-64.240.81.adsl.skynet.be [81.240.64.178]
+178-64.240.81.adsl.skynet.be: connected: IDLE                                                                                                                                                                                                                                                                                                                                                                                                                                                                               [24227]: lost connection to 178-64.240.81.adsl.skynet.be [81.240.64.178]
+178-64.240.81.adsl.skynet.be: connected: IDLE                                                                                                                                                                                                                                                                                                                                                                                                                                                                               [25842]: lost connection to 178-64.240.81.adsl.skynet.be [81.240.64.178]
+ACCESS DENIED (not in any class) TO 178-64.240.81.adsl.skynet.be [81.240.64.178]
+ACCESS DENIED (not in any class) TO 178-64.240.81.adsl.skynet.be [81.240.64.178]
+ACCESS DENIED (not in any class) TO 178-64.240.81.adsl.skynet.be [81.240.64.178]
+ACCESS DENIED (not in any class) TO 178-64.240.81.adsl.skynet.be [81.240.64.178]
+ACCESS DENIED (not in any class) TO pD9520BAF.dip.t-dialin.net [217.82.11.175]
+
+
+ ---------------------- ftpd-messages End ------------------------- 
+
+
+
+ ---------------- Connections (secure-log) Begin ------------------- 
+
+Connections:
+   Service ftp:
+      66.216.96.180: 2 Time(s)
+      81.240.64.178: 10 Time(s)
+      217.82.11.175: 1 Time(s)
+      61.82.16.76: 5 Time(s)
+      68.218.113.236: 1 Time(s)
+      203.241.244.196: 1 Time(s)
+      218.3.240.10: 1 Time(s)
+      80.16.156.106: 4 Time(s)
+      80.200.144.44: 1 Time(s)
+
+
+ ----------------- Connections (secure-log) End -------------------- 
+
+
+
+ ###################### LogWatch End ######################### 
+

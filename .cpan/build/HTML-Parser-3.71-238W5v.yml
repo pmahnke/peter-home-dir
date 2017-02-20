@@ -1,0 +1,56 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: G/GA/GAAS/HTML-Parser-3.71.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: G/GA/GAAS/HTML-Parser-3.71.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: GAAS
+  archived: tar
+  build_dir: /home/peter/.cpan/build/HTML-Parser-3.71-238W5v
+  incommandcolor: 1
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 3
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369964
+  localfile: /home/peter/.cpan/sources/authors/id/G/GA/GAAS/HTML-Parser-3.71.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 3
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369962
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 3
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369964
+  negative_prefs_cache: 3
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires:
+      HTML::Tagset: 3
+      XSLoader: 0
+      perl: 5.008
+  reqtype: c
+  sponsored_mods:
+    HTML::Tagset: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 3
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369956
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 3
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369956
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386369964

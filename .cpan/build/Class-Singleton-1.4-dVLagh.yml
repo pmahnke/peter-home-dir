@@ -1,0 +1,52 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Class::Singleton
+  CHECKSUM_STATUS: OK
+  ID: A/AB/ABW/Class-Singleton-1.4.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: ABW
+  archived: tar
+  build_dir: /home/peter/.cpan/build/Class-Singleton-1.4-dVLagh
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370108
+  localfile: /home/peter/.cpan/sources/authors/id/A/AB/ABW/Class-Singleton-1.4.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370107
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370107
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires: {}
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370106
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370106
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370108

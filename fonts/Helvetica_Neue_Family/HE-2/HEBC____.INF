@@ -1,0 +1,27 @@
+FontName (HelveticaRounded-BoldCond)
+FullName (Helvetica Rounded Bold Condensed)
+AppleName (HelveticaRounded BoldCond)
+AppleFONDID 5808
+FamilyName (Helvetica Rounded)
+version (001.001)
+isFixedPitch false
+CharacterSet (isoadobe)
+Encoding (StandardEncoding)
+ItalicAngle 0
+CapHeight 720
+UnderlinePosition -100
+UnderlineThickness 50
+StemWidth 122
+Serif false
+Pi false
+SuperiorBaseline 287
+MSMenuName (HelveticaRounded BoldCond)
+VPMenuName (HelveticaRounded BoldCond)
+WORDMenuName (HelveticaRoundedBoldCond)
+VPTypefaceID 3304
+VPStyle (N)
+PCFileNamePrefix (HEBC_)
+PCLTypefaceID 20898
+PCLStrokeWeight 3
+PCLStyle 8
+

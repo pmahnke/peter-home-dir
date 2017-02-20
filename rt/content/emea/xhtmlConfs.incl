@@ -1,0 +1,20 @@
+
+    <div id="regionalEventsSummit">
+
+        <a href="http://www.gartner.com/EventsCal?opCode=1&amp;template=1&amp;eventType=1&amp;locationId=4|"><img src="http://www.gartner.com/images/homepage/hdr_summit.gif" width="198" height="60" border="0" alt="Gartner Summit Events" title="Gartner Summit Events"></a>
+
+        <ul class="regionalEventList">
+            <li><a href="/2_events/conferences/sec6i.jsp">Gartner IT Security Summit</a><br>14-15 September<br>London</li>
+            <li><a href="/2_events/conferences/lsce1.jsp">Gartner Data Center Summit</a><br>29-30 November<br>Amsterdam</li>
+            <li><a href="/2_events/conferences/bie7i.jsp">Gartner Business Intelligence Summit</a><br>6-7 February<br>Barcelona</li>
+
+        </ul>
+
+        <ul class="regionalEventMore">
+            <li><a href="/EventsCal?opCode=1&amp;template=1&amp;eventType=1amp;locationId=4|">View Events Calendar</a></li>
+            <li><a href="04_community.html">More about Summit Events</a></li>
+        </ul>
+
+        <br clear="all">
+    </div><!-- end div regionalEventsSummit -->
+

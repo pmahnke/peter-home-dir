@@ -1,0 +1,79 @@
+<table cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td colspan="3" class="overviewBold">
+   <div><img src="//img/trans_pixel.gif" height="10" /></div>
+   <b>Every IT organization needs to know where it stands. In relation to peers. To justify investment. To meet the business goals of the enterprise. Gartner has more than 170 experts in the field of measurement, 65 in our European offices. They can help you quantify your position with the most accurate tools in the industry, then show you a clear path to improvement.</b>
+  </td>
+ </tr>
+
+
+<!-- start Assessments -->
+ <tr>
+  <td colspan="3">
+   <img src="//img/grey_pixel.gif" width="100%" height="1" />
+  </td>
+ </tr>
+
+ <tr>
+  <td valign="top" colspan="3"><font class="headline_measurement">Assessments</font></td>
+ </tr>
+ <tr>
+  <td class="contentText">
+When you need a quick snapshot of your IT landscape to make important decisions or changes, our Rapid Assessments provide valuable industry peer comparisons. You'll clearly understand your full cost and service positions, plus strategies for immediate improvement.</td>
+  <td width="13"><img src="//img/trans_pixel.gif" width="13" border="0" /></td>
+  <td valign="top" width="165" nowrap="nowrap" class="contentText">
+<a href="03_z_assessments.html"><img src="//img/bullet.gif" alt="bullet" border="0" /></a> <a href="03_assessments.html" class="linkText">Portfolio of Services</a>
+  </td>
+ </tr>
+<!-- start Decision Tools -->
+ <tr>
+  <td colspan="3">
+   <img src="//img/grey_pixel.gif" width="100%" height="1" />
+  </td>
+ </tr>
+ <tr>
+  <td valign="top" colspan="3"><font class="headline_measurement">Decision Tools</font></td>
+ </tr>
+ <tr>
+  <td class="contentText" valign="top">
+Decision Tools combine software applications, services, and industry-standard methodologies to help you calculate and compare technology ROI. Understand total cost of ownership. Evaluate business-to-business performance. Select the most cost-effective vendor in the shortest amount of time.
+  </td>
+  <td width="13"><img src="//img/trans_pixel.gif" width="13" border="0" /></td>
+  <td valign="top" width="165" nowrap="nowrap" class="contentText">
+
+   <a href=03_decision_tools.html><img src="//img/bullet.gif" alt="bullet" border="0" /></a> <a href=03_decision_tools.html class="linkText">Overview</a>
+     <br />
+
+   <a href="/4_decision_tools/measurement/decision_tools/tco/tco.html"><img src="//img/bullet.gif" alt="bullet" border="0" /></a> <a href="/4_decision_tools/measurement/decision_tools/tco/tco.html" class="linkText">Cost Management</a>
+      <br />
+   <a href="http://roi.gartner.com/" target="_blank"><img src="//img/bullet.gif" alt="bullet" border="0" /></a> <a href="http://roi.gartner.com/" target="_blank" class="linkText">Investment Planning</a>
+     <br />
+   <a href="/4_decision_tools/measurement/decision_tools/vendor_selection/vendor_selection.html"><img src="//img/bullet.gif" alt="bullet" border="0" /></a> <a href="/4_decision_tools/measurement/decision_tools/vendor_selection/vendor_selection.html" class="linkText">Vendor Selection</a>
+     <br />
+   <a href="/4_decision_tools/measurement/demo/demo.html"><img src="//img/bullet.gif" alt="bullet" border="0" /></a> <a href="/4_decision_tools/measurement/demo/demo.html" class="linkText">Tour Our Products</a>
+     <br />
+  </td>
+ </tr>
+
+<!-- start Performance Management -->
+ <tr>
+  <td colspan="3">
+   <img src="//img/grey_pixel.gif" width="100%" height="1" />
+  </td>
+ </tr>
+
+ <tr>
+  <td colspan="3" valign="top"><font class="headline_measurement">Performance Management</font></td>
+ </tr>
+
+ <tr>
+  <td class="contentText">
+Operational excellence in a competitive environment is an ongoing challenge.  Gartner Performance Management analysts provide an end-to-end measurement framework for your organization based on key indicators for maximizing effectiveness on an ongoing basis.</td>
+  <td width="13"><img src="//img/trans_pixel.gif" width="13" border="0" /></td>
+  <td valign="top" width="165" nowrap="nowrap" class="contentText">
+<a href="03_performance.html"><img src="//img/bullet.gif" alt="bullet" border="0" /></a> <a href="03_performance.html" class="linkText">Portfolio of Services</a>
+  </td>
+ </tr>
+</table>
+
+

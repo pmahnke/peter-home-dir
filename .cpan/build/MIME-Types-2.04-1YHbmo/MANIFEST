@@ -1,0 +1,18 @@
+ChangeLog
+MANIFEST
+Makefile.PL
+README
+bin/collect-types
+bin/update-iana
+lib/MIME/Type.pm
+lib/MIME/Type.pod
+lib/MIME/Types.pm
+lib/MIME/Types.pod
+lib/MIME/types.db
+t/10type.t
+t/11typeol.t
+t/20types.t
+t/30export.t
+xt/99pod.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

@@ -1,0 +1,31 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: XML::LibXML
+  CHECKSUM_STATUS: OK
+  ID: S/SH/SHLOMIF/XML-LibXML-2.0107.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: SHLOMIF
+  archived: tar
+  build_dir: /home/peter/.cpan/build/XML-LibXML-2.0107-xN45Ym
+  incommandcolor: 2
+  localfile: /home/peter/.cpan/sources/authors/id/S/SH/SHLOMIF/XML-LibXML-2.0107.tar.gz
+  negative_prefs_cache: 5
+  prefs: {}
+  reqtype: r
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370189
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: 1
+    TEXT: "NO -- No 'Makefile' created\n"
+    TIME: 1386370191
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370191

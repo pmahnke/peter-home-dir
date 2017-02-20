@@ -1,0 +1,8 @@
+"484,207"	The Transformation of IT Operations	Local Briefings	20/09/05 00:00	/2_events/local_briefings/asset_132293_176.jsp	Madrid
+"999,999"	Tag der offenen T&uuml;r	Local Briefing	22/09/05 00:00	//img/event/2005_TdoT_Einladung_end.pdf	Munich
+"484,114"	The Transformation of IT Operations	Local Briefings	22/09/05 00:00	/2_events/local_briefings/asset_132744_176.jsp	Rome
+"482,876"	IT Services in Europe - Global Thinking and Local Control	Local Briefings	29/09/05 00:00	/2_events/local_briefings/asset_130393_176.jsp	Brussels
+"482,877"	IT Services in Europe - Global Thinking and Local Control	Local Briefings	04/10/05 00:00	/2_events/local_briefings/asset_130398_176.jsp	Stockholm
+"483,786"	The Transformation of IT Operations	Local Briefings	05/10/05 00:00	/2_events/local_briefings/asset_132296_176.jsp	Dusseldorf
+"483,787"	IT Services in Europe - Global Thinking and Local Control	Local Briefings	06/10/05 00:00	/2_events/local_briefings/asset_132743_176.jsp	Milan
+"483,785"	The Transformation of IT Operations	Local Briefings	06/12/05 00:00	/2_events/local_briefings/asset_132298_176.jsp	Brussels

@@ -1,0 +1,71 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: D/DO/DOY/Package-Stash-0.36.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: D/DO/DOY/Package-Stash-0.36.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: DOY
+  archived: tar
+  build_dir: /home/peter/.cpan/build/Package-Stash-0.36-Otrn1Y
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370103
+  localfile: /home/peter/.cpan/sources/authors/id/D/DO/DOY/Package-Stash-0.36.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370101
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370103
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      File::Find: 0
+      File::Temp: 0
+      Test::Fatal: 0
+      Test::More: 0.88
+      Test::Requires: 0
+      base: 0
+      lib: 0
+    requires:
+      B: 0
+      Carp: 0
+      Dist::CheckConflicts: 0.02
+      Getopt::Long: 0
+      Module::Implementation: 0.06
+      Package::Stash::XS: 0.26
+      Scalar::Util: 0
+      Symbol: 0
+      constant: 0
+      strict: 0
+      warnings: 0
+  reqtype: r
+  sponsored_mods:
+    Dist::CheckConflicts: 1
+    Package::Stash::XS: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370096
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370098
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370103

@@ -1,0 +1,56 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Params::Util
+  CHECKSUM_STATUS: OK
+  ID: A/AD/ADAMK/Params-Util-1.07.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: ADAMK
+  archived: tar
+  build_dir: /home/peter/.cpan/build/Params-Util-1.07-Z_L0yK
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370085
+  localfile: /home/peter/.cpan/sources/authors/id/A/AD/ADAMK/Params-Util-1.07.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370084
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370085
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 6.52
+      File::Spec: 0.80
+      Test::More: 0.42
+    requires:
+      Scalar::Util: 1.18
+      perl: 5.00503
+  reqtype: b
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370082
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370083
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370085

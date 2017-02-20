@@ -1,0 +1,163 @@
+#container {
+			width: 766px;
+			\width: 786px;
+			w\idth: 766px;
+			margin: 10px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 10px;
+		}
+
+/* TOP BANNER */
+#searchform {
+  border: 1px solid #ccc;
+  padding: 30px
+  margin: 30px;
+  text-align: center;
+}
+
+/* FOOTER BANNER */
+#footer {
+  clear: both;
+  padding: 5px;
+  padding: 30px
+  margin: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+/* RESULTS INFORMATION */
+#content {
+  padding: 5px;
+  margin-right: 315px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  font-family: verdana, arial, sans-serif;
+  font-size: 9pt;
+  padding: 5px;
+  margin: 0;
+  margin-bottom: 3px;
+  color: #333;
+  line-height: 115%;
+}
+
+.odd {
+  background-color: #F1F6F9;
+}
+.even {
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+
+a:link {
+  color: #3088CC;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.title {
+    font-size: 10pt;
+    line-height: 125%;
+}
+.detail {
+  padding-left: 20px;
+  padding-top: 5px;
+  font-style: italic;
+  color: #666;
+}
+
+
+
+
+
+/* sidebar search information */
+
+#sidebar {
+  float: right;
+	width: 300px;
+	\width: 310px;
+	w\idth: 300px;
+	margin: 0;
+	margin-left: 5px;
+	padding: 5px;
+	font-family: verdana, arial, sans-serif;
+
+}
+
+#sidebar ul {
+	margin: 5px;
+	padding: 0;
+  width: 100%;
+}
+#sidebar li {
+  margin: 0;
+  padding: 2px 0;
+}
+
+#resultsdetail {
+  padding: 5px;
+  border: 1px solid #eee;
+}
+
+#info {
+  padding: 5px;
+  background-color: #e7e7e7;
+  border: 1px solid #eee;
+}
+
+
+/* EVENT PROMOS*/
+#eventsdetail {
+  padding: 5px;
+  background-color: #cf9;
+  border: 1px solid #eee;
+}
+h2 {
+  font-family: verdana, arial, sans-serif;
+  font-size: 9pt;
+  text-transform: uppercase;
+  letter-spacing: 2pt;
+  font-weight: normal;
+}
+
+
+/* other keyword information */
+#keywordsdetail {
+  padding: 5px;
+  background-color: #ffc;
+  border: 1px solid #eee;
+}
+#keywordsdetail p {
+  font-size: 8pt;
+  margin: 0;
+  padding: 0;
+}
+
+
+.submit {
+border: 1px solid #cccccc;
+font-size: x-small;
+background-color: #eeeeee;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+
+/* hidden text for debugging */
+.buffer {
+color: #fff;
+}
+
+
+
+
+
+

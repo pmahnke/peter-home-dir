@@ -1,0 +1,405 @@
+#!/usr/local/bin/perl
+
+#####################################################################
+#####################################################################
+#
+#
+#	getLocalBriefings.pl
+#
+#	  written:  07 May 2002 by Peter Mahnke
+#				(originally as getLocalBriefings.cgi)
+#	  modified:
+#               23 Apr 2005 by Peter Mahnke print empty file if no events
+#               13 Apr 2005 by Peter Mahnke to create 'new look' verion
+#                           based on Jim Carolan's request
+#               29 Mar 2005 by Peter Mahnke to make local briefings for
+#                           germany look more like the new worldwide listings
+#                           on request of Tracy Deitz
+#               01 Feb 2005 by Peter Mahnke to move to commonCity.pl
+#				            and fix bug (changed $detail{$name} to $detail{$title}
+#				            'name' is very like 'title', but not always...)
+#
+#				21 Jan 2004 by Peter Mahnke to move to new getEvents2.pl
+#
+#				10 July 2003 by Peter Mahnke moved to cgi script version
+#
+#				16 Jan 2003 by Peter Mahnke to move to getEvents.pl
+#
+#	  DESCRIPTION
+#	  creates an html and xhtml (currently not used) include of the
+#	  local briefings section of the regionals homepage
+#	  the includes sit on this server and are called into the regionals CMT
+#
+#	  INPUT:
+#	  run from a command-line of called from update_menu.cgi script
+#	  the only command-line argument is the <locale>
+#	  the script currently supports:
+#
+#	  'emea' (default) or 'it' or 'de'
+#
+#	  OUTPUT:
+#	  the script writes 2 files, one is the html include
+#	  and the other is an xhtml version
+#	  in /home/gartner/html/content/emea/<locale>/localBriefingTable.html
+#	  and /home/gartner/html/content/emea/<locale>/xhtmlLocalBriefingTable.html
+#
+#
+#####################################################################
+#####################################################################
+
+
+use lib '/usr/local/lib/perl5/site_perl/5.6.1/';
+require ("/home/gartner/html/rt/getEvents3.pl");
+require ("/home/gartner/html/rt/common.pl");
+require ("/home/gartner/html/rt/commonCity.pl");
+
+# Variables
+my $server = "regionals4"; #"www4"
+my $name;
+my $datekey;
+my $title;
+my $date;
+my $url;
+my $location;
+my %title;
+my %strict;
+my %detail;
+
+# Locale setup
+$locale = "it" if ($ARGV[0] eq "it");
+$locale = "de" if ($ARGV[0] eq "de");
+$locale = "emea"   if ($ARGV[0] eq "emea");
+
+
+# UI string
+$UIstring{'title'}{'emea'} = "Gartner Local Briefings";
+$UIstring{'title'}{'it'}   = "Briefing locali";
+$UIstring{'title'}{'de'}   = "Regionale Veranstaltungen";
+$UIstring{'title'}{'at'}   = "Regionale Veranstaltungen";
+
+$UIstring{'text'}{'emea'} = "";
+$UIstring{'text'}{'it'}   = "";
+$UIstring{'text'}{'de'}   = "<p>Die Vortr&auml;ge werden - wenn nicht anders angegeben - auf Englisch gehalten.</p>";
+$UIstring{'text'}{'at'}   = "<p>Die Vortr&auml;ge werden - wenn nicht anders angegeben - auf Englisch gehalten.</p>";
+
+$UIstring{'view'}{'emea'} = "View All Local Briefings";
+$UIstring{'view'}{'it'}   = "Visualizza tutti i briefing europei";
+$UIstring{'view'}{'de'}   = "Weitere regionale Veranstaltungen";
+$UIstring{'view'}{'at'}   = "Weitere regionale Veranstaltungen";
+
+# Strictness on locales, strict for locale only, loose or null for europe;
+$strict{'emea'} = "";
+$strict{'it'}   = "";
+$strict{'de'}   = "";
+
+$strict{$locale} = "strict" if ($ARGV[1] eq "strict");
+
+
+# Get events information
+&getEventsDetail('Briefing');
+
+# Date Logic
+$FORM{'date'} = 21000000 if (!$FORM{'date'}); # set date way out if none given
+my $startDate =  `date '+%Y%m%d'`;
+chop ($startDate);
+my $today = $startDate;
+
+if ($locale eq "it" && $strict{$locale}) {
+
+	# give italian more time for dates
+	$startDate = &addDays(30);
+
+} elsif ($locale eq "de" && $strict{$locale}) {
+
+	# give german site more time for dates
+	$startDate = &addDays(60);
+
+} else {
+
+	$startDate = &addDays(30);
+
+}
+
+$FORM{'date'} = $startDate;
+$FORM{'limit'} = 2;
+
+# Step through each event
+$msg .= "date $startDate\n\n";
+
+foreach $key (sort { $a cmp $b } keys %event) {
+
+    ($title, $date, $url, $location) = split (/\t/, $event{$key});
+
+	$url = "\/"."$url" if ($url !~ /^\//); # add slash before events that are missing them.
+
+	$title =~ s/  / /g; # remove double spaces
+
+	$name = $title;
+	$dateKey = substr ($key, 0, 8);
+	$msg .= "dateKey: $dateKey\tkey: $key\t$FORM{'date'}\n";
+
+	$nameKey = $dateKey.$title;
+
+	# skip events for today
+	next if ($dateKey <= $today);
+	next if ($dateKey > $FORM{'date'});
+
+	# localise location
+	$location = &localiseLocation($location, $locale, $strict{$locale});
+
+	next if (!$location);
+
+	$date = "\&nbsp\;"."$1" if ($date =~ /^0(.*)/); # dump precending 0 on dates - NO LONGER WORKS AS DATES NO LONGER HAVE LEADING '0's
+	$date = "\&nbsp\;"."$date" if (substr($date, 0, index ($date, " ", 1)) < 10); # add space in from of dates less than 10
+
+	$date = substr ($date, 0, (length($date) -5));
+
+	$contentFlag = 1; # must be real events if we got this far
+
+	# create HTML version
+	if ($locale ne "de") {
+
+		# non German Version
+
+		$detail{$name} .= <<EndofHTML;
+<tr>
+ <td width="3" bgcolor="#f5f5f5"><img src="/images/trans_pixel.gif" width="3" height="1" border="0" alt=""></td>
+ <td width="105"valign="top" bgcolor="#f5f5f5"><a href="$url" class="smallThinBlueLink">$location</a></td>
+ <td width="90" valign="top" align="left" bgcolor="#f5f5f5"><span class="smallGrayText">$date&nbsp;</span></td>
+</tr>
+EndofHTML
+
+		# create XHTML version
+		$xhtmlDetail{$name}.= <<EndofHTML;
+            <dt><a href="$url">$location</a></dt><dd>$date</dd>
+EndofHTML
+
+	} else {
+
+		# german version
+		$detail{$name} .= <<EndofHTML;
+<tr>
+ <td width="3" bgcolor="#f4f4e5"><img src="/images/trans_pixel.gif" width="3" height="1" border="0" alt=""></td>
+ <td width="105"valign="top" bgcolor="#f4f4e5"><a href="$url" class="smallThinBlueLink">$location</a></td>
+ <td width="90" valign="top" align="left" bgcolor="#f4f4e5"><span class="smallGrayText">$date&nbsp;</span></td>
+</tr>
+EndofHTML
+
+		# create XHTML version
+		$xhtmlDetail{$name}.= <<EndofHTML;
+            <dt><a href="$url">$location</a></dt><dd>$date</dd>
+EndofHTML
+
+	}
+
+	$count{$name}++;
+
+	# TITLE clean-ups, etc...
+	$title =~ s/ - / \&\#8212\; /g; # em-dash
+	$title =~ s/($\"|\"^)//g; #  remove start and end quotes
+	$title = &uppercase($title);
+	$title{$name} = $title;
+
+$titleSort{$nameKey} = $title;
+
+
+}
+
+
+# prepare the listing based on grouped titles
+
+foreach $nameKey (sort { $a cmp $b } keys %titleSort) {
+
+	$title = substr ($nameKey, 8, length($nameKey)); # pull the datekey off the title
+
+	next if ($prevBriefing{$title}); # skip if done already
+	$prevBriefing{$title} = 1; # remember what we have done
+
+	$name = $title; # get a key ready for the detail
+
+
+	$name =~ tr/[a-z]/[A-Z]/;
+	$title{$title} = &titleTranslation($title{$title})  if ($locale);
+    $msg .= "sorting titles by date.... $nameKey $name $title\n";
+
+	# create HTML version
+	if ($locale ne "de") {
+
+		# non German Version
+		$line .= <<EndofHTML;
+
+<!-- $title{$title} START -->
+
+		  <tr>
+			   <td width="3"><img src="/images/trans_pixel.gif" width="3" height="1" border="0" alt="spacer"></td>
+			   <td width="195" colspan="2">
+<img src="/images/trans_pixel.gif" width="191" height="3" border="0" alt="spacer"><br />
+<span class="smallGrayText">
+$title{$title}
+</span>
+<img src="/images/trans_pixel.gif" width="191" height="5" border="0" alt="spacer"><br />
+				</td>
+		  </tr>
+
+		  <tr><td colspan="3" height="7" width="198" bgcolor="#f5f5f5"><img src="/images/trans_pixel.gif" width="194" height="7" border="0" alt="spacer"></td></tr>
+
+$detail{$title}
+
+		   <tr><td colspan="3" height="7" width="198" bgcolor="#f5f5f5"><img src="/images/trans_pixel.gif" width="198" height="7" border="0" alt="spacer"></td>
+		   </tr>
+		   <tr><td colspan="3" width="198" height="1" bgcolor="#cecece"><img src="/images/trans_pixel.gif" width="194" height="1" border="0" alt="spacer"></td></tr>
+
+
+<!-- $title{$title} END -->
+
+EndofHTML
+
+		# create XHTML version
+		$xhtmlLine .= <<EndofHTML;
+
+        <!-- $title{$title} -->
+        <h4>$title{$title}</h4>
+        <dl>
+$xhtmlDetail{$title}
+        </dl>
+EndofHTML
+
+	} else {
+
+		# german version
+		$line .= <<EndofHTML;
+
+<!-- $title{$title} START -->
+
+		  <tr>
+			   <td width="3" bgcolor="#f4f4e5"><img src="/images/trans_pixel.gif" width="3" height="1" border="0" alt="spacer"></td>
+			   <td width="195" colspan="2" bgcolor="#f4f4e5">
+<img src="/images/trans_pixel.gif" width="191" height="3" border="0" alt="spacer"><br />
+<span class="smallGrayText">
+$title{$title}
+</span>
+<img src="/images/trans_pixel.gif" width="191" height="5" border="0" alt="spacer"><br />
+				</td>
+		  </tr>
+
+		  <tr><td colspan="3" height="7" width="198" bgcolor="#f4f4e5"><img src="/images/trans_pixel.gif" width="194" height="7" border="0" alt="spacer"></td></tr>
+
+$detail{$title}
+
+		   <tr><td colspan="3" height="7" width="198" bgcolor="#f4f4e5"><img src="/images/trans_pixel.gif" width="198" height="7" border="0" alt="spacer"></td>
+		   </tr>
+		   <tr><td colspan="3" width="198" height="1" bgcolor="#f4f4e5"><img src="/images/trans_pixel.gif" width="194" height="1" border="0" alt="spacer"></td></tr>
+
+
+<!-- $title{$title} END -->
+
+EndofHTML
+
+		# create XHTML version
+		$xhtmlLine .= <<EndofHTML;
+
+        <!-- $title{$title} -->
+        <h4>$title{$title}</h4>
+        <dl>
+$xhtmlDetail{$title}
+        </dl>
+EndofHTML
+	}
+
+
+}
+
+my $output =<<EndofListing;
+    <div id="regionalEventLocalBriefing">
+
+        <h3>$UIstring{'title'}{$locale}</h3>
+
+        $UIstring{'text'}{$locale}
+
+        <br clear="all">
+
+$xhtmlLine
+
+        <ul class="regionalEventMore">
+            <li><a href="/EventsCal?opCode=1&amp;template=2&amp;eventType=5&amp;locationId=4|">$UIstring{'view'}{$locale}</a></li>
+        </ul>
+
+        <br clear="all">
+    </div><!-- end div regionalEventLocalBriefing -->
+EndofListing
+
+# OUTPUT FILE
+
+# pick filename based on locale
+if ($locale eq "it") {
+	$fileName = "/home/gartner/html/rt/content/emea/it/localBriefingTable.html";
+	$xhtmlFileName = "/home/gartner/html/rt/content/emea/it/xhtmlLocalBriefingTable.incl";
+} elsif ($locale eq "de") {
+	$fileName = "/home/gartner/html/rt/content/emea/de/localBriefingTable.html";
+	$xhtmlFileName = "/home/gartner/html/rt/content/emea/de/xhtmlLocalBriefingTable.incl";
+} else {
+	$fileName = "/home/gartner/html/rt/content/emea/localBriefingTable.html";
+	$xhtmlFileName = "/home/gartner/html/rt/content/emea/xhtmlLocalBriefingTable.incl";
+}
+
+# if no $contentFlag then zero out files
+if (!$contentFlag) {
+	$line = "";
+	$output = "";
+}
+
+# save HTML file
+open (OUTPUT, ">$fileName") || die "Can't open OUTPUT to write\n";
+print  OUTPUT $line;
+close (OUTPUT);
+print "$msg\n\nDone.\n";
+
+# save XHTML file
+open (XHTMLOUTPUT, ">$xhtmlFileName") || die "Can't open OUTPUT to write\n";
+print  XHTMLOUTPUT $output;
+close (XHTMLOUTPUT);
+
+print "Done.\n";
+
+exit;
+
+
+
+
+
+
+
+#################################################################
+sub titleTranslation {
+
+	# translate titles from a Known title to a Known Translation
+	# currently these translations are out of date...
+
+	local $t = $_[0];
+	if ($locale eq "it") {
+
+	$t = "Il \"Business Value of IT\" richiede l'allineamento di business e IT\: cosa viene prima\?"
+		if ($t =~ /Business Value of IT/);
+
+	$t = "Opportunità emergenti nel mercato europeo dell'outsourcing."
+		if ($t =~ /Emerging Opportunities/);
+
+	$t = "Creazione di un'architettura e di una \"banca\" di informazioni corrette per il CRM"
+		if ($t =~ /Creating the Right CRM/);
+
+	$t = "Gestione del ciclo di vita dei contratti nella real-time enterprise"
+		if ($t =~ /Cycle Management/);
+
+	$t = "Web Services: Business Drivers e Management"
+		if ($t =~ /Web Services:/);
+
+	$t = "Business Intelligence e Knowledge Management dal 2003 in poi"
+		if ($t =~ /Business Intelligence/);
+
+
+	}
+
+	return ($t);
+
+}
+

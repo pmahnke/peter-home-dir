@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /shops/line_items/
+Disallow: /my_folder
+Disallow: /customer/
+Disallow: /products/tell_a_friend/
+Disallow: /club_member_books/add
+Disallow: /sessions/new
+Disallow: /kids/new
+Disallow: /start/

@@ -1,0 +1,61 @@
+<!-- start of stylesheet_research.incl -->
+
+<script language="JavaScript"><!--
+	if (((navigator.appVersion.toLowerCase().indexOf('msie') !=-1) && (navigator.appVersion.toLowerCase().indexOf('mac') ==-1)) || (navigator.appVersion.toLowerCase().indexOf('windows') !=-1))
+	{
+    		document.write('<link rel=stylesheet href="http://www.gartner.com/css/win/main.css" type="text/css">');
+		document.write('<link rel=stylesheet href="http://www.gartner.com/css/win/navigation.css" type="text/css">');
+		document.write('<link rel=stylesheet href="http://www.gartner.com/css/win/homepage.css" type="text/css">');
+		document.write('<link rel=stylesheet href="http://www.gartner.com/css/win/displayDocument.css" type="text/css">');
+	}
+	else
+	{	if (navigator.appVersion.toLowerCase().indexOf('hp-ux') !=-1)
+		{
+    			document.write('<link rel=stylesheet href="http://www.gartner.com/css/hp/main.css" type="text/css">');
+			document.write('<link rel=stylesheet href="http://www.gartner.com/css/hp/navigation.css" type="text/css">');
+			document.write('<link rel=stylesheet href="http://www.gartner.com/css/hp/homepage.css" type="text/css">');
+			document.write('<link rel=stylesheet href="http://www.gartner.com/css/hp/displayDocument.css" type="text/css">');
+		}
+		else
+		{	if (navigator.appVersion.toLowerCase().indexOf('sunos') !=-1)
+			{
+    				document.write('<link rel=stylesheet href="http://www.gartner.com/css/sun/main.css" type="text/css">');
+				document.write('<link rel=stylesheet href="http://www.gartner.com/css/sun/navigation.css" type="text/css">');
+				document.write('<link rel=stylesheet href="http://www.gartner.com/css/sun/homepage.css" type="text/css">');
+				document.write('<link rel=stylesheet href="http://www.gartner.com/css/sun/displayDocument.css" type="text/css">');
+			}
+			else
+			{	if ((navigator.appVersion.toLowerCase().indexOf('mac') !=-1)  || (navigator.appVersion.toLowerCase().indexOf('x11') !=-1))
+				{
+    					document.write('<link rel=stylesheet href="http://www.gartner.com/css/mac/main.css" type="text/css">');
+					document.write('<link rel=stylesheet href="http://www.gartner.com/css/mac/navigation.css" type="text/css">');
+					document.write('<link rel=stylesheet href="http://www.gartner.com/css/mac/homepage.css" type="text/css">');
+					document.write('<link rel=stylesheet href="http://www.gartner.com/css/mac/displayDocument.css" type="text/css">');
+				}
+				else
+				{	if (navigator.appVersion.toLowerCase().indexOf('linux') !=-1)
+					{
+	    					document.write('<link rel=stylesheet href="http://www.gartner.com/css/linux/main.css" type="text/css">');
+						document.write('<link rel=stylesheet href="http://www.gartner.com/css/linux/navigation.css" type="text/css">');
+						document.write('<link rel=stylesheet href="http://www.gartner.com/css/linux/homepage.css" type="text/css">');
+						document.write('<link rel=stylesheet href="http://www.gartner.com/css/linux/displayDocument.css" type="text/css">');
+					}
+					else
+					{	if (navigator.appVersion.toLowerCase().indexOf('win') !=-1)
+						{
+	    						document.write('<link rel=stylesheet href="http://www.gartner.com/css/netscape/main.css" type="text/css">');
+							document.write('<link rel=stylesheet href="http://www.gartner.com/css/netscape/navigation.css" type="text/css">');
+							document.write('<link rel=stylesheet href="http://www.gartner.com/css/netscape/homepage.css" type="text/css">');
+							document.write('<link rel=stylesheet href="http://www.gartner.com/css/netscape/displayDocument.css" type="text/css">');
+						}
+					}
+				
+				}
+			}
+		}
+	}
+	//--></script>
+
+<!-- end of stylesheet_research.incl -->
+
+

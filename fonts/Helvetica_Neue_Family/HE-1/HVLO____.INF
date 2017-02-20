@@ -1,0 +1,26 @@
+FontName (Helvetica-LightOblique)
+FullName (Helvetica Light Oblique)
+AppleName (LI Helvetica LightOblique)
+AppleFONDID 14975
+FamilyName (Helvetica)
+version (001.002)
+isFixedPitch false
+CharacterSet (isoadobe)
+Encoding (StandardEncoding)
+ItalicAngle -12
+CapHeight 720
+UnderlinePosition -90
+UnderlineThickness 58
+StemWidth 60
+Serif false
+Pi false
+MSMenuName (Helvetica-Light)
+VPMenuName (Helvetica Light)
+WORDMenuName (Helvetica-Light)
+VPTypefaceID 54
+VPStyle (I)
+PCFileNamePrefix (HVLO_)
+PCLTypefaceID 20484
+PCLStrokeWeight -3
+PCLStyle 1
+

@@ -1,0 +1,33 @@
+
+<script language=javascript>
+
+  function GetCooky(name) {
+    var arg = name + "=";
+    var alen = arg.length;
+    var clen = document.cookie.length;
+    var i = 0;
+    
+    while (i <  clen) {
+        var j = i + alen;
+
+        if (document.cookie.substring(i, j) == arg) 
+        {
+            return getCookyVal (j);
+        }
+     	i = document.cookie.indexOf(" ", i) + 1;
+
+     	if (i == 0) break;
+   	}
+   	    return null;
+	}
+
+  function getCookyVal (offset) {
+    var endstr = document.cookie.indexOf (";", offset);
+
+    if (endstr == -1) 
+        endstr = document.cookie.length;
+
+    return (document.cookie.substring(offset, endstr));
+    }
+
+</script>

@@ -1,0 +1,29 @@
+
+<table class=login_menu border=1 cellpadding=0 cellspacing=0> 
+ <tr>
+  <td class=login_menu>&nbsp;Nouveaux Utilisateurs</td>
+  <td class=login_menu>
+<form method="post" name="frmSearch" onsubmit="return false;">
+<input type="submit" value=" Registre " class=login_button  onclick="openRegistration('/UserRegistration?Reg=RegPage0')">
+</form>
+  </td>
+ </tr>
+
+ <tr>
+  <td class=login_menu>&nbsp;<a href=rec_home.html>Utilisateurs Actuels</a></td>
+  <td class=login_menu>
+<form method="post" name="frmSearch" action="login/loginform.jsp?locale=fr">
+<input type=submit value=" Signe dedans " class=login_button>
+</form>
+<!--
+onClick="openSigninPopup('login/loginform.jsp?locale=fr')">
+onClick="openSigninPopup('http://www.gartner.com/SigninPopup.jsp?call=homepage')">
+-->
+  </td>
+ </tr>
+</table>
+
+
+
+
+

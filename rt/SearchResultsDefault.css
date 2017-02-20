@@ -1,0 +1,89 @@
+	body {
+		background:	#ffffff;
+	}	
+	
+	
+	font {
+		font-family:	verdana, arial, helvetica;
+		font-size:	12px;
+		color:		#00639F;
+	}	
+
+
+	table {
+		width:		650;
+		border:		0;
+		cellpadding:	0;
+		cellspacing:	0
+	}
+		
+
+	td {
+		font-size: 	12px;
+		font-family: 	verdana, arial, helvetica;
+		color: 		#000000; #was 66
+		valign:		top
+	}
+
+	.keywords {
+		font-size:	24px;
+		font-weight:	bold;
+	}
+
+	.title {
+		font-size:	16px;
+		font-weight:	bold;
+		background:	#F7F7F9;
+	}
+
+	.author {
+		font-size:	10px;
+
+	}
+
+	.date {
+		font-size:	10px;
+		font-style:	italic;	
+	}
+
+	.summary {
+		font-size:	12px;
+		color:		#000000;
+	}
+
+	.doctype {
+		font-size:	10px;
+	}
+
+	.number {
+		font-size:	48px;
+		background:	#00639F;;
+		color:		#ffffff;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

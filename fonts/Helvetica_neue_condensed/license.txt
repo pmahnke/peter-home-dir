@@ -1,0 +1,265 @@
+ADOBE ON-LINE DISTRIBUTION
+ADOBE SYSTEMS INCORPORATED
+ELECTRONIC END USER LICENSE AGREEMENT
+FOR FIVE (5) COMPUTERS
+
+
+PLEASE RETURN ANY ACCOMPANYING REGISTRATION FORM TO RECEIVE 
+REGISTRATION BENEFITS
+
+NOTICE TO USER: 
+THIS IS A CONTRACT. BY INDICATING YOUR ACCEPTANCE BELOW, YOU 
+ACCEPT ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT. IF 
+YOU DO NOT AGREE WITH THE TERMS AND CONDITIONS OF THIS 
+AGREEMENT, DECLINE WHERE INSTRUCTED, AND YOU WILL NOT BE 
+ABLE TO USE THE SOFTWARE.
+
+This Adobe Systems Incorporated ("Adobe") End User License 
+Agreement accompanies software ("Software") and related 
+explanatory written materials ("Documentation"). The term 
+"Software" shall also include any upgrades, modified 
+versions, updates, additions, and copies of the Software 
+licensed to you by Adobe. Adobe grants to you a nonexclusive 
+license to use the Software and Documentation, provided that 
+you agree to the following:
+
+1. Use of the Software. 
+You may--
+
+- Install the Software in a single location on a hard disk 
+or other storage device of up to the number of computers 
+indicated at the top of this Agreement ("Permitted Number 
+of Computers"). 
+
+- Provided the Software is configured for network use, 
+install and use the Software on a single file server for 
+use on a single local area network for either (but not 
+both) of the following purposes: 
+
+	(1) permanent installation onto a hard disk or other 
+storage device of up to the Permitted Number of 
+Computers; or 
+
+	(2) use of the Software over such network, provided the 
+number of different computers on which the Software is 
+used does not exceed the Permitted Number of Computers. 
+For example, if there are 100 computers connected to the 
+server, with no more than 15 computers ever using the 
+Software concurrently, but the Software will be used on 
+25 different computers at various times, the Permitted 
+Number of Computers for which you need a license is 25. 
+
+- Display, modify, reproduce and distribute any photographs, 
+clip art or other artistic works, in whole or in part, 
+that are included with the Software (unless a specific 
+notice to the contrary is indicated), provided such 
+photographs, clip art or artistic works are not 
+distributed on a stand-alone basis.  Such photographs, 
+clip art and artistic works may not be used in the 
+production of lewd, obscene or pornographic material.
+
+- Make one backup copy of the Software, provided your backup 
+copy is not installed or used on any computer. 
+
+HOME USE.  The primary user of each computer on which the 
+Software is installed or used may also install the Software 
+on one home or portable computer. However, the Software may 
+not be used on the secondary computer by another person at 
+the same time the Software on the primary computer is being 
+used. 
+
+FONT SOFTWARE.  If the Software includes font software, you 
+may-- 
+
+- Use the font software as described above on the Permitted 
+Number of Computers and output such font software on any 
+output devices connected to such computers. 
+
+- If the Number of Permitted Computers is five or fewer, 
+download the font software to the memory (hard disk or 
+RAM) of one output device connected to at least one of 
+such computers for the purpose of having such font 
+software remain resident in the output device, and of one 
+additional such output device for every multiple of five 
+represented by the Number of Permitted Computers. 
+
+- Take a copy of the font(s) you have used for a particular 
+file to a commercial printer or other service bureau, and 
+such service bureau may use the font(s) to process your 
+file, provided such service bureau has informed you that 
+it has purchased or been granted a license to use that 
+particular font software. 
+
+- Convert and install the font software into another format 
+for use in other environments, subject to the following 
+conditions: A computer on which the converted font 
+software is used or installed shall be considered as one 
+of your Permitted Number of Computers. You agree that use 
+of the font software you have converted shall be pursuant 
+to all the terms and conditions of this Agreement, that 
+such font software may be used only for your own 
+customary internal business or personal use and that such 
+font software may not be distributed or transferred for 
+any purpose, except in accordance with Paragraph 3 below. 
+
+2. Copyright.
+The Software is owned by Adobe and its suppliers, and its 
+structure, organization and code are the valuable trade 
+secrets of Adobe and its suppliers. The Software is also 
+protected by United States Copyright Law and International 
+Treaty provisions. You must treat the Software just as you 
+would any other copyrighted material, such as a book. You 
+may not copy the Software or the Documentation, except as 
+set forth in the "Use of the Software" section. Any copies 
+that you are permitted to make pursuant to this Agreement 
+must contain the same copyright and other proprietary 
+notices that appear on or in the Software. Except for font 
+software converted to other formats as permitted in the "Use 
+of the Software" section, you agree not to modify, adapt or 
+translate the Software. You also agree not to reverse 
+engineer, decompile, disassemble or otherwise attempt to 
+discover the source code of the Software. Trademarks shall 
+be used in accordance with accepted trademark practice, 
+including identification of trademark owner’s name. 
+Trademarks can only be used to identify printed output 
+produced by the Software. Such use of any trademark does not 
+give you any rights of ownership in that trademark. Except 
+as stated above, this Agreement does not grant you any 
+intellectual property rights in the Software.  
+
+3. Transfer.
+You may not rent, lease, sublicense or lend the Software or 
+Documentation. You may, however, transfer all your rights to 
+use the Software to another person or legal entity provided 
+that you transfer this Agreement, the Software, including 
+all copies, updates and prior versions and all copies of 
+font software converted into other formats, and all 
+Documentation to such person or entity and that you retain 
+no copies, including copies stored on a computer. 
+
+4. Multiple Environment Software/Multiple Language 
+Software/Dual Media Software/Multiple Copies/Upgrades.
+If the Software includes, or, in connection with the 
+acquisition of the Software you receive, two or more 
+operating environment versions of the Software (e.g. 
+Macintosh® and Windows® ), two or more language translation 
+versions of the Software, the same Software on two or more 
+media (e.g., diskettes and a CD-ROM), and/or you otherwise 
+receive two or more copies of the Software, the total 
+aggregate number of computers on which all versions of the 
+Software are used may not exceed the Permitted Number of 
+Computers.  By way of example, if you download an electronic 
+copy of the Software from the Internet or another source, 
+and in connection with your acquisition of such downloaded 
+copy you are also provided a copy of the Software on a 
+tangible storage medium, the total aggregate number of 
+computers on which all copies of the Software are used may 
+not exceed the Permitted Number of Computers expressed in 
+this Agreement, notwithstanding the fact that you may have 
+been asked to accept End User License Agreements totaling a 
+greater Permitted Number of Computers.  You may make one 
+back-up copy, in accordance with the terms of this 
+Agreement, for each version of the Software you use. You may 
+not rent, lease, sublicense, lend or transfer versions or 
+copies of the Software you do not use, or Software contained 
+on any unused media, except as part of the permanent 
+transfer of all Software and Documentation as described 
+above. If you acquire an upgrade or update for Software, you 
+may use the previous version for ninety (90) days after you 
+receive the new version in order to assist you in the 
+transition to the new version, after which time you no 
+longer have a license to use the previous version. 
+
+5. Limited Warranty.
+Adobe warrants to you that the Software will perform 
+substantially in accordance with the Documentation for the 
+ninety (90) day period following your receipt of the 
+Software. This warranty does not apply to font software 
+converted into other formats. To make a warranty claim, you 
+must return the Software to the location where you obtained 
+it along with a copy of your sales receipt within such 
+ninety (90) day period. If the Software does not perform 
+substantially in accordance with the Documentation, the 
+entire and exclusive liability and remedy shall be limited 
+to either, at Adobe's option, the replacement of the 
+Software or the refund of the license fee you paid for the 
+Software. ADOBE AND ITS SUPPLIERS DO NOT AND CANNOT WARRANT 
+THE PERFORMANCE OR RESULTS YOU MAY OBTAIN BY USING THE 
+SOFTWARE OR DOCUMENTATION. THE FOREGOING STATES THE SOLE AND 
+EXCLUSIVE REMEDIES FOR ADOBE'S OR ITS SUPPLIERS' BREACH OF 
+WARRANTY. EXCEPT FOR THE FOREGOING LIMITED WARRANTY, ADOBE 
+AND ITS SUPPLIERS MAKE NO WARRANTIES, EXPRESS OR IMPLIED, AS 
+TO NONINFRINGEMENT OF THIRD PARTY RIGHTS, MERCHANTABILITY, 
+OR FITNESS FOR ANY PARTICULAR PURPOSE. Some states or 
+jurisdictions do not allow the exclusion of implied 
+warranties or limitations on how long an implied warranty 
+may last, so the above limitations may not apply to you. To 
+the extent permissible, any implied warranties are limited 
+to ninety (90) days. This warranty gives you specific legal 
+rights. You may have other rights which vary from state to 
+state or jurisdiction to jurisdiction. For further warranty 
+information, please contact Adobe's Customer Support 
+Department.
+
+6. Limitation of Liability.
+IN NO EVENT WILL ADOBE OR ITS SUPPLIERS BE LIABLE TO YOU FOR 
+ANY CONSEQUENTIAL, INCIDENTAL OR SPECIAL DAMAGES, INCLUDING 
+ANY LOST PROFITS OR LOST SAVINGS, EVEN IF AN ADOBE 
+REPRESENTATIVE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH 
+DAMAGES, OR FOR ANY CLAIM BY ANY THIRD PARTY. SOME STATES OR 
+JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF 
+INCIDENTAL, CONSEQUENTIAL OR SPECIAL DAMAGES, SO THE ABOVE 
+LIMITATIONS MAY NOT APPLY TO YOU. 
+
+7. Trademark License.
+Adobe may provide you with a product signature which you may 
+license and use in connection with the Software.  Adobe 
+hereby grants you a worldwide, nonexclusive, 
+nontransferable, personal right to use any such Software 
+product signature supplied by Adobe solely under the license 
+terms and conditions accompanying any such product signature 
+or published by Adobe.
+
+8. Governing Law and General Provisions.
+This Agreement will be governed by the laws in force in the 
+State of California excluding the application of its 
+conflicts of law rules. This Agreement will not be governed 
+by the United Nations Convention on Contracts for the 
+International Sale of Goods, the application of which is 
+expressly excluded. If any part of this Agreement is found 
+void and unenforceable, it will not affect the validity of 
+the balance of the Agreement, which shall remain valid and 
+enforceable according to its terms. You agree that the 
+Software will not be shipped, transferred or exported into 
+any country or used in any manner prohibited by the United 
+States Export Administration Act or any other export laws, 
+restrictions or regulations. This Agreement shall 
+automatically terminate upon failure by you to comply with 
+its terms. This Agreement may only be modified in writing 
+signed by an authorized officer of Adobe. 
+
+9. Notice to Government End Users.
+The Software and Documentation are "Commercial Items," as 
+that term is defined at 48 C.F.R. §2.101, consisting of 
+"Commercial Computer Software" and "Commercial Computer 
+Software Documentation," as such terms are used in 48 C.F.R. 
+§12.212 or 48 C.F.R. §227.7202, as applicable. Consistent 
+with 48 C.F.R. §12.212 or 48 C.F.R. §§227.7202-1 through 
+227.7202-4, as applicable, the Commercial Computer Software 
+and Commercial Computer Software Documentation are being 
+licensed to U.S. Government end users (A) only as Commercial 
+Items and (B) with only those rights as are granted to all 
+other end users pursuant to the terms and conditions herein. 
+
+Unpublished-rights reserved under the copyright laws of the 
+United States. Adobe Systems Incorporated, 345 Park Avenue, 
+San Jose, CA 95110-2704.
+
+Adobe is a trademark of Adobe Systems Incorporated. 
+Macintosh is a trademark of Apple Computer, Inc. registered 
+in the U.S. and other countries.  Windows is either a 
+registered trademark or trademark of Microsoft Corporation.
+
+9/10/98/BAL 	On-line Distribution	 
+apd format/Eula	End User License Agreement
+EULAOn-lineDist5	Five Computers

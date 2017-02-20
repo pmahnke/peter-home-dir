@@ -1,0 +1,6 @@
+<!-- created by pickResearch.cgi -->
+
+ <li> <a href="http://www.gartner.de/it-news/041040_si.html" onclick="openResult('http://www.gartner.de/it-news/041040_si.html'); return false;">Siemens kooperiert bei Netzwerk-Equipment mit Huawei </a></li>
+ <li> <a href="http://www.gartner.de/it-news/041040_ms.html" onclick="openResult('http://www.gartner.de/it-news/041040_ms.html'); return false;">Microsoft liefert Open-Source Wiki-Tools f&uuml;r Entwickler</a></li>
+ <li> <a href="http://www.gartner.de/it-news/041040_pe.html" onclick="openResult('http://www.gartner.de/it-news/041040_pe.html'); return false;">Nach CEO-Entlassung weiter Ungewissheit bei PeopleSoft </a></li>
+ <li> <a href="http://www.gartner.de/it-news/041040_vm.html" onclick="openResult('http://www.gartner.de/it-news/041040_vm.html'); return false;">VMware bietet neue PC-Virtualisierungs-Software</a></li>

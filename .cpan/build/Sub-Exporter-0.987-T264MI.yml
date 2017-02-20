@@ -1,0 +1,69 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: R/RJ/RJBS/Sub-Exporter-0.987.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: R/RJ/RJBS/Sub-Exporter-0.987.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: RJBS
+  archived: tar
+  build_dir: /home/peter/.cpan/build/Sub-Exporter-0.987-T264MI
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370090
+  localfile: /home/peter/.cpan/sources/authors/id/R/RJ/RJBS/Sub-Exporter-0.987.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370089
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370090
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      Exporter: 0
+      File::Spec: 0
+      IO::Handle: 0
+      IPC::Open3: 0
+      Test::More: 0.96
+      base: 0
+      lib: 0
+      overload: 0
+      subs: 0
+    requires:
+      Carp: 0
+      Data::OptList: 0.100
+      Params::Util: 0.14
+      Sub::Install: 0.92
+      strict: 0
+      warnings: 0
+  reqtype: b
+  sponsored_mods:
+    Data::OptList: 1
+    Params::Util: 1
+    Sub::Install: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370081
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370082
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370090

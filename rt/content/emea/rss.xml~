@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+  <rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
+  <channel>
+  <title>Gartner Europe</title>
+  <link>http://europe.gartner.com/</link>
+  <description>Daily update of the featured news and research from Gartner Europe, the world's leading IT research and advisory firm's European website.</description>
+  <language>en-us</language>
+  <copyright>Copyright 2003 Gartner, Inc. and/or its Affiliates. All Rights Reserved. </copyright>
+  <lastBuildDate>Tue, 03 Feb 2004 14:57:11 GMT</lastBuildDate>
+  <docs>http://backend.userland.com/rss</docs>
+  <managingEditor>stephanie.gordon@gartner.com</managingEditor>
+  <webMaster>peter.mahnke@gartner.com</webMaster>
+  <image>
+    <url>http://intl.transitionelement.com/img/ge_logo_small.gif</url>
+    <width>110</width>
+    <height>45</height>
+    <link><![CDATA[http://europe.gartner.com]]</link>
+    <title>Gartner Europe</title>
+  </image>
+  <ttl>120</ttl>
+  <skipDays><day>Saturday</day><day>Sunday</day></skipDays>
+  <skipHours><hour>1</hour><hour>2</hour><hour>3</hour><hour>4</hour><hour>5</hour><hour>6</hour><hour>19</hour><hour>20</hour><hour>21</hour><hour>22</hour><hour>23</hour><hour>24</hour></skipHours>
+<item>
+  <title>EU Recycling Law Will Drive Up PC Prices</title>
+  <description>PCs will become more expensive as manufacturers add recycling costs into their prices.</description>
+  <pubDate>Fri, 30 Jan 2004 18:30:47 GMT</pubDate>
+  <link><![CDATA[z_20040130_01_fp.html]]</link>
+</item>
+<item>
+  <title>Microsoft  -- A Special Report</title>
+  <description>Gartner analyzes Microsoft's licensing practices, security efforts, and plans for Longhorn and Yukon.</description>
+  <pubDate>Fri, 23 Jan 2004 18:30:47 GMT</pubDate>
+  <link><![CDATA[/research/spotlight/asset_57932_895.jsp]]</link>
+</item>
+<item>
+  <title>Microsoft Records Good Growth, Faces Two Financial Challenges</title>
+  <description>Microsoft reported good revenue growth in its latest quarter, but exchange rates and an ongoing decline in deferred revenue will pose challenges for Microsoft through the first half of 2005.</description>
+  <pubDate>Thu, 29 Jan 2004 00:00:00 GMT</pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=423603&call=email&amp;ref=g_emalert]]></link>
+</item>
+<item>
+  <title>Eclipse Aims for Thought Leadership in Open-Source Technology</title>
+  <description>The Eclipse Foundation offers a low-risk investment for enterprises seeking standardized platforms. The revamped trade organization is likely to become the thought leader in open-source technologies.</description>
+  <pubDate>Mon, 02 Feb 2004 00:00:00 GMT</pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=423781&call=email&amp;ref=g_emalert]]></link>
+</item>
+<item>
+  <title>SeeBeyond's Future Looks Brighter After Major NHS Contract </title>
+  <description>SeeBeyond will provide part of the infrastructure for the U.K. National Health Service (NHS) national data spine. The deal dispels doubts about SeeBeyond's viability, but the contract will be a major test of the company's capabilities.</description>
+  <pubDate>Thu, 29 Jan 2004 00:00:00 GMT</pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=423601&call=email&ref=g_emalert]]></link>
+</item>
+<item>
+  <title>Microsoft Records Good Growth, Faces Two Financial Challenges</title>
+  <description>Microsoft reported good revenue growth in its latest quarter, but exchange rates and an ongoing decline in deferred revenue will pose challenges for Microsoft through the first half of 2005.</description>
+  <pubDate>Thu, 29 Jan 2004 00:00:00 GMT</pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=423603&call=email&ref=g_emalert]]></link>
+</item>
+<item>
+  <title>Large PC Vendors Could Enjoy Lasting Growth in New EU States</title>
+  <description>Ten more countries will join the European Union in May 2004, leading to further growth in their PC markets. To take full advantage, international PC vendors need to build extensive networks of resellers and distributors.</description>
+  <pubDate>Wed, 28 Jan 2004 00:00:00 GMT</pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=423578&call=email&amp;ref=g_emalert]]></link>
+</item>
+<item>
+  <title>Business Intelligence Software Market: Europe, 2000-2007</title>
+  <description>New license revenue will rise from $579 million in 2003 to $823 million in 2007. The strongest growth will occur in Eastern Europe, but the United Kingdom will remain Europe's largest market for BI software.</description>
+  <pubDate>Fri, 30 Jan 2004 00:00:00 GMT</pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=423680&call=email&amp;ref=g_emalert]]></link>
+</item>
+<item>
+  <title>What Is the Right IT Service Desk Staff Size and Structure?</title>
+  <description>To rationalize service and support staffing, IT senior management needs to identify and quantify the key environmental factors that manipulate service delivery and support demand.</description>
+  <pubDate>Thu, 29 Jan 2004 00:00:00 GMT</pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=423607&call=email&amp;ref=g_emalert]]></link>
+</item>
+<item>
+  <title>IT Professional Services Forecast and Trends for Web Services</title>
+  <description>A market size and forecast presents a scenario for Web services outsourcing, and services vendor survey results identify the use of Web services products and solutions in the systems integration channel.</description>
+  <pubDate>Tue, 27 Jan 2004 00:00:00 GMT</pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=423480&call=email&amp;ref=g_emalert]]></link>
+</item>
+
+ </channel>
+</rss>

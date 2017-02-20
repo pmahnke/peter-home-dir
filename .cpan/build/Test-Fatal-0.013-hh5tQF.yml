@@ -1,0 +1,64 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: R/RJ/RJBS/Test-Fatal-0.013.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: R/RJ/RJBS/Test-Fatal-0.013.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: RJBS
+  archived: tar
+  build_dir: /home/peter/.cpan/build/Test-Fatal-0.013-hh5tQF
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370003
+  localfile: /home/peter/.cpan/sources/authors/id/R/RJ/RJBS/Test-Fatal-0.013.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370003
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370003
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      File::Spec: 0
+      IO::Handle: 0
+      IPC::Open3: 0
+      Test::Builder::Tester: 0
+      Test::More: 0.96
+      overload: 0
+    requires:
+      Carp: 0
+      Exporter: 5.57
+      Test::Builder: 0
+      Try::Tiny: 0.07
+      strict: 0
+      warnings: 0
+  reqtype: b
+  sponsored_mods:
+    Try::Tiny: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370000
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370000
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370003

@@ -1,0 +1,42 @@
+<table width="100%" border="0" cellpadding="0" cellspacing="0" >  
+ <tr valign="top"><td width="15"><img src="//img/trans_pixel.gif" width="15"></td>
+  <td valign="top">
+   <table width="100%" border="0">
+    <tr>
+     <td>
+<span class="textBlackReg2">Locale:</span>
+ <a class="linkTextSmall" href="/silentlocalechooser.jsp?locale=wcw">Worldwide</a>  
+ <a class="linkTextSmall" href="/silentlocalechooser.jsp?locale=emea">Europe</a>
+    <br />
+
+      <a href="05_z_about.html" class="linkTextSmall" >About Gartner</a>  
+      <a class="linkTextSmall" href="javascript:void(null)" onclick="openNewAdminFooter('06_SiteIndexPopUp.html')">Site Index</a>  
+      <a class="linkTextSmall" href="javascript:void(null)" onclick="openNewAdmin('/ContactUs?param=no')">Contact Us</a>  
+      <a class="linkTextSmall" href="/6_help/help_overview.html">Help</a>  
+      <div><img src="//img/trans_pixel.gif" alt="" border="0" height="2" width="1"></div>
+     </td>
+     <td width="300" align="right">
+      <a class="linkTextSmall" href="javascript:void(null)" onclick="openNewAdmin('/6_help/18a.html')">Privacy Policy</a>  
+      <a class="linkTextSmall" href="javascript:void(null)" onclick="openNewAdmin('/6_help/16.html')">Terms of Use</a>  
+     </td>
+    </tr>
+    <tr>
+     <td class="darkShading">
+      <span class="textBlackReg2">Sites: </span>
+      <a class="linkTextSmall" href="/5_about/news/notices/i508.jsp">Accessibility</a>  
+      <a class="linkTextSmall" href="http://www.gartnerG2.com" target="_blank">GartnerG2</a>   
+      <a class="linkTextSmall" href="http://www.people3.com" target="_blank">people3</a>   
+      <a class="linkTextSmall" href="http://www.gartner-alumni.com" target="_blank">Gartner Alumni</a>   
+      <a class="linkTextSmall" href="http://www.techrepublic.com" target="_blank">TechRepublic</a> 
+      <a class="linkTextSmall" href="http://techupdate.zdnet.com/techupdate/filters/gateway/0,14192,6021056,00.html" target="_blank">IT Product Finder</a>  
+      <div><img src="//img/trans_pixel.gif" alt="" border="0" height="2" width="1"></div>
+     </td>
+     <td align="right">
+      <span class="linkTextSmall2">     © Gartner, Inc., 2002.  All Rights Reserved.   </span>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+<div class="resIdText">Gartner Europe</div>

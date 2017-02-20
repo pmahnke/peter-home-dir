@@ -1,0 +1,20 @@
+getGartner already Authenticated<p>
+
+
+getGartner GET GETTING PAGE: http://www.gartner.com/Search?keywords=%22Magic%2BQuadrant%22&op=73<p>
+
+
+getGartner COOKIE CREATED/LOADED: Set-Cookie3: WebLogicSession=CFh6VXLjCQTkDgXmRJfGjfLXMnCvTK4VJhwyng7JhSMhNJ17WK1X!1093265226; path="/"; domain=.gartner.com; path_spec; discard; version=0
+Set-Cookie3: WEBTRENDS_ID=81.144.220.5-1091170720.284638; path="/"; domain=www3.gartner.com; path_spec; expires="2014-07-28 06:58:40Z"; version=0
+<p>
+
+
+getGartner COOKIE SAVED: Set-Cookie3: WebLogicSession=CF2dzZs6vWp4hymTGYJlplxpRrhLyytQJbcctXDw8t2lDGvThqZW!1093265226; path="/"; domain=.gartner.com; path_spec; discard; version=0
+Set-Cookie3: WEBTRENDS_ID=81.144.220.5-1091170720.284638; path="/"; domain=www3.gartner.com; path_spec; expires="2014-07-28 06:58:40Z"; version=0
+getGartner: CONNECT GET SUCCESS:    date  30 June 2005
+
+found 1689 records 
+
+
+Done.
+

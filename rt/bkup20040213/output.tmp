@@ -1,0 +1,1215 @@
+  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+  
+
+
+  
+  
+  
+  <html>
+      <script>ResId = 316686</script>
+  <head>
+  	<title>Site Index</title>
+  	<link href="/6_help/css/content_bg_gray.css" rel="stylesheet">
+  	
+  <META HTTP-EQUIV="Expires" CONTENT="-1">
+
+ <!-- This include sets gartner.com time out -->
+
+<meta http-equiv="refresh" content="7200;url=/Terminate?src=timeout">
+
+
+<link rel=stylesheet href="/css/menu.css" type="text/css">
+
+  <script language="JavaScript"><!--
+  if (((navigator.appVersion.toLowerCase().indexOf('msie') !=-1) && (navigator.appVersion.toLowerCase().indexOf('mac') ==-1)) || (navigator.appVersion.toLowerCase().indexOf('windows') !=-1))
+  {
+    document.write('<link rel=stylesheet href="/css/win/main.css" type="text/css">');
+    document.write('<link rel=stylesheet href="/css/win/navigation.css" type="text/css">');
+    document.write('<link rel=stylesheet href="/css/win/homepage.css" type="text/css">');
+  }
+  else
+  {	if (navigator.appVersion.toLowerCase().indexOf('hp-ux') !=-1)
+    {
+      document.write('<link rel=stylesheet href="/css/hp/main.css" type="text/css">');
+      document.write('<link rel=stylesheet href="/css/hp/navigation.css" type="text/css">');
+      document.write('<link rel=stylesheet href="/css/hp/homepage.css" type="text/css">');
+    }
+    else
+    {	if (navigator.appVersion.toLowerCase().indexOf('sunos') !=-1)
+      {
+        document.write('<link rel=stylesheet href="/css/sun/main.css" type="text/css">');
+        document.write('<link rel=stylesheet href="/css/sun/navigation.css" type="text/css">');
+        document.write('<link rel=stylesheet href="/css/sun/homepage.css" type="text/css">');
+      }
+      else
+      {	if ((navigator.appVersion.toLowerCase().indexOf('mac') !=-1)  || (navigator.appVersion.toLowerCase().indexOf('x11') !=-1))
+        {
+          document.write('<link rel=stylesheet href="/css/mac/main.css" type="text/css">');
+          document.write('<link rel=stylesheet href="/css/mac/navigation.css" type="text/css">');
+          document.write('<link rel=stylesheet href="/css/mac/homepage.css" type="text/css">');
+        }
+        else
+        {	if (navigator.appVersion.toLowerCase().indexOf('linux') !=-1)
+          {
+            document.write('<link rel=stylesheet href="/css/linux/main.css" type="text/css">');
+            document.write('<link rel=stylesheet href="/css/linux/navigation.css" type="text/css">');
+            document.write('<link rel=stylesheet href="/css/linux/homepage.css" type="text/css">');
+          }
+          else
+          {	if (navigator.appVersion.toLowerCase().indexOf('win') !=-1)
+            {
+              document.write('<link rel=stylesheet href="/css/netscape/main.css" type="text/css">');
+              document.write('<link rel=stylesheet href="/css/netscape/navigation.css" type="text/css">');
+              document.write('<link rel=stylesheet href="/css/netscape/homepage.css" type="text/css">');
+            }
+          }
+
+        }
+      }
+    }
+  }
+  //--></script>
+  <script src="/js/navigation.js"></script>
+  <script src="/js/menu.js"></script>
+  <script src="/js/utility.js"></script>
+  <script src="/pages/docs/gartner/mq/scripts/utils.js"></script>
+  <script src="/js/cookie.js"></script>
+  <script src="/js/mouseevents.js"></script>
+  <script src="/js/layerapi.js"></script>
+  <script>
+
+    var readyState = null
+
+    var calendar = null
+
+    var formDivs = new Array()
+
+    var zIndex = 2
+
+    var textFocus = 0
+
+    var content = self
+
+    var footer = parent.footer
+
+    var winCTR = 0 ;
+
+    var childWindow = new Array(20);
+
+    var REGISTEREDUSER =0
+
+    var CLIENTADM = 0
+
+    var GARTADM = 0
+
+    var INQACCESS = 0
+
+    var EVENTREG = 0
+
+    var sleeperInc = 1
+
+    var myTimer
+
+    var usercookie=GetCookie("UserType");
+
+    var objSearchForm = document.frmSearch
+
+    var mystrng ;
+
+    if (usercookie != null) {
+      REGISTEREDUSER = parseInt(Mid(usercookie,0,1));
+      CLIENTADM = parseInt(Mid(usercookie,1,1));
+      GARTADM = parseInt(Mid(usercookie,2,1));
+      INQACCESS = parseInt(Mid(usercookie,3,1));
+      EVENTREG = parseInt(Mid(usercookie,4,1));
+    }
+
+
+    function sleeper() {
+      if (sleeperInc==1) {
+        objSubNav.writeIt(buildSubNav())
+      }
+    }
+
+
+    function Mid(str, start, len) {
+      if (start < 0 || len < 0) {
+        return "";
+      }
+      var iEnd, iLen = String(str).length;
+      if (start + len > iLen) {
+        iEnd = iLen;
+      } else {
+        iEnd = start + len;
+      }
+      return String(str).substring(start,iEnd);
+    }
+
+
+    function GetCookie(name) {
+      var arg = name + "=";
+      var alen = arg.length;
+      var clen = document.cookie.length;
+      var i = 0;
+
+      while (i <  clen) {
+        var j = i + alen;
+
+        if (document.cookie.substring(i, j) == arg) {
+          return getCookieVal (j);
+        }
+
+        i = document.cookie.indexOf(" ", i) + 1;
+        if (i == 0) {
+          break;
+        }
+      }
+      return null;
+    }
+
+
+    function getCookieVal (offset) {
+      var endstr = document.cookie.indexOf (";", offset);
+
+      if (endstr == -1) {
+        endstr = document.cookie.length;
+      }
+      return unescape(document.cookie.substring(offset, endstr));
+    }
+
+
+    function pageInit() {
+      if ((bw.ns4 && document.contentNav)
+          || (bw.ns6 && document.getElementById("contentNav"))
+          ||(!(bw.ns4 || bw.ns6) && document.all.contentNav)) {
+        objSubNav = new objLayer("contentNav")
+        if (bw.ns4) {
+          objSubNav.writeIt(buildSubNav())
+        } else {
+          sleeper()
+        }
+      }
+      if (document.URL.substr(0,5)!="https") {
+        if (footer) {
+          footer.location.reload();
+        }
+      }
+      for (i = 0; i < Menus.length; i++) {
+        Menus[i].init();
+      }
+      if (calendar) {
+        buildCalendar(increment);
+      }
+      //document.onkeydown = keydown;
+      //if (bw.ns4) {
+      //	document.captureEvents(Event.KEYDOWN);
+      //}
+      readyState = "complete";
+      //document.frmSearch.txtSearch.focus();
+    }
+
+
+    onload = pageInit
+
+
+    function keydown(e) {
+      if (bw.ns4 || bw.ns6) {
+        intKey=e.which;
+      } else {
+        intKey=event.keyCode;
+      }
+      if (intKey==13) {
+        switch (textFocus){
+          case 0: submitSearch(); break;
+          case 1: submitSignin(); break;
+          case 2: submitEmail(); break;
+          case 3: break;
+        }
+      }
+    }
+
+
+          function validSearch(){
+            var objSearchForm = document.frmSearch
+            var keywords = objSearchForm.txtSearch.value;
+
+            if (keywords.match(/[A-Z]+/g) ||
+                keywords.match(/[a-z]+/g) ||
+                keywords.match(/[0-9]+/g)) {
+                return true;
+            }
+
+            if (keywords.match(/^ *$/g)) {
+                alert('Please provide keywords for your search.');
+                return false;
+            }
+
+            alert('Your search is too general.  Please provide keywords for your search.');
+            return false;
+        }
+
+
+    function submitSearch() {
+
+        var objSearchForm = document.frmSearch;
+        if (validSearch()) {
+            mystrng = objSearchForm.txtSearch.value;
+
+			mystrng = mystrng.replace(/\%/g,"%25");
+			mystrng = mystrng.replace(/\"/g,"%22");
+			mystrng = mystrng.replace(/\#/g,"%23");
+			mystrng = mystrng.replace(/\&/g,"%26");
+			mystrng = mystrng.replace(/\+/g,"%2B");
+			mystrng = mystrng.replace(/\,/g,"%2C");
+			mystrng = mystrng.replace(/\./g,"%2E");
+			mystrng = mystrng.replace(/\//g,"%2F");
+			mystrng = mystrng.replace(/\:/g,"%3A");
+			mystrng = mystrng.replace(/\;/g,"%3B");
+			mystrng = mystrng.replace(/\</g,"%3C");
+			mystrng = mystrng.replace(/\=/g,"%3D");
+			mystrng = mystrng.replace(/\>/g,"%3E");
+			mystrng = mystrng.replace(/\?/g,"%3F");
+			mystrng = mystrng.replace(/\@/g,"%40");
+			mystrng = mystrng.replace(/\[/g,"%5B");
+			mystrng = mystrng.replace(/\]/g,"%5D");
+			mystrng = mystrng.replace(/\^/g,"%5E");
+			mystrng = mystrng.replace(/\'/g,"%60");
+			mystrng = mystrng.replace(/\{/g,"%7B");
+			mystrng = mystrng.replace(/\|/g,"%7C");
+			mystrng = mystrng.replace(/\}/g,"%7D");
+			mystrng = mystrng.replace(/\~/g,"%7E");
+			mystrng = mystrng.replace(/ /g,"+");
+
+            for (x = 0; x < mystrng.length; x++) {
+                d = mystrng.charCodeAt(x);
+                if (d == 8216 || d == 8217 || d == 8220 || d == 8221) {
+                    if (x == 0) {
+                        if (d == 8216 || d == 8217) {
+                            mystrng = "%27"
+                                + mystrng.substring(1, mystrng.length);
+                        } else {
+                            mystrng = "%22"
+                                + mystrng.substring(1, mystrng.length);
+                        }
+                    } else if (x == mystrng.length) {
+                        if (d == 8216 || d == 8217) {
+                            mystrng = mystrng.substring(0, x) + "%27";
+                        } else {
+                            mystrng = mystrng.substring(0, x) + "%22";
+                        }
+                    } else {
+                        if (d == 8216 || d == 8217) {
+                            mystrng = mystrng.substring(0, x)
+                                + "%27"
+                                + mystrng.substring(x + 1, mystrng.length);
+                        } else {
+                            mystrng = mystrng.substring(0, x)
+                                + "%22"
+                                + mystrng.substring(x + 1, mystrng.length);
+                        }
+                    }
+                }
+            }
+
+            openSearch('/7_search/Search2Frame.jsp?keywords='+ mystrng);
+        }
+    }
+
+
+    function advancedSearch() {
+      openSearch('/7_search/Search2Frame.jsp?op=2');
+    }
+
+
+    function browse() {
+      openSearch('/7_search/Search3Frame.jsp?bop=6');
+    }
+
+
+    if (bw.ns4) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;;
+    }
+
+
+    function reDo() {
+        if (innerWidth != origWidth || innerHeight != origHeight) {
+              location.reload();
+        }
+    }
+
+    if (bw.ns4) onresize = reDo;
+
+
+   // variables for normal (un-highlighted) top nav tab colors
+   var homeTab          = "#656565";
+   var researchTab      = "#656565";
+   var consultingTab    = "#656565";
+   var measurementTab   = "#656565";
+   var communityTab     = "#656565";
+   var newsTab          = "#656565";
+
+   // variables for highlighted top nav tab colors
+   var HLresearchTab    = "#0173EF";
+   var HLconsultingTab  = "#84A5F7";
+   var HLmeasurementTab = "#527BC6";
+   var HLcommunityTab   = "#000099";
+   var HLnewsTab        = "#01426B";
+   var HLhomeTab        = "#333333";
+
+
+
+   var sectionNumber = location.pathname.substring(1, 2);
+   var sectionEvents = location.pathname.substring(1, 3);
+   var sectionNews = location.pathname.substring(1, 13);
+   var sectionExp = location.pathname.substring(1, 38);
+   var sectionFocus2 = location.pathname.substring(1, 6);
+
+   var sectionFocus2 = location.pathname.substring(1, 6);
+   var sectionPrivacy = location.pathname.substring(1, 6);
+   var sectionPrinciples = location.pathname.substring(1, 24);
+
+
+      if (sectionPrinciples == "pages/story.php.id.2635")
+         {researchTab = researchTab}
+         else
+      if (sectionPrinciples == "pages/story.php.id.2630")
+         {researchTab = researchTab}
+         else
+      if (sectionFocus2 == "pages")
+         {researchTab = HLresearchTab}
+
+
+      if (sectionExp == "1_researchanalysis/executive_programs")
+         {communityTab = HLcommunityTab;
+         }
+      else
+       if (sectionEvents == "Ev")
+         {communityTab = HLcommunityTab;
+         }
+      else
+       if (sectionNumber == "1")
+         {researchTab = HLresearchTab;
+         }
+      else
+       if (sectionNumber == "2")
+         {communityTab = HLcommunityTab;
+         }
+      else
+       if (sectionNumber == "3")
+         {consultingTab = HLconsultingTab;
+         }
+      else
+       if (sectionNumber == "4")
+         {measurementTab = HLmeasurementTab;
+         }
+      else
+       if (sectionNews == "5_about/news")
+         {newsTab = HLnewsTab;
+         }
+
+
+
+
+    /*
+       determine browser type based on ability to use
+       document.layers, document.all or document.getElementByID
+    */
+    var ns4 = (document.layers);
+    var ie4 = (document.all && !document.getElementById);
+    var ie5 = (document.all && document.getElementById);
+    var ns6 = (!document.all && document.getElementById);
+
+    function attach(id)
+    {
+       /*
+         based on browser type,
+         use document.layers, document.all or document.getElementByID
+         to select the table cell to change colors
+      */
+        var obj
+        if(ns4) obj = document.layers[id];
+        else if(ie4) obj = document.all[id];
+        else if(ie5 || ns6) obj = document.getElementById(id);
+        return obj
+    }
+
+    function tabColor(id, color)
+    {
+        /*
+           this function will reset the background color
+           of the tab based on a mouse event to either
+           the highlight, or normal color
+        */
+        tabColorObject = attach(id);
+        tabColorObject.style.backgroundColor=color;
+    }
+
+
+  </script>
+
+  <script>
+    var userLocaleCookie = GetCookie("userLocaleCookie");
+    if (userLocaleCookie == null || userLocaleCookie == 'null')
+    {
+      userLocaleCookie = 'wcw';
+    }
+  </script>
+
+</head>
+<body onload="pageInit()" onUnload="closeLogin()" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" bgcolor="#bbbbbb">
+  <map name="Map"><area shape="rect" coords="7,0,109,12" href="javascript:void(null)" onclick="footer.advancedSearch()"></map>
+
+<script>
+if (userLocaleCookie == 'wcw')
+{
+    document.write('  <table width="766" border="0" cellspacing="0" cellpadding="0" align="center">');
+    document.write('    <tr> ');
+    document.write('      <td rowspan="4" width="2" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="2" height="1" alt="" border="0"></td>');
+    document.write('      <td colspan="7" width="762" height="2" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="762" height="2" alt="" border="0"></td>');
+    document.write('      <td rowspan="4" width="2" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="2" height="1" alt="" border="0"></td>');
+    document.write('    </tr>');
+
+    document.write('    <tr> ');
+    document.write('      <td colspan="7" width="762" height="55" bgcolor="#FFFFFF">');
+    document.write('  		<table cellpadding="0" cellspacing="0" border="0" width="100%">');
+    document.write('    		  <form method="post" name="frmSearch" onsubmit="submitSearch();return false;">');
+    document.write('   			<tr>');
+    document.write('  				<td width="100%"><a href="/RecognizedUser"><img src="/images/header/gartner_logo_02.gif" width="164" height="43" hspace="4" alt="Gartner" border="0"></a></td>');
+    document.write('  				<td align="right"><img src="/images/header/search_research_02.gif" width="107" height="12" alt="" border="0"></td>');
+    document.write('  				<td>&nbsp;<input type="text" size="40" maxlength="128" name="txtSearch" id="txtSearch" value=""><img src="/images/trans_pixel.gif" width="6" height="20" alt="" border="0"></td>');
+    document.write('  				<td><input type="button" value="search" onFocus="textFocus=3" onBlur="textFocus=0" onclick="submitSearch();"></td>');
+    document.write('  				<td width="8"><img src="/images/trans_pixel.gif" width="8" height="20" alt="" border="0"></td>');
+    document.write('  			</tr>');
+    document.write('    		  </form>');
+    document.write('  		</table>');
+    document.write('  	</td>');
+    document.write('    </tr>');
+
+    document.write('    <tr>');
+    document.write('    <td bgcolor="'+ homeTab +'" width="53" height="20" align="center" onClick="document.location=\'/RecognizedUser\'" id="home" onMouseOver="tabColor(\'home\', \'' + HLhomeTab +'\')\;" onMouseOut="tabColor(\'home\', \'' + homeTab +'\')\;"><a href="/RecognizedUser" class="mainNavLink">home</a></td>');
+
+    document.write('    <td bgcolor="'+ researchTab +'" width="73" height="20" align="center" onClick="document.location=\'/1_researchanalysis/research_overview.html\'" id="research"  onMouseOver="tabColor(\'research\', \'' + HLresearchTab +'\')\;" onMouseOut="tabColor(\'research\', \'' + researchTab +'\')\;"><a href="/1_researchanalysis/research_overview.html" class="mainNavLink">research</a></td>');
+
+    document.write('    <td bgcolor="'+ consultingTab +'" width="87" height="20" align="center" onClick="document.location=\'/3_consulting_services/consulting_overview.html\'" id="consulting" onMouseOver="tabColor(\'consulting\', \'' + HLconsultingTab +'\')\;" onMouseOut="tabColor(\'consulting\', \'' + consultingTab +'\')\;"><a href="/3_consulting_services/consulting_overview.html" class="mainNavLink">consulting</a></td>');
+
+    document.write('    <td bgcolor="'+ measurementTab +'" width="105" height="20" align="center" onClick="document.location=\'/4_decision_tools/measurement/measurement_overview.html\'" id="measurement" onMouseOver="tabColor(\'measurement\',\'' + HLmeasurementTab +'\')\;" onMouseOut="tabColor(\'measurement\',\'' + measurementTab +'\')\;"><a href="/4_decision_tools/measurement/measurement_overview.html" class="mainNavLink">measurement</a></td>');
+
+    document.write('    <td bgcolor="'+ communityTab +'" width="88" height="20" align="center" onClick="document.location=\'/2_events/community/community_overview.html\'" id="community" onMouseOver="tabColor(\'community\',\'' + HLcommunityTab +'\')\;" onMouseOut="tabColor(\'community\',\'' + communityTab +'\')\;"><a href="/2_events/community/community_overview.html" class="mainNavLink">community</a></td>');
+
+    document.write('    <td bgcolor="'+ newsTab +'" width="58" height="20" align="center" onClick="document.location=\'/5_about/news/news_overview.html\'" id="news" onMouseOver="tabColor(\'news\',\'' + HLnewsTab +'\')\;" onMouseOut="tabColor(\'news\',\'' + newsTab +'\')\;"><a href="/5_about/news/news_overview.html" class="mainNavLink">news</a></td>');
+
+    document.write('    <td bgcolor="#9C9C9C" width="298" height="20" align="right"><a href="#" onclick="javascript:browse(); return false;" class="mainRightNavLink">Browse</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" onclick="javascript:advancedSearch(); return false;" class="mainRightNavLink">Advanced Search</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/6_help/help_overview.html" class="mainRightNavLink">Help</a>&nbsp;</td>');
+
+    document.write('    </tr>');
+
+    document.write('  <tr>');
+    document.write('    <td class="contentCell" height="3" width="100%" colspan="7"><img height="3" src="/images/trans_pixel.gif"></td>');
+    document.write('  </tr>');
+
+    document.write('  </table>');
+
+
+}
+
+else
+
+{
+        // Regional sites header information
+
+	var regionalsrLocaleDir         = "emea/";
+	var regionalsSearchText         = "Search";
+	var regionalsSearchResearchText = "Search Research";
+	var regionalsBrowseText         = "Browse";
+	var regionalsAdvancedSearchText = "Advanced Search";
+	var regionalsHelpText           = "Help";
+	var regionalsProtocol           =  window.location.protocol;
+
+
+	if (userLocaleCookie == 'emea') {
+        	regionalsLocaleDir          = "emea/";
+        	regionalsSearchText         = "Search";
+        	regionalsSearchResearchText = "Search Research";
+        	regionalsBrowseText         = "Browse";
+        	regionalsAdvancedSearchText = "Advanced Search";
+        	regionalsHelpText           = "Help";
+     	}
+
+	if (userLocaleCookie == 'de') {
+        	regionalsLocaleDir          = "emea/de/";
+        	regionalsSearchText         = "Search";
+        	regionalsSearchResearchText = "Search Research";
+        	regionalsBrowseText         = "Browse";
+        	regionalsAdvancedSearchText = "Advanced Search";
+        	regionalsHelpText           = "Help";
+     	}
+
+	if (userLocaleCookie == 'it') {
+        	regionalsLocaleDir          = "emea/it/";
+        	regionalsSearchText         = "Cerca";
+        	regionalsSearchResearchText = "Cerca in Research";
+        	regionalsBrowseText         = "Sfoglia";
+        	regionalsAdvancedSearchText = "Ricerca Avanzata";
+        	regionalsHelpText           = "Aiuto";
+     	}
+
+     	if (userLocaleCookie == 'fr') {
+        	regionalsLocaleDir          = "emea/fr/";
+        	regionalsSearchText         = "Search";
+        	regionalsSearchResearchText = "Search Research";
+        	regionalsBrowseText         = "Browse";
+        	regionalsAdvancedSearchText = "Advanced Search";
+        	regionalsHelpText           = "Help";
+     	}
+
+     	if (userLocaleCookie == 'uk') {
+     		regionalsLocaleDir          = "emea/uk/";
+        	regionalsSearchText         = "Search";
+        	regionalsSearchResearchText = "Search Research";
+        	regionalsBrowseText         = "Browse";
+        	regionalsAdvancedSearchText = "Advanced Search";
+        	regionalsHelpText           = "Help";
+     	}
+
+    document.write('  <table width="766" border="0" cellspacing="0" cellpadding="0" align="center">');
+    document.write('    <tr> ');
+    document.write('      <td rowspan="4" width="2" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="2" height="1" alt="" border="0"></td>');
+    document.write('      <td colspan="7" width="762" height="2" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="762" height="2" alt="" border="0"></td>');
+    document.write('      <td rowspan="4" width="2" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="2" height="1" alt="" border="0"></td>');
+    document.write('    </tr>');
+
+    document.write('    <tr> ');
+    document.write('      <td colspan="7" width="762" height="55" bgcolor="#FFFFFF">');
+    document.write('  		<table cellpadding="0" cellspacing="0" border="0" width="100%">');
+    document.write('                    <form method="post" name="frmSearch" onsubmit="submitSearch();return false;">');
+    document.write('                    <tr>');
+    document.write('                        <td width="100%"><a href="http://regionals.gartner.com/regions/content/' + regionalsLocaleDir + 'home.jsp?refresh=true"><img src="' + regionalsProtocol + '//regionals.gartner.com/regions/img/header/' + regionalsLocaleDir + 'gartner_logo_' + userLocaleCookie + '.gif" width="170" height="43" hspace="4" border="0"></a></td>');
+    document.write('                        <td align="right" class="largeGrayLink" nowrap>' + regionalsSearchResearchText + '</td>');
+    document.write('                        <td>&nbsp;<input type="text" size="40" maxlength="128" name="txtSearch" id="txtSearch" value=""><img src="/images/trans_pixel.gif" width="6" height="20" alt="" border="0"></td>');
+    document.write('                        <td><input type="button" value="' + regionalsSearchText + '" onFocus="textFocus=3" onBlur="textFocus=0" onclick="submitSearch();"></td>');
+    document.write('                        <td width="8"><img src="/images/trans_pixel.gif" width="8" height="20" alt="" border="0"></td>');
+    document.write('                    </tr>');
+    document.write('                    </form>');
+    document.write('                </table>');
+    document.write('            </td>');
+    document.write('        </tr>');
+
+
+    document.write('  <tr>');
+    document.write('    <td bgcolor="'+ homeTab +'" width="53" height="20" align="center" onClick="document.location=\'http://regionals.gartner.com/regions/content/' + regionalsLocaleDir + 'home.jsp?refresh=true\'" id="home" onMouseOver="tabColor(\'home\', \'' + HLhomeTab +'\')\;" onMouseOut="tabColor(\'home\', \'' + homeTab +'\')\;"><a href="http://regionals.gartner.com/regions/content/' + regionalsLocaleDir + 'home.jsp?refresh=true" class="mainNavLink">home</a></td>');
+
+    document.write('    <td bgcolor="'+ researchTab +'" width="73" height="20" align="center" onClick="document.location=\'http://regionals.gartner.com/regions/content/' + regionalsLocaleDir + '01_research.html\'" id="research"  onMouseOver="tabColor(\'research\', \'' + HLresearchTab +'\')\;" onMouseOut="tabColor(\'research\', \'' + researchTab +'\')\;"><a href="http://regionals.gartner.com/regions/content/' + regionalsLocaleDir + '01_research.html" class="mainNavLink">research</a></td>');
+
+    document.write('    <td bgcolor="'+ consultingTab +'" width="87" height="20" align="center" onClick="document.location=\'http://regionals.gartner.com/regions/content/' + regionalsLocaleDir + '02_consulting.html\'" id="consulting" onMouseOver="tabColor(\'consulting\', \'' + HLconsultingTab +'\')\;" onMouseOut="tabColor(\'consulting\', \'' + consultingTab +'\')\;"><a href="http://regionals.gartner.com/regions/content/' + regionalsLocaleDir + '02_consulting.html" class="mainNavLink">consulting</a></td>');
+
+    document.write('    <td bgcolor="'+ measurementTab +'" width="105" height="20" align="center" onClick="document.location=\'http://regionals.gartner.com/regions/content/' + regionalsLocaleDir + '03_measurement.html\'" id="measurement" onMouseOver="tabColor(\'measurement\',\'' + HLmeasurementTab +'\')\;" onMouseOut="tabColor(\'measurement\',\'' + measurementTab +'\')\;"><a href="http://regionals.gartner.com/regions/content/' + regionalsLocaleDir + '03_measurement.html" class="mainNavLink">measurement</a></td>');
+
+    document.write('    <td bgcolor="'+ communityTab +'" width="88" height="20" align="center" onClick="document.location=\'http://regionals.gartner.com/regions/content/' + regionalsLocaleDir + '04_community.html\'" id="community" onMouseOver="tabColor(\'community\',\'' + HLcommunityTab +'\')\;" onMouseOut="tabColor(\'community\',\'' + communityTab +'\')\;"><a href="http://regionals.gartner.com/regions/content/' + regionalsLocaleDir + '04_community.html" class="mainNavLink">community</a></td>');
+
+    document.write('    <td bgcolor="'+ newsTab +'" width="58" height="20" align="center" onClick="document.location=\'http://regionals.gartner.com/regions/content/' + regionalsLocaleDir + '05_news.html\'" id="news" onMouseOver="tabColor(\'news\',\'' + HLnewsTab +'\')\;" onMouseOut="tabColor(\'news\',\'' + newsTab +'\')\;"><a href="http://regionals.gartner.com/regions/content/' + regionalsLocaleDir + '05_news.html" class="mainNavLink">news</a></td>');
+
+    document.write('    <td bgcolor="#9C9C9C" width="298" height="20" align="right" ><a href="#" onclick="javascript:browse(); return false;" class="mainRightNavLink">' + regionalsBrowseText + '</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" onclick="javascript:advancedSearch(); return false;" class="mainRightNavLink">' + regionalsAdvancedSearchText + '</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/6_help/help_overview.html" class="mainRightNavLink">' + regionalsHelpText + '</a>&nbsp;</td>');
+    document.write('   </tr>');
+
+    document.write('  <tr>');
+    document.write('    <td class="contentCell" height="3" width="100%" colspan="7"><img height="3" src="/images/trans_pixel.gif"></td>');
+    document.write('  </tr>');
+
+    document.write('  </table>');
+
+}
+
+
+</script>
+
+
+<!-- THIS STARTS THE OPENING OF A TD THAT ENDS IN MAIN_VIRTUAL.JSP AND .INC AND CONTROLS THE WIDTH OF ALL PAGES -->
+<table border="0" cellspacing="0" cellpadding="0" width="766" align="center">
+	<tr>
+		<td width="766" bgcolor="FFFFFF">
+
+
+
+
+
+  	
+  	<script>
+  		var category = 6
+  		var level = 2
+  		
+  		new topLink("Site Index", "#" , level, 1)
+  	</script>
+  
+  	<!-- Page Body -->
+  <table border="0" cellspacing="0" cellpadding="0" width="766">
+	<tr>
+		<td colspan="5" height="5"><img src="/images/trans_pixel.gif" width="1" height="5" alt="" border="0"></td>
+	</tr>
+	
+	<tr>
+	<td colspan="5">
+		<table border="0" cellspacing="0" cellpadding="0" width="766">
+		<tr>
+		<td width="2"><img src="/images/trans_pixel.gif" width="2" height="1" alt="" border="0"></td>
+		<td width="762" class="contentCell"><script>document.write(buildTopNav())</script></td>
+      	<td width="2"><img src="/images/trans_pixel.gif" width="2" height="1" alt="" border="0"></td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+		
+	<tr>
+		<td width="20" rowspan="3"><img src="/images/trans_pixel.gif" width="20" height="1" alt="" border="0"></td>
+		<td width="531" height="5"><img src="/images/trans_pixel.gif" width="531" height="5" alt="" border="0"></td>
+      <td width="15" rowspan="10"><img src="/images/trans_pixel.gif" width="15" height="1" alt="" border="0"></td>
+		<td width="190"><img src="/images/trans_pixel.gif" width="190" height="1" alt="" border="0"></td>
+      <td width="10" rowspan="10"><img src="/images/trans_pixel.gif" width="10" height="1" alt="" border="0"></td>
+	</tr>
+	
+	<tr>
+		<td valign="top">
+  
+  	
+  	
+  <table border="0" cellspacing="0" cellpadding="4">
+  	<tr>
+  		<td class="errorMessage" COLSPAN="3">Sorry, the page you are looking for could not be found. Please check the URL and try again.  If you need further help, please send an e-mail to:
+                <br><br>
+Asia/Pacific:  <a href="mailto:apac.support@gartner.com">apac.support@gartner.com</a><br>
+Europe:  <a href="mailto:ias.eurosupport@gartner.com">ias.eurosupport@gartner.com</a><br>
+Japan:  <a href="mailto:technical.support@gartner.co.jp">technical.support@gartner.co.jp</a><br>
+North and Latin America:  <a href="mailto:help@gartner.com">help@gartner.com</a>
+			<br>
+			<br>
+		</td>
+  	</tr>			
+  	
+  			<!-- Page Content -->
+  	<tr>
+  		<td valign="top" class="head1">Site Index</td>
+  	</tr>
+  	</table>
+  	
+  	
+  	<table border="0" cellspacing="0" cellpadding="4">
+  	
+  	<tr>
+  	<!-- Page Content -->
+  	
+  	<td nowrap  valign="top">
+  		<table border="0" cellspacing="0" cellpadding="4">
+  		
+  	
+  		<!-- Research -->
+  	<tr>
+  		<td nowrap  valign="top" height="16" colspan="2"><a href="/1_researchanalysis/research_overview.html" class="head2" target="content">Research</a></td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td><td nowrap  class="contentText">
+  		<a href="/1_researchanalysis/core_overview.html" class="linkText" target="content">Gartner Core Research</a>
+  		<br>&nbsp;<IMG height=1 alt="" src="/images/trans_pixel.gif" width=1 vspace="9" border=0><IMG src="/images/new_bullet.gif"  align="bottom" width="12" height="12" hspace="3" vspace="1" alt="" border="0"> <a href="/1_researchanalysis/focus/21a.html" class="linkText" target="content">Focus Areas</a>
+  		</td>
+  	</tr>
+  	
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/1_researchanalysis/dataquest_overview.html" class="linkText" target="content">Gartner Dataquest</a>
+  		<br>&nbsp;<IMG height=1 alt="" src="/images/trans_pixel.gif" width=1 vspace="9" border=0><IMG src="/images/new_bullet.gif"  align="bottom" width="12" height="12" hspace="3" vspace="1" alt="" border="0"> <a href="http://marketview.gartner.com/" class="linkText" target="content">MarketView Databases</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="http://www.gartnerg2.com" class="linkText" target="_blank">GartnerG2 </a>
+  		</td>
+  	</tr>
+  	
+  	
+  	
+  	<!-- Measurement -->
+  	<tr>
+  	<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  	<td nowrap  valign="top" width="30">
+  	<IMG height=1 alt="" src="/images/trans_pixel.gif" width=1 vspace="0" border=0>
+  	</td></tr>
+  	<tr>
+  		<td nowrap  valign="top" height="16" colspan="2"><a href="/4_decision_tools/measurement/measurement_overview.html" class="head2" target="content">Measurement</a></td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/4_decision_tools/measurement/assessments/assessments.html" class="linkText" target="content">Assessments</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/4_decision_tools/measurement/decision_tools/decision_tools.html" class="linkText" target="content">Decision Tools</a>
+  		<br>&nbsp;<IMG height=1 alt="" src="/images/trans_pixel.gif" width=1 vspace="9" border=0><IMG src="/images/new_bullet.gif"  align="bottom" width="12" height="12" hspace="3" vspace="1" alt="" border="0"> <a href="/4_decision_tools/measurement/decision_tools/tco/tco.html" class="linkText" target="content">Cost Management</a>
+  		<br>&nbsp;<IMG height=1 alt="" src="/images/trans_pixel.gif" width=1 vspace="9" border=0><IMG src="/images/new_bullet.gif"  align="bottom" width="12" height="12" hspace="3" vspace="1" alt="" border="0"> <a href="/4_decision_tools/measurement/decision_tools/roi/roi.html" class="linkText" target="content">Investment Planning</a>
+  		<br>&nbsp;<IMG height=1 alt="" src="/images/trans_pixel.gif" width=1 vspace="9" border=0><IMG src="/images/new_bullet.gif"  align="bottom" width="12" height="12" hspace="3" vspace="1" alt="" border="0"> <a href="/4_decision_tools/measurement/decision_tools/vendor_selection/vendor_selection.html" class="linkText" target="content">Vendor Selection</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/4_decision_tools/measurement/performance_management/performance_management.html" class="linkText" target="content">Performance Management</a>
+  		</td>
+  	</tr>
+  	
+  	
+  	<!-- News -->
+  	<tr>
+  	<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  	<td nowrap  valign="top" width="30">
+  	<IMG height=1 alt="" src="/images/trans_pixel.gif" width=1 vspace="0" border=0>
+  	</td></tr>
+  	<tr>
+  		<td nowrap  valign="top" height="16" colspan="2"><a href="/5_about/news/news_overview.html" class="head2" target="content">News</a></td>
+  	</tr>
+  	
+  	
+  	
+  	
+  	<!-- About -->
+  	<tr>
+  	<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  	<td nowrap  valign="top" width="30">
+  	<IMG height=1 alt="" src="/images/trans_pixel.gif" width=1 vspace="0" border=0>
+  	</td></tr>
+  	<tr>
+  		<td nowrap  valign="top" height="16" colspan="2"><a href="/5_about/company_information/41a.html" class="head2" target="content">About Gartner</a></td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/5_about/press_room/460b.html" class="linkText" target="content">Press Releases</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/5_about/investor_information/44a.html" class="linkText" target="content">Investor Information</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/5_about/careers/45a.html" class="linkText" target="content">Career Opportunities</a><br>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a class="linkText" href="javascript:void(null)" onclick="openNewAdmin('/ContactUs?param=no')">Contact Us</a>&nbsp;
+  		<!-- <a href="/ContactUs?param=No" ONCLICK="openNewAdmin('/ContactUs?param=No');return false;" class="linkText" target="content">Contact Us</a> --><!-- <a class="linkTextSmall" href="/ContactUs?param=no">Contact Us</a> -->
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/5_about/our_business/" class="linkText" target="content">Our Business</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/5_about/company_information/43a.jsp" class="linkText" target="content">Gartner Locations</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/5_about/announcements/announcements.html" class="linkText" target="content">Announcements</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/5_about/company_information/4426a.html" class="linkText" target="content">Management</a>
+  		</td>
+  	</tr>
+  	<tr>
+  	<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  	<td nowrap  valign="top" height="21">
+  	<IMG height=1 alt="" src="/images/trans_pixel.gif" height="10" border=0>
+  	</td></tr>
+  	<tr>
+  	
+  	</table>
+  </td>
+  
+  
+  <td nowrap  valign="top" width="30">
+  <IMG height=1 alt="" src="/images/trans_pixel.gif" width=30 border=0>
+  </td>
+  
+  <td nowrap  valign="top">
+  	<table border="0" cellspacing="0" cellpadding="4">
+  	
+  	
+  	
+  	<!-- Consulting -->
+  	
+  	<tr>
+  		<td nowrap  valign="top" height="16" colspan="2"><a href="/3_consulting_services/consulting_overview.html" class="head2" target="content">Consulting</a></td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/3_consulting_services/enterprise.html" class="linkText" target="content">Enterprise Solutions</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/3_consulting_services/itstrategy.html" class="linkText" target="content">IT Strategy & Management</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/3_consulting_services/archtech.html" class="linkText" target="content">Architecture/Technology</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/3_consulting_services/hcm.html" class="linkText" target="content">Human Capital Management</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/3_consulting_services/strsrc.html" class="linkText" target="content">Strategic Sourcing</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/3_consulting_services/busstrat.html" class="linkText" target="content">Market and Business Strategies</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/3_consulting_services/publicSector.jsp" class="linkText" target="content">Public Sector</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/3_consulting_services/advisory.html" class="linkText" target="content">General Advisory Services</a>
+  		</td>
+  	</tr>
+  	
+  	<!-- Community -->
+  	<tr><td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  	<td nowrap  valign="top" width="30">
+  	<IMG height=1 alt="" src="/images/trans_pixel.gif" width=1 vspace="0" border=0>
+  	</td></tr>
+  	<tr>
+  		<td nowrap  valign="top" height="16" colspan="2"><a href="/2_events/community/community_overview.html" class="head2" target="content">Community</a></td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/2_events/community/community_overview.html" class="linkText" target="content">Events</a>
+  		<br>&nbsp;<IMG height=1 alt="" src="/images/trans_pixel.gif" width=1 vspace="9" border=0><IMG src="/images/new_bullet.gif"  align="bottom" width="12" height="12" hspace="3" vspace="1" alt="" border="0"> <a href="/Events?pageName=calendar" class="linkText" target="content">Worldwide Calendar</a>
+  		<br>&nbsp;<IMG height=1 alt="" src="/images/trans_pixel.gif" width=1 vspace="9" border=0><IMG src="/images/new_bullet.gif"  align="bottom" width="12" height="12" hspace="3" vspace="1" alt="" border="0"> <a href="/2_events/symposium/worldwide.html" class="linkText" target="content">Symposium/ITxpo</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/1_researchanalysis/executive/exp.jsp" class="linkText" target="content">Executive Programs</a>
+  		</td>
+  	</tr>
+  	<tr>
+  		<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  		<td nowrap  class="contentText">
+  		<a href="/1_researchanalysis/bestpractice/25a.html" class="linkText" target="content">Best Practices</a>
+  		</td>
+  	</tr>
+  	
+  	<!-- Help -->
+  	<tr>
+  	<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  	<td nowrap  valign="top" width="30">
+  	<IMG height=1 alt="" src="/images/trans_pixel.gif" width=1 vspace="0" border=0>
+  	</td></tr>
+  	<tr><td nowrap  valign="top" height="16" colspan="2"><a href="/6_help/help_overview.html" class="head2" target="content">Help</a></td>
+  	</tr>
+  	<tr>
+  	<td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  	<td nowrap  class="contentText">
+  	<!-- <a href="/ContactUs?param=no" ONCLICK="openNewAdmin('/ContactUs?param=No');return false;" class="linkText" target="content">Contact Us</a>
+  <br> -->
+  <a class="linkText" href="javascript:void(null)" onclick="openNewAdmin('/ContactUs?param=no')">Contact Us</a>&nbsp;
+  	</td>
+  	</tr>
+  	<tr>
+  <td width="7"><IMG src="/images/trans_pixel.gif" width=1 height=1 alt="" hspace="3" border=0></td>
+  	<td nowrap  class="contentText">
+  	<a href="/6_help/webcast/webcast.html" class="linkText" target="content">Online Training</a><br>
+  	</td>
+  	</tr>
+  	
+  	</table>
+  </td>
+  </tr>
+  <tr><td nowrap  valign="top" height="9">
+  <IMG height=1 alt="" src="/images/trans_pixel.gif" width=1 vspace="4" border=0>
+  </td></tr>
+  
+  </td>
+  
+  </tr>	
+  </table>
+  
+  	<div id="contentNav" class="contentNav">
+  		
+  	</div>
+  </td>
+  </tr>	
+  </table>
+  <!-- THIS ENDS THE OPENING OF A TD THAT STARTED IN MAIN_INIT.INC AND CONTROLS THE WIDTH OF 
+
+ALL PAGES -->
+		</td>
+	</tr>
+	<tr>
+		<td width="766" bgcolor="FFFFFF"><img src="/images/trans_pixel.gif" width="766" height="2" alt="" border="0"></td>
+	</tr>
+</table>
+
+<!-- THIS CREATES THE 5 PIXEL SPACER THAT IS BETWEEN THE PAGE BODY AND THE FOOTER ON ALL PAGES -->
+<table border="0" cellspacing="0" cellpadding="0" width="766" align="center">
+	<tr>
+		<td width="766"><img src="/images/trans_pixel.gif" width="766" height="5" alt="" border="0"></td>
+	</tr>
+</table>
+
+
+<script>
+
+  linkString = '&nbsp;<a class="linkTextSmall" href="/RecognizedUser">Home</a>&nbsp;'
+  
+</script>
+
+
+<!-- USER LOCALE MODIFICATION START -->
+<script>
+  var userLocaleCookie = GetCookie("userLocaleCookie");
+  if (userLocaleCookie == null || userLocaleCookie == 'null')
+  {
+    userLocaleCookie = 'wcw';
+  }
+</script>
+
+
+<script>
+if (userLocaleCookie == 'wcw')
+{  
+document.write('<table width="766" border="0" cellspacing="0" cellpadding="0" align="center">');
+document.write('<tr>');
+document.write('   <td rowspan="7" width="2" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="2" height="1" alt="" border="0"></td>');
+document.write('   <td colspan="3" width="762" height="2" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="762" height="2" alt="" border="0"></td>');
+document.write('   <td rowspan="7" width="2" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="2" height="1" alt="" border="0"></td>');
+document.write('</tr>');
+document.write('<tr>');
+document.write('   <td rowspan="5" width="5" bgcolor="#EEEEEE"><img src="/images/trans_pixel.gif" width="5" height="1" alt="" border="0"></td>');
+   
+document.write('   <td width="752" bgcolor="#EEEEEE"><a href="/5_about/company_information/41a.html" class="headerFooterLink">About Gartner</a>');
+document.write('   &nbsp; ');
+document.write('   <a href="javascript:void(null)" onclick="openNewAdminFooter(\'/6_help/site_index/SiteIndexPopUp.jsp\')" class="headerFooterLink">Site Index</a>');
+document.write('   &nbsp; ');
+document.write('   <a href="javascript:void(null)" onclick="openNewAdmin(\'/ContactUs?param=no\')" class="headerFooterLink">Contact Us</a>');
+document.write('   &nbsp; ');
+document.write('   <a href="/6_help/help_overview.html" class="headerFooterLink">Help</a>');
+document.write('   &nbsp; ');
+   
+    if (INQACCESS) 
+    { 								
+       document.write('  <!-- Ask an Analyst -->');
+       document.write('  <a class="headerFooterLink" href="javascript:void(null)" onclick="openNewAdminFooter(\'/Inquiry?pagenm=homepage\')">Ask an Analyst</a>');
+       document.write('  &nbsp;');
+    }	
+   
+     if (REGISTEREDUSER)
+     {
+       document.write('<!-- Sign 0ff -->');
+       document.write('<a class="headerFooterLink" href="/Terminate" onclick="signout()">Sign Off</a>');								
+     }
+     else
+     {
+       document.write('<!-- Sign 0n-->');
+       document.write('<a href="javascript:void(null)" onclick="openSigninPopup(\'/SigninPopup.jsp?call=homepage\')" class="headerFooterLink">Sign-In</a>');
+     }
+     
+document.write('     </td>');
+document.write('   <td rowspan="5" width="5" bgcolor="#EEEEEE"><img src="/images/trans_pixel.gif" width="5" height="1" alt="" border="0"></td>');
+document.write('</tr>');
+document.write('<tr>');
+document.write('   <td width="752" height="4" bgcolor="#EEEEEE"><img src="/images/trans_pixel.gif" width="752" height="4" alt="" border="0"></td>');
+document.write('</tr>');
+document.write('<tr>');
+document.write('   <td width="752" height="1" bgcolor="#EEEEEE" class="dottedLine"></td>');
+document.write('</tr>');
+
+document.write('<tr>');
+document.write('   <td bgcolor="#EEEEEE">');
+document.write('      <table border="0" cellspacing="0" cellpadding="0" align="left">');
+document.write('   	<tr>');
+document.write('   		<td><a href="/pages/story.php.id.2630.s.8.jsp" class="headerFooterLink">Privacy Policy</a>');
+document.write('         &nbsp; ');
+document.write('         <a href="javascript:void(null)" onclick="openNewAdminFooter(\'/6_help/16.html\')" class="headerFooterLink">Terms of Use</a></td>');
+document.write('   	</tr>');
+document.write('      </table>');
+document.write('      <table border="0" cellspacing="0" cellpadding="0" align="right">');
+document.write('   	<tr>');
+document.write('   		<td class="headerFooterText"><img src="/images/trans_pixel.gif" width="1" height="4" alt="" border="0"><br>');
+document.write('         &nbsp;&copy;&nbsp;');
+document.write('         2002 Gartner, Inc. and/or its Affiliates. All Rights Reserved.</td>');
+document.write('   	</tr>');
+document.write('      </table>');
+document.write('   </td>');
+document.write('</tr>');
+document.write('<tr>');
+document.write('   <td width="752" height="3" bgcolor="#EEEEEE"><img src="/images/trans_pixel.gif" width="752" height="3" alt="" border="0"></td>');
+document.write('</tr>');
+document.write('<tr>');
+document.write('   <td colspan="3" width="762" height="2" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="762" height="2" alt="" border="0"></td>');
+document.write('</tr>');
+document.write('</table>');
+   
+
+} else {
+
+	// Regional sites footer information
+
+	var regionalsrLocaleDir         = "emea/";
+	var regionalsAboutText          = "About Gartner";
+	var regionalsSiteIndexText      = "Site Index";
+	var regionalsContactUsText      = "Contact Us";
+        var regionalsPrivacyPolicyText  = "Privacy Policy";
+        var regionalsTermsofUseText     = "Terms of Use";
+	var regionalsHelpText           = "Help";
+
+	if (userLocaleCookie == 'emea') {
+        	regionalsLocaleDir          = "emea/";
+        	regionalsAboutText          = "About Gartner";
+        	regionalsSiteIndexText      = "Site Index";
+        	regionalsContactUsText      = "Contact Us";
+        	regionalsPrivacyPolicyText  = "Privacy Policy";
+        	regionalsTermsofUseText     = "Terms of Use";
+        	regionalsHelpText           = "Help";
+     	}
+
+	if (userLocaleCookie == 'de') {
+        	regionalsLocaleDir          = "emea/de/";
+        	regionalsAboutText          = "Über Gartner";
+        	regionalsSiteIndexText      = "Site Index";
+        	regionalsContactUsText      = "Kontakt";
+        	regionalsPrivacyPolicyText  = "Privacy Policy";
+        	regionalsTermsofUseText     = "Terms of Use";
+        	regionalsHelpText           = "Hilfe";
+     	}
+
+	if (userLocaleCookie == 'it') {
+        	regionalsLocaleDir          = "emea/it/";
+        	regionalsAboutText          = "Chi siamo";
+        	regionalsSiteIndexText      = "Mappa del sito";
+        	regionalsContactUsText      = "Contattaci";
+        	regionalsPrivacyPolicyText  = "Informativa sulla privacy";
+        	regionalsTermsofUseText     = "Condizioni per l'utilizzo";
+        	regionalsHelpText           = "Aiuto";
+     	}
+
+     	if (userLocaleCookie == 'fr') {
+        	regionalsLocaleDir          = "emea/fr/";
+        	regionalsAboutText          = "About Gartner";
+        	regionalsSiteIndexText      = "Site Index";
+        	regionalsContactUsText      = "Contact Us";
+        	regionalsPrivacyPolicyText  = "Privacy Policy";
+        	regionalsTermsofUseText     = "Terms of Use";
+        	regionalsHelpText           = "Aide";
+     	}
+
+     	if (userLocaleCookie == 'uk') {
+     		regionalsLocaleDir          = "emea/uk/";
+        	regionalsAboutText          = "About Gartner";
+        	regionalsSiteIndexText      = "Site Index";
+        	regionalsContactUsText      = "Contact Us";
+        	regionalsPrivacyPolicyText  = "Privacy Policy";
+        	regionalsTermsofUseText     = "Terms of Use";
+        	regionalsHelpText           = "Help";
+     	}
+
+    document.open();
+    document.write ('    <table width="766" border="0" cellspacing="0" cellpadding="0" align="center">');
+    document.write ('    <tr>');
+    document.write ('        <td rowspan="7" width="2" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="2" height="1" alt="" border="0"></td>');
+    document.write ('        <td colspan="3" width="762" height="2" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="762" height="2" alt="" border="0"></td>');
+    document.write ('        <td rowspan="7" width="2" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="2" height="1" alt="" border="0"></td>');
+    document.write ('    </tr>');
+    document.write ('    <tr>');
+    document.write ('        <td rowspan="5" width="5" bgcolor="#EEEEEE"><img src="/images/trans_pixel.gif" width="5" height="1" alt="" border="0"></td>');
+    document.write ('        <td width="752" bgcolor="#EEEEEE"><a href="http://regionals.gartner.com/regions/content/' + regionalsLocaleDir + '05_z_about.html" class="headerFooterLink">' + regionalsAboutText + '</a>&nbsp; <a href="javascript:void(null)" onclick="openNewAdminFooter(\'http://regionals.gartner.com/regions/content/' + regionalsLocaleDir + '06_SiteIndexPopUp.html\')" class="headerFooterLink">' + regionalsSiteIndexText + '</a>&nbsp; <a href="javascript:void(null)" onclick="openNewAdmin(\'/ContactUs?param=no\')" class="headerFooterLink">' + regionalsContactUsText + '</a>&nbsp; <a href="/6_help/help_overview.html" class="headerFooterLink">' + regionalsHelpText + '</a></td>');
+    document.write ('        <td rowspan="5" width="5" bgcolor="#EEEEEE"><img src="/images/trans_pixel.gif" width="5" height="1" alt="" border="0"></td>');
+    document.write ('    </tr>');
+    document.write ('    <tr>');
+    document.write ('        <td width="752" height="4" bgcolor="#EEEEEE"><img src="/images/trans_pixel.gif" width="752" height="4" alt="" border="0"></td>');
+    document.write ('    </tr>');
+    document.write ('    <tr>');
+    document.write ('        <td width="752" height="1" bgcolor="#EEEEEE" class="dottedLine"></td>');
+    document.write ('    </tr>');
+    document.write ('    <tr>');
+    document.write ('        <td bgcolor="#EEEEEE">');
+    document.write ('            <table border="0" cellspacing="0" cellpadding="0" align="left">');
+    document.write ('                <tr>');
+    document.write ('                    <td><a href="/pages/story.php.id.2630.s.8.jsp" class="headerFooterLink">' + regionalsPrivacyPolicyText + '</a>&nbsp; <a href="javascript:void(null)" onclick="openNewAdminFooter(\'/6_help/16.html\')" class="headerFooterLink">' + regionalsTermsofUseText + '</a></td>');
+    document.write ('                </tr>');
+    document.write ('            </table>');
+    document.write ('            <table border="0" cellspacing="0" cellpadding="0" align="right">');
+    document.write ('                <tr>');
+    document.write ('                    <td class="headerFooterText"><img src="/images/trans_pixel.gif" width="1" height="4" alt="" border="0"><br>&nbsp;&copy;&nbsp;2002 Gartner, Inc. and/or its Affiliates. All Rights Reserved.</td>');
+    document.write ('                </tr>');
+    document.write ('            </table>');
+    document.write ('        </td>');
+    document.write ('    </tr>');
+    document.write ('    <tr>');
+    document.write ('        <td width="752" height="3" bgcolor="#EEEEEE"><img src="/images/trans_pixel.gif" width="752" height="3" alt="" border="0"></td>');
+    document.write ('    </tr>');
+    document.write ('    <tr>');
+    document.write ('        <td colspan="3" width="762" height="2" bgcolor="#FFFFFF"><img src="/images/trans_pixel.gif" width="762" height="2" alt="" border="0"></td>');
+    document.write ('    </tr>');
+    document.write ('</table>');
+    }
+
+</script>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="766" align="center">
+	<tr>
+		<td width="766" align="left" class="resIdText">
+		<script>
+		var ResId
+        if (ResId == null) { ResId = " " }
+        document.write(ResId)
+		</script>
+		</td>
+	</tr>
+</table>
+  </body>
+  </html>
+
+title    
+date     
+summary  
+resid    
+author   
+body     
+notenum  
+

@@ -1,0 +1,36 @@
+<table class="contentText" width="100%" border="0" cellspacing="0" cellpadding="0">
+
+<tr>
+<td><img src="//img/trans_pixel.gif" width="1" height="10" alt="" border="0" /></td>
+</tr>  		
+
+<tr>
+<td><img src="//img/new_bullet.gif" width="12" height="12" hspace="3" alt="" border="0" /></td>
+<td><b>Newsletters</b><br /></td>
+</tr>
+
+<tr>
+<td width="12" height="12"><img src="//img/trans_pixel.gif" width="1" height="1" hspace="3" alt="" border="0" /></td>
+
+<td class="contentText">
+<a class="linkText" href="/1_researchanalysis/mrr/mrr.jsp">Monthly Research Review</a>
+<div><img src="//img/trans_pixel.gif" width="1" height="2" alt="" border="0" /></div></td>
+</tr>
+  		
+<tr>
+<td width="12" height="12"><img src="//img/trans_pixel.gif" width="1" height="1" hspace="3" alt="" border="0" /></td>
+
+<td class="contentText">
+<a class="linkText" href="/1_researchanalysis/ptp/ptp.jsp">Point to Point</a>
+<div><img src="//img/trans_pixel.gif" width="1" height="2" alt="" border="0" /></div></td>
+</tr>
+
+<tr>
+<td width="12" height="12"><img src="//img/trans_pixel.gif" width="1" height="1" hspace="3" alt="" border="0" /></td>
+
+<td class="contentText">
+<a class="linkText" href="/1_researchanalysis/ig.jsp">Inside Gartner</a>
+<div><img src="//img/trans_pixel.gif" width="1" height="2" alt="" border="0" /></div></td>
+</tr>
+
+</table>

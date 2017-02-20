@@ -1,0 +1,29 @@
+BRIEFING
+11 febbraio  - Hotel Michelangelo, Milano
+Analisti: Brian Wood, Milind Govekar
+Web Services: Business Drivers and Management
+L'incontro prevede due sessioni. Nella prima verrà descritto il ruolo generale dei servizi Web nei processi business e commerciali delle aziende fino al 2007, nella seconda si analizzerà l'impatto di due fondamentali tecnologie, i server di applicazioni e i servizi Web, sulle infrastrutture tecnologiche aziendali fino al 2007. Gartner fornirà indicazioni e consigli concreti per l'implementazione e la gestione dei progetti riguardanti i servizi Web di prima generazione che ora più che mai influenzano le strategie IT di prossima generazione.
+
+26 febbraio - Sheraton Hotel, Roma
+Analisti: John Mahoney, Simon Mingay
+Il "Business Value of IT" richiede l'allineamento di business e IT: cosa viene prima?
+Nell'attuale clima di incertezza economica e instabilità del business, la continuità delle aziende e l'ottimizzazione del BVIT richiedono un preciso allineamento fra business e IT. Mentre gli obiettivi di gestione a breve termine restano focalizzati sul contenimento dei costi e sulla sopravvivenza nel mercato, gli obiettivi di lungo periodo si stanno spostando verso relazioni esterne, virtualizzazione, valore del business e delle architetture della "extrastruttura" e dell'infrastruttura. I temi comuni sono risorse umane, partnership, valore, team, agilità e resilienza. I responsabili dell'IT e del business che nel 2003 non allineeranno queste tematiche, rischieranno di danneggiare seriamente le proprie aziende.
+
+3 aprile - Sheraton Hotel, Roma - Analisti: Gianluca Tramacere, Cathy Tornbohm
+4 giugno - Hotel Michelangelo, Milano - Analisti: Gianluca Tramacere, Ian Marriott
+
+
+Opportunità emergenti nel mercato europeo dell'outsourcing.
+In un periodo di grandi sfide per l'economia e il business, le aziende e i fornitori di servizi IT considerano criticamente i propri orientamenti futuri e le proprie strategie di successo. Le aziende europee si rivolgono agli ESP come conveniente fonte di accesso ai servizi IT. Molte organizzazioni tendono a isolare i progetti tattici senza riuscire a gestirli nell'ambito della propria strategia generale di sourcing. In questo incontro verrà analizzato il mercato europeo dell'outsourcing IT e del BPO fornendo indicazioni per un'efficace gestione delle relazioni con uno o più ESP.
+
+8 aprile - Hotel Michelangelo, Milano
+Analisti: John Radcliffe, Brian Wood
+Creazione di un'architettura e di una "banca" di informazioni corrette per il CRM
+Il CRM comprende "tutto ciò che riguarda i clienti". Questo semplice principio è alla base della creazione di architetture CRM aziendali che operano in tempo reale, attraverso molteplici canali e funzioni aziendali e si estendono ai partner, oltre i confini dell'azienda. Scelte corrette nell'implementazione delle tecnologie e delle architetture possono creare una base solida per le iniziative aziendali orientate al CRM. Scelte sbagliate comportano inevitabilmente problemi. Un altro requisito fondamentale è la creazione di una banca di informazioni per il CRM che riunisca i dati essenziali per tracciare profili coerenti dei clienti da utilizzare a fini operativi e analitici. L'obiettivo di questo incontro è quello di delineare le opportunità che possono scaturire dalle due aree cruciali del CRM - architettura e informazioni - e a creare solide relazioni a lungo termine con i propri clienti.
+
+TBD maggio  - Sheraton Hotel, Roma
+Analista: Andy Kyte
+Gestione del ciclo di vita dei contratti nella real-time enterprise
+Così come la forza di una catena è determinata dall'anello più debole, allo stesso modo la velocità di una catena del valore è pari al ritmo di esecuzione del partecipante più lento. In seguito all'adozione del modello della real-time enterprise per rispondere alla pressione verso un'accelerazione delle prestazioni, le aziende dovranno operare sostanziali investimenti per migliorare le relazioni esterne, sia sul lato delle vendite che su quello degli acquisti.
+La gestione del ciclo di vita dei contratti sarà alla base di questi programmi aziendali.
+In occasione di questo briefing, Andy Kyte, Gartner Research Vice President, offrirà un'analisi delle problematiche riguardanti la gestione del ciclo di vita dei contratti, seguita da una sessione di consulenza interattiva di approfondimento su questa tematica.

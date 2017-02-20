@@ -1,0 +1,105 @@
+<!-- your_alerts.incl -->
+
+<%
+// Display alert summaries
+String alertsFromCookie = UserLogin.getCookieValue(request, "alertCookie");
+if ((alertsFromCookie != null) && (alertsFromCookie.length())>0) // the cookie value exists
+{
+  AlertSummary thisAlertSummary = new AlertSummary();
+  Vector alertSummaryCollection = (Vector)thisAlertSummary.getAlertSummaries(alertsFromCookie);
+
+%>
+<script>
+
+
+function nameForWindow(suffix) {
+
+   var newname = eval('document.domain') + '_' + eval('suffix');
+   return newname.replace(/\./g, '_');
+}
+
+
+function openDoc(url,target) {
+    if (target == "_blank") {
+        window.open("http://www4.gartner.com/" + url, "_blank", "height=550,width=665,"
+        + "scrollbars=yes,resizable=yes,menubar=yes");
+    } else {
+        var newname = nameForWindow(target);
+        thing = window.open(url, newname);
+        thing.focus();
+    }
+}
+
+function openDeliveryPreferences(href) {
+ var newname = nameForWindow('alertdeliverypreferences');
+ newWin = window.open(href,'_blank','width=340,height=300,resizable=no,scrollbars=no,toolbar=no,menubar=no');
+ newWin.focus();
+ return false;
+}
+
+</script>
+<!-- Table III -->
+<table width="100%" cellspacing="0" cellpadding="3" border="0" class="lightShading">
+
+      <tr class="lightShading">   
+        <td colspan="3" align="center" class="linkTextSmall"> 
+<a href="javascript:void(null)" onclick="javascript:openDeliveryPreferences('/Alert?alertop=20')"> Passi i vostri avvisi elettronici al formato del HTML</a>
+        </td>
+      </tr>
+<%
+  for (int c = 0; c < alertSummaryCollection.size(); c++)
+  {
+    AlertSummary as = (AlertSummary)alertSummaryCollection.get(c);
+    String categoryName = as.getCategory();
+%> 
+    <tr class="darkShading">
+      <td colspan="2" align="left" valign="middle" class="title"> <%=categoryName%> <td align="right" valign="middle" nowrap> <a href="/Alert?alertop=2#<%=categoryName%>" class="linkTextSmall">visualizza tutti</a> </td>                         
+    </tr>
+<%   
+    int numOfTitles = as.getNumberOfTitles();
+    for (int j = 0; j < numOfTitles; j++)
+    {
+      String thisTitle = as.getTitleAt(j);
+      String thisURL = as.getURLAt(j);
+%>
+    <tr class="lightShading">
+        <td valign="top"><img src="http://europe.gartner.com/img/sm_bullet.gif" height="10" width="7" /></td>
+        <td><a class="linkTextSmall3" href="javascript:openDoc('<%=thisURL%>','_blank')"><%=thisTitle%></a></td>
+    </tr>
+<%
+    }
+  }
+     
+%>     
+      <tr class="lightShading">   
+        <td colspan="3" align="center" class="linkTextSmall"> 
+<a href="/Alert?alertop=2">visualizza</a>
+ | <a href="/Alert?alertop=1">gestisca</a>
+ | <a href="/Alert?alertop=9">crea</a>
+        </td>
+    </tr>
+</table>
+
+<% } else { %>
+
+    <!-- Table IIIA -->
+    <table width="100%">
+      <tr>
+        <td class="contentTextMain"> <span class="head3">Alerts Save Time!</span> </td>
+      </tr>
+      <tr>
+        <td class="contentTextMain">
+          Create Alerts for automatic updates about research you want!
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+           <img src="//img/new_bullet.gif" height="12" width="12" alt="" width="12" height="12" hspace="2" alt="" border="0" /> <span class="head3"> <a href="/Alert?alertop=9" class="linkTextBold3">Crea un nuovo avviso elettronico</a> </span> <br>
+         </td>
+       </tr>
+     </table>
+     <!-- close Table IIIA -->
+<% } %>
+<!--close  Table III -->
+

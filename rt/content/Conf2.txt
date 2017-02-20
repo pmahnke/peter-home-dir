@@ -1,0 +1,10 @@
+"476,599"	Gartner IT Security Summit	Conferences	14/09/05 00:00	/2_events/conferences/sec6i.jsp	London	15/09/05 00:00
+"464,332"	Gartner CIO Academy Oct 05 UK	Conferences	04/10/05 00:00	/2_events/conferences/cio_academy/041205_london.html	London	07/10/05 00:00
+"466,120"	RetailVision Europe Fall	Channel Events	18/10/05 00:00	http://www.retailvision.com/europe/	Dublin	20/10/05 00:00
+"476,606"	Symposium/ITxpo 2005 in Cannes	Symposium/ITxpo	07/11/05 00:00	/2_events/symposium/2005/esc17/esc17.jsp	Cannes	11/11/05 00:00
+"477,229"	Gartner Data Center Summit	Conferences	29/11/05 00:00	/2_events/conferences/lsce1.jsp	Amsterdam	30/11/05 00:00
+"466,118"	Project & Portfolio Management Europe	Channel Events	30/11/05 00:00	http://www.ppmsummit.com/europe/	"Lisbon, Portugal"	02/12/05 00:00
+"481,253"	Gartner Business Intelligence Summit	Conferences	06/02/06 00:00	/2_events/conferences/bie7i.jsp	Barcelona	07/02/06 00:00
+"484,112"	Gartner Business Intelligence Summit	Conferences	06/02/06 00:00	/2_events/conferences/bie7i.jsp	London	08/02/06 00:00
+"483,357"	Gartner Customer Relationship Management Summit	Conferences	13/03/06 00:00	/2_events/conferences/asset_129457_2.jsp	London	14/03/06 00:00
+"482,900"	Gartner Outsourcing and IT Services Summit	Conferences	24/04/06 00:00	/2_events/conferences/asset_129516_2.jsp	London	24/04/06 00:00

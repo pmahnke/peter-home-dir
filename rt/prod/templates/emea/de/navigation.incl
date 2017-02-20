@@ -1,0 +1,47 @@
+<tr>
+ <td colspan=2 bgcolor=#f7f7ff>
+
+<table>
+<tr>
+
+<td class=home align=center width=40 nowrap>
+<a href="home.html" class=home> home </a>
+</td>
+
+<td class=research align=center width=40 nowrap>
+<a href="content/emea/de/01_research.html" class=research> forschung </a>
+</td>
+
+<td class=consulting align=center width=40 nowrap>
+<a href="02_consulting.html" class=consulting> beraten </a> 
+</td>
+
+<td class=measurement align=center width=50 nowrap>
+<a href="03_measurement.html" class=measurement> messen </a>
+</td>
+
+<td class=community align=center width=40 nowrap>
+<a href="04_community.html" class=community> gemeinschaft </a>
+</td>
+
+<td class=news align=center width=40 nowrap>
+<a href="05_news.html" class=news> nachrichten </a>
+</td>
+
+<td align=right>
+<a href="help.html">hilfe</a>
+</td></tr>
+</table>
+
+
+  </td>
+ </tr>
+</table>
+
+
+
+
+
+
+
+

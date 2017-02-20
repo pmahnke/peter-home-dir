@@ -1,0 +1,44 @@
+<html>
+<div id="google_translate_element"></div><script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script><head>
+  <link REL="STYLESHEET" TYPE="text/css" HREF="/default.css"> 
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+  <META HTTP-EQUIV="Content-Language" CONTENT="en-us">
+</head>
+<BODY>
+
+  <h1>Formula Evaluation</h1>
+<hr size=1 width=100%>
+<TABLE CELLSPACING=0 BORDER=0 CELLPADDING=10 WIDTH=624>
+<TR><TD>
+  
+<p>Evaluating Formulas</p>
+
+<p>The Additional Constraints are limited to linear formulas such as Carbon Equivalent, CE = C+1/9 Si + 1/3.5 P, as an example. There is a need to evaluate non linear formulas such as this one from the AFS for White Iron: 1.07 + 0.43(%Ni) + 0.44(%Cu) + 0.59(%Mo x %Mn) + 0.25(%Cr/%C) - 0.25(%Si). A new entry, called Formulas has been made under Data in the menu bar on the main screen.</p>
+
+<p>Select the formula you want to evaluate on the Formula Selection Screen. The value of the formula will be printed on the charge calculation report just after the value of any Additional Constraints. If you do not want the formula you selected to be evaluated, then click on No Formula on the Formula Selection Screen. </p>
+
+<p>Let us know if you need an additional formula and we will add it to the program.</p>
+
+<p>The AFS formula is not linear because of the  0.59(%Mo x %Mn) and 0.25(%Cr/%C) terms. However, you can make the formula linear with two assumptions. The first assumption is that the concentration for Mn will be at its lower limit because Mn is so expensive. If the concentration for Mn is at its lower limit then the term becomes 0.59(%Mo x the lower limit for Mn).</p>
+
+<p>You could specify an aim for Carbon instead of an upper and lower limit for Carbon. If you specify an aim, upper and lower limits the same, for Carbon, then the second term becomes 0.25(%Cr/(aim for Carbon)).</p>
+
+<p>Now the formula is linear and may be set up as an additional constraint.</p>
+
+</td></tr></table>  
+
+  </BODY></html>
+
+
+
+
+
+
+

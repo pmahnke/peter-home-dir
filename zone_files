@@ -1,0 +1,660 @@
+; 
+; transitionelement.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.11 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.transitionelement.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.11
+mail IN A 64.232.146.11
+ftp IN A 64.232.146.11
+pop IN A 64.232.146.11
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; mahnke.net (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.12 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.mahnke.net. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.12
+mail IN A 64.232.146.12
+ftp IN A 64.232.146.12
+pop IN A 64.232.146.12
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; boilard.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.13 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.boilard.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.13
+mail IN A 64.232.146.13
+ftp IN A 64.232.146.13
+pop IN A 64.232.146.13
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; siteforyou.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.14 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.siteforyou.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.14
+mail IN A 64.232.146.14
+ftp IN A 64.232.146.14
+pop IN A 64.232.146.14
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; siteforher.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.15 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.siteforher.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.15
+mail IN A 64.232.146.15
+ftp IN A 64.232.146.15
+pop IN A 64.232.146.15
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; siteforhim.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.16 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.siteforhim.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.16
+mail IN A 64.232.146.16
+ftp IN A 64.232.146.16
+pop IN A 64.232.146.16
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; marinucci.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.17 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.marinucci.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.17
+mail IN A 64.232.146.17
+ftp IN A 64.232.146.17
+pop IN A 64.232.146.17
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; vitucci.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.18 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.vitucci.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.18
+mail IN A 64.232.146.18
+ftp IN A 64.232.146.18
+pop IN A 64.232.146.18
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; tannic.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.19 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.tannic.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.19
+mail IN A 64.232.146.19
+ftp IN A 64.232.146.19
+pop IN A 64.232.146.19
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; baramerica.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.20 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.baramerica.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.20
+mail IN A 64.232.146.20
+ftp IN A 64.232.146.20
+pop IN A 64.232.146.20
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; computerclassifieds.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.21 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.computerclassifieds.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.21
+mail IN A 64.232.146.21
+ftp IN A 64.232.146.21
+pop IN A 64.232.146.21
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; bwanazulia.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.22 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.bwanazulia.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.22
+mail IN A 64.232.146.22
+ftp IN A 64.232.146.22
+pop IN A 64.232.146.22
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; queenswest.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.23 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.queenswest.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.23
+mail IN A 64.232.146.23
+ftp IN A 64.232.146.23
+pop IN A 64.232.146.23
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; atwood.org (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.24 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.atwood.org. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.24
+mail IN A 64.232.146.24
+ftp IN A 64.232.146.24
+pop IN A 64.232.146.24
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; auditt.org (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.25 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.auditt.org. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.25
+mail IN A 64.232.146.25
+ftp IN A 64.232.146.25
+pop IN A 64.232.146.25
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; jambomama.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.26 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.jambomama.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.26
+mail IN A 64.232.146.26
+ftp IN A 64.232.146.26
+pop IN A 64.232.146.26
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; ismyos.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.27 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.ismyos.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.27
+mail IN A 64.232.146.27
+ftp IN A 64.232.146.27
+pop IN A 64.232.146.27
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; vbuddha.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.28 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.vbuddha.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.28
+mail IN A 64.232.146.28
+ftp IN A 64.232.146.28
+pop IN A 64.232.146.28
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; digitalalliances.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.29 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.digitalalliances.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.29
+mail IN A 64.232.146.29
+ftp IN A 64.232.146.29
+pop IN A 64.232.146.29
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; mccain-associates.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.30 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.mccain-associates.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.30
+mail IN A 64.232.146.30
+ftp IN A 64.232.146.30
+pop IN A 64.232.146.30
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; bremco.net (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.31 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.bremco.net. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.31
+mail IN A 64.232.146.31
+ftp IN A 64.232.146.31
+pop IN A 64.232.146.31
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 
+; 
+; mwksoftware.com (Peter Mahnke) 
+; 
+@ IN SOA wns1.home.net. hostmaster.home.net. ( 
+					       2000051400 ; serial 
+					       10800 ; refresh (3 hours) 
+					       3600 ; retry (1 hour) 
+					       604800 ; expire (7 days) 
+					       86400 ) ; minimum (1 day) 
+A 64.232.146.32 
+; 
+; Nameservers 
+NS NS1.HOME.NET. 
+NS NS2.HOME.NET. 
+; 
+; MX Records 
+; 
+MX 10 mail.mwksoftware.com. 
+MX 100 mx1.home.com. 
+MX 100 mx2.home.com. 
+; 
+; Host Records 
+; 
+www IN A 64.232.146.32
+mail IN A 64.232.146.32
+ftp IN A 64.232.146.32
+pop IN A 64.232.146.32
+; 
+; CNAMES 
+---------------------------------------------------------------------------------------- 

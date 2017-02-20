@@ -1,0 +1,21 @@
+header|header.incl
+footer|footer.incl
+<font[^\>]*> |
+</font> | 
+<h3> | <h2>
+</h3> | </h2>
+<h2>| <font size="+2"><tt><b>
+</h2> | </b></tt></font><br>
+<h1[^\>]*>  | <font face="verdana, helvetica"><h2>
+</h1> | </h2></font> <LINE>
+<p[^\>]*> | <font face="verdana, helvetica" size="-1">
+</p> | </font><p>
+<a href | [<a href
+</a>  | </a>]<br>
+<TD> | <FONT>
+
+
+<LINE> | <img src="img/line_grade.gif" width=450 height=3 border="0"><br>
+<FONT> | <font face="verdana, helvetica" size="-1">
+
+

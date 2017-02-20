@@ -1,0 +1,24 @@
+<!-- start of stylesheet_focus_area.incl -->
+
+   	
+<script language="javascript"><!--
+		  
+  if(navigator.platform.indexOf('Mac') != -1){
+  	thePlatform="mac";
+  }else{
+ 	thePlatform="not_mac";
+  }
+  if(document.layers){
+ 	 browser="focus_area_nn4_";
+  }else{
+	browser="focus_area_";
+  }
+	document.write('<link type="text/css" href="http://www.gartner.com/1_researchanalysis/css/' + browser + thePlatform + '.css" rel="stylesheet">');
+
+-->
+</script>
+  	
+
+<!-- end of stylesheet_focus_area.incl -->
+
+

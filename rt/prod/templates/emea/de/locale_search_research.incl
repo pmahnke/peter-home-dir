@@ -1,0 +1,21 @@
+<form method="get" target=search action="">
+<table border=1 cellspacing=0>
+<tr>
+ <td class=service>
+Suchdeutsche Forschung
+ </td>
+</tr>
+
+<tr>
+ <td align=right nowrap>
+ <font class=tiny>
+    <input type="text" size="15" maxsize="256" name="keywords" value="">
+    <input type="submit" value="Suche">
+ </font> 
+ </td>
+</tr>
+</table>
+  </form>
+
+
+

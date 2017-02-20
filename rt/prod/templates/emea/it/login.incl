@@ -1,0 +1,50 @@
+<style>
+
+.buttonDescribe
+	{
+	  font-family:verdana,arial,helvetica;
+	  background:#ffffff;
+	  color:#000000;
+	  font-size:9pt;
+
+	  font-weight:bold;
+	  TEXT-DECORATION: none;
+	}
+
+</style>
+
+<MAP name=4ways>
+<AREA shape=RECT alt="Latest Research" coords=94,21,219,30 href="javascript:openAllLatestResearch()">
+<AREA shape=RECT alt="Browse Research" coords=94,33,211,44 href="javascript:browse()">
+<AREA shape=RECT alt="Search Research" coords=94,47,212,58 href="javascript:advancedSearch()">
+<AREA shape=RECT alt="Focus Areas" coords=94,61,213,71
+href="http://www4.gartner.com/1_researchanalysis/focus/21a.html">
+</map>
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td bgcolor="black" height="1" colspan="6"><img height="1" src="//img/trans_pixel.gif"></td>
+</tr>
+
+<tr>
+<td valign="top" width="334" align="left" bgcolor="white" nowrap><img src="//img/header/header_homepage_emea_left.jpg" width="334" height="122" border="0"></td>
+<td bgcolor="white" height="1" width="100%" ><img height="1" width="14" src="//img/trans_pixel.gif"></td>
+<td valign="top" width="100%" align="right" bgcolor="white"><img src="//img/header/header_homepage_emea_right.jpg" width="192" height="122" border="0"></td>
+<td bgcolor="black" width="5" height="1"><img height="1" width="5" src="//img/trans_pixel.gif"></td>
+<td bgcolor="black">
+<table cellpadding="0" cellspacing="0" border="0" width="210" height="122">
+<tr><td bgcolor="black" height="1"><img height="1" width="122" src="//img/trans_pixel.gif"></td>
+<td bgcolor="black" height="1"><img height="1" width="88" src="//img/trans_pixel.gif"></td></tr>
+<tr><td bgcolor="white" valign="middle" colspan="2" height="1"><img height="1" width="1" src="//img/trans_pixel.gif" vspace="0" hspace="0"></td></tr><tr><td colspan="2" valign="middle" align="center" bgcolor="white" height="17"><A href="https://<%= httpsDomainName %>/0_admin/RegUserInfo.jsp?RegionalsReg=y&locale=emea"><img src="//img/header/emea/it/new_users.gif" height="20" width="205" border="0" vspace="0" hspace="0"></a></td></tr><tr><td colspan="2" valign="middle" align="center" height="17" bgcolor="white"><a href="javascript:void(null)" onclick="openSigninPopup('<%=response.encodeURL("http://regionals.gartner.com/regions/content/emea/SigninPopup2.jsp?call=homepage&locale=emea&doalerts=y") %>')"><img src="//img/header/emea/it/current_users.gif" border="0" height="20" width="205" vspace="0" hspace="0"></a></td></tr>
+
+<tr><td class="blackBack" bgcolor="black" valign="middle" height="1" colspan="2"><img height="1" width="1" src="//img/trans_pixel.gif" vspace="0"></td></tr><tr>
+<td class="blackBack" bgcolor="black" align="center" valign="middle" colspan="2" width="210" height="73"><a href="*"><IMG
+height=73 src="//img/header/4_ways.gif" width=210 useMap=#4ways border=0></a></td></tr></tr>
+</table></td>
+<td bgcolor="black"><img height="1" width="1" src="//img/trans_pixel.gif"></td>
+</tr>
+
+<tr>
+<td bgcolor="black" colspan="6"><img height="3" src="//img/trans_pixel.gif"></td>
+</tr>
+</table>

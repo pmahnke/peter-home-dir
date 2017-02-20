@@ -1,0 +1,279 @@
+<!-- created by homepage_parser.pl -->
+
+
+<table width="200" border="0" cellspacing="0" cellpadding="0">
+
+	<tr> 
+
+ 		<td rowspan="20" bgcolor="#FFFFFF" width="2"><img src="/images/trans_pixel.gif" width="2" height="1" alt="" border="0"></td>
+
+ 		<td bgcolor="#FFFFFF" width="196" height="2"><img src="/images/trans_pixel.gif" width="196" height="2" alt="" border="0"></td>
+
+ 		<td rowspan="20" bgcolor="#FFFFFF" width="2"><img src="/images/trans_pixel.gif" width="2" height="1" alt="" border="0"></td>
+
+	</tr>
+
+
+
+   <tr> 
+
+      <td width="196" height="25"><a href="/mp/asset_51755.jsp"><img src="/images/homepage/membership_pro196.gif" width="196" height="25" alt="Membership Programs" border="0"></a></td>
+
+   </tr>
+
+<tr>
+
+   <td bgcolor="#FFFFFF" width="196" height="2"><img src="/images/trans_pixel.gif" width="196" height="2" alt="" border="0"></td>
+
+</tr>
+
+   <script><!--
+
+   function jumper2(newLoc) {
+
+   	newPage=newLoc.options[newLoc.selectedIndex].value
+
+   	if (newPage!="") { window.open(newPage,"_self")}
+
+   	newLoc.selectedIndex=0 }
+
+   
+
+   browserName = navigator.appName; 
+
+   browserVersion = parseInt(navigator.appVersion);  
+
+   
+
+   if (browserName == "Netscape" && browserVersion == 4) 
+
+   {    
+
+         document.write('<tr><td bgcolor="#ADB3B9">');
+
+   document.write('<div><img src="/images/trans_pixel.gif" width="196" height="3" alt="" border="0"></div><img src="/images/homepage/trans_arrow.gif" width="8" height="8" alt="" hspace="3" border="0"><a href="/mp/asset_119954_2255.jsp" class="membershipProgramLink"> Architects & Planners</a>');
+
+   document.write('<div><img src="/images/trans_pixel.gif" width="196" height="4" alt="" border="0"></div>');   
+
+   document.write('</td></tr>');
+
+      document.write('<tr><td bgcolor="#ADB3B9">');
+
+   document.write('<div><img src="/images/trans_pixel.gif" width="196" height="3" alt="" border="0"></div><img src="/images/homepage/trans_arrow.gif" width="8" height="8" alt="" hspace="3" border="0"><a href="/executive_programs/asset_113692_615.jsp" class="membershipProgramLink"> Chief Information Officers</a>');
+
+   document.write('<div><img src="/images/trans_pixel.gif" width="196" height="4" alt="" border="0"></div>');   
+
+   document.write('</td></tr>');
+
+      document.write('<tr><td bgcolor="#ADB3B9">');
+
+   document.write('<div><img src="/images/trans_pixel.gif" width="196" height="3" alt="" border="0"></div><img src="/images/homepage/trans_arrow.gif" width="8" height="8" alt="" hspace="3" border="0"><a href="/mp/asset_119955_2255.jsp" class="membershipProgramLink"> IT Operations Directors</a>');
+
+   document.write('<div><img src="/images/trans_pixel.gif" width="196" height="4" alt="" border="0"></div>');   
+
+   document.write('</td></tr>');
+
+      document.write('<tr><td bgcolor="#ADB3B9">');
+
+   document.write('<div><img src="/images/trans_pixel.gif" width="196" height="3" alt="" border="0"></div><img src="/images/homepage/trans_arrow.gif" width="8" height="8" alt="" hspace="3" border="0"><a href="/mp/asset_119956_2255.jsp" class="membershipProgramLink"> IT Security Directors</a>');
+
+   document.write('<div><img src="/images/trans_pixel.gif" width="196" height="4" alt="" border="0"></div>');   
+
+   document.write('</td></tr>');
+
+      document.write('<tr><td bgcolor="#ADB3B9">');
+
+   document.write('<div><img src="/images/trans_pixel.gif" width="196" height="3" alt="" border="0"></div><img src="/images/homepage/trans_arrow.gif" width="8" height="8" alt="" hspace="3" border="0"><a href="/invest/asset_48655.jsp" class="membershipProgramLink"> Investment Professionals</a>');
+
+   document.write('<div><img src="/images/trans_pixel.gif" width="196" height="4" alt="" border="0"></div>');   
+
+   document.write('</td></tr>');
+
+      document.write('<tr><td bgcolor="#ADB3B9">');
+
+   document.write('<div><img src="/images/trans_pixel.gif" width="196" height="3" alt="" border="0"></div><img src="/images/homepage/trans_arrow.gif" width="8" height="8" alt="" hspace="3" border="0"><a href="/mp/asset_119099_2255.jsp" class="membershipProgramLink"> Network and Telecom Managers</a>');
+
+   document.write('<div><img src="/images/trans_pixel.gif" width="196" height="4" alt="" border="0"></div>');   
+
+   document.write('</td></tr>');
+
+         	}
+
+  
+
+   else 
+
+   	{
+
+
+
+   document.write('<tr>');
+
+   document.write('<td bgcolor="#ADB3B9"><span class="mainRightNavLink">');
+
+   document.write('<div><img src="/images/trans_pixel.gif" width="196" height="5" alt="" border="0"></div>');
+
+   document.write('<img src="/images/trans_pixel.gif" width="1" height="1" alt="" border="0" align="left" hspace="2">Get the insight, services and<div><img src="/images/trans_pixel.gif" width="1" height="1" alt="" border="0" align="left" hspace="2">tools you need to succeed in</div><img src="/images/trans_pixel.gif" width="1" height="1" alt="" border="0" align="left" hspace="2">your job<div><img src="/images/trans_pixel.gif" width="1" height="12" alt="" border="0" align="left"></div></span>');
+
+   document.write('</tr>');
+
+
+
+   document.write('<tr>');
+
+   document.write('<form>');
+
+   document.write('<td bgcolor="#ADB3B9" valign="top"><img src="/images/trans_pixel.gif" width="1" height="1" border="0" align="left">');
+
+   document.write('<select name="newloc" onchange="jumper2(this.form.newloc);"  STYLE="width:184px;height:22px;font-family:Arial,Helvetica,verdana,sans-serif;font-size:11px;background:#EFEFEF;">');
+
+   document.write('<option selected>Choose Your Job Role</option>');
+
+         document.write('<option value="/mp/asset_119954_2255.jsp"> Architects & Planners</option>');
+
+      document.write('<option value="/executive_programs/asset_113692_615.jsp"> Chief Information Officers</option>');
+
+      document.write('<option value="/mp/asset_119955_2255.jsp"> IT Operations Directors</option>');
+
+      document.write('<option value="/mp/asset_119956_2255.jsp"> IT Security Directors</option>');
+
+      document.write('<option value="/invest/asset_48655.jsp"> Investment Professionals</option>');
+
+      document.write('<option value="/mp/asset_119099_2255.jsp"> Network and Telecom Managers</option>');
+
+         document.write('<option value=""> </option>');
+
+   document.write('</select>');
+
+   document.write('<div><img src="/images/trans_pixel.gif" width="186" height="14" alt="" border="0"></div>');
+
+   document.write('</td>');
+
+   document.write('</form>');
+
+   document.write('</tr>');
+
+
+
+}
+
+   // -->
+
+
+
+   </script>
+
+      <NOSCRIPT>
+
+<tr>
+
+   <td bgcolor="#ADB3B9">
+
+   <div><img src="/images/trans_pixel.gif" width="196" height="3" alt="" border="0"></div>
+
+   <img src="/images/homepage/trans_arrow.gif" width="8" height="8" alt="" hspace="3" border="0"><a href="/mp/asset_119954_2255.jsp" class="membershipProgramLink">Architects & Planners</a>
+
+   <div><img src="/images/trans_pixel.gif" width="196" height="1" alt="" border="0"></div>             
+
+   </td>
+
+</tr>
+
+ <tr>
+
+   <td bgcolor="#ADB3B9">
+
+   <div><img src="/images/trans_pixel.gif" width="196" height="3" alt="" border="0"></div>
+
+   <img src="/images/homepage/trans_arrow.gif" width="8" height="8" alt="" hspace="3" border="0"><a href="/executive_programs/asset_113692_615.jsp" class="membershipProgramLink">Chief Information Officers</a>
+
+   <div><img src="/images/trans_pixel.gif" width="196" height="1" alt="" border="0"></div>             
+
+   </td>
+
+</tr>
+
+ <tr>
+
+   <td bgcolor="#ADB3B9">
+
+   <div><img src="/images/trans_pixel.gif" width="196" height="3" alt="" border="0"></div>
+
+   <img src="/images/homepage/trans_arrow.gif" width="8" height="8" alt="" hspace="3" border="0"><a href="/mp/asset_119955_2255.jsp" class="membershipProgramLink">IT Operations Directors</a>
+
+   <div><img src="/images/trans_pixel.gif" width="196" height="1" alt="" border="0"></div>             
+
+   </td>
+
+</tr>
+
+ <tr>
+
+   <td bgcolor="#ADB3B9">
+
+   <div><img src="/images/trans_pixel.gif" width="196" height="3" alt="" border="0"></div>
+
+   <img src="/images/homepage/trans_arrow.gif" width="8" height="8" alt="" hspace="3" border="0"><a href="/mp/asset_119956_2255.jsp" class="membershipProgramLink">IT Security Directors</a>
+
+   <div><img src="/images/trans_pixel.gif" width="196" height="1" alt="" border="0"></div>             
+
+   </td>
+
+</tr>
+
+ <tr>
+
+   <td bgcolor="#ADB3B9">
+
+   <div><img src="/images/trans_pixel.gif" width="196" height="3" alt="" border="0"></div>
+
+   <img src="/images/homepage/trans_arrow.gif" width="8" height="8" alt="" hspace="3" border="0"><a href="/invest/asset_48655.jsp" class="membershipProgramLink">Investment Professionals</a>
+
+   <div><img src="/images/trans_pixel.gif" width="196" height="1" alt="" border="0"></div>             
+
+   </td>
+
+</tr>
+
+ <tr>
+
+   <td bgcolor="#ADB3B9">
+
+   <div><img src="/images/trans_pixel.gif" width="196" height="3" alt="" border="0"></div>
+
+   <img src="/images/homepage/trans_arrow.gif" width="8" height="8" alt="" hspace="3" border="0"><a href="/mp/asset_119099_2255.jsp" class="membershipProgramLink">Network and Telecom Managers</a>
+
+   <div><img src="/images/trans_pixel.gif" width="196" height="1" alt="" border="0"></div>             
+
+   </td>
+
+</tr>
+
+    </NOSCRIPT>
+
+
+
+ </table>
+
+<table width="200" border="0" cellspacing="0" cellpadding="0">
+
+<tr> 
+
+   <td bgcolor="#FFFFFF" colspan="3"><img src="/images/trans_pixel.gif" width="200" height="2" alt="" border="0"></td>
+
+</tr> 
+
+<tr> 
+
+   <td bgcolor="#CECECE" colspan="3"><img src="/images/trans_pixel.gif" width="200" height="2" alt="" border="0"></td>
+
+</tr> 
+
+<tr> 
+
+   <td bgcolor="#FFFFFF" colspan="3"><img src="/images/trans_pixel.gif" width="200" height="2" alt="" border="0"></td>
+
+</tr>      
+
+</table>
+

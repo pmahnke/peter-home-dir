@@ -1,0 +1,75 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: D/DR/DROLSKY/Params-Validate-1.08.tar.gz
+  CHECKSUM_STATUS: OK
+  ID: D/DR/DROLSKY/Params-Validate-1.08.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: DROLSKY
+  archived: tar
+  build_dir: /home/peter/.cpan/build/Params-Validate-1.08-6UlKkE
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370030
+  localfile: /home/peter/.cpan/sources/authors/id/D/DR/DROLSKY/Params-Validate-1.08.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370027
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370029
+  modulebuild: 1
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      Devel::Peek: 0
+      ExtUtils::CBuilder: 0
+      File::Spec: 0
+      File::Temp: 0
+      Module::Build: 0.3601
+      Test::Fatal: 0
+      Test::More: 0.88
+      Tie::Array: 0
+      Tie::Hash: 0
+      base: 0
+      overload: 0
+    requires:
+      Attribute::Handlers: 0.79
+      Carp: 0
+      Exporter: 0
+      Module::Implementation: 0
+      Scalar::Util: 1.10
+      XSLoader: 0
+      attributes: 0
+      perl: 5.008001
+      strict: 0
+      vars: 0
+      warnings: 0
+  reqtype: r
+  sponsored_mods:
+    Module::Implementation: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370014
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370016
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370030

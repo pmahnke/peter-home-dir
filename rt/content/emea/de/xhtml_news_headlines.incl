@@ -1,0 +1,6 @@
+<!-- created by pickResearchDEsimple.cgi -->
+
+ <li> <a href="#" onclick="openResult('http://www.gartner.de/it-news/050728_ou.html')">Globaler Outsourcing-Auftrag geht an IBM und BT</a></li>
+ <li> <a href="#" onclick="openResult('http://www.gartner.de/it-news/050627_lo.html')">Bombenanschl&auml;ge von London zeigen Bedarf an Notfallpl&auml;nen f&uuml;r Mitarbeiter auf</a></li>
+ <li> <a href="#" onclick="openResult('http://www.gartner.de/it-news/050627_ai.html')">Die Entscheidung f&uuml;r AMD oder Intel sollte nicht vom Prozess beeinflusst werden</a></li>
+ <li> <a href="#" onclick="openResult('http://www.gartner.de/it-news/050627_gt.html')">Der Vertrag von T-Mobile mit Google signalisiert das Ende der Mobilfunkportale</a></li>

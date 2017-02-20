@@ -1,0 +1,16 @@
+    <div id="regionalEventsSymposium">
+
+        <a href="/2_events/symposium/worldwide.html"><img src="/images/homepage/hdr_sym.gif" height="60" width="198" alt="Gartner Symposium" border="0"></a>
+
+        <ul class="regionalEventList">
+	    <li><a href="/2_events/symposium/2005/esc17/esc17.jsp">7-11 novembre</a><br><a href="/2_events/symposium/2005/esc17/esc17.jsp">Cannes</a></li>
+
+        </ul>
+
+        <ul class="regionalEventMore">
+            <li><a href="/2_events/symposium/worldwide.html">Visualizza tutti i<br>Symposium</a></li>
+            <li><a href="/2_events/symposium/sym2005_contact.html">Altri Vision Events</a></li>
+        </ul>
+
+        <br clear="all">
+    </div><!-- end div regionalEventsSymposium -->

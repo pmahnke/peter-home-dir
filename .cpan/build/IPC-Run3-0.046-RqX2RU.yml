@@ -1,0 +1,54 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: IPC::Run3
+  CHECKSUM_STATUS: OK
+  ID: R/RJ/RJBS/IPC-Run3-0.046.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: RJBS
+  archived: tar
+  build_dir: /home/peter/.cpan/build/IPC-Run3-0.046-RqX2RU
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369978
+  localfile: /home/peter/.cpan/sources/authors/id/R/RJ/RJBS/IPC-Run3-0.046.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369977
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369978
+  negative_prefs_cache: 4
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires:
+      Test::More: 0.31
+      Time::HiRes: 0
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369977
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 4
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386369977
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386369978

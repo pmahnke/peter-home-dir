@@ -1,0 +1,53 @@
+<tm title=Gartner TCO Manager Enhancements>
+<tm style=http://www.gartner.com/4_decision_tools/css/content.css>
+<tm style=http://www.gartner.com/css/menu.css>
+<tm jsInclude=stylesheet.incl>
+
+
+<!--
+Gartner TCO Manager Enhancements
+-->
+
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" >  
+
+<tr><td colspan="4"><img src="img/trans_pixel.gif" height="5"></td></tr>
+
+ <tr class="measurement">
+
+  <td colspan="6"  class="crumbBold" height="24" valign="middle">    
+
+<!-- breadcrumb --> 
+
+    <a href=http://regionals.gartner.com/emea/03_measurement.html class=topNavText >Measurement</a> > <a href=http://regionals.gartner.com/emea/03_z_decision_tools.html class=topNavText >Decision Tools</a> <a href=http://regionals.gartner.com/emea/03_z_cost_management.html class=topNavText >Cost Management</a> > TCO Manager Enhancements  
+  </td>
+ </tr>
+
+ <tr><td><img src="img/trans_pixel.gif" height="5"></td></tr>
+
+ <tr>
+  <td rowspan="30" width=20>
+   <img src="img/trans_pixel.gif" width="10">
+  </td>
+
+  <td>
+
+<tm src=03_z_tco_manager_enhance_detail.incl>
+  </td>
+
+  <td rowspan="30" width=10>
+   <img src="img/trans_pixel.gif" width="10">
+  </td>
+  
+  <td width=190 valign=top>
+ <tm src=03_measurement_menu.incl>
+  </td>
+
+<td rowspan="30" width=10>
+   <img src="img/trans_pixel.gif" width="10">
+  </td>
+
+  
+ </tr>
+</table>

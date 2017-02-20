@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+  <rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
+  <channel>
+  <title>Gartner de</title>
+  <link>http://de.gartner.com/</link>
+  <description>Daily update of the featured news and research from Gartner de, the world's leading IT research and advisory firm.</description>
+  <language>en-us</language>
+  <copyright>Copyright 2004 Gartner, Inc. and/or its Affiliates. All Rights Reserved. </copyright>
+  <lastBuildDate>Fri, 08 Oct 2004 11:19:01 GMT</lastBuildDate>
+  <docs>http://backend.userland.com/rss</docs>
+  <managingEditor>stephanie.gordon@gartner.com</managingEditor>
+  <webMaster>peter.mahnke@gartner.com</webMaster>
+  <image>
+    <url><![CDATA[http://intl.transitionelement.com/img/ge_logo_small.gif]]></url>
+    <width>110</width>
+    <height>45</height>
+    <link><![CDATA[http://europe.gartner.com]]></link>
+    <title>Gartner Europe</title>
+  </image>
+  <ttl>120</ttl>
+  <skipDays><day>Saturday</day><day>Sunday</day></skipDays>
+  <skipHours><hour>1</hour><hour>2</hour><hour>3</hour><hour>4</hour><hour>5</hour><hour>6</hour><hour>19</hour><hour>20</hour><hour>21</hour><hour>22</hour><hour>23</hour><hour>24</hour></skipHours>
+<item>
+  <title>Deciding a Cost-Effective Strategy For The Windows Client OS License - Feature</title>
+  <description>In deciding your Windows client OS strategy, you must understand how your company upgrades from one version to another.</description>
+  <pubDate>Fri, 01 Oct 2004 10:17:49 GMT</pubDate>
+  <link><![CDATA[z_20041001_01_fp.html]]></link>
+</item>
+<item>
+  <title>How to Avoid RFID Patent Infringements  - Feature</title>
+  <description>The intellectual property issues surrounding Radio-Frequency Identification mean that users must clearly define their RFID strategy. </description>
+  <pubDate>Fri, 17 Sep 2004 08:49:17 GMT</pubDate>
+  <link><![CDATA[z_20040917_01_fp.html]]></link>
+</item>
+<item>
+  <title>Siemens kooperiert bei Netzwerk-Equipment mit Huawei  - news</title>
+  <description></description>
+  <pubDate>Fri, 08 Oct 2004 11:19:01 GMT</pubDate>
+  <link><![CDATA[http://www.gartner.de/it-news/041040_si.html]]></link>
+</item>
+<item>
+  <title>Microsoft liefert Open-Source Wiki-Tools f&amp;uml;r Entwickler - news</title>
+  <description></description>
+  <pubDate>Fri, 08 Oct 2004 11:19:01 GMT</pubDate>
+  <link><![CDATA[http://www.gartner.de/it-news/041040_ms.html]]></link>
+</item>
+<item>
+  <title>Nach CEO-Entlassung weiter Ungewissheit bei PeopleSoft  - news</title>
+  <description></description>
+  <pubDate>Fri, 08 Oct 2004 11:19:01 GMT</pubDate>
+  <link><![CDATA[http://www.gartner.de/it-news/041040_pe.html]]></link>
+</item>
+<item>
+  <title>VMware bietet neue PC-Virtualisierungs-Software - news</title>
+  <description></description>
+  <pubDate>Fri, 08 Oct 2004 11:19:01 GMT</pubDate>
+  <link><![CDATA[http://www.gartner.de/it-news/041040_vm.html]]></link>
+</item>
+<item>
+  <title>IT Services Opportunities in Telecoms: Europe, 2004-2007 - research</title>
+  <description>Telecommunications firms can cut costs by outsourcing key business processes. IT services providers can expect opportunities in areas like revenue management, payroll, network maintenance and equipment procurement. </description>
+  <pubDate>Fri, 08 Oct 2004 11:19:01 GMT</pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=427116&amp;all=email&amp;ef=g_emalert]]></link>
+</item>
+<item>
+  <title>Network Services and Service Providers in the United Kingdom - research</title>
+  <description>The last two years have seen a restricted spending environment in the U.K. telecom industry after witnessing the boom and bust of the late 1990s. However, the market has begun to show some signs of stability.</description>
+  <pubDate>Fri, 08 Oct 2004 11:19:01 GMT</pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=307611&amp;all=email&amp;ef=g_emalert]]></link>
+</item>
+<item>
+  <title>Cool Vendors in Security and Privacy - research</title>
+  <description> These 11 cool vendors in IT security and privacy offer innovative technologies and products that address wide-ranging security issues, such as mobile data protection, authentication, spam filtering and database security. </description>
+  <pubDate>Fri, 08 Oct 2004 11:19:01 GMT</pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=427023&amp;all=email&amp;ef=g_emalert]]></link>
+</item>
+<item>
+  <title>Innovation Thrives in the Software Infrastructure Space - research</title>
+  <description>Innovation continues in the software infrastructure space in the advancement and support of current products as well as in the availability of new technologies.</description>
+  <pubDate>Fri, 08 Oct 2004 11:19:01 GMT</pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=426821&amp;all=email&amp;ef=g_emalert]]></link>
+</item>
+
+ </channel>
+</rss>

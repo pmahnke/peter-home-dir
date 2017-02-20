@@ -1,0 +1,53 @@
+<!-- left_02.incl -->
+<style>
+.linkTextBold3 {font-size:13px;}
+.textBlackReg2{font-size:9px;}
+.linkTextSmall {font-size:10px;}
+.linkTextSmallBold {font-size:11px;}
+.linkTextSmall2 {font-size:9px;}
+.smallText {font-size:10px;}
+.contentTextMain {font-size:12px;}
+</style>
+<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+     <td align="left" valign="top" colspan="2"> <hr size="1" color="#CCCCCC" noshade></td>
+    </tr>
+<!-- small box item 1 -->
+    <tr>
+     <td valign="top">
+       <table cellspacing="0" cellpadding="0" border="0">
+        <tr>
+	 <td valign="top" class="contentTextMain">
+<a class="linkTextBold3" href="javascript:void(null)" onclick="openResult('/DisplayDocument?id=371660')">Premises Switching Equipment Markets</a></td>
+       </tr>
+       <tr>
+        <td><img src="//img/trans_pixel.gif" height="3" width="1" vspace="1" border="0" alt=""></td>
+       </tr>
+       <tr>  
+	<td valign="top" class="contentTextMain">Data for shipments of premises switching equipment shows that Germany, France and the United Kingdom are still the largest markets in Europe. Overall, the European market fell 7.3 percent to 15.9 million extension lines shipped in 2001. The market value was down 10.1 percent to $2.9 billion.</td>
+       </tr>
+       <tr>
+        <td><img src="//img/trans_pixel.gif" height="3" width="1" vspace="1" border="0" alt=""></td>
+       </tr>
+       <tr>  
+	<td><a class="linkTextBold3" href="javascript:void(null)" onclick="openResult('/DisplayDocument?id=371660')"><img src="//img/content/20021002_spot_research_pie.gif" border="0" hspace="0" width="240" height="121" vspace="3" alt="Premises Switching Equipment Markets" /></a><br /><div class="linkTextSmall" align="left">Figures are millions of extension lines<br />shipped in 2001</div></td>
+       </tr>
+       <tr>
+        <td><img src="//img/trans_pixel.gif" height="3" width="1" vspace="1" border="0" alt=""></td>
+       </tr>
+       <tr>  
+	<td>
+<a class="linkTextSmall" href="javascript:void(null)" onclick="openResult('/DisplayDocument?id=371660')">Read more</a>
+        </td>
+       </tr>
+       <tr>
+        <td><img src="//img/trans_pixel.gif" height="3" width="1" vspace="1" border="0" alt=""></td>
+       </tr> 
+      </table>
+     </td>	
+    </tr>
+    <tr>
+     <td bgcolor="#ffffff" height="1"><img align="left" src="//img/trans_pixel.gif" alt="" border="0" height="1" width="100%">
+     </td>
+    </tr>
+</table>

@@ -1,0 +1,595 @@
+<html>
+<head>
+    <link rel=stylesheet href="http://www4.gartner.com/css/win/Search.css" type="text/css">
+<title>Adv Search Options - DQ</title>
+
+<script language="JavaScript"><!--
+var chkMaster = new Array();
+
+chkMaster[0] = new Array('doc',false, 3);
+
+
+
+chkMaster[1] = new Array('folderType',false, 10);
+
+
+
+chkMaster[2] = new Array('topic',false, 10);
+
+
+
+chkMaster[3] = new Array('industry',false, 20);
+
+
+
+chkMaster[4] = new Array('geography',false, 6);
+
+
+
+chkMaster[5] = new Array('contentType',false, 5);
+
+//--></script>
+
+<script src="http://www.gartner.com/7_search/js/Advanced.js"></script>
+<script src="http://www.gartner.com/7_search/js/clientData.js"></script>
+<script src="http://www.gartner.com/7_search/js/SessTimeOut.js"></script>
+    <style type="text/css">
+        SELECT {background-color:#FFFFFF;}
+        INPUT {background-color:#FFFFFF;}
+    </style>
+
+</head>
+<body onload="Timeout();initializePage();" marginWidth="0" marginHeight="0" bgcolor="#FFFFFF"><a name="top#"></a>
+
+<form name="advancedForm" method="post"action="/rt/RCsearch.cgi">
+
+<table>
+<tr>
+<td><img src=/img/logo_gartner.gif></td>
+<td>
+
+<!-- 
+<input type="text" size="45" name="keywords" maxlength="128" value="">
+
+<input type=submit value=search>
+<br>
+-->
+
+<!-- table 1 -->
+
+<table border="0" cellpadding="0" cellspacing="0" width="600" align="center">
+
+<tr>
+<td colspan="7"><img src="http://www.gartner.com/7_search/images/x.gif" height="10" width="1" alt="" border="0"></td>
+</tr>
+
+<tr>
+<!--left-->
+        <td height="1" rowspan="100" bgcolor="#CCCCCC" width="1"><img src="http://www.gartner.com/7_search/images/x.gif" height="1" width="1" alt="" border="0"></td>
+	<!--top-->
+
+        <td height="1" bgcolor="#CCCCCC" colspan="5"><img src="http://www.gartner.com/7_search/images/x.gif" height="1" width="1" alt="" border="0"></td>
+	<!--right-->
+        <td height="1" rowspan="100" bgcolor="#CCCCCC" width="1"><img src="http://www.gartner.com/7_search/images/x.gif" height="1" width="1" alt="" border="0"></td>
+	</tr>
+	<tr bgcolor="#EBEBEB">
+	<td class="heading3" width="10">&nbsp;</td>
+        
+	<td class="heading3" height="25" width="480">Search&nbsp;Terms</td>
+        
+
+        <td class="heading3" height="25" align="right" valign="middle" width="100"><a href="javascript:toggleFrame(31,35,36);"><img height="16"
+        
+            src="http://www.gartner.com/7_search/images/toggle3.gif"
+            alt="View Advanced Search and Search Results in a Split Screen"
+        
+        align="middle" border="0"></a></td>
+
+	<td class="heading3" width="10">&nbsp;</td>
+    </tr>
+
+    <tr>
+        <td width="10">&nbsp;</td>
+        
+	<td width="580" colspan="2">
+        
+	<table border="0" cellpadding="0" cellspacing="0">
+            
+                <tr>
+                    <td>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="580">
+                            <tr>
+                                <td class="heading5Bold">Enter Search Terms</td>
+                                
+                                <td colspan="2" align="right" valign="middle">
+                                <a href="#top" onclick="javascript:resetSearch(true);"><img src="http://www.gartner.com/7_search/images/advanced/resetdefaults.gif" width="76" height="16" alt="" border="0" align="middle"></a>
+                                </td>
+                                
+                            </tr>
+
+                            
+
+                            <tr valign="top">
+
+                                <td align="left" valign="top" width="230">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="230">
+                                        <tr>
+                                            <td colspan="2" class="entry2">
+                                                <input type="radio" name="simple1" value="0"
+                                                onclick="javascript:controlResultsRadio('allContentTop', 'allContentBottom', 'simple1');"
+                                                
+                                                    checked 
+                                                >&nbsp;All&nbsp;Research&nbsp;&nbsp;
+                                                <input bgcolor="#FFFFFF" type="radio" name="simple1" value="1"
+                                                onclick="javascript:controlResultsRadio('allContentTop', 'allContentBottom', 'simple1');"
+                                                
+                                                >&nbsp;Free&nbsp;Research<br>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                            <table cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+
+                                        
+                                            <td width="1%"><img src="http://www.gartner.com/7_search/images/x.gif" height="1" width="2" alt="" border="0"></td>
+                                        
+
+                                            <td colspan="2">
+                                                <input type="text" size="30" name="keywords" maxlength="128" value="" bgcolor="#FFFFFF">
+
+                                            </td>
+                                            </tr>
+                                            </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="entry2Bold">
+                                                <input bgcolor="#FFFFFF" type="checkbox" name="simple2" value="1"
+                                                onclick="javascript:controlResultsCheckbox('searchWithinTop', 'searchWithinBottom', 'simple2');"
+                                                 disabled
+                                                >Search within current results
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="entry2">
+                                                <input bgcolor="#FFFFFF" type="checkbox" name="archived" value="1"
+                                                onclick="javascript:controlResultsCheckbox('archivedTop', 'archivedBottom', 'archived');"
+                                                >Include&nbsp;<a href="javascript:void(null)" class="pageLink" onclick="javascript:openArchiveTips('/7_search/ArchiveTips.jsp');">Archived Research</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                            
+			    
+                                <td class="entry2" valign="top" width="150">
+                                    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                                        <tr><td width="1%"><input type="radio" name="docHead" value="0" onclick="javascript:uncheckList('doc', 3)" checked ></td><td class="entry2Bold">Full Text Search</td></tr><tr><td width="1%"><input type="radio" name="docHead" value="1" ></td><td class="entry2Bold">Search Only</td></tr>
+                                        <tr><td width="10">&nbsp;</td><td class="entry2"><input type="checkbox" name="doc2" value="1" onclick="javascript:controlListHead('doc', 3)">Author</td></tr>
+                                        <tr><td width="10">&nbsp;</td><td class="entry2"><input type="checkbox" name="doc1" value="1" onclick="javascript:controlListHead('doc', 3)">Title</td></tr>
+                                        <tr><td width="10">&nbsp;</td><td class="entry2"><input type="checkbox" name="doc3" value="1" onclick="javascript:controlListHead('doc', 3)">Summary</td></tr>
+
+                                    </table>
+                                </td>
+                            
+                                <td width="200">
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td>
+                                                <table cellpadding="10">
+                                                    <tr>
+                                                    <td height="40" bgcolor="#F1F6F9" class="entry2">Use double quotes, OR, or NOT for better results (default in phrases is AND).
+                                                    </tr>
+
+                                                </table>
+                                            </td>
+                                        </tr>
+                            
+                                    
+                                    </table>
+                                </td>
+                            
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><hr size="1" noshade color="#CCCCCC"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="0" cellspacing="0" width="580">
+                            <tr>
+                                <td width="200" valign="top">
+                                    <table width="200" border="0" cellpadding="0" cellspacing="0">
+
+                                        <tr>
+                                            <td class="heading6Bold" colspan="3">Select a Date Range</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="entry2" valign="top" align="left">From</td><td valign="top" align="right"><select name="month1" class="entry2"><option value="0" selected>January<option value="1">February<option value="2">March<option value="3">April<option value="4">May<option value="5">June<option value="6">July<option value="7">August<option value="8">September<option value="9">October<option value="10">November<option value="11">December</select></td><td valign="top" align="right"><select name="year1" class="entry2"><option value="1995" selected>1995<option value="1996">1996<option value="1997">1997<option value="1998">1998<option value="1999">1999<option value="2000">2000<option value="2001">2001<option value="2002">2002<option value="2003">2003</select></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="entry2" align="left" valign="top">To</td><td valign="top" align="right"><select name="month2" class="entry2"><option value="0">January<option value="1">February<option value="2">March<option value="3">April<option value="4">May<option value="5">June<option value="6">July<option value="7">August<option value="8">September<option value="9" selected>October<option value="10">November<option value="11">December</select></td><td valign="top" align="right"><select name="year2" class="entry2"><option value="1995">1995<option value="1996">1996<option value="1997">1997<option value="1998">1998<option value="1999">1999<option value="2000">2000<option value="2001">2001<option value="2002" selected>2002<option value="2003">2003</select></td>
+
+                                        </tr>
+                                    </table>
+                                </td>
+                                
+                            
+                                <td width="30">&nbsp;</td>
+                            
+
+                                <td valign="top" align="left" width="200">
+                                    <table border="0" width="200" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td class="heading6Bold" align="left" colspan="2">Your Display Options</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="entry2" align="right">Number of Results&nbsp;&nbsp;</td>
+                                            <td><select name="resultsPerSearch" class="entry2"><option value="100">100</option><option value="200" selected>200</option><option value="300">300</option><option value="400">400</option><option value="500">500</option></select></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="entry2" align="right">Results per Page&nbsp;&nbsp;</td>
+                                            <td><select name="resultsPerPage" class="entry2"><option value="25" selected>25</option><option value="50">50</option><option value="75">75</option><option value="100">100</option></select></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                
+                                <td width="150" valign="bottom">
+
+                                    <input type=submit value="search now">
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                                <td height="5"><img src="http://www.gartner.com/7_search/images/x.gif" height="1" width="1" alt="" border="0"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                
+            </table>
+        </td>
+        <td width="10">&nbsp;</td>
+	</tr>
+	<tr> 
+      <!-- bottom -->
+      <td bgcolor="#CCCCCC" colspan="5"><img src="http://www.gartner.com/7_search/images/x.gif" height="1" width="1" alt="" border="0"></td>
+    </tr> 
+</table>
+<!-- end table 1 -->
+
+
+<img src="http://www.gartner.com/7_search/images/x.gif" height="20" width="1" alt="" border="0"><br>
+
+<!-- table 2 -->
+<table border="0" cellpadding="0" cellspacing="0"
+    
+        width="600" align="center">
+    
+    <tr>
+        <td colspan="7"><img src="http://www.gartner.com/7_search/images/x.gif" height="10" width="1" alt="" border="0"></td>
+    </tr>
+
+    <tr>
+    <!--left-->
+        <td rowspan="100" bgcolor="#CCCCCC"><img src="http://www.gartner.com/7_search/images/x.gif" height="1" width="1" alt="" border="0"></td>
+	<!--top-->
+
+        <td bgcolor="#CCCCCC" colspan="5"><img src="http://www.gartner.com/7_search/images/x.gif" height="1" width="1" alt="" border="0"></td>
+	<!--right-->
+        <td rowspan="100" bgcolor="#CCCCCC"><img src="http://www.gartner.com/7_search/images/x.gif" height="1" width="1" alt="" border="0"></td>
+	</tr>
+	<tr bgcolor="EBEBEB">
+	<td class="heading3" width="10"><br></td>
+	<td class="heading3" height="25"
+        
+            width="480" colspan="2"
+        
+        >Refine Your Search With the Options Below</td>
+        
+	<td class="heading3" height="25" width="100" align="right">&nbsp;</td>
+
+        
+	<td class="heading3" width="10">&nbsp;</td>
+	</tr>
+	<tr>
+	<td bgcolor="#CCCCCC" colspan="5"><img src="http://www.gartner.com/7_search/images/x.gif" height="1" width="1" alt="" border="0"></td>
+	</tr>
+
+	<tr>
+        
+	<td width="600" colspan="5">
+        
+	<table border="0" cellpadding="10" cellspacing="0">
+
+	  <tr>
+	  <td>
+	  <a
+	  href="#top"
+	  onclick="javascript:resetSearch(true);"><img src="http://www.gartner.com/7_search/images/advanced/resetdefaults.gif" width="76" height="16" alt="" border="0"></a><br>
+	  <table border="0" cellpadding="0" cellspacing="3"
+                    
+                    width="580">
+                    
+                    <tr valign="top">
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td class="heading5Bold" colspan="3">Select Source to Search</td>
+
+                                </tr>
+                                <tr>
+                                    <td align="left" valign="top">
+                                        <input bgcolor="#FFFFFF" type="radio" name="docSource" value="-1" checked>
+                                    </td>
+                                    <td class="entry2Bold" colspan="2">
+                                        All Research Sources
+                                    </td>
+                                </tr>
+
+                                
+                                <tr>
+                                    <td align="left" valign="top">
+                                        <input bgcolor="#FFFFFF" type="radio" name="docSource"
+                                        value="0"
+                                         
+                                    ></td>
+                                    <td class="entry2Bold" colspan="2">
+                                        Dataquest Research Only
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td colspan="3">&nbsp;<br></td>
+
+                                </tr>
+                                <tr>
+                                    <td class="heading5Bold" colspan="3">Select Content Types</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="entry2" valign="top">
+                                        <tr><td><input type="radio" name="contentTypeHead" value="0" onclick="javascript:uncheckList('contentType', 5)" checked ></td><td class="entry2Bold" colspan="2">All Content Types</td></tr><tr><td><input type="radio" name="contentTypeHead" value="1" ></td><td class="entry2Bold" colspan="2">Only These Content Types</td></tr>
+
+                                        <tr>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="contentType1" value="0" onclick="javascript:controlListHead('contentType', 5)"></td><td class="entry2" width="180">Comparison Column</td>
+</tr>
+<tr>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="contentType2" value="1" onclick="javascript:controlListHead('contentType', 5)"></td><td class="entry2" width="180">Hype Cycle</td>
+</tr>
+<tr>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="contentType3" value="2" onclick="javascript:controlListHead('contentType', 5)"></td><td class="entry2" width="180">Magic Quadrant</td>
+</tr>
+<tr>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="contentType4" value="3" onclick="javascript:controlListHead('contentType', 5)"></td><td class="entry2" width="180">MarketView Database</td>
+</tr>
+
+<tr>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="contentType5" value="4" onclick="javascript:controlListHead('contentType', 5)"></td><td class="entry2" width="180">Vendor Rating</td>
+</tr>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+
+                    
+
+
+                         <td>
+                            <table border="0" cellpadding="0" cellspacing="0">
+
+                                <tr>
+                                    <td class="heading5Bold" colspan="3">Select Document Type</td>
+                                </tr>
+                                <tr>
+                                    <td class="entry2" valign="top">
+                                        <tr><td><input type="radio" name="folderTypeHead" value="0" onclick="javascript:uncheckList('folderType', 10)" checked ></td><td class="entry2Bold" colspan="2">All Document Types</td></tr><tr><td><input type="radio" name="folderTypeHead" value="1" ></td><td class="entry2Bold" colspan="2">Only These Document Types</td></tr>
+                                        <tr><td width="10">&nbsp;</td><td><input type="checkbox" name="folderType1" value="0" onclick="javascript:controlListHead('folderType', 10)"></td><td class="entry2" width="180">Best Practices</td>
+
+</tr><tr><td width="10">&nbsp;</td><td><input type="checkbox" name="folderType2" value="1" onclick="javascript:controlListHead('folderType', 10)"></td><td class="entry2" width="180">Gartner Events</td>
+</tr><tr><td width="10">&nbsp;</td><td><input type="checkbox" name="folderType3" value="2" onclick="javascript:controlListHead('folderType', 10)"></td><td class="entry2" width="180">Gartner Products</td>
+</tr><tr><td width="10">&nbsp;</td><td><input type="checkbox" name="folderType4" value="3" onclick="javascript:controlListHead('folderType', 10)"></td><td class="entry2" width="180">Market Analysis</td>
+</tr><tr><td width="10">&nbsp;</td><td><input type="checkbox" name="folderType5" value="4" onclick="javascript:controlListHead('folderType', 10)"></td><td class="entry2" width="180">Market Statistics</td>
+</tr><tr><td width="10">&nbsp;</td><td><input type="checkbox" name="folderType6" value="5" onclick="javascript:controlListHead('folderType', 10)"></td><td class="entry2" width="180">News Analysis</td>
+</tr><tr><td width="10">&nbsp;</td><td><input type="checkbox" name="folderType7" value="6" onclick="javascript:controlListHead('folderType', 10)"></td><td class="entry2" width="180">Products</td>
+</tr><tr><td width="10">&nbsp;</td><td><input type="checkbox" name="folderType8" value="7" onclick="javascript:controlListHead('folderType', 10)"></td><td class="entry2" width="180">Strategy, Trends & Tactics</td>
+</tr><tr><td width="10">&nbsp;</td><td><input type="checkbox" name="folderType9" value="8" onclick="javascript:controlListHead('folderType', 10)"></td><td class="entry2" width="180">Tutorials</td>
+
+</tr><tr><td width="10">&nbsp;</td><td><input type="checkbox" name="folderType10" value="9" onclick="javascript:controlListHead('folderType', 10)"></td><td class="entry2" width="180">Vendors</td>
+</tr>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="entry2" colspan="9" valign="bottom">
+
+                                    <input type=submit value="search now">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="9"><hr size="1" noshade color="#CCCCCC"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="9">
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0">
+
+                                <tr>
+                                    <td class="heading5Bold" colspan="9">Region</td>
+                                </tr>
+                                <tr><td><input type="radio" name="geographyHead" value="0" onclick="javascript:uncheckList('geography', 6)" checked ></td><td class="entry2Bold" colspan="8">All Regions</td></tr><tr><td><input type="radio" name="geographyHead" value="1" ></td><td class="entry2Bold" colspan="8">Only Selected Regions</td></tr>
+                                <tr>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="geography1" value="0" onclick="javascript:controlListHead('geography', 6)"></td><td class="entry2" width="160"> Not Region Specific</td>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="geography3" value="2" onclick="javascript:controlListHead('geography', 6)"></td><td class="entry2" width="160">Asia-Pacific</td>
+
+<td width="10">&nbsp;</td><td><input type="checkbox" name="geography5" value="4" onclick="javascript:controlListHead('geography', 6)"></td><td class="entry2" width="160">Latin America</td>
+</tr>
+<tr>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="geography2" value="1" onclick="javascript:controlListHead('geography', 6)"></td><td class="entry2" width="160">Africa</td>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="geography4" value="3" onclick="javascript:controlListHead('geography', 6)"></td><td class="entry2" width="160">Europe</td>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="geography6" value="5" onclick="javascript:controlListHead('geography', 6)"></td><td class="entry2" width="160">North America</td>
+</tr>
+
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="entry2" colspan="9" valign="bottom">
+                                    <input type=submit value="search now">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="9"><hr size="1" noshade color="#CCCCCC"></td>
+                    </tr>
+                    
+                    <tr>
+
+                        <td colspan="9">
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td class="heading5Bold" colspan="9">Topic</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="9">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+                                            <tr>
+                                                <td><table border="0" cellspacing="0" cellpadding="0"><tr><td><input type="radio" name="topicHead" value="0" onclick="javascript:uncheckList('topic', 10)" checked ></td><td class="entry2Bold">All Topics</td></tr><tr><td><input type="radio" name="topicHead" value="1" ></td><td class="entry2Bold">Only Selected Topics</td></table></td>
+                                            
+                                            
+                                                <td align="right" colspan="3">
+                                                    <table cellpadding="10">
+                                                        <td bgcolor="#F1F6F9" width="200" class="entry2" align="right" colspan="3" rowspan="2">You can review the entire <a href="/6_help/gartner_topic_060402.pdf" target="_blank">Gartner Research Topic Index</a></td>
+                                                    </table>
+                                                </td>
+
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr><td width="10">&nbsp;</td><td><input type="checkbox" name="topic1" value="0" onclick="javascript:controlListHead('topic', 10)"></td><td class="entry2" width="180">Application Development</td><td width="10">&nbsp;</td><td><input type="checkbox" name="topic5" value="4" onclick="javascript:controlListHead('topic', 10)"></td><td class="entry2" width="180">Enterprise Applications</td><td width="10">&nbsp;</td><td><input type="checkbox" name="topic9" value="8" onclick="javascript:controlListHead('topic', 10)"></td><td class="entry2" width="180">Semiconductors</td></tr><tr><td width="10">&nbsp;</td><td><input type="checkbox" name="topic2" value="1" onclick="javascript:controlListHead('topic', 10)"></td><td class="entry2" width="180">Business Management of Information Technology</td><td width="10">&nbsp;</td><td><input type="checkbox" name="topic6" value="5" onclick="javascript:controlListHead('topic', 10)"></td><td class="entry2" width="180">IT, Public Policy and Society</td><td width="10">&nbsp;</td><td><input type="checkbox" name="topic10" value="9" onclick="javascript:controlListHead('topic', 10)"></td><td class="entry2" width="180">Software Infrastructure</td></tr><tr><td width="10">&nbsp;</td><td><input type="checkbox" name="topic3" value="2" onclick="javascript:controlListHead('topic', 10)"></td><td class="entry2" width="180">Customer Relationship Management</td><td width="10">&nbsp;</td><td><input type="checkbox" name="topic7" value="6" onclick="javascript:controlListHead('topic', 10)"></td><td class="entry2" width="180">Networking and Telecommunications</td></tr><tr><td width="10">&nbsp;</td><td><input type="checkbox" name="topic4" value="3" onclick="javascript:controlListHead('topic', 10)"></td><td class="entry2" width="180">Electronic Workplace and Internet Technologies</td><td width="10">&nbsp;</td><td><input type="checkbox" name="topic8" value="7" onclick="javascript:controlListHead('topic', 10)"></td><td class="entry2" width="180">Platforms and Storage</td></tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="entry2" colspan="9" valign="bottom">
+                                    <input type=submit value="search now">
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td colspan="9"><hr size="1" noshade color="#CCCCCC"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="9">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td class="heading5Bold" colspan="9">&nbsp;Industry</td>
+                                </tr>
+
+                                <tr><td><input type="radio" name="industryHead" value="0" onclick="javascript:uncheckList('industry', 20)" checked ></td><td class="entry2Bold" colspan="8">All Industries</td></tr><tr><td><input type="radio" name="industryHead" value="1" ></td><td class="entry2Bold" colspan="8">Only Selected Industries</td></tr>
+                                <tr>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry1" value="0" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180"> Not Industry Specific</td>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry8" value="7" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Government (federal)</td>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry15" value="14" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Mining, Agriculture, Energy</td>
+</tr>
+<tr>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry2" value="1" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Communications</td>
+
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry9" value="8" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Government (state/local)</td>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry16" value="15" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Publishing</td>
+</tr>
+<tr>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry3" value="2" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Construction, Architecture, Engineering</td>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry10" value="9" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Healthcare</td>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry17" value="16" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Research & Development</td>
+</tr>
+<tr>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry4" value="3" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Consulting</td>
+
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry11" value="10" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Insurance, Real Estate, Legal Services</td>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry18" value="17" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Retail, Wholesale, Distrib.</td>
+</tr>
+<tr>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry5" value="4" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Consulting (computer-related)</td>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry12" value="11" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Manufacturing</td>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry19" value="18" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Retail, Wholesale, Distrib. (computer-related)</td>
+</tr>
+<tr>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry6" value="5" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Education</td>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry13" value="12" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Manufacturing (computer-related)</td>
+
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry20" value="19" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Travel, Transportation</td>
+</tr>
+<tr>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry7" value="6" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Finance</td>
+<td width="10">&nbsp;</td><td><input type="checkbox" name="industry14" value="13" onclick="javascript:controlListHead('industry', 20)"></td><td class="entry2" width="180">Marketing, Advertising, Entertainment</td>
+</tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td class="entry2" colspan="9" valign="bottom">
+                                    <input type=submit value="search now">
+                        </td>
+                    </tr>
+                </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    </tr>
+    
+    
+    <tr> 
+      <!-- bottom -->
+      <td bgcolor="#CCCCCC" colspan="5"><img src="http://www.gartner.com/7_search/images/x.gif" height="1" width="1" alt="" border="0"></td>
+    </tr> 
+</table>
+<!-- end table 2 -->
+
+
+<input type="hidden" name="op" value="2">
+<input type="hidden" name="startMonthDefault" value="0">
+<input type="hidden" name="startYearDefault" value="1995">
+<input type="hidden" name="endMonthDefault" value="9">
+
+<input type="hidden" name="endYearDefault" value="2002">
+<input type="hidden" name="resultsPerSearchDefault" value="200">
+<input type="hidden" name="resultsPerPageDefault" value="25">
+<input type="hidden" name="industrySize" value="20">
+<input type="hidden" name="topicSize" value="10">
+<input type="hidden" name="folderTypeSize" value="10">
+<input type="hidden" name="geographySize" value="6">
+<input type="hidden" name="contentTypeSize" value="5">
+<input type="hidden" name="cb">
+<input type="hidden" name="bf">
+<input type="hidden" name="bop">
+<input type="hidden" name="f">
+<input type="hidden" name="opSimple" value="1">
+<input type="hidden" name="opAdvanced" value="2">
+</form>
+</td></tr></table>
+</body>
+
+</html>

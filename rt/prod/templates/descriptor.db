@@ -1,0 +1,9 @@
+# Locale descriptors
+# key,    description,      language,      region
+# ==================================================
+  wcw,    north america,    en-us,         geography
+  emea,   europe,           en-uk,         geography
+  uk,     united kingdom,   en-uk,         geography
+  de,     deutschland,      de,            geography
+  it,     italia,           it,            geography
+  fr,     france,           fr,            geography

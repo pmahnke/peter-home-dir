@@ -1,0 +1,27 @@
+
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+
+
+<tr>
+<td valign="top" width="13"><img src="//img/trans_pixel.gif" width="12" height="12" border="0" alt="" /></td>
+<td width="98%">&nbsp;</td>
+</tr>
+
+
+<!-- images -->
+<!-- advPopup is in include/main_virtual -->
+<tr>
+<td colspan="2"><a href="javascript:void(null)" onclick="advPopup('/5_about/company_information/g_advantage.jsp'); return false;"><img src="//img/header/emea/gartner_advantage.gif" width="96" height="32" border="0" alt="Gartner Advantage" /></a>&nbsp;&nbsp;&nbsp;
+<a href="/5_about/our_business/vendor_relations.html"><img src="//img/header/emea/gartner_vendorrelations.gif" width="96" height="32" border="0" alt="Vendor Relations" /></a>&nbsp;&nbsp;&nbsp;
+<a href="/5_about/news/notices/i508.jsp"><img src="//img/header/emea/gartner_accessibility.gif" width="96" height="32" border="0" alt="Accessibility" /></a>&nbsp;&nbsp;&nbsp;
+
+</td>
+</tr>
+
+</table>
+
+
+
+
+
+

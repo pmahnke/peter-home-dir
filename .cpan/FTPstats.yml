@@ -1,0 +1,849 @@
+---
+history:
+  - attempts:
+      - method: dleasy
+        start: 1386369954.78792
+        url: &1 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369955.44218
+    file: authors/id/G/GA/GAAS/HTML-Parser-3.71.tar.gz
+    filesize: 90368
+    start: 1386369954.78643
+    thesiteurl: *1
+  - attempts:
+      - method: dleasy
+        start: 1386369955.46232
+        url: &2 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369956.26852
+    file: authors/id/G/GA/GAAS/CHECKSUMS
+    filesize: 76910
+    start: 1386369955.44823
+    thesiteurl: *2
+  - attempts:
+      - method: dleasy
+        start: 1386369956.54135
+        url: &3 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369956.71778
+    file: authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz
+    filesize: 8150
+    start: 1386369956.54088
+    thesiteurl: *3
+  - attempts:
+      - method: dleasy
+        start: 1386369956.74198
+        url: &4 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369957.06211
+    file: authors/id/P/PE/PETDANCE/CHECKSUMS
+    filesize: 56880
+    start: 1386369956.72966
+    thesiteurl: *4
+  - attempts:
+      - method: dleasy
+        start: 1386369966.75123
+        url: &5 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369967.05775
+    file: authors/id/A/AD/ADAMK/Crypt-DSA-1.17.tar.gz
+    filesize: 42930
+    start: 1386369966.75077
+    thesiteurl: *5
+  - attempts:
+      - method: dleasy
+        start: 1386369967.09684
+        url: &6 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369969.96883
+    file: authors/id/A/AD/ADAMK/CHECKSUMS
+    filesize: 544430
+    start: 1386369967.07691
+    thesiteurl: *6
+  - attempts:
+      - method: dleasy
+        start: 1386369970.38824
+        url: &7 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369970.69791
+    file: authors/id/G/GA/GAAS/Digest-SHA1-2.13.tar.gz
+    filesize: 39078
+    start: 1386369970.38803
+    thesiteurl: *7
+  - attempts:
+      - method: dleasy
+        start: 1386369973.02254
+        url: &8 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369973.18769
+    file: authors/id/A/AD/ADAMK/File-Which-1.09.tar.gz
+    filesize: 15637
+    start: 1386369973.02233
+    thesiteurl: *8
+  - attempts:
+      - method: dleasy
+        start: 1386369973.53034
+        url: &9 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369973.71604
+    file: authors/id/A/AD/ADAMK/Test-Script-1.07.tar.gz
+    filesize: 26424
+    start: 1386369973.53011
+    thesiteurl: *9
+  - attempts:
+      - method: dleasy
+        start: 1386369974.12757
+        url: &10 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369974.35444
+    file: authors/id/K/KW/KWILLIAMS/Probe-Perl-0.03.tar.gz
+    filesize: 13096
+    start: 1386369974.12713
+    thesiteurl: *10
+  - attempts:
+      - method: dleasy
+        start: 1386369974.42899
+        url: &11 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369974.70129
+    file: authors/id/K/KW/KWILLIAMS/CHECKSUMS
+    filesize: 49720
+    start: 1386369974.39064
+    thesiteurl: *11
+  - attempts:
+      - method: dleasy
+        start: 1386369975.61329
+        url: &12 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369975.80591
+    file: authors/id/R/RJ/RJBS/IPC-Run3-0.046.tar.gz
+    filesize: 20071
+    start: 1386369975.61283
+    thesiteurl: *12
+  - attempts:
+      - method: dleasy
+        start: 1386369975.89296
+        url: &13 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369976.93355
+    file: authors/id/R/RJ/RJBS/CHECKSUMS
+    filesize: 500338
+    start: 1386369975.84854
+    thesiteurl: *13
+  - attempts:
+      - method: dleasy
+        start: 1386369980.71808
+        url: &14 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369980.90174
+    file: authors/id/B/BT/BTROTT/Data-Buffer-0.04.tar.gz
+    filesize: 5497
+    start: 1386369980.71769
+    thesiteurl: *14
+  - attempts:
+      - method: dleasy
+        start: 1386369981.00592
+        url: &15 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369981.17648
+    file: authors/id/B/BT/BTROTT/CHECKSUMS
+    filesize: 17502
+    start: 1386369980.95151
+    thesiteurl: *15
+  - attempts:
+      - method: dleasy
+        start: 1386369994.75844
+        url: &16 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369995.07793
+    file: authors/id/M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+    filesize: 67309
+    start: 1386369994.75805
+    thesiteurl: *16
+  - attempts:
+      - method: dleasy
+        start: 1386369995.19485
+        url: &17 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369996.69634
+    file: authors/id/M/MI/MIYAGAWA/CHECKSUMS
+    filesize: 845273
+    start: 1386369995.13402
+    thesiteurl: *17
+  - attempts:
+      - method: dleasy
+        start: 1386369997.1718
+        url: &18 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369997.71137
+    file: authors/id/D/DR/DROLSKY/DateTime-1.03.tar.gz
+    filesize: 174369
+    start: 1386369997.17146
+    thesiteurl: *18
+  - attempts:
+      - method: dleasy
+        start: 1386369997.83937
+        url: &19 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386369998.63798
+    file: authors/id/D/DR/DROLSKY/CHECKSUMS
+    filesize: 394513
+    start: 1386369997.77358
+    thesiteurl: *19
+  - attempts:
+      - method: dleasy
+        start: 1386370000.17758
+        url: &20 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370000.33248
+    file: authors/id/R/RJ/RJBS/Test-Fatal-0.013.tar.gz
+    filesize: 16381
+    start: 1386370000.17738
+    thesiteurl: *20
+  - attempts:
+      - method: dleasy
+        start: 1386370000.77043
+        url: &21 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370001.00463
+    file: authors/id/D/DO/DOY/Try-Tiny-0.18.tar.gz
+    filesize: 16499
+    start: 1386370000.77003
+    thesiteurl: *21
+  - attempts:
+      - method: dleasy
+        start: 1386370001.15947
+        url: &22 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370001.59168
+    file: authors/id/D/DO/DOY/CHECKSUMS
+    filesize: 155021
+    start: 1386370001.08011
+    thesiteurl: *22
+  - attempts:
+      - method: dleasy
+        start: 1386370003.89025
+        url: &23 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370007.60348
+    file: authors/id/D/DR/DROLSKY/DateTime-Locale-0.45.tar.gz
+    filesize: 1079736
+    start: 1386370003.89004
+    thesiteurl: *23
+  - attempts:
+      - method: dleasy
+        start: 1386370009.35031
+        url: &24 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370009.59506
+    file: authors/id/A/AD/ADAMK/List-MoreUtils-0.33.tar.gz
+    filesize: 38997
+    start: 1386370009.35011
+    thesiteurl: *24
+  - attempts:
+      - method: dleasy
+        start: 1386370014.31891
+        url: &25 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370014.71028
+    file: authors/id/D/DR/DROLSKY/Params-Validate-1.08.tar.gz
+    filesize: 103728
+    start: 1386370014.31871
+    thesiteurl: *25
+  - attempts:
+      - method: dleasy
+        start: 1386370016.2551
+        url: &26 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370016.47159
+    file: authors/id/D/DR/DROLSKY/Module-Implementation-0.07.tar.gz
+    filesize: 11388
+    start: 1386370016.2549
+    thesiteurl: *26
+  - attempts:
+      - method: dleasy
+        start: 1386370016.83924
+        url: &27 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370016.99631
+    file: authors/id/T/TO/TOKUHIROM/Test-Requires-0.07.tar.gz
+    filesize: 11023
+    start: 1386370016.83886
+    thesiteurl: *27
+  - attempts:
+      - method: dleasy
+        start: 1386370017.18556
+        url: &28 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370018.52158
+    file: authors/id/T/TO/TOKUHIROM/CHECKSUMS
+    filesize: 687015
+    start: 1386370017.08858
+    thesiteurl: *28
+  - attempts:
+      - method: dleasy
+        start: 1386370021.63789
+        url: &29 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370021.99741
+    file: authors/id/Z/ZE/ZEFRAM/Module-Runtime-0.013.tar.gz
+    filesize: 15849
+    start: 1386370021.63745
+    thesiteurl: *29
+  - attempts:
+      - method: dleasy
+        start: 1386370022.21013
+        url: &30 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370022.94799
+    file: authors/id/Z/ZE/ZEFRAM/CHECKSUMS
+    filesize: 178111
+    start: 1386370022.10239
+    thesiteurl: *30
+  - attempts:
+      - method: dleasy
+        start: 1386370049.61799
+        url: &31 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370052.54072
+    file: authors/id/D/DR/DROLSKY/DateTime-TimeZone-1.63.tar.gz
+    filesize: 857314
+    start: 1386370049.61777
+    thesiteurl: *31
+  - attempts:
+      - method: dleasy
+        start: 1386370053.52747
+        url: &32 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370053.81934
+    file: authors/id/B/BD/BDFOY/Test-Output-1.02.tar.gz
+    filesize: 12402
+    start: 1386370053.52701
+    thesiteurl: *32
+  - attempts:
+      - method: dleasy
+        start: 1386370054.05404
+        url: &33 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370054.5287
+    file: authors/id/B/BD/BDFOY/CHECKSUMS
+    filesize: 114336
+    start: 1386370053.93306
+    thesiteurl: *33
+  - attempts:
+      - method: dleasy
+        start: 1386370054.90102
+        url: &34 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370055.13286
+    file: authors/id/D/DA/DAGOLDEN/Capture-Tiny-0.23.tar.gz
+    filesize: 32942
+    start: 1386370054.90056
+    thesiteurl: *34
+  - attempts:
+      - method: dleasy
+        start: 1386370055.37764
+        url: &35 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370058.10286
+    file: authors/id/D/DA/DAGOLDEN/CHECKSUMS
+    filesize: 617522
+    start: 1386370055.25238
+    thesiteurl: *35
+  - attempts:
+      - method: dleasy
+        start: 1386370080.82195
+        url: &36 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370081.5673
+    file: authors/id/R/RJ/RJBS/Sub-Exporter-0.987.tar.gz
+    filesize: 45980
+    start: 1386370080.82173
+    thesiteurl: *36
+  - attempts:
+      - method: dleasy
+        start: 1386370082.10309
+        url: &37 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370082.39791
+    file: authors/id/A/AD/ADAMK/Params-Util-1.07.tar.gz
+    filesize: 40726
+    start: 1386370082.10289
+    thesiteurl: *37
+  - attempts:
+      - method: dleasy
+        start: 1386370085.40796
+        url: &38 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370085.58895
+    file: authors/id/R/RJ/RJBS/Data-OptList-0.108.tar.gz
+    filesize: 16201
+    start: 1386370085.40776
+    thesiteurl: *38
+  - attempts:
+      - method: dleasy
+        start: 1386370086.08785
+        url: &39 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370086.26566
+    file: authors/id/R/RJ/RJBS/Sub-Install-0.927.tar.gz
+    filesize: 17583
+    start: 1386370086.08765
+    thesiteurl: *39
+  - attempts:
+      - method: dleasy
+        start: 1386370090.39855
+        url: &40 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370090.63984
+    file: authors/id/F/FD/FDALY/Test-Tester-0.109.tar.gz
+    filesize: 16315
+    start: 1386370090.39816
+    thesiteurl: *40
+  - attempts:
+      - method: dleasy
+        start: 1386370090.93229
+        url: &41 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370091.26533
+    file: authors/id/F/FD/FDALY/CHECKSUMS
+    filesize: 31296
+    start: 1386370090.78145
+    thesiteurl: *41
+  - attempts:
+      - method: dleasy
+        start: 1386370094.90829
+        url: &42 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370095.14417
+    file: authors/id/D/DR/DROLSKY/Class-Load-0.20.tar.gz
+    filesize: 20271
+    start: 1386370094.90807
+    thesiteurl: *42
+  - attempts:
+      - method: dleasy
+        start: 1386370095.58958
+        url: &43 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370095.88855
+    file: authors/id/D/DO/DOY/Package-Stash-0.36.tar.gz
+    filesize: 37499
+    start: 1386370095.58936
+    thesiteurl: *43
+  - attempts:
+      - method: dleasy
+        start: 1386370096.12
+        url: &44 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370096.31805
+    file: authors/id/D/DO/DOY/Dist-CheckConflicts-0.09.tar.gz
+    filesize: 18958
+    start: 1386370096.11979
+    thesiteurl: *44
+  - attempts:
+      - method: dleasy
+        start: 1386370098.14572
+        url: &45 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370098.48632
+    file: authors/id/D/DO/DOY/Package-Stash-XS-0.28.tar.gz
+    filesize: 74161
+    start: 1386370098.1455
+    thesiteurl: *45
+  - attempts:
+      - method: dleasy
+        start: 1386370104.94249
+        url: &46 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370105.45934
+    file: authors/id/A/AB/ABW/Class-Singleton-1.4.tar.gz
+    filesize: 7793
+    start: 1386370104.94207
+    thesiteurl: *46
+  - attempts:
+      - method: dleasy
+        start: 1386370105.79531
+        url: &47 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370106.11185
+    file: authors/id/A/AB/ABW/CHECKSUMS
+    filesize: 36471
+    start: 1386370105.62054
+    thesiteurl: *47
+  - attempts:
+      - method: dleasy
+        start: 1386370135.18814
+        url: &48 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370135.75047
+    file: authors/id/G/GA/GAAS/URI-1.60.tar.gz
+    filesize: 81196
+    start: 1386370135.18789
+    thesiteurl: *48
+  - attempts:
+      - method: dleasy
+        start: 1386370138.39992
+        url: &49 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370138.86421
+    file: authors/id/G/GA/GAAS/libwww-perl-6.05.tar.gz
+    filesize: 132505
+    start: 1386370138.39971
+    thesiteurl: *49
+  - attempts:
+      - method: dleasy
+        start: 1386370139.44187
+        url: &50 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370139.61654
+    file: authors/id/G/GA/GAAS/LWP-MediaTypes-6.02.tar.gz
+    filesize: 18722
+    start: 1386370139.44167
+    thesiteurl: *50
+  - attempts:
+      - method: dleasy
+        start: 1386370140.64322
+        url: &51 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370140.78531
+    file: authors/id/G/GA/GAAS/Encode-Locale-1.03.tar.gz
+    filesize: 6846
+    start: 1386370140.64301
+    thesiteurl: *51
+  - attempts:
+      - method: dleasy
+        start: 1386370141.84691
+        url: &52 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370142.16573
+    file: authors/id/G/GA/GAAS/HTTP-Message-6.06.tar.gz
+    filesize: 50806
+    start: 1386370141.84669
+    thesiteurl: *52
+  - attempts:
+      - method: dleasy
+        start: 1386370142.62358
+        url: &53 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370142.85062
+    file: authors/id/C/CJ/CJM/IO-HTML-1.00.tar.gz
+    filesize: 18759
+    start: 1386370142.62307
+    thesiteurl: *53
+  - attempts:
+      - method: dleasy
+        start: 1386370143.23499
+        url: &54 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370143.70594
+    file: authors/id/C/CJ/CJM/CHECKSUMS
+    filesize: 72551
+    start: 1386370143.03844
+    thesiteurl: *54
+  - attempts:
+      - method: dleasy
+        start: 1386370145.12131
+        url: &55 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370145.23128
+    file: authors/id/G/GA/GAAS/HTTP-Date-6.02.tar.gz
+    filesize: 7319
+    start: 1386370145.12108
+    thesiteurl: *55
+  - attempts:
+      - method: dleasy
+        start: 1386370147.89208
+        url: &56 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370148.23183
+    file: authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz
+    filesize: 51536
+    start: 1386370147.89185
+    thesiteurl: *56
+  - attempts:
+      - method: dleasy
+        start: 1386370154.36902
+        url: &57 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370154.48241
+    file: authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz
+    filesize: 8596
+    start: 1386370154.36876
+    thesiteurl: *57
+  - attempts:
+      - method: dleasy
+        start: 1386370155.5547
+        url: &58 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370155.76524
+    file: authors/id/G/GA/GAAS/HTTP-Daemon-6.01.tar.gz
+    filesize: 18628
+    start: 1386370155.55446
+    thesiteurl: *58
+  - attempts:
+      - method: dleasy
+        start: 1386370161.88844
+        url: &59 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370162.11447
+    file: authors/id/G/GA/GAAS/Net-HTTP-6.06.tar.gz
+    filesize: 15609
+    start: 1386370161.88823
+    thesiteurl: *59
+  - attempts:
+      - method: dleasy
+        start: 1386370163.27605
+        url: &60 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370163.48253
+    file: authors/id/G/GA/GAAS/HTTP-Cookies-6.01.tar.gz
+    filesize: 18751
+    start: 1386370163.27585
+    thesiteurl: *60
+  - attempts:
+      - method: dleasy
+        start: 1386370164.61824
+        url: &61 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370164.76509
+    file: authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+    filesize: 9059
+    start: 1386370164.61803
+    thesiteurl: *61
+  - attempts:
+      - method: dleasy
+        start: 1386370185.4631
+        url: &62 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370187.74673
+    file: authors/id/S/SH/SHLOMIF/XML-LibXML-2.0107.tar.gz
+    filesize: 457504
+    start: 1386370185.46264
+    thesiteurl: *62
+  - attempts:
+      - method: dleasy
+        start: 1386370188.18137
+        url: &63 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370188.69739
+    file: authors/id/S/SH/SHLOMIF/CHECKSUMS
+    filesize: 159309
+    start: 1386370187.95563
+    thesiteurl: *63
+  - attempts:
+      - method: dleasy
+        start: 1386370191.13647
+        url: &64 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370191.3593
+    file: authors/id/T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz
+    filesize: 5660
+    start: 1386370191.13611
+    thesiteurl: *64
+  - attempts:
+      - method: dleasy
+        start: 1386370191.80994
+        url: &65 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370192.13698
+    file: authors/id/T/TM/TMTM/CHECKSUMS
+    filesize: 78236
+    start: 1386370191.57686
+    thesiteurl: *65
+  - attempts:
+      - method: dleasy
+        start: 1386370193.24503
+        url: &66 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370193.58349
+    file: authors/id/M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+    filesize: 39832
+    start: 1386370193.24458
+    thesiteurl: *66
+  - attempts:
+      - method: dleasy
+        start: 1386370194.04813
+        url: &67 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370194.41079
+    file: authors/id/M/MS/MSERGEANT/CHECKSUMS
+    filesize: 78720
+    start: 1386370193.80706
+    thesiteurl: *67
+  - attempts:
+      - method: dleasy
+        start: 1386370194.87362
+        url: &68 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370195.84359
+    file: authors/id/T/TO/TODDR/XML-Parser-2.41.tar.gz
+    filesize: 238441
+    start: 1386370194.87328
+    thesiteurl: *68
+  - attempts:
+      - method: dleasy
+        start: 1386370196.3376
+        url: &69 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370196.50417
+    file: authors/id/T/TO/TODDR/CHECKSUMS
+    filesize: 22728
+    start: 1386370196.08625
+    thesiteurl: *69
+  - attempts:
+      - method: dleasy
+        start: 1386370733.22824
+        url: &70 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370733.54222
+    file: authors/id/I/IL/ILYAZ/modules/Term-ReadLine-Perl-1.0303.tar.gz
+    filesize: 48710
+    start: 1386370733.22777
+    thesiteurl: *70
+  - attempts:
+      - method: dleasy
+        start: 1386370734.11127
+        url: &71 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370734.56006
+    file: authors/id/I/IL/ILYAZ/modules/CHECKSUMS
+    filesize: 106698
+    start: 1386370733.84101
+    thesiteurl: *71
+  - attempts:
+      - method: dleasy
+        start: 1386370767.83687
+        url: &72 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370768.41949
+    file: authors/id/J/JS/JSTOWE/TermReadKey-2.31.tar.gz
+    filesize: 79553
+    start: 1386370767.8364
+    thesiteurl: *72
+  - attempts:
+      - method: dleasy
+        start: 1386370768.93566
+        url: &73 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386370769.06958
+    file: authors/id/J/JS/JSTOWE/CHECKSUMS
+    filesize: 18651
+    start: 1386370768.67283
+    thesiteurl: *73
+  - attempts:
+      - method: dleasy
+        start: 1386422778.34927
+        url: &74 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386422778.61945
+    file: authors/id/R/RJ/RJBS/MIME-Lite-3.030.tar.gz
+    filesize: 81830
+    start: 1386422778.34907
+    thesiteurl: *74
+  - attempts:
+      - method: dleasy
+        start: 1386422781.00406
+        url: &75 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386422781.13153
+    file: authors/id/R/RJ/RJBS/Email-Date-Format-1.004.tar.gz
+    filesize: 13255
+    start: 1386422781.00385
+    thesiteurl: *75
+  - attempts:
+      - method: dleasy
+        start: 1386422782.58398
+        url: &76 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386422782.75243
+    file: authors/id/M/MA/MARKOV/MIME-Types-2.04.tar.gz
+    filesize: 45320
+    start: 1386422782.58367
+    thesiteurl: *76
+  - attempts:
+      - method: dleasy
+        start: 1386422783.29472
+        url: &77 !!perl/hash:CPAN::URL
+          FROM: USER
+          TEXT: http://mirrors.dotsrc.org/cpan/
+    end: 1386422783.85263
+    file: authors/id/M/MA/MARKOV/CHECKSUMS
+    filesize: 160686
+    start: 1386422783.01168
+    thesiteurl: *77

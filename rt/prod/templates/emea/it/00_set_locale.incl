@@ -1,0 +1,10 @@
+<script language="JavaScript">
+
+        // added 2 Aug 2002 by Peter Mahnke to allow SigninPopup2.jsp to redirect back to called page
+        // window.self.name="europe_gartner_com_homepage"; 
+
+        // added 2 Aug 2002 by PeterMahnke
+        // if the user doesn't have a locale cookie, set it once
+document.cookie="userLocaleCookie=it;domain=.gartner.com;expires=Tue, 6 Aug 2006 18:54:10 UTC;path=/;";
+
+</script>

@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+  <rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
+  <channel>
+  <title>Gartner it</title>
+  <link>http://it.gartner.com/</link>
+  <description>Daily update of the featured news and research from Gartner it, the world's leading IT research and advisory firm.</description>
+  <language>en-us</language>
+  <copyright>Copyright 2004 Gartner, Inc. and/or its Affiliates. All Rights Reserved. </copyright>
+  <lastBuildDate>Wed, 06 Jul 2005 09:34:06 GMT</lastBuildDate>
+  <docs>http://backend.userland.com/rss</docs>
+  <managingEditor>stephanie.gordon@gartner.com</managingEditor>
+  <webMaster>peter.mahnke@gartner.com</webMaster>
+  <image>
+    <url><![CDATA[http://intl.transitionelement.com/img/ge_logo_small.gif]]></url>
+    <width>110</width>
+    <height>45</height>
+    <link><![CDATA[http://europe.gartner.com]]></link>
+    <title>Gartner Europe</title>
+  </image>
+  <ttl>120</ttl>
+  <skipDays><day>Saturday</day><day>Sunday</day></skipDays>
+  <skipHours><hour>1</hour><hour>2</hour><hour>3</hour><hour>4</hour><hour>5</hour><hour>6</hour><hour>19</hour><hour>20</hour><hour>21</hour><hour>22</hour><hour>23</hour><hour>24</hour></skipHours>
+<item>
+  <title>U.K. Mobile Services: A Saturated But Changing Market - Feature</title>
+  <description>Operators hopes of generating additional revenue from third-generation (3G) services have not been helped by the regulator’s proposal to deregulate spectrum allocation. </description>
+  <pubDate>Mon, 07 Feb 2005 11:07:44 GMT</pubDate>
+  <link><![CDATA[z_20050204_01_fp.html]]></link>
+</item>
+<item>
+  <title>Fresh Strategies for Customer Relationship Management - Feature</title>
+  <description>In 2005, many companies will expect their CRM applications to drive up revenue. We show you how to prepare to meet this need.</description>
+  <pubDate>Mon, 24 Jan 2005 11:42:08 GMT</pubDate>
+  <link><![CDATA[z_20050121_01_fp.html]]></link>
+</item>
+<item>
+  <title>Siebel Expands SOA-Based Capabilities With IBM - news</title>
+  <description>Siebel Systems will advance its platform with service-oriented architecture (SOA) composite applications in the IBM technology environment, and with more complete SOA-oriented business process management capabilities.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=482548&amp;all=email&amp;ref=g_emalert]]></link>
+</item>
+<item>
+  <title>JDeveloper, Eclipse Moves Should Boost Oracle Middleware Stack - news</title>
+  <description>Oracle plans to make JDeveloper free and provide greater support for Eclipse. These moves should help Oracle's Fusion Middleware technology stack gain broader acceptance.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=482966&amp;all=email&amp;ref=g_emalert]]></link>
+</item>
+<item>
+  <title>T-Mobile's Google Deal Signals the End of the Mobile Portal - news</title>
+  <description>T-Mobile has opted for Google as the default home page on new handsets and de-emphasized its t-zones portal. Other operators will follow this important step toward merging the Internet and mobility.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=482599&amp;all=email&amp;ref=g_emalert]]></link>
+</item>
+<item>
+  <title>Apple iTunes 4.9 Will Help Make Podcasting Mainstream - news</title>
+  <description>Apple's iTunes 4.9 software strengthens Apple's competitive position by allowing consumers to better manage &amp;uot;podcasts.&amp;uot; The new technology also makes podcasts more attractive to content providers and Web portals.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=482499&amp;all=email&amp;ref=g_emalert]]></link>
+</item>
+<item>
+  <title>Why Local-Loop Unbundling Matters for European Businesses - research</title>
+  <description>European countries vary in their approach to opening up local telecom loops to competition, and in the progress they have made. This has big implications for the availability of low-cost, innovative broadband services.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=482854&amp;all=email&amp;ref=g_emalert]]></link>
+</item>
+<item>
+  <title>What Metadata Is and Why You Should Care, 2H05 Through 1H06 - research</title>
+  <description>Metadata management is critical for enabling and supporting many key enterprise initiatives, including service-oriented development of applications. You can't track all possible metadata, so you'll need policies, procedures and standards.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=482519&amp;all=email&amp;ref=g_emalert]]></link>
+</item>
+<item>
+  <title>An SOA Approach Will Boost a Bank's Competitiveness - research</title>
+  <description>Banks that are moving toward service-oriented architectures for core processing systems will be positioning themselves for future speed and agility. SOA's  &amp;uot;code once, use many times&amp;uot; mode is becoming a key requirement for the future.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=482624&amp;all=email&amp;ref=g_emalert]]></link>
+</item>
+<item>
+  <title>New Video Service Moves Google Ahead of Competitors - research</title>
+  <description>The launch of Google Video Search is a sign of the search giant's commitment to building the infrastructure to serve video content to users. Content owners should begin experimenting with the service now.</description>
+  <pubDate></pubDate>
+  <link><![CDATA[http://europe.gartner.com/regionalization/content/emea/DisplayDocument.html?id=482337&amp;all=email&amp;ref=g_emalert]]></link>
+</item>
+
+ </channel>
+</rss>

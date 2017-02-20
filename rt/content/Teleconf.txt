@@ -1,0 +1,9 @@
+	Title Nm	event type	date	Acc Phys Res Url	City
+"481,005"	The Hottest and Most-Discussed Topic for 2005: VoIP Regulation	Teleconferences	28/06/05 00:00	/teleconferences/asset_126920_75.jsp	
+"482,168"	Creating the Single View of the Customer with Customer Data Integration	Teleconferences	29/06/05 00:00	/teleconferences/asset_129118_75.jsp	
+"482,169"	Financial Services: How to Use Outsourcing as a Strategic Tool	Teleconferences	30/06/05 00:00	/teleconferences/asset_129056_75.jsp	
+"481,790"	 3rd Quarter 2005 Semiconductor Manufacturing Forecast Update	Teleconferences	06/07/05 00:00	/teleconferences/asset_128748_75.jsp	
+"481,789"	Selecting the Best Financials and Human Resources Application	Teleconferences	19/07/05 00:00	/teleconferences/asset_128750_75.jsp	
+"481,800"	The Business Value of IT: New Answers to an Old Problem	Teleconferences	19/07/05 00:00	/teleconferences/asset_128747_75.jsp	
+"481,993"	"Evaluating CRM Applications, Both On Premise and Off"	Teleconferences	20/07/05 00:00	/teleconferences/asset_129271_75.jsp	
+"481,801"	Identity and Access Management (IAM) Update	Teleconferences	29/07/05 00:00	/teleconferences/asset_128744_75.jsp	

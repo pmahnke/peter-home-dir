@@ -1,0 +1,491 @@
+@400000003fc0d1b31d367e24 rr c0210e1e 172800 ns optus.net. ns1.optusnet.com.au.
+@400000003fc0d1b31d3689dc rr c0210e1e 172800 ns optus.net. ns2.optusnet.com.au.
+@400000003fc0d1b31d368dc4 stats 936524 79319467 1 0
+@400000003fc0d1b31d3691ac tx 4 1 ns1.optusnet.com.au. . c0249411 c629000a c0702404 c021040c c00505f1 c0cbe60a 8009006b c1000e81 c6290004 ca0c1b21 c620400c 803f0235 80080a5a
+@400000003fc0d1b325c3f60c rr c0249411 172800 1 ns.uu.net. 89270103
+@400000003fc0d1b325c401c4 rr c0249411 172800 1 box2.aunic.net. cbca9614
+@400000003fc0d1b325c405ac rr c0249411 172800 1 sec1.apnic.net. ca0c1d3b
+@400000003fc0d1b325c40994 rr c0249411 172800 1 sec3.apnic.net. ca0c1c8c
+@400000003fc0d1b325c40d7c rr c0249411 172800 1 adns1.berkeley.edu. 80208803
+@400000003fc0d1b325c41164 rr c0249411 172800 1 adns2.berkeley.edu. 8020880e
+@400000003fc0d1b325c4154c rr c0249411 172800 1 muwaya.ucs.unimelb.edu.au. 80fa1402
+@400000003fc0d1b325c4636c rr c0249411 172800 ns au. adns2.berkeley.edu.
+@400000003fc0d1b325c46754 rr c0249411 172800 ns au. muwaya.ucs.unimelb.edu.au.
+@400000003fc0d1b325c46b3c rr c0249411 172800 ns au. ns.uu.net.
+@400000003fc0d1b325c46f24 rr c0249411 172800 ns au. box2.aunic.net.
+@400000003fc0d1b325c4730c rr c0249411 172800 ns au. sec1.apnic.net.
+@400000003fc0d1b325c4730c rr c0249411 172800 ns au. sec3.apnic.net.
+@400000003fc0d1b325c476f4 rr c0249411 172800 ns au. adns1.berkeley.edu.
+@400000003fc0d1b325c4a1ec stats 936524 79319927 1 0
+@400000003fc0d1b325c4a5d4 tx 4 1 ns2.optusnet.com.au. . c0cbe60a c0249411 803f0235 c620400c c021040c c1000e81 c00505f1 8009006b ca0c1b21 c629000a 80080a5a c0702404 c6290004
+@400000003fc0d1b32c6f639c rr c0cbe60a 172800 1 ns.uu.net. 89270103
+@400000003fc0d1b32c6f6b6c rr c0cbe60a 172800 1 box2.aunic.net. cbca9614
+@400000003fc0d1b32c6f6f54 rr c0cbe60a 172800 1 sec1.apnic.net. ca0c1d3b
+@400000003fc0d1b32c6f733c rr c0cbe60a 172800 1 sec3.apnic.net. ca0c1c8c
+@400000003fc0d1b32c6f7724 rr c0cbe60a 172800 1 adns1.berkeley.edu. 80208803
+@400000003fc0d1b32c6f7b0c rr c0cbe60a 172800 1 adns2.berkeley.edu. 8020880e
+@400000003fc0d1b32c6f7ef4 rr c0cbe60a 172800 1 muwaya.ucs.unimelb.edu.au. 80fa1402
+@400000003fc0d1b32c6fb1bc rr c0cbe60a 172800 ns au. ns.uu.net.
+@400000003fc0d1b32c6fb98c rr c0cbe60a 172800 ns au. muwaya.ucs.unimelb.edu.au.
+@400000003fc0d1b32c6fbd74 rr c0cbe60a 172800 ns au. box2.aunic.net.
+@400000003fc0d1b32c6fbd74 rr c0cbe60a 172800 ns au. sec1.apnic.net.
+@400000003fc0d1b32c6fc15c rr c0cbe60a 172800 ns au. sec3.apnic.net.
+@400000003fc0d1b32c6fc544 rr c0cbe60a 172800 ns au. adns1.berkeley.edu.
+@400000003fc0d1b32c6fc92c rr c0cbe60a 172800 ns au. adns2.berkeley.edu.
+@400000003fc0d1b32c6ff424 stats 936524 79320387 1 0
+@400000003fc0d1b32c6ff80c cached 1 ns.ripe.net.
+@400000003fc0d1b32c6ff80c cached 1 ns1.ausregistry.net.
+@400000003fc0d1b32c6ffbf4 cached 1 ns2.ausregistry.net.
+@400000003fc0d1b32c6fffdc cached 1 ns3.ausregistry.net.
+@400000003fc0d1b32c7003c4 tx 3 1 ns3.melbourneit.com. . c629000a c620400c c0702404 c0cbe60a c00505f1 c1000e81 ca0c1b21 803f0235 c021040c 80080a5a c0249411 8009006b c6290004
+@400000003fc0d1b32ec8cc8c rr c629000a 172800 1 a.gtld-servers.net. c005061e
+@400000003fc0d1b32ec8e014 rr c629000a 172800 1 b.gtld-servers.net. c0210e1e
+@400000003fc0d1b32ec8e3fc rr c629000a 172800 1 c.gtld-servers.net. c01a5c1e
+@400000003fc0d1b32ec8e7e4 rr c629000a 172800 1 d.gtld-servers.net. c01f501e
+@400000003fc0d1b32ec8ebcc rr c629000a 172800 1 e.gtld-servers.net. c00c5e1e
+@400000003fc0d1b32ec8efb4 rr c629000a 172800 1 f.gtld-servers.net. c023331e
+@400000003fc0d1b32ec8f39c rr c629000a 172800 1 g.gtld-servers.net. c02a5d1e
+@400000003fc0d1b32ec993c4 rr c629000a 172800 1 h.gtld-servers.net. c036701e
+@400000003fc0d1b32ec997ac rr c629000a 172800 1 i.gtld-servers.net. c02bac1e
+@400000003fc0d1b32ec99b94 rr c629000a 172800 1 j.gtld-servers.net. c0304f1e
+@400000003fc0d1b32ec99f7c rr c629000a 172800 1 k.gtld-servers.net. c034b21e
+@400000003fc0d1b32ec9a364 rr c629000a 172800 1 l.gtld-servers.net. c029a21e
+@400000003fc0d1b32ec9a74c rr c629000a 172800 1 m.gtld-servers.net. c037531e
+@400000003fc0d1b32ec9d244 rr c629000a 172800 ns com. a.gtld-servers.net.
+@400000003fc0d1b32ec9d62c rr c629000a 172800 ns com. g.gtld-servers.net.
+@400000003fc0d1b32ec9da14 rr c629000a 172800 ns com. h.gtld-servers.net.
+@400000003fc0d1b32ec9ddfc rr c629000a 172800 ns com. c.gtld-servers.net.
+@400000003fc0d1b32ec9e1e4 rr c629000a 172800 ns com. i.gtld-servers.net.
+@400000003fc0d1b32ec9e5cc rr c629000a 172800 ns com. b.gtld-servers.net.
+@400000003fc0d1b32eca9d64 rr c629000a 172800 ns com. d.gtld-servers.net.
+@400000003fc0d1b32ecaa14c rr c629000a 172800 ns com. l.gtld-servers.net.
+@400000003fc0d1b32ecadfcc rr c629000a 172800 ns com. f.gtld-servers.net.
+@400000003fc0d1b32ecae3b4 rr c629000a 172800 ns com. j.gtld-servers.net.
+@400000003fc0d1b32ecae79c rr c629000a 172800 ns com. k.gtld-servers.net.
+@400000003fc0d1b32ecaeb84 rr c629000a 172800 ns com. e.gtld-servers.net.
+@400000003fc0d1b32ecaef6c rr c629000a 172800 ns com. m.gtld-servers.net.
+@400000003fc0d1b32ecaf354 stats 936524 79321272 1 0
+@400000003fc0d1b32ecaf354 cached 1 a.gtld-servers.net.
+@400000003fc0d1b32ecb1a64 cached 1 g.gtld-servers.net.
+@400000003fc0d1b32ecb1e4c cached 1 h.gtld-servers.net.
+@400000003fc0d1b32ecb2234 cached 1 c.gtld-servers.net.
+@400000003fc0d1b32ecb2234 cached 1 i.gtld-servers.net.
+@400000003fc0d1b32ecb261c cached 1 b.gtld-servers.net.
+@400000003fc0d1b32ecb2a04 cached 1 d.gtld-servers.net.
+@400000003fc0d1b32ecb2dec cached 1 l.gtld-servers.net.
+@400000003fc0d1b32ecb2dec cached 1 f.gtld-servers.net.
+@400000003fc0d1b32ecb31d4 cached 1 j.gtld-servers.net.
+@400000003fc0d1b32ecb58e4 cached 1 k.gtld-servers.net.
+@400000003fc0d1b32ecb5ccc cached 1 e.gtld-servers.net.
+@400000003fc0d1b32ecb60b4 cached 1 m.gtld-servers.net.
+@400000003fc0d1b32ecb60b4 tx 3 1 ns3.melbourneit.com. com. c0304f1e c005061e c02bac1e c01a5c1e c034b21e c036701e c029a21e c02a5d1e c00c5e1e c037531e c01f501e c023331e c0210e1e
+@400000003fc0d1b33a1940bc rr c0304f1e 172800 ns melbourneit.com. ns4.melbourneit.com.au.
+@400000003fc0d1b33a19488c rr c0304f1e 172800 ns melbourneit.com. ns1.melbourneit.com.au.
+@400000003fc0d1b33a194c74 rr c0304f1e 172800 ns melbourneit.com. ns2.melbourneit.com.au.
+@400000003fc0d1b33a195444 stats 936524 79321383 1 0
+@400000003fc0d1b33a195444 tx 4 1 ns4.melbourneit.com.au. . 803f0235 c620400c ca0c1b21 c629000a c0cbe60a 80080a5a c0702404 c6290004 8009006b c0249411 c00505f1 c1000e81 c021040c
+@400000003fc0d1b40182b9f4 rr 803f0235 172800 1 ns.uu.net. 89270103
+@400000003fc0d1b40182c1c4 rr 803f0235 172800 1 box2.aunic.net. cbca9614
+@400000003fc0d1b40182c5ac rr 803f0235 172800 1 sec1.apnic.net. ca0c1d3b
+@400000003fc0d1b40182c994 rr 803f0235 172800 1 sec3.apnic.net. ca0c1c8c
+@400000003fc0d1b40182cd7c rr 803f0235 172800 1 adns1.berkeley.edu. 80208803
+@400000003fc0d1b40182d164 rr 803f0235 172800 1 adns2.berkeley.edu. 8020880e
+@400000003fc0d1b40182d54c rr 803f0235 172800 1 muwaya.ucs.unimelb.edu.au. 80fa1402
+@400000003fc0d1b401830814 rr 803f0235 172800 ns au. ns.uu.net.
+@400000003fc0d1b401830bfc rr 803f0235 172800 ns au. muwaya.ucs.unimelb.edu.au.
+@400000003fc0d1b401830fe4 rr 803f0235 172800 ns au. box2.aunic.net.
+@400000003fc0d1b4018313cc rr 803f0235 172800 ns au. sec1.apnic.net.
+@400000003fc0d1b4018317b4 rr 803f0235 172800 ns au. sec3.apnic.net.
+@400000003fc0d1b401831b9c rr 803f0235 172800 ns au. adns1.berkeley.edu.
+@400000003fc0d1b401831f84 rr 803f0235 172800 ns au. adns2.berkeley.edu.
+@400000003fc0d1b4018342ac stats 936524 79321843 1 0
+@400000003fc0d1b401834694 tx 4 1 ns1.melbourneit.com.au. . 8009006b c021040c 803f0235 ca0c1b21 c6290004 c629000a c620400c c0cbe60a c0702404 c0249411 80080a5a c1000e81 c00505f1
+@400000003fc0d1b403f65204 rr 8009006b 172800 1 ns.uu.net. 89270103
+@400000003fc0d1b403f655ec rr 8009006b 172800 1 box2.aunic.net. cbca9614
+@400000003fc0d1b403f65dbc rr 8009006b 172800 1 sec1.apnic.net. ca0c1d3b
+@400000003fc0d1b403f661a4 rr 8009006b 172800 1 sec3.apnic.net. ca0c1c8c
+@400000003fc0d1b403f661a4 rr 8009006b 172800 1 adns1.berkeley.edu. 80208803
+@400000003fc0d1b403f6658c rr 8009006b 172800 1 adns2.berkeley.edu. 8020880e
+@400000003fc0d1b403f66d5c rr 8009006b 172800 1 muwaya.ucs.unimelb.edu.au. 80fa1402
+@400000003fc0d1b403f6a024 rr 8009006b 172800 ns au. ns.uu.net.
+@400000003fc0d1b403f6a40c rr 8009006b 172800 ns au. muwaya.ucs.unimelb.edu.au.
+@400000003fc0d1b403f6a7f4 rr 8009006b 172800 ns au. box2.aunic.net.
+@400000003fc0d1b403f6abdc rr 8009006b 172800 ns au. sec1.apnic.net.
+@400000003fc0d1b403f6abdc rr 8009006b 172800 ns au. sec3.apnic.net.
+@400000003fc0d1b403f6afc4 rr 8009006b 172800 ns au. adns1.berkeley.edu.
+@400000003fc0d1b403f6b3ac rr 8009006b 172800 ns au. adns2.berkeley.edu.
+@400000003fc0d1b403f730ac stats 936524 79322303 1 0
+@400000003fc0d1b403f73494 tx 4 1 ns2.melbourneit.com.au. . c0249411 803f0235 c0702404 c00505f1 c021040c c6290004 c629000a 80080a5a 8009006b c0cbe60a c1000e81 ca0c1b21 c620400c
+@400000003fc0d1b40c94f85c rr c0249411 172800 1 ns.uu.net. 89270103
+@400000003fc0d1b40c950be4 rr c0249411 172800 1 box2.aunic.net. cbca9614
+@400000003fc0d1b40c950fcc rr c0249411 172800 1 sec1.apnic.net. ca0c1d3b
+@400000003fc0d1b40c9513b4 rr c0249411 172800 1 sec3.apnic.net. ca0c1c8c
+@400000003fc0d1b40c95179c rr c0249411 172800 1 adns1.berkeley.edu. 80208803
+@400000003fc0d1b40c951b84 rr c0249411 172800 1 adns2.berkeley.edu. 8020880e
+@400000003fc0d1b40c951f6c rr c0249411 172800 1 muwaya.ucs.unimelb.edu.au. 80fa1402
+@400000003fc0d1b40c95ac0c rr c0249411 172800 ns au. sec3.apnic.net.
+@400000003fc0d1b40c95aff4 rr c0249411 172800 ns au. adns1.berkeley.edu.
+@400000003fc0d1b40c95b3dc rr c0249411 172800 ns au. adns2.berkeley.edu.
+@400000003fc0d1b40c95b7c4 rr c0249411 172800 ns au. muwaya.ucs.unimelb.edu.au.
+@400000003fc0d1b40c95bbac rr c0249411 172800 ns au. ns.uu.net.
+@400000003fc0d1b40c95bf94 rr c0249411 172800 ns au. box2.aunic.net.
+@400000003fc0d1b40c95c37c rr c0249411 172800 ns au. sec1.apnic.net.
+@400000003fc0d1b40c95ee74 stats 936524 79322763 1 0
+@400000003fc0d1b40c95f25c cached 1 ns4.ausregistry.net.
+@400000003fc0d1b40c95f644 cached 1 dns1.telstra.net.
+@400000003fc0d1b40c95f644 tx 2 1 ns4.melbourneit.com.au. com.au. c10000c1 cb12382b 82740215 cb12382b cb3205c8 cb12382a cb123829 cb3205c8 d2080ffd
+@400000003fc0d1b41585d1ac rr c10000c1 3600 1 ns1.melbourneit.com.au. cb1fc6c4
+@400000003fc0d1b41585e14c rr c10000c1 3600 1 ns2.melbourneit.com.au. cb1be332
+@400000003fc0d1b41585e534 rr c10000c1 3600 1 ns4.melbourneit.com.au. cb1fc787
+@400000003fc0d1b41585ed04 rr c10000c1 3600 ns melbourneit.com.au. ns1.melbourneit.com.au.
+@400000003fc0d1b41585f0ec rr c10000c1 3600 ns melbourneit.com.au. ns2.melbourneit.com.au.
+@400000003fc0d1b41585f4d4 rr c10000c1 3600 ns melbourneit.com.au. ns4.melbourneit.com.au.
+@400000003fc0d1b41585f8bc stats 936524 79323027 1 0
+@400000003fc0d1b4158679a4 cached 1 ns1.melbourneit.com.au.
+@400000003fc0d1b415867d8c cached 1 ns2.melbourneit.com.au.
+@400000003fc0d1b415868174 cached 1 ns4.melbourneit.com.au.
+@400000003fc0d1b415868174 tx 2 1 ns4.melbourneit.com.au. melbourneit.com.au. cb1fc787 cb1be332 cb1fc6c4
+@400000003fc0d1b4227b2fc4 rr cb1fc787 3600 1 ns1.melbourneit.com.au. cb1fc6c4
+@400000003fc0d1b4227b3b7c rr cb1fc787 3600 1 ns2.melbourneit.com.au. cb1be332
+@400000003fc0d1b4227b3f64 rr cb1fc787 3600 1 ns4.melbourneit.com.au. cb1fc787
+@400000003fc0d1b4227b434c rr cb1fc787 3600 ns melbourneit.com.au. ns2.melbourneit.com.au.
+@400000003fc0d1b4227b4734 rr cb1fc787 3600 ns melbourneit.com.au. ns4.melbourneit.com.au.
+@400000003fc0d1b4227b4b1c rr cb1fc787 3600 ns melbourneit.com.au. ns1.melbourneit.com.au.
+@400000003fc0d1b4227b4f04 stats 936524 79323291 1 0
+@400000003fc0d1b4227b993c cached 1 ns1.melbourneit.com.au.
+@400000003fc0d1b4227b9d24 cached 1 ns2.melbourneit.com.au.
+@400000003fc0d1b4227ba10c tx 1 1 ns3.melbourneit.com. melbourneit.com. cb1fc6c4 cb1fc787 cb1be332
+@400000003fc0d1b43b04b22c rr cb1fc6c4 3600 1 ns3.melbourneit.com. cb1be30a
+@400000003fc0d1b43b04b9fc rr cb1fc6c4 3600 ns melbourneit.com. ns1.melbourneit.com.au.
+@400000003fc0d1b43b04bde4 rr cb1fc6c4 3600 ns melbourneit.com. ns2.melbourneit.com.au.
+@400000003fc0d1b43b04c5b4 rr cb1fc6c4 3600 ns melbourneit.com. ns4.melbourneit.com.au.
+@400000003fc0d1b43b04c99c stats 936524 79323449 1 0
+@400000003fc0d1b43b04c99c cached 1 ns4.ausregistry.net.
+@400000003fc0d1b43b04cd84 drop 936524 input/output error
+@400000003fc0d1b73a62674c query 936525 7f000001:8ff0:5ad3 255 fabulousdaniels.net.
+@400000003fc0d1b73a6276ec cached 2 fabulousdaniels.net.
+@400000003fc0d1b73a627ad4 sent 936525 112
+@400000003fc0d1b73a660514 query 936526 7f000001:8ff0:5ad4 15 fabulousdaniels.net.
+@400000003fc0d1b73a660ce4 cached ns fabulousdaniels.net. ns1.brightsams.net.
+@400000003fc0d1b73a6610cc cached ns fabulousdaniels.net. ns2.brightsams.net.
+@400000003fc0d1b73a6614b4 cached ns fabulousdaniels.net. ns1.brightsams.net.
+@400000003fc0d1b73a66189c cached ns fabulousdaniels.net. ns2.brightsams.net.
+@400000003fc0d1b73a661c84 cached 1 ns1.brightsams.net.
+@400000003fc0d1b73a66206c cached 1 ns2.brightsams.net.
+@400000003fc0d1b73a662454 cached 1 ns1.brightsams.net.
+@400000003fc0d1b73a665b04 cached 1 ns2.brightsams.net.
+@400000003fc0d1b73a665eec tx 0 15 fabulousdaniels.net. fabulousdaniels.net. 416e2411 416e2410 416e2411 416e2410
+@400000003fc0d1b73ae7df44 query 936527 7f000001:8fef:5eda 255 rivernet.com.au.
+@400000003fc0d1b73ae8120c cached ns com.au. au2ld.csiro.au.
+@400000003fc0d1b73ae815f4 cached ns com.au. audns.optus.net.
+@400000003fc0d1b73ae819dc cached ns com.au. ns.ripe.net.
+@400000003fc0d1b73ae81dc4 cached ns com.au. ns1.ausregistry.net.
+@400000003fc0d1b73ae821ac cached ns com.au. ns2.ausregistry.net.
+@400000003fc0d1b73ae82594 cached ns com.au. ns3.ausregistry.net.
+@400000003fc0d1b73ae8297c cached ns com.au. ns3.melbourneit.com.
+@400000003fc0d1b73ae8602c cached ns com.au. ns4.ausregistry.net.
+@400000003fc0d1b73ae86414 cached ns com.au. dns1.telstra.net.
+@400000003fc0d1b73ae867fc cached 1 au2ld.csiro.au.
+@400000003fc0d1b73ae867fc cached ns optus.net. ns1.optusnet.com.au.
+@400000003fc0d1b73ae86be4 cached ns optus.net. ns2.optusnet.com.au.
+@400000003fc0d1b73ae86fcc tx 2 1 ns1.optusnet.com.au. . c0cbe60a c021040c c0249411 80080a5a 8009006b c0702404 ca0c1b21 c1000e81 c620400c c00505f1 803f0235 c629000a c6290004
+@400000003fc0d1b80649563c rr c0cbe60a 172800 1 ns.uu.net. 89270103
+@400000003fc0d1b806495a24 rr c0cbe60a 172800 1 box2.aunic.net. cbca9614
+@400000003fc0d1b806495e0c rr c0cbe60a 172800 1 sec1.apnic.net. ca0c1d3b
+@400000003fc0d1b8064961f4 rr c0cbe60a 172800 1 sec3.apnic.net. ca0c1c8c
+@400000003fc0d1b8064965dc rr c0cbe60a 172800 1 adns1.berkeley.edu. 80208803
+@400000003fc0d1b8064969c4 rr c0cbe60a 172800 1 adns2.berkeley.edu. 8020880e
+@400000003fc0d1b806496dac rr c0cbe60a 172800 1 muwaya.ucs.unimelb.edu.au. 80fa1402
+@400000003fc0d1b80649a844 rr c0cbe60a 172800 ns au. ns.uu.net.
+@400000003fc0d1b80649ac2c rr c0cbe60a 172800 ns au. muwaya.ucs.unimelb.edu.au.
+@400000003fc0d1b80649b014 rr c0cbe60a 172800 ns au. box2.aunic.net.
+@400000003fc0d1b80649b3fc rr c0cbe60a 172800 ns au. sec1.apnic.net.
+@400000003fc0d1b80649b7e4 rr c0cbe60a 172800 ns au. sec3.apnic.net.
+@400000003fc0d1b80649bbcc rr c0cbe60a 172800 ns au. adns1.berkeley.edu.
+@400000003fc0d1b80649bfb4 rr c0cbe60a 172800 ns au. adns2.berkeley.edu.
+@400000003fc0d1b80649eaac stats 936527 79323909 2 0
+@400000003fc0d1b80649ee94 cached 1 ns.uu.net.
+@400000003fc0d1b80649ee94 cached 1 muwaya.ucs.unimelb.edu.au.
+@400000003fc0d1b80649f27c cached 1 box2.aunic.net.
+@400000003fc0d1b80649f664 cached 1 sec1.apnic.net.
+@400000003fc0d1b80649fa4c cached 1 sec3.apnic.net.
+@400000003fc0d1b80649fa4c cached 1 adns1.berkeley.edu.
+@400000003fc0d1b80649fe34 cached 1 adns2.berkeley.edu.
+@400000003fc0d1b8064a021c tx 2 1 ns1.optusnet.com.au. au. ca0c1c8c 89270103 80208803 ca0c1d3b cbca9614 80fa1402 8020880e
+@400000003fc0d1b81163be7c rr ca0c1c8c 86384 1 au2ld.csiro.au. 82740215
+@400000003fc0d1b81163c64c rr ca0c1c8c 259200 ns com.au. ns2.ausregistry.net.
+@400000003fc0d1b81163ca34 rr ca0c1c8c 259200 ns com.au. ns3.ausregistry.net.
+@400000003fc0d1b81163ce1c rr ca0c1c8c 259200 ns com.au. ns3.melbourneit.com.
+@400000003fc0d1b81163d204 rr ca0c1c8c 259200 ns com.au. ns4.ausregistry.net.
+@400000003fc0d1b81163d5ec rr ca0c1c8c 259200 ns com.au. dns1.telstra.net.
+@400000003fc0d1b81163d9d4 rr ca0c1c8c 259200 ns com.au. au2ld.csiro.au.
+@400000003fc0d1b81164146c rr ca0c1c8c 259200 ns com.au. audns.optus.net.
+@400000003fc0d1b811641854 rr ca0c1c8c 259200 ns com.au. ns.ripe.net.
+@400000003fc0d1b811641c3c rr ca0c1c8c 259200 ns com.au. ns1.ausregistry.net.
+@400000003fc0d1b811642024 stats 936527 79324150 2 0
+@400000003fc0d1b811642024 cached 1 ns2.ausregistry.net.
+@400000003fc0d1b81164240c cached 1 ns3.ausregistry.net.
+@400000003fc0d1b8116427f4 cached 1 ns3.melbourneit.com.
+@400000003fc0d1b811642bdc cached 1 ns4.ausregistry.net.
+@400000003fc0d1b81164fae4 cached 1 dns1.telstra.net.
+@400000003fc0d1b81164fecc cached 1 au2ld.csiro.au.
+@400000003fc0d1b8116502b4 tx 3 1 audns.optus.net. . c00505f1 c021040c c620400c c629000a c1000e81 803f0235 80080a5a c0702404 c0249411 c6290004 ca0c1b21 8009006b c0cbe60a
+@400000003fc0d1b8150f1b0c rr c00505f1 172800 1 a.gtld-servers.net. c005061e
+@400000003fc0d1b8150f22dc rr c00505f1 172800 1 b.gtld-servers.net. c0210e1e
+@400000003fc0d1b8150f26c4 rr c00505f1 172800 1 c.gtld-servers.net. c01a5c1e
+@400000003fc0d1b8150f2aac rr c00505f1 172800 1 d.gtld-servers.net. c01f501e
+@400000003fc0d1b8150f2e94 rr c00505f1 172800 1 e.gtld-servers.net. c00c5e1e
+@400000003fc0d1b8150f327c rr c00505f1 172800 1 f.gtld-servers.net. c023331e
+@400000003fc0d1b8150f3664 rr c00505f1 172800 1 g.gtld-servers.net. c02a5d1e
+@400000003fc0d1b8150f692c rr c00505f1 172800 1 h.gtld-servers.net. c036701e
+@400000003fc0d1b8150f6d14 rr c00505f1 172800 1 i.gtld-servers.net. c02bac1e
+@400000003fc0d1b8150f70fc rr c00505f1 172800 1 j.gtld-servers.net. c0304f1e
+@400000003fc0d1b8150f74e4 rr c00505f1 172800 1 k.gtld-servers.net. c034b21e
+@400000003fc0d1b8150f78cc rr c00505f1 172800 1 l.gtld-servers.net. c029a21e
+@400000003fc0d1b8150f7cb4 rr c00505f1 172800 1 m.gtld-servers.net. c037531e
+@400000003fc0d1b8150fa3c4 rr c00505f1 172800 ns net. d.gtld-servers.net.
+@400000003fc0d1b8150fa7ac rr c00505f1 172800 ns net. e.gtld-servers.net.
+@400000003fc0d1b8150fab94 rr c00505f1 172800 ns net. f.gtld-servers.net.
+@400000003fc0d1b8150faf7c rr c00505f1 172800 ns net. g.gtld-servers.net.
+@400000003fc0d1b8150fb364 rr c00505f1 172800 ns net. h.gtld-servers.net.
+@400000003fc0d1b8150fb74c rr c00505f1 172800 ns net. i.gtld-servers.net.
+@400000003fc0d1b8150fde5c rr c00505f1 172800 ns net. j.gtld-servers.net.
+@400000003fc0d1b8150fe244 rr c00505f1 172800 ns net. k.gtld-servers.net.
+@400000003fc0d1b81510150c rr c00505f1 172800 ns net. l.gtld-servers.net.
+@400000003fc0d1b8151018f4 rr c00505f1 172800 ns net. m.gtld-servers.net.
+@400000003fc0d1b815101cdc rr c00505f1 172800 ns net. a.gtld-servers.net.
+@400000003fc0d1b8151020c4 rr c00505f1 172800 ns net. b.gtld-servers.net.
+@400000003fc0d1b8151024ac rr c00505f1 172800 ns net. c.gtld-servers.net.
+@400000003fc0d1b815102894 stats 936527 79325035 2 0
+@400000003fc0d1b815102c7c cached 1 d.gtld-servers.net.
+@400000003fc0d1b815104fa4 cached 1 e.gtld-servers.net.
+@400000003fc0d1b81510538c cached 1 f.gtld-servers.net.
+@400000003fc0d1b815105774 cached 1 g.gtld-servers.net.
+@400000003fc0d1b815105b5c cached 1 h.gtld-servers.net.
+@400000003fc0d1b815105f44 cached 1 i.gtld-servers.net.
+@400000003fc0d1b815105f44 cached 1 j.gtld-servers.net.
+@400000003fc0d1b81510632c cached 1 k.gtld-servers.net.
+@400000003fc0d1b815106714 cached 1 l.gtld-servers.net.
+@400000003fc0d1b815106afc cached 1 m.gtld-servers.net.
+@400000003fc0d1b815108e24 cached 1 a.gtld-servers.net.
+@400000003fc0d1b81510920c cached 1 b.gtld-servers.net.
+@400000003fc0d1b8151095f4 cached 1 c.gtld-servers.net.
+@400000003fc0d1b8151099dc tx 3 1 audns.optus.net. net. c037531e c01f501e c036701e c029a21e c023331e c0210e1e c00c5e1e c02a5d1e c01a5c1e c034b21e c02bac1e c005061e c0304f1e
+@400000003fc0d1b8178db76c rr c037531e 172800 ns optus.net. ns1.optusnet.com.au.
+@400000003fc0d1b8178dbb54 rr c037531e 172800 ns optus.net. ns2.optusnet.com.au.
+@400000003fc0d1b8178dbf3c stats 936527 79325110 2 0
+@400000003fc0d1b8178dc324 tx 4 1 ns1.optusnet.com.au. . c0249411 c1000e81 803f0235 c0cbe60a c021040c c629000a c6290004 c00505f1 8009006b c620400c c0702404 ca0c1b21 80080a5a
+@400000003fc0d1b82018ba6c rr c0249411 172800 1 ns.uu.net. 89270103
+@400000003fc0d1b82018cdf4 rr c0249411 172800 1 box2.aunic.net. cbca9614
+@400000003fc0d1b82018d1dc rr c0249411 172800 1 sec1.apnic.net. ca0c1d3b
+@400000003fc0d1b82018d5c4 rr c0249411 172800 1 sec3.apnic.net. ca0c1c8c
+@400000003fc0d1b82018d9ac rr c0249411 172800 1 adns1.berkeley.edu. 80208803
+@400000003fc0d1b82018dd94 rr c0249411 172800 1 adns2.berkeley.edu. 8020880e
+@400000003fc0d1b82018e17c rr c0249411 172800 1 muwaya.ucs.unimelb.edu.au. 80fa1402
+@400000003fc0d1b82019bc3c rr c0249411 172800 ns au. adns2.berkeley.edu.
+@400000003fc0d1b82019c024 rr c0249411 172800 ns au. muwaya.ucs.unimelb.edu.au.
+@400000003fc0d1b82019c40c rr c0249411 172800 ns au. ns.uu.net.
+@400000003fc0d1b82019c7f4 rr c0249411 172800 ns au. box2.aunic.net.
+@400000003fc0d1b82019cbdc rr c0249411 172800 ns au. sec1.apnic.net.
+@400000003fc0d1b82019cfc4 rr c0249411 172800 ns au. sec3.apnic.net.
+@400000003fc0d1b82019d3ac rr c0249411 172800 ns au. adns1.berkeley.edu.
+@400000003fc0d1b82019fabc stats 936527 79325570 2 0
+@400000003fc0d1b82019fea4 tx 4 1 ns2.optusnet.com.au. . ca0c1b21 c0249411 c021040c 803f0235 c6290004 c620400c c0702404 80080a5a c00505f1 c1000e81 c629000a 8009006b c0cbe60a
+@400000003fc0d1b82c193cec rr ca0c1b21 172800 1 ns.uu.net. 89270103
+@400000003fc0d1b82c1944bc rr ca0c1b21 172800 1 box2.aunic.net. cbca9614
+@400000003fc0d1b82c194c8c rr ca0c1b21 172800 1 sec1.apnic.net. ca0c1d3b
+@400000003fc0d1b82c195074 rr ca0c1b21 172800 1 sec3.apnic.net. ca0c1c8c
+@400000003fc0d1b82c19545c rr ca0c1b21 172800 1 adns1.berkeley.edu. 80208803
+@400000003fc0d1b82c195844 rr ca0c1b21 172800 1 adns2.berkeley.edu. 8020880e
+@400000003fc0d1b82c195c2c rr ca0c1b21 172800 1 muwaya.ucs.unimelb.edu.au. 80fa1402
+@400000003fc0d1b82c19ae34 rr ca0c1b21 172800 ns au. ns.uu.net.
+@400000003fc0d1b82c19b21c rr ca0c1b21 172800 ns au. muwaya.ucs.unimelb.edu.au.
+@400000003fc0d1b82c19b9ec rr ca0c1b21 172800 ns au. box2.aunic.net.
+@400000003fc0d1b82c19b9ec rr ca0c1b21 172800 ns au. sec1.apnic.net.
+@400000003fc0d1b82c19bdd4 rr ca0c1b21 172800 ns au. sec3.apnic.net.
+@400000003fc0d1b82c19c1bc rr ca0c1b21 172800 ns au. adns1.berkeley.edu.
+@400000003fc0d1b82c19c5a4 rr ca0c1b21 172800 ns au. adns2.berkeley.edu.
+@400000003fc0d1b82c19f09c stats 936527 79326030 2 0
+@400000003fc0d1b82c19f484 cached 1 ns.ripe.net.
+@400000003fc0d1b82c19f86c cached 1 ns1.ausregistry.net.
+@400000003fc0d1b82c19f86c tx 2 1 ns1.optusnet.com.au. com.au. cb123829 d2080ffd c10000c1 cb12382b cb12382a cb12382b 82740215 cb3205c8 cb1be30a cb3205c8
+@400000003fc0d1b837f96244 rr cb123829 86400 1 ns1.optusnet.com.au. cb024b02
+@400000003fc0d1b837f96a14 rr cb123829 86400 1 ns2.optusnet.com.au. cb024b0c
+@400000003fc0d1b837f96dfc rr cb123829 86400 ns optusnet.com.au. ns1.optusnet.com.au.
+@400000003fc0d1b837f971e4 rr cb123829 86400 ns optusnet.com.au. ns2.optusnet.com.au.
+@400000003fc0d1b837f979b4 stats 936527 79326205 2 0
+@400000003fc0d1b837f979b4 cached 1 ns1.optusnet.com.au.
+@400000003fc0d1b837f97d9c cached 1 ns2.optusnet.com.au.
+@400000003fc0d1b837f98184 tx 2 1 ns1.optusnet.com.au. optusnet.com.au. cb024b0c cb024b02
+@400000003fc0d1b909aa347c rr cb024b0c 86400 1 ns1.optusnet.com.au. cb024b02
+@400000003fc0d1b909aa3864 rr cb024b0c 86400 1 ns2.optusnet.com.au. cb024b0c
+@400000003fc0d1b909aa3c4c rr cb024b0c 86400 ns optusnet.com.au. ns2.optusnet.com.au.
+@400000003fc0d1b909aa4034 rr cb024b0c 86400 ns optusnet.com.au. ns1.optusnet.com.au.
+@400000003fc0d1b909aa441c stats 936527 79326380 2 0
+@400000003fc0d1b909aa4804 cached 1 ns2.optusnet.com.au.
+@400000003fc0d1b909aa4bec tx 1 1 audns.optus.net. optus.net. cb024b02 cb024b0c
+@400000003fc0d1b916f70d1c rr cb024b02 86400 1 audns.optus.net. d31d8520
+@400000003fc0d1b916f71104 rr cb024b02 86400 ns optus.net. ns1.optusnet.com.au.
+@400000003fc0d1b916f714ec rr cb024b02 86400 ns optus.net. ns2.optusnet.com.au.
+@400000003fc0d1b916f718d4 stats 936527 79326498 2 0
+@400000003fc0d1b916f71cbc cached 1 ns.ripe.net.
+@400000003fc0d1b916f720a4 cached 1 ns1.ausregistry.net.
+@400000003fc0d1b916f7248c cached 1 ns2.ausregistry.net.
+@400000003fc0d1b916f7248c cached 1 ns3.ausregistry.net.
+@400000003fc0d1b916f72874 cached 1 ns3.melbourneit.com.
+@400000003fc0d1b916f75b3c cached 1 ns4.ausregistry.net.
+@400000003fc0d1b916f75f24 cached 1 dns1.telstra.net.
+@400000003fc0d1b916f7630c tx 0 255 rivernet.com.au. com.au. cb12382a d31d8520 cb3205c8 cb12382b c10000c1 cb3205c8 82740215 d2080ffd cb123829 cb1be30a cb12382b
+@400000003fc0d1b923177b7c rr cb12382a 86400 1 gate.rivernet.com.au. cb58f058
+@400000003fc0d1b92317834c rr cb12382a 86400 1 alpha.rivernet.com.au. cb58ff63
+@400000003fc0d1b923178734 rr cb12382a 86400 ns rivernet.com.au. gate.rivernet.com.au.
+@400000003fc0d1b923178b1c rr cb12382a 86400 ns rivernet.com.au. alpha.rivernet.com.au.
+@400000003fc0d1b923178f04 rr cb12382a 86400 ns rivernet.com.au. ns1.telstra.net.
+@400000003fc0d1b9231792ec stats 936527 79326696 2 0
+@400000003fc0d1b9231796d4 cached 1 gate.rivernet.com.au.
+@400000003fc0d1b92317c5b4 cached 1 alpha.rivernet.com.au.
+@400000003fc0d1b92317c99c cached ns telstra.net. sec1.apnic.net.
+@400000003fc0d1b92317cd84 cached ns telstra.net. sec3.apnic.net.
+@400000003fc0d1b92317d16c cached ns telstra.net. dns0.telstra.net.
+@400000003fc0d1b92317d554 cached ns telstra.net. dns1.telstra.net.
+@400000003fc0d1b92317d93c cached 1 sec1.apnic.net.
+@400000003fc0d1b92317dd24 cached 1 sec3.apnic.net.
+@400000003fc0d1b92317e10c cached 1 dns0.telstra.net.
+@400000003fc0d1b923180434 cached 1 dns1.telstra.net.
+@400000003fc0d1b92318081c tx 1 1 ns1.telstra.net. telstra.net. cb3205c7 ca0c1c8c cb3205c8 ca0c1d3b cb3205c8
+@400000003fc0d1b92cc192ac query 936528 7f000001:fccb:eebc 12 48.105.216.66.in-addr.arpa.
+@400000003fc0d1b92cc19e64 cached nxdomain 48.105.216.66.in-addr.arpa.
+@400000003fc0d1b92cc1a24c sent 936528 44
+@400000003fc0d1b92cc5921c query 936529 7f000001:e77a:701d 12 66.128.185.203.in-addr.arpa.
+@400000003fc0d1b92cc599ec cached ns arpa. a.root-servers.net.
+@400000003fc0d1b92cc59dd4 cached ns arpa. h.root-servers.net.
+@400000003fc0d1b92cc5a1bc cached ns arpa. c.root-servers.net.
+@400000003fc0d1b92cc5a1bc cached ns arpa. g.root-servers.net.
+@400000003fc0d1b92cc5a98c cached ns arpa. f.root-servers.net.
+@400000003fc0d1b92cc5a98c cached ns arpa. b.root-servers.net.
+@400000003fc0d1b92cc5ad74 cached ns arpa. k.root-servers.net.
+@400000003fc0d1b92cc5e424 cached ns arpa. l.root-servers.net.
+@400000003fc0d1b92cc5e80c cached ns arpa. m.root-servers.net.
+@400000003fc0d1b92cc5ebf4 cached ns arpa. i.root-servers.net.
+@400000003fc0d1b92cc5efdc cached ns arpa. e.root-servers.net.
+@400000003fc0d1b92cc5f3c4 cached ns arpa. d.root-servers.net.
+@400000003fc0d1b92cc5f3c4 cached 1 a.root-servers.net.
+@400000003fc0d1b92cc5f7ac cached 1 h.root-servers.net.
+@400000003fc0d1b92cc5fb94 cached 1 c.root-servers.net.
+@400000003fc0d1b92cc61ebc cached 1 g.root-servers.net.
+@400000003fc0d1b92cc622a4 cached 1 f.root-servers.net.
+@400000003fc0d1b92cc6268c cached 1 b.root-servers.net.
+@400000003fc0d1b92cc62a74 cached 1 k.root-servers.net.
+@400000003fc0d1b92cc62e5c cached 1 l.root-servers.net.
+@400000003fc0d1b92cc62e5c cached 1 m.root-servers.net.
+@400000003fc0d1b92cc63244 cached 1 i.root-servers.net.
+@400000003fc0d1b92cc6362c cached 1 e.root-servers.net.
+@400000003fc0d1b92cc63a14 cached 1 d.root-servers.net.
+@400000003fc0d1b92cc65d3c tx 0 12 66.128.185.203.in-addr.arpa. arpa. 8009006b 803f0235 c021040c c1000e81 ca0c1b21 c6290004 c00505f1 c0249411 80080a5a c0cbe60a c620400c c0702404
+@400000003fc0d1b92f3580ac rr 8009006b 86400 ns 203.in-addr.arpa. ns.ripe.net.
+@400000003fc0d1b92f35887c rr 8009006b 86400 ns 203.in-addr.arpa. ns1.apnic.net.
+@400000003fc0d1b92f358c64 rr 8009006b 86400 ns 203.in-addr.arpa. ns3.apnic.net.
+@400000003fc0d1b92f35904c rr 8009006b 86400 ns 203.in-addr.arpa. rs2.arin.net.
+@400000003fc0d1b92f359434 rr 8009006b 86400 ns 203.in-addr.arpa. dns1.telstra.net.
+@400000003fc0d1b92f35981c stats 936529 79326811 3 0
+@400000003fc0d1b92f359c04 cached 1 ns.ripe.net.
+@400000003fc0d1b92f359fec cached 1 ns1.apnic.net.
+@400000003fc0d1b92f35cae4 cached 1 ns3.apnic.net.
+@400000003fc0d1b92f35cecc cached 1 rs2.arin.net.
+@400000003fc0d1b92f35d2b4 cached 1 dns1.telstra.net.
+@400000003fc0d1b92f35d69c tx 0 12 66.128.185.203.in-addr.arpa. 203.in-addr.arpa. c10000c1 c095fc16 ca0c1d19 cb3205c8 ca0c1c83 cb3205c8
+@400000003fc0d1b92fed2c34 rr cb3205c7 3600 1 ns1.telstra.net. 8b820405
+@400000003fc0d1b92fed3404 rr cb3205c7 3600 1 ns1.telstra.net. cb320018
+@400000003fc0d1b92fed37ec rr cb3205c7 3600 1 dns0.telstra.net. cb3205c7
+@400000003fc0d1b92fed3bd4 rr cb3205c7 3600 1 dns1.telstra.net. cb3205c8
+@400000003fc0d1b92fed3fbc rr cb3205c7 3600 ns telstra.net. dns0.telstra.net.
+@400000003fc0d1b92fed43a4 rr cb3205c7 3600 ns telstra.net. dns1.telstra.net.
+@400000003fc0d1b92fed478c rr cb3205c7 3600 ns telstra.net. sec1.apnic.net.
+@400000003fc0d1b92feddfe4 rr cb3205c7 3600 ns telstra.net. sec3.apnic.net.
+@400000003fc0d1b92fede3cc stats 936529 79327049 3 0
+@400000003fc0d1b92fede7b4 tx 0 255 rivernet.com.au. rivernet.com.au. cb58f058 8b820405 cb58ff63 cb320018
+@400000003fc0d1b936f8808c nxdomain c10000c1 3600 66.128.185.203.in-addr.arpa.
+@400000003fc0d1b936f88474 sent 936529 45
+@400000003fc0d1ba00f1c87c rr cb58f058 86400 1 rivernet.com.au. cb58f102
+@400000003fc0d1ba00f1d04c rr cb58f058 86400 1 gate.rivernet.com.au. cb58f058
+@400000003fc0d1ba00f1d434 rr cb58f058 86400 1 alpha.rivernet.com.au. cb58ff63
+@400000003fc0d1ba00f1d81c rr cb58f058 86400 ns rivernet.com.au. gate.rivernet.com.au.
+@400000003fc0d1ba00f1dc04 rr cb58f058 86400 ns rivernet.com.au. alpha.rivernet.com.au.
+@400000003fc0d1ba00f1dfec rr cb58f058 86400 soa rivernet.com.au. gate.rivernet.com.au. hostmaster.tel-pacific.com. 2003101390 3600 600 864000 3600
+@400000003fc0d1ba00f20ecc rr cb58f058 86400 mx rivernet.com.au. 40 mailgate.mci.tel-pacific.com.
+@400000003fc0d1ba00f212b4 rr cb58f058 86400 mx rivernet.com.au. 40 mailgate2.mci.tel-pacific.com.
+@400000003fc0d1ba00f2169c stats 936529 79327428 2 0
+@400000003fc0d1ba00f21a84 sent 936527 205
+@400000003fc0d1ba00f4cdec query 936530 7f000001:8ff1:5edb 15 rivernet.com.au.
+@400000003fc0d1ba00f4d1d4 cached 15 rivernet.com.au.
+@400000003fc0d1ba00f4d5bc sent 936530 103
+@400000003fc0d1ba00f80624 query 936531 7f000001:8ff1:5edc 1 mailgate2.mci.tel-pacific.com.
+@400000003fc0d1ba00f80a0c cached ns com. a.gtld-servers.net.
+@400000003fc0d1ba00f83cd4 cached ns com. g.gtld-servers.net.
+@400000003fc0d1ba00f840bc cached ns com. h.gtld-servers.net.
+@400000003fc0d1ba00f844a4 cached ns com. c.gtld-servers.net.
+@400000003fc0d1ba00f844a4 cached ns com. i.gtld-servers.net.
+@400000003fc0d1ba00f8488c cached ns com. b.gtld-servers.net.
+@400000003fc0d1ba00f84c74 cached ns com. d.gtld-servers.net.
+@400000003fc0d1ba00f87f3c cached ns com. l.gtld-servers.net.
+@400000003fc0d1ba00f88324 cached ns com. f.gtld-servers.net.
+@400000003fc0d1ba00f8870c cached ns com. j.gtld-servers.net.
+@400000003fc0d1ba00f88af4 cached ns com. k.gtld-servers.net.
+@400000003fc0d1ba00f88edc cached ns com. e.gtld-servers.net.
+@400000003fc0d1ba00f88edc cached ns com. m.gtld-servers.net.
+@400000003fc0d1ba00f892c4 cached 1 a.gtld-servers.net.
+@400000003fc0d1ba00f896ac cached 1 g.gtld-servers.net.
+@400000003fc0d1ba00f8bdbc cached 1 h.gtld-servers.net.
+@400000003fc0d1ba00f8c1a4 cached 1 c.gtld-servers.net.
+@400000003fc0d1ba00f8c1a4 cached 1 i.gtld-servers.net.
+@400000003fc0d1ba00f8c58c cached 1 b.gtld-servers.net.
+@400000003fc0d1ba00f8c974 cached 1 d.gtld-servers.net.
+@400000003fc0d1ba00f8cd5c cached 1 l.gtld-servers.net.
+@400000003fc0d1ba00f8d144 cached 1 f.gtld-servers.net.
+@400000003fc0d1ba00f8d144 cached 1 j.gtld-servers.net.
+@400000003fc0d1ba00f8d52c cached 1 k.gtld-servers.net.
+@400000003fc0d1ba00f8f854 cached 1 e.gtld-servers.net.
+@400000003fc0d1ba00f8fc3c cached 1 m.gtld-servers.net.
+@400000003fc0d1ba00f90024 tx 0 1 mailgate2.mci.tel-pacific.com. com. c0210e1e c00c5e1e c01f501e c01a5c1e c02a5d1e c0304f1e c036701e c02bac1e c037531e c034b21e c029a21e c023331e c005061e
+@400000003fc0d1ba04b9f7f4 rr c0210e1e 172800 ns tel-pacific.com. alpha.rivernet.com.au.
+@400000003fc0d1ba04b9fbdc rr c0210e1e 172800 ns tel-pacific.com. gate.rivernet.com.au.
+@400000003fc0d1ba04b9ffc4 stats 936531 79327512 2 0
+@400000003fc0d1ba04ba03ac cached 1 alpha.rivernet.com.au.
+@400000003fc0d1ba04ba0794 cached 1 gate.rivernet.com.au.
+@400000003fc0d1ba04ba0b7c tx 0 1 mailgate2.mci.tel-pacific.com. tel-pacific.com. cb58f058 cb58ff63
+@400000003fc0d1ba117156f4 rr cb58f058 86400 1 mailgate2.mci.tel-pacific.com. cb58ff18
+@400000003fc0d1ba11715ec4 rr cb58f058 86400 ns tel-pacific.com. alpha.rivernet.com.au.
+@400000003fc0d1ba117162ac rr cb58f058 86400 ns tel-pacific.com. gate.rivernet.com.au.
+@400000003fc0d1ba11716694 stats 936531 79327653 2 0
+@400000003fc0d1ba11716a7c sent 936531 63
+@400000003fc0d1ba11733384 query 936532 7f000001:8ff1:5edd 1 mailgate.mci.tel-pacific.com.
+@400000003fc0d1ba1173376c cached ns tel-pacific.com. alpha.rivernet.com.au.
+@400000003fc0d1ba11736a34 cached ns tel-pacific.com. gate.rivernet.com.au.
+@400000003fc0d1ba11736e1c cached 1 alpha.rivernet.com.au.
+@400000003fc0d1ba11736e1c cached 1 gate.rivernet.com.au.
+@400000003fc0d1ba11737204 tx 0 1 mailgate.mci.tel-pacific.com. tel-pacific.com. cb58f058 cb58ff63
+@400000003fc0d1ba1e0ef434 rr cb58f058 86400 1 mailgate.mci.tel-pacific.com. cb58ff17
+@400000003fc0d1ba1e0efc04 rr cb58f058 86400 ns tel-pacific.com. alpha.rivernet.com.au.
+@400000003fc0d1ba1e0effec rr cb58f058 86400 ns tel-pacific.com. gate.rivernet.com.au.
+@400000003fc0d1ba1e0f03d4 stats 936532 79327793 2 0
+@400000003fc0d1ba1e0f07bc sent 936532 62
+@400000003fc0d1bc1843d484 query 936533 7f000001:fccb:eebc 16 66.128.185.203.rbl.maps.vix.com.
+@400000003fc0d1bc1843e424 cached ns vix.com. ns.lh.vix.com.
+@400000003fc0d1bc1843e80c cached ns vix.com. ns1.gnac.com.
+@400000003fc0d1bc1843ebf4 cached ns vix.com. ns-ext.isc.org.
+@400000003fc0d1bc1843efdc cached 1 ns.lh.vix.com.
+@400000003fc0d1bc1843f3c4 cached 1 ns1.gnac.com.
+@400000003fc0d1bc1843f7ac cached 1 ns-ext.isc.org.
+@400000003fc0d1bc1843f7ac tx 0 16 66.128.185.203.rbl.maps.vix.com. vix.com. cc98b863 cc98b840 407c2ca6
+@400000003fc0d1bc1fb0731c nxdomain cc98b863 3600 66.128.185.203.rbl.maps.vix.com.
+@400000003fc0d1bc1fb07704 sent 936533 49
+@400000003fc0d1bc3ae95e14 query 936534 7f000001:8ff0:5ad4 15 fabulousdaniels.net.
+@400000003fc0d1bc3ae969cc cached ns fabulousdaniels.net. ns1.brightsams.net.
+@400000003fc0d1bc3ae96db4 cached ns fabulousdaniels.net. ns2.brightsams.net.
+@400000003fc0d1bc3ae9719c cached ns fabulousdaniels.net. ns1.brightsams.net.
+@400000003fc0d1bc3ae9796c cached ns fabulousdaniels.net. ns2.brightsams.net.
+@400000003fc0d1bc3ae97d54 cached 1 ns1.brightsams.net.
+@400000003fc0d1bc3ae97d54 cached 1 ns2.brightsams.net.
+@400000003fc0d1bc3ae9813c cached 1 ns1.brightsams.net.
+@400000003fc0d1bc3ae9cf5c cached 1 ns2.brightsams.net.
+@400000003fc0d1bc3ae9d344 tx 0 15 fabulousdaniels.net. fabulousdaniels.net. 416e2410 416e2411 416e2410 416e2411

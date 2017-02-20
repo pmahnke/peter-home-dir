@@ -1,0 +1,52 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Class::Data::Inheritable
+  CHECKSUM_STATUS: OK
+  ID: T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: TMTM
+  archived: tar
+  build_dir: /home/peter/.cpan/build/Class-Data-Inheritable-0.08-6S3Laf
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370193
+  localfile: /home/peter/.cpan/sources/authors/id/T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370192
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370193
+  negative_prefs_cache: 5
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires: {}
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370192
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370192
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370193

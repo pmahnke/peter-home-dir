@@ -1,0 +1,1606 @@
+
+################################################################
+# start of of transitionelement.com site listing
+#
+# transitionelement.com site on port 80 for http
+#
+Listen 192.168.1.10:80
+#
+<VirtualHost 192.168.1.10:80>
+  ServerName transitionelement.com
+  ServerAdmin webmaster@transitionelement.com]
+  DocumentRoot /home/transitionelement/html
+  ScriptAlias /cgi-bin/ /home/transitionelement/cgi-bin/
+  ScriptAlias /servlets/ /home/transitionelement/servlets/
+  ApJServMount /servlets /transitionelement
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/transitionelement/logs/error_log
+  TransferLog /home/transitionelement/logs/access_log
+  CustomLog /home/transitionelement/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# transitionelement.com site on port 433 for https
+#
+Listen 192.168.1.10:443
+#
+<VirtualHost 192.168.1.10:443>
+  SSLEnable
+  ServerName transitionelement.com
+  ServerAdmin webmaster@transitionelement.com
+  DocumentRoot /home/transitionelement/html
+  ScriptAlias /cgi-bin/ /home/transitionelement/cgi-bin/
+  ScriptAlias /servlets/ /home/transitionelement/servlets/
+  ApJServMount /servlets /transitionelement.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/transitionelement/logs/error_log
+  TransferLog /home/transitionelement/logs/access_log
+  CustomLog /home/transitionelement/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of transitionelement.com site listing
+################################################################
+
+
+
+################################################################
+# start of of mahnke.net site listing
+#
+# mahnke.net site on port 80 for http
+#
+Listen 192.168.1.15:80
+#
+<VirtualHost 192.168.1.15:80>
+  ServerName mahnke.net
+  ServerAdmin webmaster@mahnke.net]
+  DocumentRoot /home/mahnke/html
+  ScriptAlias /cgi-bin/ /home/mahnke/cgi-bin/
+  ScriptAlias /servlets/ /home/mahnke/servlets/
+  ApJServMount /servlets /mahnke
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/mahnke/logs/error_log
+  TransferLog /home/mahnke/logs/access_log
+  CustomLog /home/mahnke/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# mahnke.net site on port 433 for https
+#
+Listen 192.168.1.15:443
+#
+<VirtualHost 192.168.1.15:443>
+  SSLEnable
+  ServerName mahnke.net
+  ServerAdmin webmaster@mahnke.net
+  DocumentRoot /home/mahnke/html
+  ScriptAlias /cgi-bin/ /home/mahnke/cgi-bin/
+  ScriptAlias /servlets/ /home/mahnke/servlets/
+  ApJServMount /servlets /mahnke.net
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/mahnke/logs/error_log
+  TransferLog /home/mahnke/logs/access_log
+  CustomLog /home/mahnke/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of mahnke.net site listing
+################################################################
+
+
+
+################################################################
+# start of of boilard.com site listing
+#
+# boilard.com site on port 80 for http
+#
+Listen 192.168.1.20:80
+#
+<VirtualHost 192.168.1.20:80>
+  ServerName boilard.com
+  ServerAdmin webmaster@boilard.com]
+  DocumentRoot /home/boilard/html
+  ScriptAlias /cgi-bin/ /home/boilard/cgi-bin/
+  ScriptAlias /servlets/ /home/boilard/servlets/
+  ApJServMount /servlets /boilard
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/boilard/logs/error_log
+  TransferLog /home/boilard/logs/access_log
+  CustomLog /home/boilard/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# boilard.com site on port 433 for https
+#
+Listen 192.168.1.20:443
+#
+<VirtualHost 192.168.1.20:443>
+  SSLEnable
+  ServerName boilard.com
+  ServerAdmin webmaster@boilard.com
+  DocumentRoot /home/boilard/html
+  ScriptAlias /cgi-bin/ /home/boilard/cgi-bin/
+  ScriptAlias /servlets/ /home/boilard/servlets/
+  ApJServMount /servlets /boilard.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/boilard/logs/error_log
+  TransferLog /home/boilard/logs/access_log
+  CustomLog /home/boilard/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of boilard.com site listing
+################################################################
+
+
+
+################################################################
+# start of of siteforyou.com site listing
+#
+# siteforyou.com site on port 80 for http
+#
+Listen 192.168.1.25:80
+#
+<VirtualHost 192.168.1.25:80>
+  ServerName siteforyou.com
+  ServerAdmin webmaster@siteforyou.com]
+  DocumentRoot /home/siteforyou/html
+  ScriptAlias /cgi-bin/ /home/siteforyou/cgi-bin/
+  ScriptAlias /servlets/ /home/siteforyou/servlets/
+  ApJServMount /servlets /siteforyou
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/siteforyou/logs/error_log
+  TransferLog /home/siteforyou/logs/access_log
+  CustomLog /home/siteforyou/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# siteforyou.com site on port 433 for https
+#
+Listen 192.168.1.25:443
+#
+<VirtualHost 192.168.1.25:443>
+  SSLEnable
+  ServerName siteforyou.com
+  ServerAdmin webmaster@siteforyou.com
+  DocumentRoot /home/siteforyou/html
+  ScriptAlias /cgi-bin/ /home/siteforyou/cgi-bin/
+  ScriptAlias /servlets/ /home/siteforyou/servlets/
+  ApJServMount /servlets /siteforyou.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/siteforyou/logs/error_log
+  TransferLog /home/siteforyou/logs/access_log
+  CustomLog /home/siteforyou/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of siteforyou.com site listing
+################################################################
+
+
+
+################################################################
+# start of of siteforher.com site listing
+#
+# siteforher.com site on port 80 for http
+#
+Listen 192.168.1.30:80
+#
+<VirtualHost 192.168.1.30:80>
+  ServerName siteforher.com
+  ServerAdmin webmaster@siteforher.com]
+  DocumentRoot /home/siteforher/html
+  ScriptAlias /cgi-bin/ /home/siteforher/cgi-bin/
+  ScriptAlias /servlets/ /home/siteforher/servlets/
+  ApJServMount /servlets /siteforher
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/siteforher/logs/error_log
+  TransferLog /home/siteforher/logs/access_log
+  CustomLog /home/siteforher/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# siteforher.com site on port 433 for https
+#
+Listen 192.168.1.30:443
+#
+<VirtualHost 192.168.1.30:443>
+  SSLEnable
+  ServerName siteforher.com
+  ServerAdmin webmaster@siteforher.com
+  DocumentRoot /home/siteforher/html
+  ScriptAlias /cgi-bin/ /home/siteforher/cgi-bin/
+  ScriptAlias /servlets/ /home/siteforher/servlets/
+  ApJServMount /servlets /siteforher.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/siteforher/logs/error_log
+  TransferLog /home/siteforher/logs/access_log
+  CustomLog /home/siteforher/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of siteforher.com site listing
+################################################################
+
+
+
+################################################################
+# start of of siteforhim.com site listing
+#
+# siteforhim.com site on port 80 for http
+#
+Listen 192.168.1.35:80
+#
+<VirtualHost 192.168.1.35:80>
+  ServerName siteforhim.com
+  ServerAdmin webmaster@siteforhim.com]
+  DocumentRoot /home/siteforhim/html
+  ScriptAlias /cgi-bin/ /home/siteforhim/cgi-bin/
+  ScriptAlias /servlets/ /home/siteforhim/servlets/
+  ApJServMount /servlets /siteforhim
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/siteforhim/logs/error_log
+  TransferLog /home/siteforhim/logs/access_log
+  CustomLog /home/siteforhim/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# siteforhim.com site on port 433 for https
+#
+Listen 192.168.1.35:443
+#
+<VirtualHost 192.168.1.35:443>
+  SSLEnable
+  ServerName siteforhim.com
+  ServerAdmin webmaster@siteforhim.com
+  DocumentRoot /home/siteforhim/html
+  ScriptAlias /cgi-bin/ /home/siteforhim/cgi-bin/
+  ScriptAlias /servlets/ /home/siteforhim/servlets/
+  ApJServMount /servlets /siteforhim.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/siteforhim/logs/error_log
+  TransferLog /home/siteforhim/logs/access_log
+  CustomLog /home/siteforhim/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of siteforhim.com site listing
+################################################################
+
+
+
+################################################################
+# start of of marinucci.com site listing
+#
+# marinucci.com site on port 80 for http
+#
+Listen 192.168.1.40:80
+#
+<VirtualHost 192.168.1.40:80>
+  ServerName marinucci.com
+  ServerAdmin webmaster@marinucci.com]
+  DocumentRoot /home/marinucci/html
+  ScriptAlias /cgi-bin/ /home/marinucci/cgi-bin/
+  ScriptAlias /servlets/ /home/marinucci/servlets/
+  ApJServMount /servlets /marinucci
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/marinucci/logs/error_log
+  TransferLog /home/marinucci/logs/access_log
+  CustomLog /home/marinucci/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# marinucci.com site on port 433 for https
+#
+Listen 192.168.1.40:443
+#
+<VirtualHost 192.168.1.40:443>
+  SSLEnable
+  ServerName marinucci.com
+  ServerAdmin webmaster@marinucci.com
+  DocumentRoot /home/marinucci/html
+  ScriptAlias /cgi-bin/ /home/marinucci/cgi-bin/
+  ScriptAlias /servlets/ /home/marinucci/servlets/
+  ApJServMount /servlets /marinucci.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/marinucci/logs/error_log
+  TransferLog /home/marinucci/logs/access_log
+  CustomLog /home/marinucci/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of marinucci.com site listing
+################################################################
+
+
+
+################################################################
+# start of of vitucci.com site listing
+#
+# vitucci.com site on port 80 for http
+#
+Listen 192.168.1.45:80
+#
+<VirtualHost 192.168.1.45:80>
+  ServerName vitucci.com
+  ServerAdmin webmaster@vitucci.com]
+  DocumentRoot /home/vitucci/html
+  ScriptAlias /cgi-bin/ /home/vitucci/cgi-bin/
+  ScriptAlias /servlets/ /home/vitucci/servlets/
+  ApJServMount /servlets /vitucci
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/vitucci/logs/error_log
+  TransferLog /home/vitucci/logs/access_log
+  CustomLog /home/vitucci/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# vitucci.com site on port 433 for https
+#
+Listen 192.168.1.45:443
+#
+<VirtualHost 192.168.1.45:443>
+  SSLEnable
+  ServerName vitucci.com
+  ServerAdmin webmaster@vitucci.com
+  DocumentRoot /home/vitucci/html
+  ScriptAlias /cgi-bin/ /home/vitucci/cgi-bin/
+  ScriptAlias /servlets/ /home/vitucci/servlets/
+  ApJServMount /servlets /vitucci.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/vitucci/logs/error_log
+  TransferLog /home/vitucci/logs/access_log
+  CustomLog /home/vitucci/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of vitucci.com site listing
+################################################################
+
+
+
+################################################################
+# start of of tannic.com site listing
+#
+# tannic.com site on port 80 for http
+#
+Listen 192.168.1.50:80
+#
+<VirtualHost 192.168.1.50:80>
+  ServerName tannic.com
+  ServerAdmin webmaster@tannic.com]
+  DocumentRoot /home/tannic/html
+  ScriptAlias /cgi-bin/ /home/tannic/cgi-bin/
+  ScriptAlias /servlets/ /home/tannic/servlets/
+  ApJServMount /servlets /tannic
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/tannic/logs/error_log
+  TransferLog /home/tannic/logs/access_log
+  CustomLog /home/tannic/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# tannic.com site on port 433 for https
+#
+Listen 192.168.1.50:443
+#
+<VirtualHost 192.168.1.50:443>
+  SSLEnable
+  ServerName tannic.com
+  ServerAdmin webmaster@tannic.com
+  DocumentRoot /home/tannic/html
+  ScriptAlias /cgi-bin/ /home/tannic/cgi-bin/
+  ScriptAlias /servlets/ /home/tannic/servlets/
+  ApJServMount /servlets /tannic.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/tannic/logs/error_log
+  TransferLog /home/tannic/logs/access_log
+  CustomLog /home/tannic/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of tannic.com site listing
+################################################################
+
+
+
+################################################################
+# start of of baramerica.com site listing
+#
+# baramerica.com site on port 80 for http
+#
+Listen 192.168.1.55:80
+#
+<VirtualHost 192.168.1.55:80>
+  ServerName baramerica.com
+  ServerAdmin webmaster@baramerica.com]
+  DocumentRoot /home/baramerica/html
+  ScriptAlias /cgi-bin/ /home/baramerica/cgi-bin/
+  ScriptAlias /servlets/ /home/baramerica/servlets/
+  ApJServMount /servlets /baramerica
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/baramerica/logs/error_log
+  TransferLog /home/baramerica/logs/access_log
+  CustomLog /home/baramerica/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# baramerica.com site on port 433 for https
+#
+Listen 192.168.1.55:443
+#
+<VirtualHost 192.168.1.55:443>
+  SSLEnable
+  ServerName baramerica.com
+  ServerAdmin webmaster@baramerica.com
+  DocumentRoot /home/baramerica/html
+  ScriptAlias /cgi-bin/ /home/baramerica/cgi-bin/
+  ScriptAlias /servlets/ /home/baramerica/servlets/
+  ApJServMount /servlets /baramerica.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/baramerica/logs/error_log
+  TransferLog /home/baramerica/logs/access_log
+  CustomLog /home/baramerica/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of baramerica.com site listing
+################################################################
+
+
+
+################################################################
+# start of of computerclassifieds.com site listing
+#
+# computerclassifieds.com site on port 80 for http
+#
+Listen 192.168.1.60:80
+#
+<VirtualHost 192.168.1.60:80>
+  ServerName computerclassifieds.com
+  ServerAdmin webmaster@computerclassifieds.com]
+  DocumentRoot /home/compclassifieds/html
+  ScriptAlias /cgi-bin/ /home/compclassifieds/cgi-bin/
+  ScriptAlias /servlets/ /home/compclassifieds/servlets/
+  ApJServMount /servlets /compclassifieds
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/compclassifieds/logs/error_log
+  TransferLog /home/compclassifieds/logs/access_log
+  CustomLog /home/compclassifieds/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# computerclassifieds.com site on port 433 for https
+#
+Listen 192.168.1.60:443
+#
+<VirtualHost 192.168.1.60:443>
+  SSLEnable
+  ServerName computerclassifieds.com
+  ServerAdmin webmaster@computerclassifieds.com
+  DocumentRoot /home/compclassifieds/html
+  ScriptAlias /cgi-bin/ /home/compclassifieds/cgi-bin/
+  ScriptAlias /servlets/ /home/compclassifieds/servlets/
+  ApJServMount /servlets /computerclassifieds.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/compclassifieds/logs/error_log
+  TransferLog /home/compclassifieds/logs/access_log
+  CustomLog /home/compclassifieds/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of computerclassifieds.com site listing
+################################################################
+
+
+
+################################################################
+# start of of bwanazulia.com site listing
+#
+# bwanazulia.com site on port 80 for http
+#
+Listen 192.168.1.65:80
+#
+<VirtualHost 192.168.1.65:80>
+  ServerName bwanazulia.com
+  ServerAdmin webmaster@bwanazulia.com]
+  DocumentRoot /home/bwanazulia/html
+  ScriptAlias /cgi-bin/ /home/bwanazulia/cgi-bin/
+  ScriptAlias /servlets/ /home/bwanazulia/servlets/
+  ApJServMount /servlets /bwanazulia
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/bwanazulia/logs/error_log
+  TransferLog /home/bwanazulia/logs/access_log
+  CustomLog /home/bwanazulia/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# bwanazulia.com site on port 433 for https
+#
+Listen 192.168.1.65:443
+#
+<VirtualHost 192.168.1.65:443>
+  SSLEnable
+  ServerName bwanazulia.com
+  ServerAdmin webmaster@bwanazulia.com
+  DocumentRoot /home/bwanazulia/html
+  ScriptAlias /cgi-bin/ /home/bwanazulia/cgi-bin/
+  ScriptAlias /servlets/ /home/bwanazulia/servlets/
+  ApJServMount /servlets /bwanazulia.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/bwanazulia/logs/error_log
+  TransferLog /home/bwanazulia/logs/access_log
+  CustomLog /home/bwanazulia/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of bwanazulia.com site listing
+################################################################
+
+
+
+################################################################
+# start of of queenswest.com site listing
+#
+# queenswest.com site on port 80 for http
+#
+Listen 192.168.1.70:80
+#
+<VirtualHost 192.168.1.70:80>
+  ServerName queenswest.com
+  ServerAdmin webmaster@queenswest.com]
+  DocumentRoot /home/queenswest/html
+  ScriptAlias /cgi-bin/ /home/queenswest/cgi-bin/
+  ScriptAlias /servlets/ /home/queenswest/servlets/
+  ApJServMount /servlets /queenswest
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/queenswest/logs/error_log
+  TransferLog /home/queenswest/logs/access_log
+  CustomLog /home/queenswest/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# queenswest.com site on port 433 for https
+#
+Listen 192.168.1.70:443
+#
+<VirtualHost 192.168.1.70:443>
+  SSLEnable
+  ServerName queenswest.com
+  ServerAdmin webmaster@queenswest.com
+  DocumentRoot /home/queenswest/html
+  ScriptAlias /cgi-bin/ /home/queenswest/cgi-bin/
+  ScriptAlias /servlets/ /home/queenswest/servlets/
+  ApJServMount /servlets /queenswest.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/queenswest/logs/error_log
+  TransferLog /home/queenswest/logs/access_log
+  CustomLog /home/queenswest/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of queenswest.com site listing
+################################################################
+
+
+
+################################################################
+# start of of atwood.org site listing
+#
+# atwood.org site on port 80 for http
+#
+Listen 192.168.1.75:80
+#
+<VirtualHost 192.168.1.75:80>
+  ServerName atwood.org
+  ServerAdmin webmaster@atwood.org]
+  DocumentRoot /home/atwood/html
+  ScriptAlias /cgi-bin/ /home/atwood/cgi-bin/
+  ScriptAlias /servlets/ /home/atwood/servlets/
+  ApJServMount /servlets /atwood
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/atwood/logs/error_log
+  TransferLog /home/atwood/logs/access_log
+  CustomLog /home/atwood/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# atwood.org site on port 433 for https
+#
+Listen 192.168.1.75:443
+#
+<VirtualHost 192.168.1.75:443>
+  SSLEnable
+  ServerName atwood.org
+  ServerAdmin webmaster@atwood.org
+  DocumentRoot /home/atwood/html
+  ScriptAlias /cgi-bin/ /home/atwood/cgi-bin/
+  ScriptAlias /servlets/ /home/atwood/servlets/
+  ApJServMount /servlets /atwood.org
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/atwood/logs/error_log
+  TransferLog /home/atwood/logs/access_log
+  CustomLog /home/atwood/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of atwood.org site listing
+################################################################
+
+
+
+################################################################
+# start of of auditt.org site listing
+#
+# auditt.org site on port 80 for http
+#
+Listen 192.168.1.80:80
+#
+<VirtualHost 192.168.1.80:80>
+  ServerName auditt.org
+  ServerAdmin webmaster@auditt.org]
+  DocumentRoot /home/auditt/html
+  ScriptAlias /cgi-bin/ /home/auditt/cgi-bin/
+  ScriptAlias /servlets/ /home/auditt/servlets/
+  ApJServMount /servlets /auditt
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/auditt/logs/error_log
+  TransferLog /home/auditt/logs/access_log
+  CustomLog /home/auditt/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# auditt.org site on port 433 for https
+#
+Listen 192.168.1.80:443
+#
+<VirtualHost 192.168.1.80:443>
+  SSLEnable
+  ServerName auditt.org
+  ServerAdmin webmaster@auditt.org
+  DocumentRoot /home/auditt/html
+  ScriptAlias /cgi-bin/ /home/auditt/cgi-bin/
+  ScriptAlias /servlets/ /home/auditt/servlets/
+  ApJServMount /servlets /auditt.org
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/auditt/logs/error_log
+  TransferLog /home/auditt/logs/access_log
+  CustomLog /home/auditt/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of auditt.org site listing
+################################################################
+
+
+
+################################################################
+# start of of jambomama.com site listing
+#
+# jambomama.com site on port 80 for http
+#
+Listen 192.168.1.85:80
+#
+<VirtualHost 192.168.1.85:80>
+  ServerName jambomama.com
+  ServerAdmin webmaster@jambomama.com]
+  DocumentRoot /home/jambomama/html
+  ScriptAlias /cgi-bin/ /home/jambomama/cgi-bin/
+  ScriptAlias /servlets/ /home/jambomama/servlets/
+  ApJServMount /servlets /jambomama
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/jambomama/logs/error_log
+  TransferLog /home/jambomama/logs/access_log
+  CustomLog /home/jambomama/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# jambomama.com site on port 433 for https
+#
+Listen 192.168.1.85:443
+#
+<VirtualHost 192.168.1.85:443>
+  SSLEnable
+  ServerName jambomama.com
+  ServerAdmin webmaster@jambomama.com
+  DocumentRoot /home/jambomama/html
+  ScriptAlias /cgi-bin/ /home/jambomama/cgi-bin/
+  ScriptAlias /servlets/ /home/jambomama/servlets/
+  ApJServMount /servlets /jambomama.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/jambomama/logs/error_log
+  TransferLog /home/jambomama/logs/access_log
+  CustomLog /home/jambomama/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of jambomama.com site listing
+################################################################
+
+
+
+################################################################
+# start of of ismyos.com site listing
+#
+# ismyos.com site on port 80 for http
+#
+Listen 192.168.1.90:80
+#
+<VirtualHost 192.168.1.90:80>
+  ServerName ismyos.com
+  ServerAdmin webmaster@ismyos.com]
+  DocumentRoot /home/ismyos/html
+  ScriptAlias /cgi-bin/ /home/ismyos/cgi-bin/
+  ScriptAlias /servlets/ /home/ismyos/servlets/
+  ApJServMount /servlets /ismyos
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/ismyos/logs/error_log
+  TransferLog /home/ismyos/logs/access_log
+  CustomLog /home/ismyos/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# ismyos.com site on port 433 for https
+#
+Listen 192.168.1.90:443
+#
+<VirtualHost 192.168.1.90:443>
+  SSLEnable
+  ServerName ismyos.com
+  ServerAdmin webmaster@ismyos.com
+  DocumentRoot /home/ismyos/html
+  ScriptAlias /cgi-bin/ /home/ismyos/cgi-bin/
+  ScriptAlias /servlets/ /home/ismyos/servlets/
+  ApJServMount /servlets /ismyos.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/ismyos/logs/error_log
+  TransferLog /home/ismyos/logs/access_log
+  CustomLog /home/ismyos/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of ismyos.com site listing
+################################################################
+
+
+
+################################################################
+# start of of vbuddha.com site listing
+#
+# vbuddha.com site on port 80 for http
+#
+Listen 192.168.1.95:80
+#
+<VirtualHost 192.168.1.95:80>
+  ServerName vbuddha.com
+  ServerAdmin webmaster@vbuddha.com]
+  DocumentRoot /home/vbuddha/html
+  ScriptAlias /cgi-bin/ /home/vbuddha/cgi-bin/
+  ScriptAlias /servlets/ /home/vbuddha/servlets/
+  ApJServMount /servlets /vbuddha
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/vbuddha/logs/error_log
+  TransferLog /home/vbuddha/logs/access_log
+  CustomLog /home/vbuddha/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# vbuddha.com site on port 433 for https
+#
+Listen 192.168.1.95:443
+#
+<VirtualHost 192.168.1.95:443>
+  SSLEnable
+  ServerName vbuddha.com
+  ServerAdmin webmaster@vbuddha.com
+  DocumentRoot /home/vbuddha/html
+  ScriptAlias /cgi-bin/ /home/vbuddha/cgi-bin/
+  ScriptAlias /servlets/ /home/vbuddha/servlets/
+  ApJServMount /servlets /vbuddha.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/vbuddha/logs/error_log
+  TransferLog /home/vbuddha/logs/access_log
+  CustomLog /home/vbuddha/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of vbuddha.com site listing
+################################################################
+
+
+
+################################################################
+# start of of digitalalliances.com site listing
+#
+# digitalalliances.com site on port 80 for http
+#
+Listen 192.168.1.100:80
+#
+<VirtualHost 192.168.1.100:80>
+  ServerName digitalalliances.com
+  ServerAdmin webmaster@digitalalliances.com]
+  DocumentRoot /home/digalli/html
+  ScriptAlias /cgi-bin/ /home/digalli/cgi-bin/
+  ScriptAlias /servlets/ /home/digalli/servlets/
+  ApJServMount /servlets /digalli
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/digalli/logs/error_log
+  TransferLog /home/digalli/logs/access_log
+  CustomLog /home/digalli/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# digitalalliances.com site on port 433 for https
+#
+Listen 192.168.1.100:443
+#
+<VirtualHost 192.168.1.100:443>
+  SSLEnable
+  ServerName digitalalliances.com
+  ServerAdmin webmaster@digitalalliances.com
+  DocumentRoot /home/digalli/html
+  ScriptAlias /cgi-bin/ /home/digalli/cgi-bin/
+  ScriptAlias /servlets/ /home/digalli/servlets/
+  ApJServMount /servlets /digitalalliances.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/digalli/logs/error_log
+  TransferLog /home/digalli/logs/access_log
+  CustomLog /home/digalli/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of digitalalliances.com site listing
+################################################################
+
+
+
+################################################################
+# start of of mccain-associates.com site listing
+#
+# mccain-associates.com site on port 80 for http
+#
+Listen 192.168.1.105:80
+#
+<VirtualHost 192.168.1.105:80>
+  ServerName mccain-associates.com
+  ServerAdmin webmaster@mccain-associates.com]
+  DocumentRoot /home/mccain-associates/html
+  ScriptAlias /cgi-bin/ /home/mccain-associates/cgi-bin/
+  ScriptAlias /servlets/ /home/mccain-associates/servlets/
+  ApJServMount /servlets /mccain-associates
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/mccain-associates/logs/error_log
+  TransferLog /home/mccain-associates/logs/access_log
+  CustomLog /home/mccain-associates/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# mccain-associates.com site on port 433 for https
+#
+Listen 192.168.1.105:443
+#
+<VirtualHost 192.168.1.105:443>
+  SSLEnable
+  ServerName mccain-associates.com
+  ServerAdmin webmaster@mccain-associates.com
+  DocumentRoot /home/mccain-associates/html
+  ScriptAlias /cgi-bin/ /home/mccain-associates/cgi-bin/
+  ScriptAlias /servlets/ /home/mccain-associates/servlets/
+  ApJServMount /servlets /mccain-associates.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/mccain-associates/logs/error_log
+  TransferLog /home/mccain-associates/logs/access_log
+  CustomLog /home/mccain-associates/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of mccain-associates.com site listing
+################################################################
+
+
+
+################################################################
+# start of of bremco.net site listing
+#
+# bremco.net site on port 80 for http
+#
+Listen 192.168.1.110:80
+#
+<VirtualHost 192.168.1.110:80>
+  ServerName bremco.net
+  ServerAdmin webmaster@bremco.net]
+  DocumentRoot /home/bremco/html
+  ScriptAlias /cgi-bin/ /home/bremco/cgi-bin/
+  ScriptAlias /servlets/ /home/bremco/servlets/
+  ApJServMount /servlets /bremco
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/bremco/logs/error_log
+  TransferLog /home/bremco/logs/access_log
+  CustomLog /home/bremco/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# bremco.net site on port 433 for https
+#
+Listen 192.168.1.110:443
+#
+<VirtualHost 192.168.1.110:443>
+  SSLEnable
+  ServerName bremco.net
+  ServerAdmin webmaster@bremco.net
+  DocumentRoot /home/bremco/html
+  ScriptAlias /cgi-bin/ /home/bremco/cgi-bin/
+  ScriptAlias /servlets/ /home/bremco/servlets/
+  ApJServMount /servlets /bremco.net
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/bremco/logs/error_log
+  TransferLog /home/bremco/logs/access_log
+  CustomLog /home/bremco/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of bremco.net site listing
+################################################################
+
+
+
+################################################################
+# start of of mwksoftware.com site listing
+#
+# mwksoftware.com site on port 80 for http
+#
+Listen 192.168.1.115:80
+#
+<VirtualHost 192.168.1.115:80>
+  ServerName mwksoftware.com
+  ServerAdmin webmaster@mwksoftware.com]
+  DocumentRoot /home/mkwsoft/html
+  ScriptAlias /cgi-bin/ /home/mkwsoft/cgi-bin/
+  ScriptAlias /servlets/ /home/mkwsoft/servlets/
+  ApJServMount /servlets /mkwsoft
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/mkwsoft/logs/error_log
+  TransferLog /home/mkwsoft/logs/access_log
+  CustomLog /home/mkwsoft/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# mwksoftware.com site on port 433 for https
+#
+Listen 192.168.1.115:443
+#
+<VirtualHost 192.168.1.115:443>
+  SSLEnable
+  ServerName mwksoftware.com
+  ServerAdmin webmaster@mwksoftware.com
+  DocumentRoot /home/mkwsoft/html
+  ScriptAlias /cgi-bin/ /home/mkwsoft/cgi-bin/
+  ScriptAlias /servlets/ /home/mkwsoft/servlets/
+  ApJServMount /servlets /mwksoftware.com
+  AddType text/html .shtml
+  AddHandler server-parsed .shtml
+  AddHandler cgi-script .cgi
+  AddHandler cgi-script .pl
+  AddHandler cgi-script .py
+  ErrorLog /home/mkwsoft/logs/error_log
+  TransferLog /home/mkwsoft/logs/access_log
+  CustomLog /home/mkwsoft/logs/referer_log referer
+ <Location />
+  Options Indexes FollowSymLinks ExecCGI Includes
+  AllowOverride None
+  allow from all
+ </Location>
+ <Location /cgi-bin/>
+  Options FollowSymLinks
+  AllowOverride None
+  order allow,deny
+  allow from all
+ </Location>
+</VirtualHost>
+#
+# end of mwksoftware.com site listing
+################################################################
+
+

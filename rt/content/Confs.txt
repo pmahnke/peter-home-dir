@@ -1,0 +1,5 @@
+	Title Nm	event type	date	url	City
+"453,548"	Gartner Business Intelligence Summit	Conferences	31/01/05	/2_events/conferences/bie6i.jsp	London
+"462,026"	Gartner Customer Relationship Management Summit 2005	Conferences	03/03/05	/2_events/conferences/crm6i.jsp	London
+"463,918"	Gartner Wireless and Mobile Summit 2005	Conferences	18/04/05	/2_events/conferences/emob4i.jsp	London
+"463,018"	Symposium/ITxpo 2005 in Barcelona	Symposium/ITxpo	22/05/05	/2_events/symposium/2005/spr6.jsp	Barcelona

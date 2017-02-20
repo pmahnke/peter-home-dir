@@ -1,0 +1,42 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: XML::Parser
+  CHECKSUM_STATUS: OK
+  ID: T/TO/TODDR/XML-Parser-2.41.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: TODDR
+  archived: tar
+  build_dir: /home/peter/.cpan/build/XML-Parser-2.41-A2x7qk
+  incommandcolor: 1
+  localfile: /home/peter/.cpan/sources/authors/id/T/TO/TODDR/XML-Parser-2.41.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: 1
+    TEXT: NO
+    TIME: 1386370197
+  negative_prefs_cache: 9
+  prefs: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    requires:
+      LWP: 0
+      perl: 5.00405
+  reqtype: r
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370196
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 5
+    FAILED: ''
+    TEXT: YES
+    TIME: 1386370197
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1374186443
+  mtime_dll: 0
+  sitearchexp: /usr/local/lib/perl/5.14.2
+time: 1386370284

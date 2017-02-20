@@ -1,0 +1,113 @@
+home.jsp	http://www4.gartner.com/UnrecognizedUserHomePage.jsp
+rec_home.jsp	http://www4.gartner.com/RecognizedUserHomePage.jsp
+01_research.html	http://www4.gartner.com/1_researchanalysis/research_overview.html
+01_offerings_country.html	NA
+01_offerings_germany.html	NA
+01_offerings_italy.html	NA
+01_core_overview.html	http://www4.gartner.com/1_researchanalysis/core_overview.html
+01_z_core_methodology.html	http://www4.gartner.com/1_researchanalysis/users/221a.html
+01_dq_overview.html	http://www4.gartner.com/1_researchanalysis/dataquest_overview.html
+01_dq_coverage.html	http://www4.gartner.com/1_researchanalysis/itmarkets/232a.html
+01_dq_coverage_hardware.html	http://www4.gartner.com/1_researchanalysis/itmarkets/2328a.html
+01_dq_coverage_e-worldwide.html	http://www4.gartner.com/1_researchanalysis/itmarkets/2323a.html
+01_dq_coverage_software.html	http://www4.gartner.com/1_researchanalysis/itmarkets/2324a.html
+01_dq_coverage_it-services.html	http://www4.gartner.com/1_researchanalysis/itmarkets/2325a.html
+01_dq_coverage_semiconductors.html	http://www4.gartner.com/1_researchanalysis/itmarkets/2326a.html
+01_dq_coverage_telcomm.html	http://www4.gartner.com/1_researchanalysis/itmarkets/2327a.html
+01_dq_coverage_optical.html	NA
+NA	http://www4.gartner.com/1_researchanalysis/gpr/gpr_home1.jsp
+02_consulting.html	http://www4.gartner.com/3_consulting_services/consulting_overview.jsp
+03_measurement.html	http://www4.gartner.com/4_decision_tools/measurement/measurement_overview.html
+03_assessments.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/assessments.html
+03_z_contact_center.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_contact_center.html
+03_z_customer_satisfaction.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_customer_satisfaction.html
+03_z_data_networks.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_data_networks.html
+03_z_distributed_computing.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_distributed_computing.html
+03_z_enterprise_operations.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_eoc.html
+03_z_help_desk.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_help_desk.html
+03_z_total_ad_performance.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_total_ad.html
+NA	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_ncp.html
+03_z_total_it_expenditure.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_total_it.html
+03_z_voice_telecom.html	http://www4.gartner.com/4_decision_tools/measurement/assessments/rass_voice_networks.html
+03_decision_tools.html	http://www4.gartner.com/4_decision_tools/measurement/decision_tools/decision_tools.html
+03_performance.html	http://www4.gartner.com/4_decision_tools/measurement/performance_management/performance_management.html
+04_community.html	http://www4.gartner.com/2_events/community/community_overview.html
+05_news.html	http://www4.gartner.com/5_about/news/news_overview.html
+05_connects.html	http://www4.gartner.com/1_researchanalysis/itmarkets/2332a.html
+06_SiteIndexPopUp.html	http://www4.gartner.com/6_help/site_index/SiteIndexPopUp.jsp
+05_z_about.html	http://www4.gartner.com/5_about/company_information/41a.html
+05_emea_mgmt_bios.html	NA
+Business Management of IT	http://www4.gartner.com/pages/section.php.id.2021.s.8.jsp
+Business and Public Policy	http://www4.gartner.com/pages/section.php.id.2004.s.8.jsp
+Knowledge and Content Management Collaboration and E-Learning	http://www4.gartner.com/pages/section.php.id.2024.s.8.jsp
+How To Buy Gartner Research	 http://www4.gartner.com/pages/story.php.id.8849.s.8.jsp
+SARS Outbreak	   http://www4.gartner.com/pages/story.php.id.3549.s.8.jsp
+Conflict In Iraq   http://www4.gartner.com/pages/story.php.id.3439.s.8.jsp
+Focus Areas http://www4.gartner.com/pages/story.php.id.3592.s.8.jsp
+Customer Relationship Management	http://www4.gartner.com/pages/section.php.id.2022.s.8.jsp
+ERP, Supply Chain and Manufacturing	http://www4.gartner.com/pages/section.php.id.2023.s.8.jsp
+Sourcing    http://www4.gartner.com/pages/section.php.id.2025.s.8.jsp
+Application Development	http://www4.gartner.com/pages/section.php.id.2031.s.8.jsp
+Application Integration and Middleware	http://www4.gartner.com/pages/section.php.id.2032.s.8.jsp
+Business Intelligence and Data Warehousing	http://www4.gartner.com/pages/section.php.id.2033.s.8.jsp
+Emerging Trends and Technologies		http://www4.gartner.com/pages/section.php.id.2034.s.8.jsp
+Enterprise Management				http://www4.gartner.com/pages/section.php.id.2035.s.8.jsp
+Enterprise Networking				http://www4.gartner.com/pages/section.php.id.2036.s.8.jsp
+Hardware Platforms				http://www4.gartner.com/pages/section.php.id.2037.s.8.jsp
+Internet Platforms and Web Services		http://www4.gartner.com/pages/section.php.id.2038.s.8.jsp
+Security and Privacy   http://www4.gartner.com/pages/section.php.id.2039.s.8.jsp
+Wireless and Mobile    http://www4.gartner.com/pages/section.php.id.2040.s.8.jsp
+Financial Services     http://www4.gartner.com/pages/section.php.id.2041.s.8.jsp
+Government	       http://www4.gartner.com/pages/section.php.id.2042.s.8.jsp
+Healthcare	       http://www4.gartner.com/pages/section.php.id.2043.s.8.jsp
+Higher Education       http://www4.gartner.com/pages/section.php.id.2044.s.8.jsp
+Small and Midsize Business	http://www4.gartner.com/pages/section.php.id.2045.s.8.jsp
+Hardware and Systems		http://www4.gartner.com/pages/section.php.id.2026.s.8.jsp
+IT Services  http://www4.gartner.com/pages/section.php.id.2027.s.8.jsp
+Semiconductors	http://www4.gartner.com/pages/section.php.id.2014.s.8.jsp
+Software	http://www4.gartner.com/pages/section.php.id.2029.s.8.jsp
+Telecommunications	http://www4.gartner.com/pages/section.php.id.2030.s.8.jsp
+Gartner EXP (Gartner Executive Programs)	http://www4.gartner.com/pages/story.php.id.3451.s.19.jsp
+Symposium/ITxpo Exhibitor and Sponsorship Opportunities	http://symposium.gartner.com/story.php.id.2018.s.5.html
+Business Process Outsourcing: Factors for Vendor Success	http://www.gartner.com/pages/story.php.id.8822.s.8.jsp
+IT Sourcing & Procurement Directors MP	  http://www4.gartner.com/pages/story.php.id.8817.s.8.jsp
+Network & Telecom Managers MP	    http://www4.gartner.com/pages/story.php.id.2931.s.8.jsp
+Service Line Management MP http://www4.gartner.com/pages/story.php.id.8749.s.8.jsp
+Telecom Product Management MP	http://www4.gartner.com/pages/story.php.id.8764.s.8.jsp
+Case Study: Fast Tracking From Scratch, Just-in-Time Sourcing	http://www.gartner.com/3_consulting_services/casestudies/Imagistics_cs.jsp
+Case Study: Gartner Eases the Way for Outsourcing Deal Review	http://www.gartner.com/3_consulting_services/casestudies/cs_entergy.jsp
+Case Study: Gartner Opens the Door for Michigan State Broadband Deployment	http://www.gartner.com/3_consulting_services/casestudies/MichiganState_cs.jsp
+Case Study: Connecting a Province at High-Speed	http://www.gartner.com/3_consulting_services/casestudies/Albert_cs.jsp
+Case Study: Developing the High-Performing IT Workforce	http://www.gartner.com/3_consulting_services/casestudies/Austin_cs.jsp
+Business Intelligence 2004 http://www4.gartner.com/2_events/conferences/bi2.jsp
+Gartner Application Integration and Web Services Summit	http://www4.gartner.com/2_events/conferences/apn12.jsp
+Gartner IT Security Summit 2004	http://www4.gartner.com/2_events/conferences/sec10.jsp
+Building Blocks for CRM Excellence	http://www4.gartner.com/2_events/local_briefings/asset_8248.jsp
+SEMICON/West 2003 Forum	http://www4.gartner.com/2_events/local_briefings/asset_8216.jsp
+Rate Your Sourcing Deal	http://www.gartner.com/rateadeal/pg?name=reset&score=0
+ATC Sourcing: Mid Sized Enterprises - moving from Tactical to Strategic Sourcing	http://www.gartner.com/3_consulting_services/webseminar_strategic_sourcing.jsp
+ATC: Sales Transformation	    http://www.gartner.com/3_consulting_services/webseminar_sales_transformation.jsp
+Teleconference: Address Budgetary Challenges	http://www.gartner.com/2_events/audioconferences/2003/april/15apr_consult.jsp
+Teleconference: Human Capital Management Issues in Outsourcing: Minimizing Risk	http://www.gartner.com/2_events/audioconferences/2003/may/22may_hcm113.jsp
+Organizing for Results: IT Structures and Staffing Survey	http://www.gartner.com/pages/story.php.id.8746.s.8.jsp
+2003 IT Market Compensation Study     http://www.gartner.com/pages/story.php.id.3296.s.8.jsp
+Public Sector: Challenges and Solutions for 2003	http://www.gartner.com/3_consulting_services/ps/public_sector_2003.jsp
+Gartner's 6th Annual Future of IT Conference:		http://www4.gartner.com/2_events/conferences/2003/mex15l/mex15l.jsp
+CRM Fall Summit 2003 http://www4.gartner.com/2_events/conferences/2003/crf5/crf5.jsp
+Gartner CRM Excellence Awards Fall 2003	http://www4.gartner.com/2_events/crmawards/2003/us/crm.jsp
+Gartner IT Security Summit 2003	   http://www4.gartner.com/2_events/conferences/2003/sec1i/sec1i.jsp
+Application Development Summit: AD at the Crossroads	http://www4.gartner.com/2_events/conferences/2003/ad5/ad5.jsp#what
+Gartner Application Integration and Web Services Summit	http://www4.gartner.com/2_events/conferences/2003/apn11/apn11.jsp
+Gartner Data Center 2003	http://www4.gartner.com/2_events/conferences/2003/lsc22/lsc22.jsp
+Local Briefings Calendar	http://www4.gartner.com/Events?pageName=localBriefing
+EXP Calendar	http://www4.gartner.com/Events?pageName=exp
+Teleconferences Calendar	http://www4.gartner.com/Events?pageName=audioconference
+Channel Events Calendar		http://www4.gartner.com/Events?pageName=channelEvent
+Decision Tools Training Calendar	http://www4.gartner.com/Events?pageName=decisionToolsTraining
+GartnerG2 - Growing Your Business	http://www.gartnerg2.com/brochure/GartnerG2_EMEA_brochure.asp
+Privacy Policy	    http://www.gartnerg2.com/site/privacy.asp
+Terms of Use	    http://www.gartnerg2.com/site/Terms.asp
+Gartner News	    http://www4.gartner.com/5_about/news/news_overview.html
+Talking Technology Series	http://www4.gartner.com/5_about/news/multimedia_programs/talking_technology.html
+Custom Multimedia Programs	http://www4.gartner.com/5_about/news/multimedia_programs/customized_programs.html
+GartnerConnects	  http://www4.gartner.com/5_about/news/GartnerConnects.html

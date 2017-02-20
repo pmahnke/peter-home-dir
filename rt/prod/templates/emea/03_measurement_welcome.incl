@@ -1,0 +1,13 @@
+<!- start welcome image -->
+      <table cellspacing="0" cellpadding="0" width="99%" border="0">
+           <tr>
+       	 <td class="contentCell" valign="top" nowrap="nowrap" rowSpan="2"><img alt="" src="//img/trans_pixel.gif" 
+             width=10 border=0 /><img src="http://www.gartner.com/4_decision_tools/measurement/images/measurement_numbers.gif" width="26" height="104" border="0" /><img src="//img/emea_03_banner.jpg" alt="To know where you are going, you have to know where you stand." width="523" height="104" border="0" /></td>
+           <td bgcolor="#ffffff" old=#CBCDD1" width="100%"><img height="97" alt="" src="//img/trans_pixel.gif" width="1" border="0" /></TD>
+          </tr>
+         <tr>
+           <td class="contentCell" valign="top"><img height="7" alt="" 
+       	   src="//img/trans_pixel.gif" width="1" border="0" /></td></tr>
+       </table>
+
+<!- end welcome image -->

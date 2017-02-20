@@ -1,0 +1,11 @@
+<map name="5ways"><area shape="rect" alt="Latest Research" coords="66,22,196,38" href="javascript:openAllLatestResearch()"><area shape="rect" alt="Your Latest Research" coords="66,40,196,54" href="javascript:openMyLatestResearch()"><area shape="rect" alt="Search Research" coords="66,56,196,68" href="javascript:advancedSearch()"><area shape="rect" alt="Browse" coords="66,70,196,86" href="javascript:browse()"><area shape="rect" alt="Focus Areas" coords="66,88,196,102" href="/1_researchanalysis/focus/21a.html"></map>
+<table width="194" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td><img src="//img/trans_pixel.gif" width="1" height="6" border="0" alt="" /></td>
+</tr>
+<tr>
+<td><img src="http://regionals.gartner.com/img/header/5ways_194.gif" width="196" height="102" alt="Gartner Research" usemap="#5ways" border="0" />
+</td>
+</tr>
+</table>
+

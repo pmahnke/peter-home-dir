@@ -1,0 +1,39 @@
+#!/usr/bin/perl
+
+$i = 0; 
+
+while ($i < 24)  {
+
+    $ipAddr   = 10 * ($i+1);
+
+
+    $file = "/etc/sysconfig/network-scripts/ifcfg-eth0:$i";
+#    $file = "/home/peter/test/ifcfg-eth0:$i";
+
+
+    open (FILE, ">$file") || die "Can not open $file for writing\n";
+    print FILE <<EndofListing;
+DEVICE=eth0:$i
+USERCTL=no
+ONBOOT=yes
+BOOTPROTO=none
+BROADCAST=192.168.1.255
+NETWORK=192.168.1.0
+NETMASK=255.255.255.0
+IPADDR=192.168.1.$ipAddr
+
+EndofListing
+    close (FILE);
+
+    print "\nCreated \n\y $file\n\t\t for 192.168.1.$ipAddr!\n\n";
+
+
+    #`/sbin/route add -host 192.168.1.$ipAddr dev eth0:$i`;
+
+
+
+    print "\nCreated route for 192.168.1.$ipAddr!\n\n";
+    $i++;
+
+}
+exit;

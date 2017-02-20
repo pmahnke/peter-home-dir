@@ -1,0 +1,71 @@
+1..2
+
+** The message:
+** Content-Transfer-Encoding: 7bit
+** Content-Type: multipart/mixed; boundary="_----------=_0"
+** MIME-Version: 1.0
+** Date: Sat, 7 Dec 2013 08:26:26 -0500
+** From: me
+** To: you
+** 
+** This is a multi-part message in MIME format.
+** 
+** --_----------=_0
+** Content-Disposition: inline
+** Content-Transfer-Encoding: 8bit
+** Content-Type: text/plain
+** 
+** original text
+** --_----------=_0
+** Content-Disposition: inline
+** Content-Transfer-Encoding: 8bit
+** Content-Type: text/plain
+** 
+** attachment 1
+** --_----------=_0
+** Content-Disposition: inline
+** Content-Transfer-Encoding: 8bit
+** Content-Type: text/plain
+** 
+** attachment 2
+** --_----------=_0
+** Content-Transfer-Encoding: 7bit
+** Content-Type: multipart/mixed; boundary="_----------=_1"
+** MIME-Version: 1.0
+** 
+** This is a multi-part message in MIME format.
+** 
+** --_----------=_1
+** Content-Disposition: inline
+** Content-Transfer-Encoding: 8bit
+** Content-Type: text/plain
+** 
+** attachment 3
+** --_----------=_1
+** Content-Disposition: inline
+** Content-Transfer-Encoding: 8bit
+** Content-Type: text/plain
+** 
+** attachment 4
+** --_----------=_1
+** Content-Disposition: inline
+** Content-Transfer-Encoding: 8bit
+** Content-Type: text/plain
+** 
+** attachment 5
+** --_----------=_1--
+** 
+** 
+** --_----------=_0--
+
+1: Does parts() work?
+1:   A: "4"
+1:   B: "4"
+1: ok 1
+
+2: Does parts_DFS() work?
+2:   A: "7"
+2:   B: "7"
+2: ok 2
+
+# END

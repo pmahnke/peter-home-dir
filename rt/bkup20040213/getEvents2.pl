@@ -1,0 +1,207 @@
+#!/usr/local/bin/perl
+
+#####################################################################
+#####################################################################
+#
+#
+#    getEvents2.pl
+#
+#      written based on a modified getEvent.pl
+#      on 21 Jan 2004 by Peter Mahnke
+#
+#      created ahead of 13 Feb 2004 g.com 5.0 release
+#      where the worldwide events calendar is going away
+#
+#      reads flat file listings of events
+#      Conf.txt, Teleconf.txt or LocalBriefing.txt
+#
+#      the calling  calling program must pass the event type
+#      currently supports 
+#
+#      'Conf' or 'Teleconf' or 'LocalBriefing'
+#
+#      returns a hash %event
+#
+#       - key is in the format     yyyymmdd<event_title><location>
+#         this is so that its sortable
+# 
+#       - data is in the format    
+#         "<event_title>\t<date (formated and translated): d MONTH yyyy>\t
+#          <link>\t<location>" 
+#
+#
+#####################################################################
+#####################################################################
+
+#if ($ARGV[0]) {
+#    &getEventsDetail($ARGV[0]);
+#    print "$msg\n\nDone.\n\n";
+#    exit;
+#}
+
+################################################
+sub getEventsDetail {
+
+    # Variables
+    local $text = "";
+    local $Output = "";
+    local $type = "Conf";
+
+    $type = $_[0];
+    
+
+    # action
+    &parseEventsDetailPage($type);
+    return (%event);
+
+
+}
+
+################################################
+sub parseEventsDetailPage {
+
+    local $rootDir = "/home/gartner/html/rt/content";
+    local $fileName;
+    local $count;
+
+    # open right flat db based on passed type
+    $fileName = "$rootDir"."/Conf.txt"          if ($_[0] eq "Conf");
+    $fileName = "$rootDir"."/Teleconf.txt"      if ($_[0] eq "Teleconf");
+    $fileName = "$rootDir"."/LocalBriefing.txt" if ($_[0] eq "LocalBriefing");
+
+    $msg .= "file $fileName\n\n";
+    
+    open (FILE, "$fileName") || die "Can't open file: $fileName\n\n";
+    
+    while (<FILE>) {
+	
+	chop();
+	
+	($resid, $title, $evtType, $date, $href, $location) = split (/\t/);
+	
+	next if ($title =~ /Title/);
+	next if (!$title);
+	
+	$location = "NA" if ($_[0] eq "Teleconf");
+	
+	&processEvent($title, $href, $date, $location);
+	
+	$msg .= "\n\n\nraw:\t$_\n\tT: $title\n\tH: $href\n\tD: $date\n\tL: $location<br>\n\n";
+
+    }
+    
+    close (FILE);
+
+}
+
+######################################################################
+sub processEvent {
+    
+    local ($d, $m, $y) = split (/\//, $_[2]);
+
+
+    $y = $y + 2000; 
+
+    local $now = `date +%Y%m%d`;
+    chop ($now);
+
+    local $dkey = "$y$m$d";
+
+    $d =~ s/^0//; # remove 0 before dates 01...    
+    next if ($dkey < $now);
+
+    $m{'January'} = "01";
+    $m{'February'} = "02";
+    $m{'March'} = "03";
+    $m{'April'} = "04";
+    $m{'May'} = "05";
+    $m{'June'} = "06";
+    $m{'July'} = "07";
+    $m{'August'} = "08";
+    $m{'September'} = "09";
+    $m{'October'} = "10";
+    $m{'November'} = "11";
+    $m{'December'} = "12";
+
+
+
+    if ($locale eq "it") {
+        
+	$mn{'01'} = "gennaio";
+        $mn{'02'} = "febbraio";
+        $mn{'03'} = "marzo";
+        $mn{'04'} = "aprile";
+        $mn{'05'} = "maggio";
+        $mn{'06'} = "giugno";
+        $mn{'07'} = "luglio";
+        $mn{'08'} = "agosto";
+        $mn{'09'} = "settembre";
+        $mn{'10'} = "ottobre";
+        $mn{'11'} = "novembre";
+        $mn{'12'} = "dicembre";
+
+    } elsif ($locale eq "de") {
+
+        $mn{'01'} = "Januar";
+        $mn{'02'} = "Februar";
+        $mn{'03'} = "M&amp;auml;rz";
+        $mn{'04'} = "April";
+        $mn{'05'} = "Mai";
+        $mn{'06'} = "Juni";
+        $mn{'07'} = "Juli";
+        $mn{'08'} = "August";
+        $mn{'09'} = "September";
+        $mn{'10'} = "Oktober";
+        $mn{'11'} = "November";
+        $mn{'12'} = "Dezember";
+
+    } else {
+
+	$mn{'01'} = "January";
+	$mn{'02'} = "February";
+	$mn{'03'} = "March";
+	$mn{'04'} = "April";
+	$mn{'05'} = "May";
+	$mn{'06'} = "June";
+	$mn{'07'} = "July";
+	$mn{'08'} = "August";
+	$mn{'09'} = "September";
+	$mn{'10'} = "October";
+	$mn{'11'} = "November";
+	$mn{'12'} = "December";
+
+    }
+
+    # as of 4 Sept 2003 - new date formate.. no 0, no year
+    #$d = "0"."$d" if ($d < 10);
+    if ($d < 10) {
+	$dO = "0"."$d";
+    } else {
+	$dO = $d;
+    }
+    $key = "$y"."$m"."$dO"."$_[0]"."$_[3]";
+    $key =~ tr/[a-z]/[A-Z]/;
+
+    $msg .= "\n\nevent key: $key <br>\n\n";
+
+    # $title, $href, $date, $location
+    if ($locale eq "de") {
+	
+	$event{$key} = "$_[0]\t$d\. $mn{$m} $y\t$_[1]\t$_[3]";
+	
+    } else {
+	
+	$event{$key} = "$_[0]\t$d $mn{$m} $y\t$_[1]\t$_[3]";
+	
+    }
+
+    $msg .= "event output: $_[0]\t$d $mn{$m} $y\t$_[1]\t$_[3]<br>\n\n";
+
+
+}
+
+1; # return true
+
+
+
+

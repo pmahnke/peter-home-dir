@@ -1,0 +1,287 @@
+/* sophisticated browser hacks */
+
+body, body div, body p, body th, body td, body li, body dd, body dt
+	{
+	font-size:    x-small;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	font-size:    small
+	}
+
+html>body, html>body div, html>body p, html>body th,
+html>body td, html>body li, html>body dd, html>body dt
+	{
+	font-size:    small;
+	/* be nice to Opera */
+	}
+
+
+
+form
+	{
+	padding: 0;
+	margin: 0;
+	}
+
+
+
+/* Header components */
+#header
+	{
+	padding: 0; margin: 0; border: 2px solid #fff;
+	background-color: #DDE0E2; background-image:url(http://regionals4.gartner.com/regionalization/img/grad_gray766.gif); background-repeat: repeat-y;
+	height: 64px; voice-family: "\"}\""; voice-family: inherit; height: 60px;
+	width: 766px; voice-family: "\"}\""; voice-family: inherit; width: 762px;
+	}
+#header img { vertical-align: middle; }
+.searchbutton { border: 1px; background: #e7e7e7; vertical-align: middle; color: #000; line-height: 130%; font-family: arial,helvetica,sans-serif; font-size: 0.75em; }
+.searchTextInput {  vertical-align: middle; font-family: verdana, arial, helvetica, sans-serif;  }
+.searchWord {  vertical-align: middle;  color: #666;  font-family: arial, helvetica, sans-serif, verdana; font-weight: bold; font-size: 1.2em;  }
+.searchbutton {  border: 1px; background: #e7e7e7; vertical-align: middle; color: #666; line-height: 140%; font-family: arial,helvetica,sans-serif; font-size: 0.8em; font-weight: bold;  }
+
+/* Navigation bar components */
+table#nav        {  padding: 0; margin: 0; }
+table#nav td   a {  height: 20px; line-height: 150%;  }
+
+
+/* footer */
+#footercontainer
+	{
+	border: 2px solid #fff; margin: 0; padding: 0;
+	background-color: #DDE0E2; background-image:url(http://www.gartner.com/images/header/footer_grad.gif); background-repeat: repeat-y;
+	width: 766px; voice-family: "\"}\""; voice-family: inherit; width: 762px;
+	/* height: 94px; voice-family: "\"}\""; voice-family: inherit; height: 90px; */
+	}
+.footerlist    {  width: 400px;  }
+.footerlist li {  display: inline; list-style-type: none; margin: 0; padding: 5px;  }
+
+
+
+/* Overview Banner*/
+.overviewcontainer
+	{
+	width: 766px; voice-family: "\"}\""; voice-family: inherit; width: 742px;
+	height: 164px; voice-family: "\"}\""; voice-family: inherit; height: 160px;
+	padding: 0; padding-right: 20px;
+	margin: 0;
+	background-color: #ccc;
+	border: 2px solid #fff;
+	}
+
+
+
+/* lines */
+#dottedline     {  height: 1px; margin: 0; padding: 0; background-image: url(http://www.gartner.com/images/homepage/dotted_line.gif); background-repeat: repeat-x; font-size: 0.33em;  clear: both;  }
+#greyline       {  height: 2px; margin: 0; padding: 0; background-color: #bbb; font-size: 0;  }
+#greyfiveline   {  height: 5px; margin: 0; padding: 0; background-color: #bbb; font-size: 0;  }
+#whitetwntyline {  height: 20px; margin: 0; padding: 0; background-color: #fff; font-size: 0;  }
+#activetabline  {  height: 4px; margin: 0; padding: 0; border-left: 2px solid #fff;  border-right: 2px solid #fff; background-color: #fff; font-size: 0;  }
+
+
+
+/* Header components */
+#header
+	{
+	padding: 0; margin: 0; border: 2px solid #fff;
+	background-color: #DDE0E2; background-image:url(http://regionals4.gartner.com/regionalization/img/grad_gray766.gif); background-repeat: repeat-y;
+	height: 64px; voice-family: "\"}\""; voice-family: inherit; height: 60px;
+	width: 766px; voice-family: "\"}\""; voice-family: inherit; width: 762px;
+	}
+#header img  {  vertical-align: middle; }
+table#search { 	background-color: transparent; padding: 0; margin: 0;  }
+#logo        {  border:0; padding: 0; margin: 0; width: 410px; }
+#greyArrow   {  vertical-align: middle;  }
+
+
+/* Navigation bar components */
+#navigation
+	{
+	padding: 0; margin: 0; border: 0; border-left: 2px solid #ffffff; border-right: 2px solid #ffffff;
+	background-color: #9C9C9C; text-align: center;
+	width: 766px; voice-family: "\"}\""; voice-family: inherit; width: 762px;
+	height: 20px; voice-family: "\"}\""; voice-family: inherit; height: 20px;
+	}
+
+
+
+
+
+/* 3 column layout leftrail */
+#leftrailthreecol {  width: 200px; margin: 0; padding: 0; background-color: #fff;  }
+
+/* 3 column layout center "content" column */
+.contentthreecol {
+	height: 100%;
+	width: 372px; voice-family: "\"}\""; voice-family: inherit; width: 348px;
+	padding: 5px 10px 0 10px;
+	border-left: 2px solid #bbbbbb;
+	border-right: 2px solid #bbbbbb;
+}
+
+
+/* right rail column */
+#rightrail {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-top: 2px solid #fff;
+	width: 194px;
+}
+
+#homerightrail {
+	margin:  0; padding: 0; border:  0;
+	vertical-align: top;
+	border-bottom: 2px solid #fff;
+	height: 100%;
+	background-color: #fff;
+	width: 202px; voice-family: "\"}\""; voice-family: inherit; width: 202px;
+}
+
+/* on 2 column overview pages, this is the main content listing box */
+.contenttwocolsect      {  width: 300px; voice-family: "\"}\""; voice-family: inherit; width: 300px;
+                           left: 10px; position: relative; float: left;
+                        }
+
+.contenttwocolsectfull  {  width: 500px; voice-family: "\"}\""; voice-family: inherit; width: 500px; left: 10px; position: relative; float: left; }
+
+
+/* on a 2 column overview page, this is the bullet list on the right in the main content area */
+.contenttwocollistcont {
+	float: right;
+	margin: 0;
+	margin-top: 2em;
+	margin-left: 20px;
+	padding: 0;
+	width: 200px;
+}
+
+
+/* 2 column layout left/center "content" column */
+.contenttwocol {
+	height: 100%;
+	width: 572px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 548px;
+
+}
+
+
+/* HOMEPAGE */
+
+/* Homepage Welcome Navigation */
+#unrecwelcome
+	{
+	height: 38px; voice-family: "\"}\""; voice-family: inherit; height: 34px;
+	width: 762px; voice-family: "\"}\""; voice-family: inherit; width: 758px;
+	}
+
+#center {
+	height: auto;
+	width: 364px; voice-family: "\"}\""; voice-family: inherit; width: 360px;
+	margin:  0;
+	padding: 0;
+	border:  0;
+	border-left: 2px solid #bbb;
+	border-right: 2px solid #bbb;
+	border-bottom: 2px solid #fff;
+	background-color: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+#execreports {
+	margin: 0;
+	padding: 0;
+	}
+
+/* homepage leftrail */
+#leftrail {  margin: 0; padding: 0;  }
+#leftraillinks {
+	border-top: 2px solid #bbb;
+	padding: 5px 5px 0px 10px;
+	margin: 0;
+	background-color: #fff;
+	color: #4D4D4D;
+	text-decoration: none;
+	cursor:default;
+}
+
+/* Focus Areas */
+#focusareas             {  padding: 0; margin: 0; background-color: #f7f7f7; border: 2px solid #fff;  }
+.focusareaslist         {  margin: 0; margin-left: 21px; padding: 0;  }
+
+/* OVERVIEW PAGES */
+.subnavcontainer    {  width: 194px; voice-family: "\"}\""; voice-family: inherit; width: 190px; padding: 0; margin: 0; border: 2px solid #fff; background-color: #BDBABD;  }
+
+
+
+/* More List */
+.moreList    {  clear: both; margin-left: 0; padding-left: 0; margin-top: 5px; margin-bottom: 10px;  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* homepage right rail divs */
+
+
+/* homepage center column */
+#inthenews             {  background-color: #fff;  }
+.inthenewslist         {  margin: 0; padding: 0; margin-top: 7px; margin-left: 25px; margin-right: 10px;  }
+
+#featuredresearch      {  background-color: #fff;  }
+#featuredresearch p    {  margin: 0; padding: 0; padding-left: 2px; }
+.featuredresearchlist  {  padding: 0; margin: 0; margin-top: 7px; margin-left: 25px; margin-right: 10px;  }
+
+#execreports           {  background-color: #fff; margin: 0; padding: 0;  }
+
+
+
+
+
+
+
+
+
+/* OVERVIEW PAGES */
+.newsletters        {  padding: 0 5px 0 3px; margin: 0; border: 2px solid #fff; width: 194px; voice-family: "\"}\""; voice-family: inherit; width: 182px;  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* misc for testing */
+#ruler { background-color: red;	height: 5px; width: 766px; voice-family: "\"}\""; voice-family: inherit; width: 760px;  }
+
+
